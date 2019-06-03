@@ -124,6 +124,13 @@ Bethany, test maintenance log
 Bruno,02/20/19 17:20:01
 =======
 Bethany, checking DO for SSS
+<<<<<<< HEAD
 >>>>>>> 84c35fb4fbe6c6bfa12d96d62a5de70b8553828d
 
 Bruno,06/03/19 15:25:01
+=======
+
+Bethany, checking DO for SSS again
+>>>>>>> 9442aead2f633e00ca490278a706dcd088f5e1b3
+
+Bruno,06/03/19 16:25:01
