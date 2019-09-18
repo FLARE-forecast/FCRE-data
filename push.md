@@ -131,6 +131,13 @@ Bruno,06/03/19 15:25:01
 =======
 
 Bethany, checking DO for SSS again
+<<<<<<< HEAD
 >>>>>>> 9442aead2f633e00ca490278a706dcd088f5e1b3
 
 Bruno,06/03/19 16:25:01
+=======
+
+Vahid, Checking Mia's Connectivity in the Lab
+>>>>>>> 37a1ef6e0f0a624ba90ccdf3a6e4f570ec9fdf6b
+
+Bruno,09/18/19 12:55:01
