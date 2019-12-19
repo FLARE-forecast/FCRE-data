@@ -138,6 +138,13 @@ Bruno,06/03/19 16:25:01
 =======
 
 Vahid, Checking Mia's Connectivity in the Lab
+<<<<<<< HEAD
 >>>>>>> 37a1ef6e0f0a624ba90ccdf3a6e4f570ec9fdf6b
 
 Bruno,09/18/19 12:55:01
+=======
+
+Vahid, Checking New SCC Server
+>>>>>>> 3c8b73d81d8999748ac74457816fb7c44918c43e
+
+Bruno,12/19/19 17:45:01
