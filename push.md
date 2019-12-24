@@ -84,33 +84,25 @@ Vahid, Cron Test 2
 
 Vahid, Cron Test 3
 
-<<<<<<< HEAD
 Bruno,01/31/19 13:55:01
 =======
 Vahid, Cron Test 4
-<<<<<<< HEAD
->>>>>>> 3b078318d616a4adb71caf8e09e58aa55c968fa8
 
 Bruno,01/31/19 14:20:01
 =======
 
 Vahid, Cron Test 5
-<<<<<<< HEAD
->>>>>>> e0e9a9522abf9c7a6259f142f6d8e7e2aef685b9
 
 Bruno,01/31/19 14:30:01
 =======
 
-<<<<<<< HEAD
 Cayelan, checking ice cover in lake 
->>>>>>> 9938a84e3ca2d924bde66dd85c533f2c54b05762
 
 Bruno,01/31/19 21:25:01
 =======
 Cayelan, checking ice cover in lake
 
 Vahid, Cron Test
->>>>>>> aecb6b40de0e4687fdb9763d82142baa1d1c75a1
 
 Bruno,02/05/19 10:50:01
 
@@ -120,29 +112,24 @@ Bruno,02/08/19 10:50:01
 
 Bethany, test maintenance log
 
-<<<<<<< HEAD
 Bruno,02/20/19 17:20:01
 =======
 Bethany, checking DO for SSS
-<<<<<<< HEAD
->>>>>>> 84c35fb4fbe6c6bfa12d96d62a5de70b8553828d
 
 Bruno,06/03/19 15:25:01
 =======
 
 Bethany, checking DO for SSS again
-<<<<<<< HEAD
->>>>>>> 9442aead2f633e00ca490278a706dcd088f5e1b3
 
 Bruno,06/03/19 16:25:01
 =======
 
 Vahid, Checking Mia's Connectivity in the Lab
-<<<<<<< HEAD
->>>>>>> 37a1ef6e0f0a624ba90ccdf3a6e4f570ec9fdf6b
 
 Bruno,09/18/19 12:55:01
 =======
 
 Vahid, Checking New SCC Server
->>>>>>> 3c8b73d81d8999748ac74457816fb7c44918c43e
+=======
+
+Bruno,12/19/19 17:45:01
