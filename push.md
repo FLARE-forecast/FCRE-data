@@ -129,3 +129,5 @@ Vahid, Checking New SCC Server
 Bruno,12/19/19 17:45:01
 
 Vahid, Checking New SCC Server
+
+Bruno,12/23/19 22:30:01
