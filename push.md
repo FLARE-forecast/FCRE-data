@@ -85,21 +85,19 @@ Vahid, Cron Test 2
 Vahid, Cron Test 3
 
 Bruno,01/31/19 13:55:01
-=======
+
 Vahid, Cron Test 4
 
 Bruno,01/31/19 14:20:01
-=======
 
 Vahid, Cron Test 5
 
 Bruno,01/31/19 14:30:01
-=======
 
 Cayelan, checking ice cover in lake 
 
 Bruno,01/31/19 21:25:01
-=======
+
 Cayelan, checking ice cover in lake
 
 Vahid, Cron Test
@@ -113,23 +111,19 @@ Bruno,02/08/19 10:50:01
 Bethany, test maintenance log
 
 Bruno,02/20/19 17:20:01
-=======
+
 Bethany, checking DO for SSS
 
 Bruno,06/03/19 15:25:01
-=======
 
 Bethany, checking DO for SSS again
 
 Bruno,06/03/19 16:25:01
-=======
 
 Vahid, Checking Mia's Connectivity in the Lab
 
 Bruno,09/18/19 12:55:01
-=======
 
 Vahid, Checking New SCC Server
-=======
 
 Bruno,12/19/19 17:45:01
