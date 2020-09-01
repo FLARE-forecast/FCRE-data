@@ -1,2 +1,1 @@
-# SCCData/diana-data
-Data for SCC
+# FLARE-forecast/FCRE-data
