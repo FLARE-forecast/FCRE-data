@@ -8418,3 +8418,48 @@ No compatible smart hubs detected!
 Run with -h to get usage info.
 No compatible smart hubs detected!
 Run with -h to get usage info.
+############################ diana - 08/31/20 19:57:33 EST ############################
+Current status for hub 2-6 [2109:8110 VIA Labs, Inc. USB3.0 Hub, USB 3.00, 4 ports]
+  Port 1: 02a0 power 5gbps Rx.Detect
+  Port 2: 02a0 power 5gbps Rx.Detect
+  Port 3: 02a0 power 5gbps Rx.Detect
+  Port 4: 02a0 power 5gbps Rx.Detect
+Sent power off request
+New status for hub 2-6 [2109:8110 VIA Labs, Inc. USB3.0 Hub, USB 3.00, 4 ports]
+  Port 1: 0080 off
+  Port 2: 0080 off
+  Port 3: 0080 off
+  Port 4: 0080 off
+Current status for hub 1-6 [2109:2811 VIA Labs, Inc. USB2.0 Hub, USB 2.10, 4 ports]
+  Port 1: 0303 power lowspeed enable connect [413c:2107 Dell Dell USB Entry Keyboard]
+  Port 2: 0100 power
+  Port 3: 0303 power lowspeed enable connect [0461:4e22 PixArt USB Optical Mouse]
+  Port 4: 0100 power
+Sent power off request
+New status for hub 1-6 [2109:2811 VIA Labs, Inc. USB2.0 Hub, USB 2.10, 4 ports]
+  Port 1: 0000 off
+  Port 2: 0000 off
+  Port 3: 0000 off
+  Port 4: 0000 off
+Current status for hub 2-6 [2109:8110 VIA Labs, Inc. USB3.0 Hub, USB 3.00, 4 ports]
+  Port 1: 0080 off
+  Port 2: 0080 off
+  Port 3: 0080 off
+  Port 4: 0080 off
+Sent power on request
+New status for hub 2-6 [2109:8110 VIA Labs, Inc. USB3.0 Hub, USB 3.00, 4 ports]
+  Port 1: 02a0 power 5gbps Rx.Detect
+  Port 2: 02a0 power 5gbps Rx.Detect
+  Port 3: 02a0 power 5gbps Rx.Detect
+  Port 4: 02a0 power 5gbps Rx.Detect
+Current status for hub 1-6 [2109:2811 VIA Labs, Inc. USB2.0 Hub, USB 2.10, 4 ports]
+  Port 1: 0303 power lowspeed enable connect [413c:2107 Dell Dell USB Entry Keyboard]
+  Port 2: 0000 off
+  Port 3: 0303 power lowspeed enable connect [0461:4e22 PixArt USB Optical Mouse]
+  Port 4: 0000 off
+Sent power on request
+New status for hub 1-6 [2109:2811 VIA Labs, Inc. USB2.0 Hub, USB 2.10, 4 ports]
+  Port 1: 0303 power lowspeed enable connect [413c:2107 Dell Dell USB Entry Keyboard]
+  Port 2: 0100 power
+  Port 3: 0303 power lowspeed enable connect [0461:4e22 PixArt USB Optical Mouse]
+  Port 4: 0100 power
