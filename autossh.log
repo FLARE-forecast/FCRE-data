@@ -34969,3 +34969,291 @@ c"
 ############################ carina - 09/01/20 21:35:01 EST ############################
 
 2020/09/01 21:35:01 autossh[7428]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 21:36:31 autossh[1836]: not what I sent: "carina autossh 1836 826360873 
+" : ""
+2020/09/01 21:36:31 autossh[1836]: not what I sent: "carina autossh 1836 826360873 
+" : ""
+2020/09/01 21:36:31 autossh[1836]: tried connection 3 times and failed
+2020/09/01 21:36:31 autossh[1836]: port down, restarting ssh
+2020/09/01 21:36:31 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 21:36:31 autossh[1836]: starting ssh (count 43)
+2020/09/01 21:36:31 autossh[1836]: ssh child pid is 7509
+2020/09/01 21:36:31 autossh[1836]: check on child 7509
+2020/09/01 21:36:31 autossh[1836]: set alarm for 600 secs
+2020/09/01 21:36:31 autossh[7509]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 21:40:01 EST ############################
+
+2020/09/01 21:40:01 autossh[7539]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 21:45:01 EST ############################
+
+2020/09/01 21:45:01 autossh[7578]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 21:46:31 autossh[1836]: not what I sent: "carina autossh 1836 849815335 
+" : ""
+2020/09/01 21:46:31 autossh[1836]: not what I sent: "carina autossh 1836 849815335 
+" : ""
+2020/09/01 21:46:31 autossh[1836]: tried connection 3 times and failed
+2020/09/01 21:46:31 autossh[1836]: port down, restarting ssh
+2020/09/01 21:46:31 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 21:46:31 autossh[1836]: starting ssh (count 44)
+2020/09/01 21:46:31 autossh[1836]: ssh child pid is 7590
+2020/09/01 21:46:31 autossh[1836]: check on child 7590
+2020/09/01 21:46:31 autossh[1836]: set alarm for 600 secs
+2020/09/01 21:46:31 autossh[7590]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 21:50:01 EST ############################
+
+2020/09/01 21:50:01 autossh[7617]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 21:55:01 EST ############################
+
+2020/09/01 21:55:01 autossh[7658]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 21:56:31 autossh[1836]: not what I sent: "carina autossh 1836 1243433193 
+" : ""
+2020/09/01 21:56:31 autossh[1836]: connection ok
+2020/09/01 21:56:31 autossh[1836]: check on child 7590
+2020/09/01 21:56:31 autossh[1836]: set alarm for 600 secs
+
+############################ carina - 09/01/20 22:00:01 EST ############################
+
+2020/09/01 22:00:01 autossh[7702]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 22:05:01 EST ############################
+
+2020/09/01 22:05:01 autossh[7742]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 22:06:31 autossh[1836]: not what I sent: "carina autossh 1836 169374147 
+" : ""
+2020/09/01 22:06:31 autossh[1836]: not what I sent: "carina autossh 1836 169374147 
+" : ""
+2020/09/01 22:06:31 autossh[1836]: tried connection 3 times and failed
+2020/09/01 22:06:31 autossh[1836]: port down, restarting ssh
+2020/09/01 22:06:31 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 22:06:31 autossh[1836]: starting ssh (count 45)
+2020/09/01 22:06:31 autossh[1836]: ssh child pid is 7753
+2020/09/01 22:06:31 autossh[1836]: check on child 7753
+2020/09/01 22:06:31 autossh[1836]: set alarm for 600 secs
+2020/09/01 22:06:31 autossh[7753]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 22:10:01 EST ############################
+
+2020/09/01 22:10:01 autossh[7780]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 22:15:01 EST ############################
+
+2020/09/01 22:15:01 autossh[7818]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 22:16:31 autossh[1836]: not what I sent: "carina autossh 1836 266964095 
+" : ""
+2020/09/01 22:16:31 autossh[1836]: not what I sent: "carina autossh 1836 266964095 
+" : ""
+2020/09/01 22:16:31 autossh[1836]: tried connection 3 times and failed
+2020/09/01 22:16:31 autossh[1836]: port down, restarting ssh
+2020/09/01 22:16:31 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 22:16:31 autossh[1836]: starting ssh (count 46)
+2020/09/01 22:16:31 autossh[1836]: ssh child pid is 7828
+2020/09/01 22:16:31 autossh[1836]: check on child 7828
+2020/09/01 22:16:31 autossh[1836]: set alarm for 600 secs
+2020/09/01 22:16:31 autossh[7828]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 22:20:01 EST ############################
+
+2020/09/01 22:20:01 autossh[7858]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 22:25:01 EST ############################
+
+2020/09/01 22:25:01 autossh[7898]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 22:26:31 autossh[1836]: not what I sent: "carina autossh 1836 886503768 
+" : ""
+2020/09/01 22:26:32 autossh[1836]: connection ok
+2020/09/01 22:26:32 autossh[1836]: check on child 7828
+2020/09/01 22:26:32 autossh[1836]: set alarm for 600 secs
+
+############################ carina - 09/01/20 22:30:01 EST ############################
+
+2020/09/01 22:30:02 autossh[7935]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 22:35:01 EST ############################
+
+2020/09/01 22:35:01 autossh[7972]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 22:36:32 autossh[1836]: not what I sent: "carina autossh 1836 594811011 
+" : ""
+2020/09/01 22:36:32 autossh[1836]: not what I sent: "carina autossh 1836 594811011 
+" : ""
+2020/09/01 22:36:32 autossh[1836]: tried connection 3 times and failed
+2020/09/01 22:36:32 autossh[1836]: port down, restarting ssh
+2020/09/01 22:36:32 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 22:36:32 autossh[1836]: starting ssh (count 47)
+2020/09/01 22:36:32 autossh[1836]: ssh child pid is 7985
+2020/09/01 22:36:32 autossh[1836]: check on child 7985
+2020/09/01 22:36:32 autossh[1836]: set alarm for 600 secs
+2020/09/01 22:36:32 autossh[7985]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 22:40:01 EST ############################
+
+2020/09/01 22:40:01 autossh[8008]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 22:45:01 EST ############################
+
+2020/09/01 22:45:01 autossh[8062]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 22:46:32 autossh[1836]: not what I sent: "carina autossh 1836 722099956 
+" : ""
+2020/09/01 22:46:32 autossh[1836]: not what I sent: "carina autossh 1836 722099956 
+" : ""
+2020/09/01 22:46:32 autossh[1836]: tried connection 3 times and failed
+2020/09/01 22:46:32 autossh[1836]: port down, restarting ssh
+2020/09/01 22:46:32 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 22:46:32 autossh[1836]: starting ssh (count 48)
+2020/09/01 22:46:32 autossh[1836]: ssh child pid is 8074
+2020/09/01 22:46:32 autossh[1836]: check on child 8074
+2020/09/01 22:46:32 autossh[1836]: set alarm for 600 secs
+2020/09/01 22:46:32 autossh[8074]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 22:50:01 EST ############################
+
+2020/09/01 22:50:01 autossh[8105]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 22:55:01 EST ############################
+
+2020/09/01 22:55:01 autossh[8142]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 22:56:32 autossh[1836]: not what I sent: "carina autossh 1836 1213621909 
+" : ""
+2020/09/01 22:56:32 autossh[1836]: not what I sent: "carina autossh 1836 1213621909 
+" : ""
+2020/09/01 22:56:32 autossh[1836]: tried connection 3 times and failed
+2020/09/01 22:56:32 autossh[1836]: port down, restarting ssh
+2020/09/01 22:56:32 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 22:56:32 autossh[1836]: starting ssh (count 49)
+2020/09/01 22:56:32 autossh[1836]: ssh child pid is 8152
+2020/09/01 22:56:32 autossh[1836]: check on child 8152
+2020/09/01 22:56:32 autossh[1836]: set alarm for 600 secs
+2020/09/01 22:56:32 autossh[8152]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 23:00:01 EST ############################
+
+2020/09/01 23:00:01 autossh[8177]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 23:05:01 EST ############################
+
+2020/09/01 23:05:01 autossh[8219]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 23:06:32 autossh[1836]: not what I sent: "carina autossh 1836 1220170543 
+" : ""
+2020/09/01 23:06:32 autossh[1836]: not what I sent: "carina autossh 1836 1220170543 
+" : ""
+2020/09/01 23:06:32 autossh[1836]: tried connection 3 times and failed
+2020/09/01 23:06:32 autossh[1836]: port down, restarting ssh
+2020/09/01 23:06:32 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 23:06:32 autossh[1836]: starting ssh (count 50)
+2020/09/01 23:06:32 autossh[1836]: ssh child pid is 8230
+2020/09/01 23:06:32 autossh[1836]: check on child 8230
+2020/09/01 23:06:32 autossh[1836]: set alarm for 600 secs
+2020/09/01 23:06:32 autossh[8230]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 23:10:01 EST ############################
+
+2020/09/01 23:10:01 autossh[8258]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 23:15:01 EST ############################
+
+2020/09/01 23:15:01 autossh[8295]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 23:16:32 autossh[1836]: not what I sent: "carina autossh 1836 495360175 
+" : ""
+2020/09/01 23:16:32 autossh[1836]: not what I sent: "carina autossh 1836 495360175 
+" : ""
+2020/09/01 23:16:32 autossh[1836]: tried connection 3 times and failed
+2020/09/01 23:16:32 autossh[1836]: port down, restarting ssh
+2020/09/01 23:16:32 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 23:16:32 autossh[1836]: starting ssh (count 51)
+2020/09/01 23:16:32 autossh[1836]: ssh child pid is 8306
+2020/09/01 23:16:32 autossh[1836]: check on child 8306
+2020/09/01 23:16:32 autossh[1836]: set alarm for 600 secs
+2020/09/01 23:16:32 autossh[8306]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 23:20:01 EST ############################
+
+2020/09/01 23:20:01 autossh[8335]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 23:25:01 EST ############################
+
+2020/09/01 23:25:01 autossh[8373]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 23:26:32 autossh[1836]: not what I sent: "carina autossh 1836 419103482 
+" : ""
+2020/09/01 23:26:32 autossh[1836]: not what I sent: "carina autossh 1836 419103482 
+" : ""
+2020/09/01 23:26:32 autossh[1836]: tried connection 3 times and failed
+2020/09/01 23:26:32 autossh[1836]: port down, restarting ssh
+2020/09/01 23:26:32 autossh[1836]: checking for grace period, tries = 0
+2020/09/01 23:26:32 autossh[1836]: starting ssh (count 52)
+2020/09/01 23:26:32 autossh[1836]: ssh child pid is 8385
+2020/09/01 23:26:32 autossh[1836]: check on child 8385
+2020/09/01 23:26:32 autossh[1836]: set alarm for 600 secs
+2020/09/01 23:26:32 autossh[8385]: execing /usr/bin/ssh
+
+############################ carina - 09/01/20 23:30:01 EST ############################
+
+2020/09/01 23:30:01 autossh[8409]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 23:35:01 EST ############################
+
+2020/09/01 23:35:01 autossh[8448]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 23:36:32 autossh[1836]: not what I sent: "carina autossh 1836 550371683 
+" : ""
+2020/09/01 23:36:32 autossh[1836]: connection ok
+2020/09/01 23:36:32 autossh[1836]: check on child 8385
+2020/09/01 23:36:32 autossh[1836]: set alarm for 600 secs
+
+############################ carina - 09/01/20 23:40:01 EST ############################
+
+2020/09/01 23:40:01 autossh[8485]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 23:45:01 EST ############################
+
+2020/09/01 23:45:01 autossh[8524]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 23:46:32 autossh[1836]: not what I sent: "carina autossh 1836 1515754583 
+" : ""
+2020/09/01 23:46:32 autossh[1836]: connection ok
+2020/09/01 23:46:32 autossh[1836]: check on child 8385
+2020/09/01 23:46:32 autossh[1836]: set alarm for 600 secs
+
+############################ carina - 09/01/20 23:50:01 EST ############################
+
+2020/09/01 23:50:01 autossh[8560]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/01/20 23:55:01 EST ############################
+
+2020/09/01 23:55:01 autossh[8598]: bind on 127.0.0.1:61001: Address already in use
+2020/09/01 23:56:32 autossh[1836]: not what I sent: "carina autossh 1836 1723671042 
+" : ""
+2020/09/01 23:56:32 autossh[1836]: connection ok
+2020/09/01 23:56:32 autossh[1836]: check on child 8385
+2020/09/01 23:56:32 autossh[1836]: set alarm for 600 secs
+
+############################ carina - 09/02/20 00:00:01 EST ############################
+
+2020/09/02 00:00:01 autossh[8665]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/02/20 00:05:01 EST ############################
+
+2020/09/02 00:05:01 autossh[8785]: bind on 127.0.0.1:61001: Address already in use
+2020/09/02 00:06:32 autossh[1836]: not what I sent: "carina autossh 1836 319482739 
+" : ""
+2020/09/02 00:06:33 autossh[1836]: connection ok
+2020/09/02 00:06:33 autossh[1836]: check on child 8385
+2020/09/02 00:06:33 autossh[1836]: set alarm for 600 secs
+
+############################ carina - 09/02/20 00:10:01 EST ############################
+
+2020/09/02 00:10:01 autossh[8918]: bind on 127.0.0.1:61001: Address already in use
+2020/09/02 00:10:13 autossh[1836]: check on child 8385
+2020/09/02 00:10:13 autossh[1836]: set alarm for 380 secs
+2020/09/02 00:10:13 autossh[1836]: check on child 8385
+2020/09/02 00:10:13 autossh[1836]: ssh exited with status 0; autossh exiting
+2020/09/02 00:10:13 autossh[1836]: expired child, returning 2
+
+############################ carina - 09/02/20 00:20:01 EST ############################
+
+2020/09/02 00:20:01 autossh[1756]: checking for grace period, tries = 0
+2020/09/02 00:20:01 autossh[1756]: starting ssh (count 1)
+2020/09/02 00:20:01 autossh[1756]: ssh child pid is 1757
+2020/09/02 00:20:01 autossh[1756]: check on child 1757
+2020/09/02 00:20:01 autossh[1756]: set alarm for 600 secs
+2020/09/02 00:20:01 autossh[1757]: execing /usr/bin/ssh
