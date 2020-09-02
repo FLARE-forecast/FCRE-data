@@ -34807,3 +34807,33 @@ Already up to date.
  2 files changed, 81 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    aab6fe1..68f9e18  bita-logs -> bita-logs
+[bita-logs b0bdf99] 09/01/20 20:41:42 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   68f9e18..b0bdf99  bita-logs -> bita-logs
+
+############################ bita - 09/01/20 20:42:14 EST ############################
+
+Data:
+
+Already up to date.
+fatal: Unable to create '/data/fcre-weir-data/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/fcre-weir-data/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
+
+
+Logs:
+
+Already up to date.
