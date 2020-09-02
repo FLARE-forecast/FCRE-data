@@ -134,12 +134,10 @@ Bruno,12/23/19 22:30:01
 
 Vahid, Mia
 
-<<<<<<< HEAD
-Bruno,03/06/20 11:35:01
-=======
 Vahid, Mia
->>>>>>> 2a6b23b765d59a1a2c19fb5f22ebf837f4cd867e
 
 Bruno,03/06/20 11:40:01
 
 Bruno,08/25/20 15:05:01
+
+Vahid, Test
