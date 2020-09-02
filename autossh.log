@@ -35257,3 +35257,31 @@ c"
 2020/09/02 00:20:01 autossh[1756]: check on child 1757
 2020/09/02 00:20:01 autossh[1756]: set alarm for 600 secs
 2020/09/02 00:20:01 autossh[1757]: execing /usr/bin/ssh
+
+############################ carina - 09/02/20 00:25:01 EST ############################
+
+2020/09/02 00:25:01 autossh[1966]: bind on 127.0.0.1:61001: Address already in use
+2020/09/02 00:30:01 autossh[1756]: connection ok
+2020/09/02 00:30:01 autossh[1756]: check on child 1757
+2020/09/02 00:30:01 autossh[1756]: set alarm for 600 secs
+
+############################ carina - 09/02/20 00:30:01 EST ############################
+
+2020/09/02 00:30:01 autossh[2005]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/02/20 00:35:01 EST ############################
+
+2020/09/02 00:35:01 autossh[2043]: bind on 127.0.0.1:61001: Address already in use
+2020/09/02 00:40:01 autossh[1756]: not what I sent: "carina autossh 1756 1874842559 
+" : ""
+2020/09/02 00:40:01 autossh[1756]: connection ok
+2020/09/02 00:40:01 autossh[1756]: check on child 1757
+2020/09/02 00:40:01 autossh[1756]: set alarm for 600 secs
+
+############################ carina - 09/02/20 00:40:01 EST ############################
+
+2020/09/02 00:40:01 autossh[2223]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/02/20 00:45:01 EST ############################
+
+2020/09/02 00:45:01 autossh[2289]: bind on 127.0.0.1:61001: Address already in use
