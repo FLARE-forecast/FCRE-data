@@ -35113,3 +35113,126 @@ Already up to date.
  3 files changed, 75 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    48c7a88..6816b69  bita-logs -> bita-logs
+[bita-logs fed467b] 09/02/20 13:26:46 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   6816b69..fed467b  bita-logs -> bita-logs
+
+############################ bita - 09/02/20 13:47:22 EST ############################
+
+Data:
+
+
+############################ bita - 09/02/20 13:47:22 EST ############################
+
+Data:
+
+/home/scc/applications/git.sh: line 17: git-retry: command not found
+/home/scc/applications/git.sh: line 17: git-retry: command not found
+fatal: Unable to create '/data/fcre-weir-data/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/fcre-weir-data/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+/home/scc/applications/git.sh: line 21: git-retry: command not found
+
+
+Logs:
+
+/home/scc/applications/git.sh: line 26: git-retry: command not found
+On branch fcre-weir-data
+Your branch is up to date with 'origin/fcre-weir-data'.
+
+nothing to commit, working tree clean
+/home/scc/applications/git.sh: line 21: git-retry: command not found
+
+
+Logs:
+
+/home/scc/applications/git.sh: line 26: git-retry: command not found
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+/home/scc/applications/git.sh: line 29: git-retry: command not found
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+/home/scc/applications/git.sh: line 32: git-retry: command not found
+error: insufficient permission for adding an object to repository database .git/objects
+error: autossh.log: failed to insert into database
+error: unable to index file 'autossh.log'
+fatal: updating files failed
+On branch bita-logs
+Your branch is up to date with 'origin/bita-logs'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autossh.log
+	modified:   git.log
+	modified:   monitor.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+/home/scc/applications/git.sh: line 29: git-retry: command not found
+error: insufficient permission for adding an object to repository database .git/objects
+error: autossh.log: failed to insert into database
+error: unable to index file 'autossh.log'
+fatal: updating files failed
+On branch bita-logs
+Your branch is up to date with 'origin/bita-logs'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autossh.log
+	modified:   git.log
+	modified:   monitor.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+/home/scc/applications/git.sh: line 32: git-retry: command not found
+
+############################ bita - 09/02/20 14:25:17 EST ############################
+
+Data:
+
+Already up to date.
+[fcre-weir-data ff2c99e] 09/02/20 14:25:17 EST: Git Backup
+ 1 file changed, 864 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   dec39cb..ff2c99e  fcre-weir-data -> fcre-weir-data
+
+
+Logs:
+
+Already up to date.
