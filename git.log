@@ -35021,3 +35021,69 @@ Already up to date.
  3 files changed, 154 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    451a3d4..d3d3e24  bita-logs -> bita-logs
+[bita-logs 48c7a88] 09/01/20 21:30:50 EST: Logs
+ 2 files changed, 14 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   d3d3e24..48c7a88  bita-logs -> bita-logs
+
+############################ bita - 09/02/20 13:21:21 EST ############################
+
+Data:
+
+/home/scc/applications/git.sh: line 17: git-retry: command not found
+On branch fcre-weir-data
+Your branch is up to date with 'origin/fcre-weir-data'.
+
+nothing to commit, working tree clean
+/home/scc/applications/git.sh: line 21: git-retry: command not found
+
+
+Logs:
+
+/home/scc/applications/git.sh: line 26: git-retry: command not found
+
+############################ bita - 09/02/20 13:21:22 EST ############################
+
+Data:
+
+/home/scc/applications/git.sh: line 17: git-retry: command not found
+On branch fcre-weir-data
+Your branch is up to date with 'origin/fcre-weir-data'.
+
+nothing to commit, working tree clean
+/home/scc/applications/git.sh: line 21: git-retry: command not found
+
+
+Logs:
+
+/home/scc/applications/git.sh: line 26: git-retry: command not found
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+/home/scc/applications/git.sh: line 29: git-retry: command not found
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+/home/scc/applications/git.sh: line 32: git-retry: command not found
