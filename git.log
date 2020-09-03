@@ -35522,3 +35522,28 @@ remove the file manually to continue.
 [bita-logs 47e8947] 09/03/20 08:21:20 EST: Logs
  3 files changed, 225 insertions(+)
 /home/scc/applications/git.sh: line 29: git-retry: command not found
+[bita-logs bc0699b] 09/03/20 08:21:20 EST: Logs
+ 2 files changed, 11 insertions(+)
+/home/scc/applications/git.sh: line 32: git-retry: command not found
+
+############################ bita - 09/03/20 08:38:10 EST ############################
+
+Data:
+
+Already up to date.
+error: insufficient permission for adding an object to repository database .git/objects
+error: FCRweir.csv: failed to insert into database
+error: unable to index file 'FCRweir.csv'
+fatal: updating files failed
+On branch fcre-weir-data
+Your branch is ahead of 'origin/fcre-weir-data' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:FLARE-forecast/FCRE-data.git
+   ff2c99e..1e26a39  fcre-weir-data -> fcre-weir-data
+
+
+Logs:
+
+Already up to date.
