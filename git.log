@@ -35826,3 +35826,32 @@ Already up to date.
  3 files changed, 120 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    8b5887e..3187737  bita-logs -> bita-logs
+[bita-logs 78cd07a] 09/04/20 00:29:59 EST: Logs
+ 3 files changed, 40 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   3187737..78cd07a  bita-logs -> bita-logs
+
+############################ bita - 09/04/20 00:30:59 EST ############################
+
+Data:
+
+Already up to date.
+error: insufficient permission for adding an object to repository database .git/objects
+error: FCRweir.csv: failed to insert into database
+error: unable to index file 'FCRweir.csv'
+fatal: updating files failed
+On branch fcre-weir-data
+Your branch is up to date with 'origin/fcre-weir-data'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   FCRweir.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+
+
+Logs:
+
+Already up to date.
