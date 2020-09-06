@@ -36048,3 +36048,40 @@ Logs:
 [bita-logs d4f4f40] 09/06/20 00:21:18 EST: Logs
  2 files changed, 55 insertions(+)
 /home/scc/applications/git.sh: line 29: git-retry: command not found
+To github.com:FLARE-forecast/FCRE-data.git
+   2d7f5c8..28337bc  bita-logs -> bita-logs
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/bita-logs/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[bita-logs e8837ce] 09/06/20 00:21:18 EST: Logs
+ 2 files changed, 18 insertions(+)
+/home/scc/applications/git.sh: line 32: git-retry: command not found
+To github.com:FLARE-forecast/FCRE-data.git
+   28337bc..e8837ce  bita-logs -> bita-logs
+
+############################ bita - 09/06/20 00:21:38 EST ############################
+
+Data:
+
+Already up to date.
+On branch fcre-weir-data
+Your branch is up to date with 'origin/fcre-weir-data'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+
+
+Logs:
+
+Already up to date.
