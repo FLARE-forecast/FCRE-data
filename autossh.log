@@ -59115,3 +59115,142 @@ c"
 2020/09/08 00:20:01 autossh[1850]: check on child 1851
 2020/09/08 00:20:01 autossh[1850]: set alarm for 600 secs
 2020/09/08 00:20:01 autossh[1851]: execing /usr/bin/ssh
+
+############################ carina - 09/08/20 00:25:01 EST ############################
+
+2020/09/08 00:25:01 autossh[2066]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 00:30:01 autossh[1850]: connection ok
+2020/09/08 00:30:01 autossh[1850]: check on child 1851
+2020/09/08 00:30:01 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 00:30:01 EST ############################
+
+2020/09/08 00:30:01 autossh[2105]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 00:35:01 EST ############################
+
+2020/09/08 00:35:01 autossh[2146]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 00:40:01 EST ############################
+
+2020/09/08 00:40:01 autossh[2182]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 00:40:01 autossh[1850]: not what I sent: "carina autossh 1850 1500479482 
+" : ""
+2020/09/08 00:40:01 autossh[1850]: not what I sent: "carina autossh 1850 1500479482 
+" : ""
+2020/09/08 00:40:01 autossh[1850]: tried connection 3 times and failed
+2020/09/08 00:40:01 autossh[1850]: port down, restarting ssh
+2020/09/08 00:40:01 autossh[1850]: checking for grace period, tries = 0
+2020/09/08 00:40:01 autossh[1850]: starting ssh (count 2)
+2020/09/08 00:40:01 autossh[1850]: ssh child pid is 2188
+2020/09/08 00:40:01 autossh[1850]: check on child 2188
+2020/09/08 00:40:01 autossh[1850]: set alarm for 600 secs
+2020/09/08 00:40:01 autossh[2188]: execing /usr/bin/ssh
+
+############################ carina - 09/08/20 00:45:01 EST ############################
+
+2020/09/08 00:45:01 autossh[2222]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 00:50:01 EST ############################
+
+2020/09/08 00:50:01 autossh[2260]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 00:50:01 autossh[1850]: not what I sent: "carina autossh 1850 689847337 
+" : ""
+2020/09/08 00:50:01 autossh[1850]: connection ok
+2020/09/08 00:50:01 autossh[1850]: check on child 2188
+2020/09/08 00:50:01 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 00:55:01 EST ############################
+
+2020/09/08 00:55:01 autossh[2295]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 01:00:01 EST ############################
+
+2020/09/08 01:00:01 autossh[2334]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 01:00:01 autossh[1850]: not what I sent: "carina autossh 1850 711456009 
+" : ""
+2020/09/08 01:00:01 autossh[1850]: connection ok
+2020/09/08 01:00:01 autossh[1850]: check on child 2188
+2020/09/08 01:00:01 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 01:05:01 EST ############################
+
+2020/09/08 01:05:01 autossh[2374]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 01:10:01 EST ############################
+
+2020/09/08 01:10:01 autossh[2410]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 01:10:01 autossh[1850]: not what I sent: "carina autossh 1850 42555876 
+" : ""
+2020/09/08 01:10:02 autossh[1850]: connection ok
+2020/09/08 01:10:02 autossh[1850]: check on child 2188
+2020/09/08 01:10:02 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 01:15:01 EST ############################
+
+2020/09/08 01:15:01 autossh[2447]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 01:20:01 EST ############################
+
+2020/09/08 01:20:01 autossh[2489]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 01:20:02 autossh[1850]: not what I sent: "carina autossh 1850 1195349135 
+" : ""
+2020/09/08 01:20:02 autossh[1850]: connection ok
+2020/09/08 01:20:02 autossh[1850]: check on child 2188
+2020/09/08 01:20:02 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 01:25:01 EST ############################
+
+2020/09/08 01:25:01 autossh[2524]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 01:30:01 EST ############################
+
+2020/09/08 01:30:01 autossh[2563]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 01:30:02 autossh[1850]: not what I sent: "carina autossh 1850 875813174 
+" : ""
+2020/09/08 01:30:02 autossh[1850]: connection ok
+2020/09/08 01:30:02 autossh[1850]: check on child 2188
+2020/09/08 01:30:02 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 01:35:01 EST ############################
+
+2020/09/08 01:35:01 autossh[2599]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 01:40:01 EST ############################
+
+2020/09/08 01:40:01 autossh[2636]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 01:40:02 autossh[1850]: not what I sent: "carina autossh 1850 22335801 
+" : ""
+2020/09/08 01:40:02 autossh[1850]: connection ok
+2020/09/08 01:40:02 autossh[1850]: check on child 2188
+2020/09/08 01:40:02 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 01:45:01 EST ############################
+
+2020/09/08 01:45:01 autossh[2673]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 01:50:01 EST ############################
+
+2020/09/08 01:50:01 autossh[2712]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 01:50:02 autossh[1850]: not what I sent: "carina autossh 1850 2068634153 
+" : ""
+2020/09/08 01:50:02 autossh[1850]: connection ok
+2020/09/08 01:50:02 autossh[1850]: check on child 2188
+2020/09/08 01:50:02 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 01:55:01 EST ############################
+
+2020/09/08 01:55:01 autossh[2748]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/08/20 02:00:01 EST ############################
+
+2020/09/08 02:00:01 autossh[2793]: bind on 127.0.0.1:61001: Address already in use
+2020/09/08 02:00:02 autossh[1850]: not what I sent: "carina autossh 1850 836979484 
+" : ""
+2020/09/08 02:00:03 autossh[1850]: connection ok
+2020/09/08 02:00:03 autossh[1850]: check on child 2188
+2020/09/08 02:00:03 autossh[1850]: set alarm for 600 secs
+
+############################ carina - 09/08/20 02:05:01 EST ############################
+
+2020/09/08 02:05:01 autossh[2852]: bind on 127.0.0.1:61001: Address already in use
