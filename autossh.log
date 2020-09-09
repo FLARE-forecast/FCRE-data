@@ -62092,3 +62092,25 @@ c"
 ############################ carina - 09/09/20 10:00:01 EST ############################
 
 2020/09/09 10:00:01 autossh[1853]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/09/20 12:24:44 EST ############################
+
+2020/09/09 12:24:44 autossh[1824]: checking for grace period, tries = 0
+2020/09/09 12:24:44 autossh[1824]: starting ssh (count 1)
+2020/09/09 12:24:44 autossh[1824]: ssh child pid is 1825
+2020/09/09 12:24:44 autossh[1824]: check on child 1825
+2020/09/09 12:24:44 autossh[1824]: set alarm for 600 secs
+2020/09/09 12:24:44 autossh[1825]: execing /usr/bin/ssh
+
+############################ carina - 09/09/20 12:25:01 EST ############################
+
+2020/09/09 12:25:01 autossh[1838]: bind on 127.0.0.1:61001: Address already in use
+2020/09/09 12:26:54 autossh[1824]: check on child 1825
+2020/09/09 12:26:54 autossh[1824]: ssh exited with error status 255; restarting ssh
+2020/09/09 12:26:54 autossh[1824]: expired child, returning 1
+2020/09/09 12:26:54 autossh[1824]: checking for grace period, tries = 0
+2020/09/09 12:26:54 autossh[1824]: starting ssh (count 2)
+2020/09/09 12:26:54 autossh[1824]: ssh child pid is 1841
+2020/09/09 12:26:54 autossh[1824]: check on child 1841
+2020/09/09 12:26:54 autossh[1824]: set alarm for 470 secs
+2020/09/09 12:26:54 autossh[1841]: execing /usr/bin/ssh
