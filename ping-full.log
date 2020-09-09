@@ -51857,3 +51857,26 @@
 2020-09-09 08:02:31 64 bytes from 8.8.8.8: icmp_seq=462 ttl=112 time=149 ms
 2020-09-09 08:04:32 64 bytes from 8.8.8.8: icmp_seq=464 ttl=112 time=154 ms
 2020-09-09 08:05:32 64 bytes from 8.8.8.8: icmp_seq=465 ttl=112 time=136 ms
+2020-09-09 08:06:32 64 bytes from 8.8.8.8: icmp_seq=466 ttl=112 time=138 ms
+2020-09-09 08:07:32 64 bytes from 8.8.8.8: icmp_seq=467 ttl=112 time=168 ms
+2020-09-09 08:08:32 64 bytes from 8.8.8.8: icmp_seq=468 ttl=112 time=141 ms
+2020-09-09 08:09:32 64 bytes from 8.8.8.8: icmp_seq=469 ttl=112 time=151 ms
+2020-09-09 08:10:32 64 bytes from 8.8.8.8: icmp_seq=470 ttl=112 time=139 ms
+2020-09-09 08:11:32 64 bytes from 8.8.8.8: icmp_seq=471 ttl=112 time=148 ms
+2020-09-09 08:12:32 64 bytes from 8.8.8.8: icmp_seq=472 ttl=112 time=148 ms
+2020-09-09 08:13:32 64 bytes from 8.8.8.8: icmp_seq=473 ttl=112 time=145 ms
+2020-09-09 08:14:32 64 bytes from 8.8.8.8: icmp_seq=474 ttl=112 time=144 ms
+2020-09-09 08:15:32 64 bytes from 8.8.8.8: icmp_seq=475 ttl=112 time=139 ms
+2020-09-09 08:16:32 64 bytes from 8.8.8.8: icmp_seq=476 ttl=112 time=134 ms
+2020-09-09 08:17:32 64 bytes from 8.8.8.8: icmp_seq=477 ttl=112 time=157 ms
+2020-09-09 08:18:32 64 bytes from 8.8.8.8: icmp_seq=478 ttl=112 time=141 ms
+2020-09-09 08:19:32 64 bytes from 8.8.8.8: icmp_seq=479 ttl=112 time=140 ms
+2020-09-09 08:20:32 64 bytes from 8.8.8.8: icmp_seq=480 ttl=112 time=138 ms
+2020-09-09 08:21:32 64 bytes from 8.8.8.8: icmp_seq=481 ttl=112 time=126 ms
+2020-09-09 08:22:32 64 bytes from 8.8.8.8: icmp_seq=482 ttl=112 time=175 ms
+2020-09-09 08:23:32 64 bytes from 8.8.8.8: icmp_seq=483 ttl=112 time=139 ms
+
+############## carina - 09/09/20 09:50:03 EST -0500 ##############
+
+2020-09-09 09:50:03 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-09-09 09:50:03 64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=141 ms
