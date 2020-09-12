@@ -69895,3 +69895,409 @@ c"
 ############################ carina - 09/12/20 08:05:01 EST ############################
 
 2020/09/12 08:05:01 autossh[5890]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 08:09:50 autossh[1818]: timeout polling to accept read connection
+2020/09/12 08:09:50 autossh[1818]: port down, restarting ssh
+2020/09/12 08:09:50 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 08:09:50 autossh[1818]: starting ssh (count 56)
+2020/09/12 08:09:50 autossh[1818]: ssh child pid is 5970
+2020/09/12 08:09:50 autossh[1818]: check on child 5970
+2020/09/12 08:09:50 autossh[1818]: set alarm for 600 secs
+2020/09/12 08:09:50 autossh[5970]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 08:10:01 EST ############################
+
+2020/09/12 08:10:01 autossh[5980]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 08:15:01 EST ############################
+
+2020/09/12 08:15:01 autossh[6017]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 08:20:01 EST ############################
+
+2020/09/12 08:20:01 autossh[6057]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 08:20:05 autossh[1818]: timeout polling to accept read connection
+2020/09/12 08:20:05 autossh[1818]: port down, restarting ssh
+2020/09/12 08:20:05 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 08:20:05 autossh[1818]: starting ssh (count 57)
+2020/09/12 08:20:05 autossh[1818]: ssh child pid is 6064
+2020/09/12 08:20:05 autossh[1818]: check on child 6064
+2020/09/12 08:20:05 autossh[1818]: set alarm for 600 secs
+2020/09/12 08:20:05 autossh[6064]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 08:25:01 EST ############################
+
+2020/09/12 08:25:01 autossh[6099]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 08:30:01 EST ############################
+
+2020/09/12 08:30:01 autossh[6141]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 08:30:20 autossh[1818]: timeout polling to accept read connection
+2020/09/12 08:30:20 autossh[1818]: port down, restarting ssh
+2020/09/12 08:30:20 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 08:30:20 autossh[1818]: starting ssh (count 58)
+2020/09/12 08:30:20 autossh[1818]: ssh child pid is 6147
+2020/09/12 08:30:20 autossh[1818]: check on child 6147
+2020/09/12 08:30:20 autossh[1818]: set alarm for 600 secs
+2020/09/12 08:30:20 autossh[6147]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 08:35:01 EST ############################
+
+2020/09/12 08:35:01 autossh[6177]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 08:40:01 EST ############################
+
+2020/09/12 08:40:01 autossh[6216]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 08:40:35 autossh[1818]: timeout polling to accept read connection
+2020/09/12 08:40:35 autossh[1818]: port down, restarting ssh
+2020/09/12 08:40:35 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 08:40:35 autossh[1818]: starting ssh (count 59)
+2020/09/12 08:40:35 autossh[1818]: ssh child pid is 6225
+2020/09/12 08:40:35 autossh[1818]: check on child 6225
+2020/09/12 08:40:35 autossh[1818]: set alarm for 600 secs
+2020/09/12 08:40:35 autossh[6225]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 08:45:01 EST ############################
+
+2020/09/12 08:45:01 autossh[6254]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 08:50:01 EST ############################
+
+2020/09/12 08:50:01 autossh[6289]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 08:50:50 autossh[1818]: timeout polling to accept read connection
+2020/09/12 08:50:50 autossh[1818]: port down, restarting ssh
+2020/09/12 08:50:50 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 08:50:50 autossh[1818]: starting ssh (count 60)
+2020/09/12 08:50:50 autossh[1818]: ssh child pid is 6302
+2020/09/12 08:50:50 autossh[1818]: check on child 6302
+2020/09/12 08:50:50 autossh[1818]: set alarm for 600 secs
+2020/09/12 08:50:50 autossh[6302]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 08:55:01 EST ############################
+
+2020/09/12 08:55:01 autossh[6328]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 09:00:01 EST ############################
+
+2020/09/12 09:00:01 autossh[6366]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 09:01:05 autossh[1818]: timeout polling to accept read connection
+2020/09/12 09:01:05 autossh[1818]: port down, restarting ssh
+2020/09/12 09:01:05 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 09:01:05 autossh[1818]: starting ssh (count 61)
+2020/09/12 09:01:05 autossh[1818]: ssh child pid is 6376
+2020/09/12 09:01:05 autossh[1818]: check on child 6376
+2020/09/12 09:01:05 autossh[1818]: set alarm for 600 secs
+2020/09/12 09:01:05 autossh[6376]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 09:05:01 EST ############################
+
+2020/09/12 09:05:01 autossh[6415]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 09:10:01 EST ############################
+
+2020/09/12 09:10:01 autossh[6453]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 09:11:20 autossh[1818]: timeout polling to accept read connection
+2020/09/12 09:11:20 autossh[1818]: port down, restarting ssh
+2020/09/12 09:11:20 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 09:11:20 autossh[1818]: starting ssh (count 62)
+2020/09/12 09:11:20 autossh[1818]: ssh child pid is 6463
+2020/09/12 09:11:20 autossh[1818]: check on child 6463
+2020/09/12 09:11:20 autossh[1818]: set alarm for 600 secs
+2020/09/12 09:11:20 autossh[6463]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 09:15:01 EST ############################
+
+2020/09/12 09:15:01 autossh[6491]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 09:20:01 EST ############################
+
+2020/09/12 09:20:01 autossh[6534]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 09:21:35 autossh[1818]: timeout polling to accept read connection
+2020/09/12 09:21:35 autossh[1818]: port down, restarting ssh
+2020/09/12 09:21:35 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 09:21:35 autossh[1818]: starting ssh (count 63)
+2020/09/12 09:21:35 autossh[1818]: ssh child pid is 6548
+2020/09/12 09:21:35 autossh[1818]: check on child 6548
+2020/09/12 09:21:35 autossh[1818]: set alarm for 600 secs
+2020/09/12 09:21:35 autossh[6548]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 09:25:01 EST ############################
+
+2020/09/12 09:25:01 autossh[6570]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 09:30:01 EST ############################
+
+2020/09/12 09:30:01 autossh[6609]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 09:31:50 autossh[1818]: timeout polling to accept read connection
+2020/09/12 09:31:50 autossh[1818]: port down, restarting ssh
+2020/09/12 09:31:50 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 09:31:50 autossh[1818]: starting ssh (count 64)
+2020/09/12 09:31:50 autossh[1818]: ssh child pid is 6625
+2020/09/12 09:31:50 autossh[1818]: check on child 6625
+2020/09/12 09:31:50 autossh[1818]: set alarm for 600 secs
+2020/09/12 09:31:50 autossh[6625]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 09:35:01 EST ############################
+
+2020/09/12 09:35:01 autossh[6647]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 09:40:01 EST ############################
+
+2020/09/12 09:40:01 autossh[6685]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 09:42:05 autossh[1818]: timeout polling to accept read connection
+2020/09/12 09:42:05 autossh[1818]: port down, restarting ssh
+2020/09/12 09:42:05 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 09:42:05 autossh[1818]: starting ssh (count 65)
+2020/09/12 09:42:05 autossh[1818]: ssh child pid is 6700
+2020/09/12 09:42:05 autossh[1818]: check on child 6700
+2020/09/12 09:42:05 autossh[1818]: set alarm for 600 secs
+2020/09/12 09:42:05 autossh[6700]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 09:45:01 EST ############################
+
+2020/09/12 09:45:01 autossh[6721]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 09:50:01 EST ############################
+
+2020/09/12 09:50:01 autossh[6760]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 09:52:20 autossh[1818]: timeout polling to accept read connection
+2020/09/12 09:52:20 autossh[1818]: port down, restarting ssh
+2020/09/12 09:52:20 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 09:52:20 autossh[1818]: starting ssh (count 66)
+2020/09/12 09:52:20 autossh[1818]: ssh child pid is 6776
+2020/09/12 09:52:20 autossh[1818]: check on child 6776
+2020/09/12 09:52:20 autossh[1818]: set alarm for 600 secs
+2020/09/12 09:52:20 autossh[6776]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 09:55:01 EST ############################
+
+2020/09/12 09:55:01 autossh[6798]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 10:00:02 EST ############################
+
+2020/09/12 10:00:02 autossh[6844]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 10:02:35 autossh[1818]: timeout polling to accept read connection
+2020/09/12 10:02:35 autossh[1818]: port down, restarting ssh
+2020/09/12 10:02:35 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 10:02:35 autossh[1818]: starting ssh (count 67)
+2020/09/12 10:02:35 autossh[1818]: ssh child pid is 6861
+2020/09/12 10:02:35 autossh[1818]: check on child 6861
+2020/09/12 10:02:35 autossh[1818]: set alarm for 600 secs
+2020/09/12 10:02:35 autossh[6861]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 10:05:01 EST ############################
+
+2020/09/12 10:05:01 autossh[6882]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 10:10:01 EST ############################
+
+2020/09/12 10:10:01 autossh[6919]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 10:12:50 autossh[1818]: timeout polling to accept read connection
+2020/09/12 10:12:50 autossh[1818]: port down, restarting ssh
+2020/09/12 10:12:50 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 10:12:50 autossh[1818]: starting ssh (count 68)
+2020/09/12 10:12:50 autossh[1818]: ssh child pid is 6938
+2020/09/12 10:12:50 autossh[1818]: check on child 6938
+2020/09/12 10:12:50 autossh[1818]: set alarm for 600 secs
+2020/09/12 10:12:50 autossh[6938]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 10:15:01 EST ############################
+
+2020/09/12 10:15:01 autossh[6957]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 10:20:01 EST ############################
+
+2020/09/12 10:20:01 autossh[6996]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 10:23:05 autossh[1818]: timeout polling to accept read connection
+2020/09/12 10:23:05 autossh[1818]: port down, restarting ssh
+2020/09/12 10:23:05 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 10:23:05 autossh[1818]: starting ssh (count 69)
+2020/09/12 10:23:05 autossh[1818]: ssh child pid is 7018
+2020/09/12 10:23:05 autossh[1818]: check on child 7018
+2020/09/12 10:23:05 autossh[1818]: set alarm for 600 secs
+2020/09/12 10:23:05 autossh[7018]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 10:25:01 EST ############################
+
+2020/09/12 10:25:01 autossh[7034]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 10:30:01 EST ############################
+
+2020/09/12 10:30:01 autossh[7073]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 10:33:20 autossh[1818]: timeout polling to accept read connection
+2020/09/12 10:33:20 autossh[1818]: port down, restarting ssh
+2020/09/12 10:33:20 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 10:33:20 autossh[1818]: starting ssh (count 70)
+2020/09/12 10:33:20 autossh[1818]: ssh child pid is 7094
+2020/09/12 10:33:20 autossh[1818]: check on child 7094
+2020/09/12 10:33:20 autossh[1818]: set alarm for 600 secs
+2020/09/12 10:33:20 autossh[7094]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 10:35:01 EST ############################
+
+2020/09/12 10:35:01 autossh[7110]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 10:40:01 EST ############################
+
+2020/09/12 10:40:01 autossh[7146]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 10:43:35 autossh[1818]: timeout polling to accept read connection
+2020/09/12 10:43:35 autossh[1818]: port down, restarting ssh
+2020/09/12 10:43:35 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 10:43:35 autossh[1818]: starting ssh (count 71)
+2020/09/12 10:43:35 autossh[1818]: ssh child pid is 7168
+2020/09/12 10:43:35 autossh[1818]: check on child 7168
+2020/09/12 10:43:35 autossh[1818]: set alarm for 600 secs
+2020/09/12 10:43:35 autossh[7168]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 10:45:01 EST ############################
+
+2020/09/12 10:45:01 autossh[7348]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 10:50:01 EST ############################
+
+2020/09/12 10:50:01 autossh[7556]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 10:53:50 autossh[1818]: timeout polling to accept read connection
+2020/09/12 10:53:50 autossh[1818]: port down, restarting ssh
+2020/09/12 10:53:50 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 10:53:50 autossh[1818]: starting ssh (count 72)
+2020/09/12 10:53:50 autossh[1818]: ssh child pid is 7581
+2020/09/12 10:53:50 autossh[1818]: check on child 7581
+2020/09/12 10:53:50 autossh[1818]: set alarm for 600 secs
+2020/09/12 10:53:50 autossh[7581]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 10:55:01 EST ############################
+
+2020/09/12 10:55:01 autossh[7594]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:00:01 EST ############################
+
+2020/09/12 11:00:01 autossh[7633]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 11:04:05 autossh[1818]: timeout polling to accept read connection
+2020/09/12 11:04:05 autossh[1818]: port down, restarting ssh
+2020/09/12 11:04:05 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 11:04:05 autossh[1818]: starting ssh (count 73)
+2020/09/12 11:04:05 autossh[1818]: ssh child pid is 7655
+2020/09/12 11:04:05 autossh[1818]: check on child 7655
+2020/09/12 11:04:05 autossh[1818]: set alarm for 600 secs
+2020/09/12 11:04:05 autossh[7655]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 11:05:02 EST ############################
+
+2020/09/12 11:05:02 autossh[7672]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:10:01 EST ############################
+
+2020/09/12 11:10:01 autossh[7728]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 11:14:20 autossh[1818]: timeout polling to accept read connection
+2020/09/12 11:14:20 autossh[1818]: port down, restarting ssh
+2020/09/12 11:14:20 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 11:14:20 autossh[1818]: starting ssh (count 74)
+2020/09/12 11:14:20 autossh[1818]: ssh child pid is 7752
+2020/09/12 11:14:20 autossh[1818]: check on child 7752
+2020/09/12 11:14:20 autossh[1818]: set alarm for 600 secs
+2020/09/12 11:14:20 autossh[7752]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 11:15:01 EST ############################
+
+2020/09/12 11:15:01 autossh[7769]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:20:01 EST ############################
+
+2020/09/12 11:20:01 autossh[7811]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 11:24:35 autossh[1818]: timeout polling to accept read connection
+2020/09/12 11:24:35 autossh[1818]: port down, restarting ssh
+2020/09/12 11:24:35 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 11:24:35 autossh[1818]: starting ssh (count 75)
+2020/09/12 11:24:35 autossh[1818]: ssh child pid is 7835
+2020/09/12 11:24:35 autossh[1818]: check on child 7835
+2020/09/12 11:24:35 autossh[1818]: set alarm for 600 secs
+2020/09/12 11:24:35 autossh[7835]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 11:25:01 EST ############################
+
+2020/09/12 11:25:01 autossh[7848]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:30:01 EST ############################
+
+2020/09/12 11:30:01 autossh[7892]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 11:34:50 autossh[1818]: timeout polling to accept read connection
+2020/09/12 11:34:50 autossh[1818]: port down, restarting ssh
+2020/09/12 11:34:50 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 11:34:50 autossh[1818]: starting ssh (count 76)
+2020/09/12 11:34:50 autossh[1818]: ssh child pid is 7920
+2020/09/12 11:34:50 autossh[1818]: check on child 7920
+2020/09/12 11:34:50 autossh[1818]: set alarm for 600 secs
+2020/09/12 11:34:50 autossh[7920]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 11:35:01 EST ############################
+
+2020/09/12 11:35:01 autossh[7931]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:40:01 EST ############################
+
+2020/09/12 11:40:01 autossh[7967]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:45:01 EST ############################
+
+2020/09/12 11:45:01 autossh[8006]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 11:45:05 autossh[1818]: timeout polling to accept read connection
+2020/09/12 11:45:05 autossh[1818]: port down, restarting ssh
+2020/09/12 11:45:05 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 11:45:05 autossh[1818]: starting ssh (count 77)
+2020/09/12 11:45:05 autossh[1818]: ssh child pid is 8012
+2020/09/12 11:45:05 autossh[1818]: check on child 8012
+2020/09/12 11:45:05 autossh[1818]: set alarm for 600 secs
+2020/09/12 11:45:05 autossh[8012]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 11:50:01 EST ############################
+
+2020/09/12 11:50:01 autossh[8044]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 11:55:01 EST ############################
+
+2020/09/12 11:55:01 autossh[8082]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 11:55:20 autossh[1818]: timeout polling to accept read connection
+2020/09/12 11:55:20 autossh[1818]: port down, restarting ssh
+2020/09/12 11:55:20 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 11:55:20 autossh[1818]: starting ssh (count 78)
+2020/09/12 11:55:20 autossh[1818]: ssh child pid is 8088
+2020/09/12 11:55:20 autossh[1818]: check on child 8088
+2020/09/12 11:55:20 autossh[1818]: set alarm for 600 secs
+2020/09/12 11:55:20 autossh[8088]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 12:00:01 EST ############################
+
+2020/09/12 12:00:01 autossh[8138]: bind on 127.0.0.1:61001: Address already in use
+
+############################ carina - 09/12/20 12:05:01 EST ############################
+
+2020/09/12 12:05:01 autossh[8274]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 12:05:35 autossh[1818]: timeout polling to accept read connection
+2020/09/12 12:05:35 autossh[1818]: port down, restarting ssh
+2020/09/12 12:05:35 autossh[1818]: checking for grace period, tries = 0
+2020/09/12 12:05:35 autossh[1818]: starting ssh (count 79)
+2020/09/12 12:05:35 autossh[1818]: ssh child pid is 8282
+2020/09/12 12:05:35 autossh[1818]: check on child 8282
+2020/09/12 12:05:35 autossh[1818]: set alarm for 600 secs
+2020/09/12 12:05:35 autossh[8282]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 12:10:01 EST ############################
+
+2020/09/12 12:10:01 autossh[8302]: bind on 127.0.0.1:61001: Address already in use
+2020/09/12 12:10:14 autossh[1818]: check on child 8282
+2020/09/12 12:10:14 autossh[1818]: set alarm for 321 secs
+2020/09/12 12:10:14 autossh[1818]: check on child 8282
+2020/09/12 12:10:14 autossh[1818]: ssh exited with status 0; autossh exiting
+2020/09/12 12:10:14 autossh[1818]: expired child, returning 2
+
+############################ carina - 09/12/20 12:12:52 EST ############################
+
+2020/09/12 12:12:52 autossh[1804]: checking for grace period, tries = 0
+2020/09/12 12:12:52 autossh[1804]: starting ssh (count 1)
+2020/09/12 12:12:52 autossh[1804]: ssh child pid is 1805
+2020/09/12 12:12:52 autossh[1804]: check on child 1805
+2020/09/12 12:12:52 autossh[1804]: set alarm for 600 secs
+2020/09/12 12:12:52 autossh[1805]: execing /usr/bin/ssh
+
+############################ carina - 09/12/20 12:15:01 EST ############################
+
+2020/09/12 12:15:01 autossh[1817]: bind on 127.0.0.1:61001: Address already in use
