@@ -40692,3 +40692,33 @@ Already up to date.
  3 files changed, 165 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    3a1c266..9381645  bita-logs -> bita-logs
+[bita-logs bf64dca] 10/04/20 00:26:37 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   9381645..bf64dca  bita-logs -> bita-logs
+
+############################ bita - 10/04/20 08:21:38 EST ############################
+
+Data:
+
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[fcre-weir-data 1ade0b8] 10/04/20 08:21:38 EST: Git Backup
+ 1 file changed, 32 insertions(+)
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
