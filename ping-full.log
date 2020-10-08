@@ -52,3 +52,10 @@
 2020-10-08 00:21:37 64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=93.8 ms
 2020-10-08 00:22:37 64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=95.0 ms
 2020-10-08 00:23:37 64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=87.0 ms
+2020-10-08 00:28:40 64 bytes from 8.8.8.8: icmp_seq=9 ttl=111 time=84.5 ms
+2020-10-08 00:29:40 64 bytes from 8.8.8.8: icmp_seq=10 ttl=111 time=100 ms
+
+############## bita - 10/08/20 08:20:38 EST -0500 ##############
+
+2020-10-08 08:20:38 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+2020-10-08 08:20:38 64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=103 ms
