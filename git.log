@@ -38185,3 +38185,27 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[carina-logs a91b04c1] 10/11/20 14:05:01 EST: Logs
+ 1 file changed, 7 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ carina - 10/11/20 20:05:01 EST ############################
+
+Data:
+
+Already up to date.
+[fcre-metstation-data 6f594fa] 10/11/20 20:05:01 EST: Git Backup
+ 2 files changed, 720 insertions(+)
+Connection reset by 140.82.112.3 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+Already up to date.
