@@ -24,3 +24,11 @@ fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
+[master 04e0968] Thu Oct 15 00:21:01 EST 2020
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   837682c..0c12447  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Thu Oct 15 00:21:01 EST 2020
+To github.com:FLARE-forecast/FCRE-data.git
+   0c12447..6da609e  master -> master
