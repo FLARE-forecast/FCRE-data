@@ -42849,3 +42849,12 @@ and the repository exists.
 
 Logs:
 
+[carina-logs 1a720ff9] 11/13/20 14:05:01 EST: Logs
+ 3 files changed, 493 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+To github.com:/FLARE-forecast/FCRE-data.git
+   6e33b562..1a720ff9  carina-logs -> carina-logs
