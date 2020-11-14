@@ -598,3 +598,10 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[master 98f78e0] Sat Nov 14 08:21:41 EST 2020
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   fdb642e..3d8cfb6  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Sat Nov 14 00:21:41 EST 2020
+Applying: Sat Nov 14 08:21:41 EST 2020
