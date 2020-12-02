@@ -1121,3 +1121,13 @@ Please make sure you have the correct access rights
 and the repository exists.
 [master ab3fc95] Wed Dec  2 12:22:09 EST 2020
  1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   f0d908d..5536548  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Tue Dec  1 08:22:04 EST 2020
+Applying: Tue Dec  1 12:22:05 EST 2020
+Applying: Wed Dec  2 00:22:07 EST 2020
+Applying: Wed Dec  2 08:22:08 EST 2020
+Applying: Wed Dec  2 12:22:09 EST 2020
+To github.com:FLARE-forecast/FCRE-data.git
+   5536548..7b62dcf  master -> master
