@@ -475,3 +475,12 @@ First, rewinding head to replay your work on top of it...
 Applying: Fri Dec  4 00:21:29 EST 2020
 To github.com:FLARE-forecast/FCRE-data.git
    db9772c..4ff7beb  master -> master
+[master 2b853f0] Fri Dec  4 08:12:14 EST 2020
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   4ff7beb..fa7e3b9  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Fri Dec  4 08:12:14 EST 2020
+To github.com:FLARE-forecast/FCRE-data.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 50b3e161cf32de921f38bb391d5c1d844d09aae8 but expected fa7e3b9969559b94137c356d76e1cbee0ee65e02)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/FCRE-data.git'
