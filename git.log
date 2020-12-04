@@ -45519,3 +45519,24 @@ Logs:
 Already up to date.
 To github.com:/FLARE-forecast/FCRE-data.git
    28e051c1..0362abe1  carina-logs -> carina-logs
+[carina-logs 07c32cce] 12/03/20 20:05:01 EST: Logs
+ 1 file changed, 5 insertions(+)
+To github.com:/FLARE-forecast/FCRE-data.git
+   0362abe1..07c32cce  carina-logs -> carina-logs
+
+############################ carina - 12/04/20 00:21:58 EST ############################
+
+Data:
+
+[fcre-metstation-data eae7904] 12/04/20 00:21:58 EST: Git Backup
+ 2 files changed, 480 insertions(+)
+Already up to date.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File FCRmet.csv is 57.53 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 89.72 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com:FLARE-forecast/FCRE-data.git
+   8b8f6c9..eae7904  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
