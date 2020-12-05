@@ -1193,3 +1193,8 @@ To github.com:FLARE-forecast/FCRE-data.git
    b170d37..ca941b2  master -> master
 [master b307bad] Sat Dec  5 00:22:16 EST 2020
  1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
