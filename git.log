@@ -45808,3 +45808,27 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[carina-logs af6d9480] 12/05/20 20:05:01 EST: Logs
+ 1 file changed, 12 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ carina - 12/06/20 00:21:59 EST ############################
+
+Data:
+
+[fcre-metstation-data d9336d7] 12/06/20 00:21:59 EST: Git Backup
+ 2 files changed, 480 insertions(+)
+Already up to date.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File FCRmet.csv is 57.88 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 89.91 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com:FLARE-forecast/FCRE-data.git
+   1540b22..d9336d7  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
