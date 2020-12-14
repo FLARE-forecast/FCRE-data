@@ -1458,3 +1458,10 @@ First, rewinding head to replay your work on top of it...
 Applying: Mon Dec 14 00:22:29 EST 2020
 To github.com:FLARE-forecast/FCRE-data.git
    73a7241..eeb8898  master -> master
+[master 53984b1] Mon Dec 14 08:22:31 EST 2020
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
