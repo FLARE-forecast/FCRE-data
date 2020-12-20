@@ -47800,3 +47800,27 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[carina-logs c5dd9d97] 12/19/20 14:05:01 EST: Logs
+ 2 files changed, 32 insertions(+)
+packet_write_wait: Connection to 140.82.112.4 port 22: Broken pipe
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+
+############################ carina - 12/19/20 20:05:01 EST ############################
+
+Data:
+
+[fcre-metstation-data 3b20381] 12/19/20 20:05:01 EST: Git Backup
+ 2 files changed, 720 insertions(+)
+Already up to date.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File FCRmet.csv is 60.27 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 60.23 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File stats.csv is 91.23 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.21 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com:FLARE-forecast/FCRE-data.git
+   8b94227..3b20381  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
