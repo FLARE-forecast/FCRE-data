@@ -48739,3 +48739,41 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[carina-logs 8a26ad2f] 12/24/20 20:05:01 EST: Logs
+ 1 file changed, 12 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ carina - 12/25/20 00:22:18 EST ############################
+
+Data:
+
+[fcre-metstation-data 2e17bf2] 12/25/20 00:22:18 EST: Git Backup
+ 2 files changed, 480 insertions(+)
+Already up to date.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File FCRmet.csv is 61.17 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 61.14 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File FCRmet.csv is 61.09 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 61.05 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 61.01 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 60.99 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 60.97 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File FCRmet.csv is 60.92 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.72 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.71 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.69 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.66 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.64 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.63 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.62 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 91.59 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com:FLARE-forecast/FCRE-data.git
+   152d80f..2e17bf2  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
