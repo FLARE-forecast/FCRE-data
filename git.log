@@ -54801,3 +54801,43 @@ Already up to date.
  2 files changed, 34 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    3f27b7c..6ddd1f2  bita-logs -> bita-logs
+[bita-logs e875515] 12/26/20 08:29:29 EST: Logs
+ 1 file changed, 4 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   6ddd1f2..e875515  bita-logs -> bita-logs
+
+############################ bita - 12/26/20 12:22:28 EST ############################
+
+Data:
+
+Already up to date.
+[fcre-weir-data c46fcae] 12/26/20 12:22:28 EST: Git Backup
+ 1 file changed, 16 insertions(+)
+
+############################ bita - 12/26/20 12:29:28 EST ############################
+
+Data:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+On branch fcre-weir-data
+Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
