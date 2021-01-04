@@ -56352,3 +56352,30 @@ Everything up-to-date
 Logs:
 
 Already up to date.
+[bita-logs 38867c1] 01/04/21 00:29:44 EST: Logs
+ 5 files changed, 80 insertions(+)
+
+############################ bita - 01/04/21 08:22:50 EST ############################
+
+Data:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[fcre-weir-data 16ac469] 01/04/21 08:22:50 EST: Git Backup
+ 1 file changed, 32 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
