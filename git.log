@@ -50705,3 +50705,83 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[carina-logs 05127595] 01/04/21 14:05:01 EST: Logs
+ 1 file changed, 12 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ carina - 01/04/21 20:05:01 EST ############################
+
+Data:
+
+error: file write error: No space left on device
+fatal: unable to write sha1 file
+On branch fcre-metstation-data
+Your branch is ahead of 'origin/fcre-metstation-data' by 26 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   FCRmet.csv
+	modified:   stats.csv
+
+no changes added to commit
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+error: file write error: No space left on device
+fatal: unable to write sha1 file
+On branch carina-logs
+Your branch is ahead of 'origin/carina-logs' by 52 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   autossh.log
+	modified:   git.log
+	modified:   monitor.log
+
+no changes added to commit
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+error: file write error: No space left on device
+fatal: unable to write sha1 file
+On branch carina-logs
+Your branch is ahead of 'origin/cari
+############################ carina - 01/07/21 12:08:06 EST ############################
+
+Data:
+
+[fcre-metstation-data ef8dafb] 01/07/21 12:08:06 EST: Git Backup
+ 2 files changed, 8456 insertions(+)
+From github.com:FLARE-forecast/FCRE-data
+   9ef5966..a33e5e4  fcre-metstation-data -> origin/fcre-metstation-data
+Already up to date.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File FCRmet.csv is 63.51 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File stats.csv is 93.02 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com:FLARE-forecast/FCRE-data.git
+   a33e5e4..ef8dafb  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
