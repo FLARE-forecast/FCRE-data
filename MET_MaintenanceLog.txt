@@ -44,3 +44,5 @@ MET, 2020-11-24 11:30:00 EST, 2020-11-24 12:00:00 EST, Albedo_Avg, 17, 1, cclean
 MET, 2020-11-24 12:10:00 EST, 2020-11-24 12:30:00 EST, AirTC_Avg, 8, 1, cleaned_airshield_and_outside_of_filter
 MET, 2020-11-24 12:10:00 EST, 2020-11-24 12:30:00 EST, RH, 9, 1, cleaned_airshield_and_outside_of_filter
 MET, 2020-11-24 12:35:00 EST, 2020-11-24 13:18:00 EST, Rain_mm_Tot, 10, 1, calibrated_rain_gauge_and_releveled
+MET, 2020-11-24 12:35:00 EST, 2020-11-24 13:18:00 EST, PAR_Den_Avg, 5, 4, PAR_sensor_cleaned_sometime_this_day
+MET, 2020-11-24 12:35:00 EST, 2020-11-24 13:18:00 EST, PAR_Tot_Tot, 6, 4, PAR_sensor_cleaned_sometime_this_day
