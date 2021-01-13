@@ -28,38 +28,38 @@ CAT, 2020-05-15 12:00:00 EST, 2020-05-15 12:05:00 EST, All_Cat, c(1:41), 1, sens
 CAT, 2020-05-18 09:50:00 EST, 2020-05-18 10:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-05-25 10:20:00 EST, 2020-05-25 11:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-01 10:20:00 EST, 2020-06-08 11:00:00 EST, All_Cat, c(24:26), 1, high conductivity event with no explanantion NEED DATE AND TIME FIX
-CAT, 2020-06-08 12:30:00 EST, 2020-06-08 13:00:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-06-22 09:00:00 EST, 2020-06-22 09:10:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-06-29 11:20:00 EST, 2020-06-29 11:50:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-07-06 11:40:00 EST, 2020-07-06 12:10:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-07-13 10:35:00 EST, 2020-07-13 10:45:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-07-20 10:49:00 EST, 2020-07-20 10:59:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-07-27 11:35:00 EST, 2020-07-27 11:45:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-08-03 12:03:00 EST, 2020-08-03 12:13:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-08-07 10:12:00 EST, 2020-08-07 12:23:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning and changed DO caps on EXO and RDO
-CAT, 2020-08-17 12:42:00 EST, 2020-08-17 15:18:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning and calibrated DO caps on EXO and RDO
-CAT, 2020-08-24 08:50:00 EST, 2020-08-24 08:50:00 EST, All_Cat, c(1:39), 4,  added a depth correction factor of -0.2m to the EXO 
-CAT, 2020-08-24 10:47:00 EST, 2020-08-24 11:04:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning 
-CAT, 2020-09-02 08:50:00 EST, 2020-09-02 08:50:00 EST, All_Cat, c(1:39), 4, conductivity check 34.8 microsiemens 
-CAT, 2020-09-02 10:55:00 EST, 2020-09-02 11:35:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning 
-CAT, 2020-09-11 09:42:00 EST, 2020-09-11 09:52:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning 
-CAT, 2020-09-15 09:46:00 EST, 2020-09-15 10:06:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning and EXO DO calibrated
-CAT, 2020-09-15 11:40:00 EST, 2020-09-15 11:50:00 EST, All_Cat, c(1:39), 1, RDO calibrated
-CAT, 2020-09-19 12:51:00 EST, 2020-09-19 13:01:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning 
-CAT, 2020-09-30 09:57:00 EST, 2020-09-30 10:25:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-10-05 13:41:00 EST, 2020-10-05 13:44:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-10-09 09:47:00 EST, 2020-10-09 10:00:00 EST, All_Cat, c(1:39), 1, out of the water to measure placement of co2 sensors
-CAT, 2020-10-09 09:47:00 EST, 2020-10-11 09:50:00 EST, All_Cat, c(1:39), 4, string was out of poistion and all data that was effected was changed to NAs
-CAT, 2020-10-11 09:09:00 EST, 2020-10-11 09:50:00 EST, All_Cat, c(1:39), 1, string out of the water and repositioned because it was caught 
-CAT, 2020-10-14 11:50:00 EST, 2020-10-14 12:03:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-10-19 12:18:00 EST, 2020-10-19 15:00:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning and surface reading broken
-CAT, 2020-10-19 15:00:00 EST, 2020-10-20 11:22:00 EST, All_Cat, c(1:39), 4, surface reading broken
-CAT, 2020-10-20 11:23:00 EST, 2020-10-20 13:38:00 EST, All_Cat, c(1:39), 1, sensor string up troubleshooting
-CAT, 2020-10-20 13:38:00 EST, 2020-10-22 09:26:00 EST, All_Cat, c(1:39), 4, programing error wtr_2 column removed and 2m no reading
-CAT, 2020-10-23 08:10:00 EST, 2020-10-23 08:10:00 EST, All_Cat, c(1:39), 4, fixed with thromster from BVR
-CAT, 2020-10-26 10:04:00 EST, 2020-10-26 10:09:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-11-02 10:21:00 EST, 2020-11-02 10:29:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-11-09 10:25:00 EST, 2020-11-09 10:35:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-11-24 11:45:00 EST, 2020-11-24 11:55:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
-CAT, 2020-12-02 12:25:00 EST, 2020-12-02 12:57:00 EST, All_Cat, c(1:39), 1, sensor string up for cleaning
+CAT, 2020-06-08 12:30:00 EST, 2020-06-08 13:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-06-22 09:00:00 EST, 2020-06-22 09:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-06-29 11:20:00 EST, 2020-06-29 11:50:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-07-06 11:40:00 EST, 2020-07-06 12:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-07-13 10:35:00 EST, 2020-07-13 10:45:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-07-20 10:49:00 EST, 2020-07-20 10:59:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-07-27 11:35:00 EST, 2020-07-27 11:45:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-08-03 12:03:00 EST, 2020-08-03 12:13:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-08-07 10:12:00 EST, 2020-08-07 12:23:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and changed DO caps on EXO and RDO
+CAT, 2020-08-17 12:42:00 EST, 2020-08-17 15:18:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and calibrated DO caps on EXO and RDO
+CAT, 2020-08-24 08:50:00 EST, 2020-08-24 08:50:00 EST, All_Cat, c(1:41), 4,  added a depth correction factor of -0.2m to the EXO 
+CAT, 2020-08-24 10:47:00 EST, 2020-08-24 11:04:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning 
+CAT, 2020-09-02 08:50:00 EST, 2020-09-02 08:50:00 EST, All_Cat, c(1:41), 4, conductivity check 34.8 microsiemens 
+CAT, 2020-09-02 10:55:00 EST, 2020-09-02 11:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning 
+CAT, 2020-09-11 09:42:00 EST, 2020-09-11 09:52:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning 
+CAT, 2020-09-15 09:46:00 EST, 2020-09-15 10:06:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and EXO DO calibrated
+CAT, 2020-09-15 11:40:00 EST, 2020-09-15 11:50:00 EST, All_Cat, c(1:41), 1, RDO calibrated
+CAT, 2020-09-19 12:51:00 EST, 2020-09-19 13:01:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning 
+CAT, 2020-09-30 09:57:00 EST, 2020-09-30 10:25:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-10-05 13:41:00 EST, 2020-10-05 13:44:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-10-09 09:47:00 EST, 2020-10-09 10:00:00 EST, All_Cat, c(1:41), 1, out of the water to measure placement of co2 sensors
+CAT, 2020-10-09 09:47:00 EST, 2020-10-11 09:50:00 EST, All_Cat, c(1:41), 4, string was out of poistion and all data that was effected was changed to NAs
+CAT, 2020-10-11 09:09:00 EST, 2020-10-11 09:50:00 EST, All_Cat, c(1:41), 1, string out of the water and repositioned because it was caught 
+CAT, 2020-10-14 11:50:00 EST, 2020-10-14 12:03:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-10-19 12:18:00 EST, 2020-10-19 15:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and surface reading broken
+CAT, 2020-10-19 15:00:00 EST, 2020-10-20 11:22:00 EST, All_Cat, c(1:41), 4, surface reading broken
+CAT, 2020-10-20 11:23:00 EST, 2020-10-20 13:38:00 EST, All_Cat, c(1:41), 1, sensor string up troubleshooting
+CAT, 2020-10-20 13:38:00 EST, 2020-10-22 09:26:00 EST, All_Cat, c(1:41), 4, programing error wtr_2 column removed and 2m no reading
+CAT, 2020-10-23 08:10:00 EST, 2020-10-23 08:10:00 EST, All_Cat, c(1:41), 4, fixed with thromster from BVR
+CAT, 2020-10-26 10:04:00 EST, 2020-10-26 10:09:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-11-02 10:21:00 EST, 2020-11-02 10:29:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-11-09 10:25:00 EST, 2020-11-09 10:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-11-24 11:45:00 EST, 2020-11-24 11:55:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-12-02 12:25:00 EST, 2020-12-02 12:57:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-12-02 12:50:00 EST, 2020-12-27 12:40:00 EST, EXO_*, c(21:39), 1, EXO sent for cleaning and calibration
