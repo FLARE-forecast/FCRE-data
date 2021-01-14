@@ -62,8 +62,7 @@ CAT, 2020-10-14 11:50:00 EST, 2020-10-14 12:03:00 EST, All_Cat, c(1:41), 1, sens
 CAT, 2020-10-19 12:18:00 EST, 2020-10-19 15:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning DO calibration and surface reading broken
 CAT, 2020-10-19 15:00:00 EST, 2020-10-20 11:22:00 EST, wtr_surface, 5, 1, surface temp sensor broke and is reading NA
 CAT, 2020-10-20 11:23:00 EST, 2020-10-20 13:38:00 EST, All_Cat, c(1:41), 1, sensor string up troubleshooting
-CAT, 2020-10-20 13:38:00 EST, 2020-10-22 09:26:00 EST, wtr_2, 7, 1, the 2m sensor was moved to the surface spot
-CAT, 2020-10-23 08:10:00 EST, 2020-10-23 08:10:00 EST, All_Cat, c(1:41), 4, fixed with thromster from BVR
+CAT, 2020-10-20 13:38:00 EST, 2020-10-22 09:26:00 EST, wtr_2, 7, 1, the 2m sensor was moved to the surface spot and moved back when fixed with BVR sensor
 CAT, 2020-10-26 10:04:00 EST, 2020-10-26 10:09:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-11-02 10:21:00 EST, 2020-11-02 10:29:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-11-09 10:25:00 EST, 2020-11-09 10:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
