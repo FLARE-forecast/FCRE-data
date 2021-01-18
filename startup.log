@@ -2560,3 +2560,16 @@ Please make sure you have the correct access rights
 and the repository exists.
 [master 775c7ef] Mon Jan 18 12:23:51 EST 2021
  1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   6a1fab4..719cc1f  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Sat Jan 16 08:23:42 EST 2021
+Applying: Sat Jan 16 12:23:43 EST 2021
+Applying: Sun Jan 17 00:23:49 EST 2021
+Applying: Sun Jan 17 08:23:48 EST 2021
+Applying: Sun Jan 17 12:23:49 EST 2021
+Applying: Mon Jan 18 00:23:51 EST 2021
+Applying: Mon Jan 18 08:23:48 EST 2021
+Applying: Mon Jan 18 12:23:51 EST 2021
+To github.com:FLARE-forecast/FCRE-data.git
+   719cc1f..fbf7abf  master -> master
