@@ -50871,3 +50871,25 @@ Logs:
 Already up to date.
 To github.com:/FLARE-forecast/FCRE-data.git
    96dff29d..59d6fd7f  carina-logs -> carina-logs
+
+############################ carina - 02/08/21 12:16:37 EST ############################
+
+Data:
+
+[fcre-metstation-data 185792f] 02/08/21 12:16:37 EST: Git Backup
+ 9 files changed, 36604 insertions(+), 1989306 deletions(-)
+ delete mode 100644 .gitignore
+ delete mode 100644 FCRmet.csv
+ delete mode 100644 FCRmet_legacy_2020.csv
+ delete mode 100644 MET_MaintenanceLog.txt
+ delete mode 100644 README.md
+ delete mode 100644 nohup.out
+ delete mode 100644 note.md
+ rewrite stats.csv (67%)
+ delete mode 100644 stats_legacy_2018_2019_2020.csv
+Already up to date.
+To github.com:FLARE-forecast/FCRE-data.git
+   59d9b5e..185792f  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
