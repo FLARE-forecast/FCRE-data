@@ -50898,3 +50898,43 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    8a3fba7..c467893  carina-logs -> carina-logs
+[carina-logs 15a9318] 02/08/21 12:16:37 EST: Logs
+ 1 file changed, 5 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   c467893..15a9318  carina-logs -> carina-logs
+
+############################ carina - 02/08/21 12:19:26 EST ############################
+
+Data:
+
+HEAD detached at 59d9b5e
+nothing to commit, working tree clean
+Updating 59d9b5e..185792f
+Fast-forward
+ .gitignore                      |       1 -
+ FCRmet.csv                      |   11645 -
+ FCRmet_legacy_2020.csv          |  527044 -------------
+ MET_MaintenanceLog.txt          |      48 -
+ README.md                       |       2 -
+ nohup.out                       |       8 -
+ note.md                         |       2 -
+ stats.csv                       |   48250 +-
+ stats_legacy_2018_2019_2020.csv | 1438910 ------------------------------------
+ 9 files changed, 36604 insertions(+), 1989306 deletions(-)
+ delete mode 100644 .gitignore
+ delete mode 100644 FCRmet.csv
+ delete mode 100644 FCRmet_legacy_2020.csv
+ delete mode 100644 MET_MaintenanceLog.txt
+ delete mode 100644 README.md
+ delete mode 100644 nohup.out
+ delete mode 100644 note.md
+ delete mode 100644 stats_legacy_2018_2019_2020.csv
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+
+
+Logs:
+
