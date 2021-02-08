@@ -50976,3 +50976,28 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    68f1659..03b8e67  carina-logs -> carina-logs
+[carina-logs 300551a] 02/08/21 14:05:01 EST: Logs
+ 1 file changed, 5 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   03b8e67..300551a  carina-logs -> carina-logs
+
+############################ carina - 02/08/21 14:30:43 EST ############################
+
+Data:
+
+[fcre-metstation-data 2bac848] 02/08/21 14:30:43 EST: Git Backup
+ 1 file changed, 16 deletions(-)
+ delete mode 100644 wget-log
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
