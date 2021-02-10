@@ -51307,3 +51307,29 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    492bbaf..94c6a04  carina-logs -> carina-logs
+[carina-logs db999cd] 02/10/21 08:09:17 EST: Logs
+ 2 files changed, 19 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   94c6a04..db999cd  carina-logs -> carina-logs
+
+############################ carina - 02/10/21 14:05:01 EST ############################
+
+Data:
+
+[fcre-metstation-data 65eff5f] 02/10/21 14:05:01 EST: Git Backup
+ 2 files changed, 720 insertions(+)
+From github.com:FLARE-forecast/FCRE-data
+   089d0e3..4f95478  fcre-metstation-data -> origin/fcre-metstation-data
+Auto-merging FCRmet.csv
+CONFLICT (content): Merge conflict in FCRmet.csv
+Automatic merge failed; fix conflicts and then commit the result.
+To github.com:FLARE-forecast/FCRE-data.git
+ ! [rejected]        fcre-metstation-data -> fcre-metstation-data (non-fast-forward)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/FCRE-data.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Logs:
+
