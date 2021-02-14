@@ -51902,3 +51902,10 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    db946fe..292cd09  carina-logs -> carina-logs
+[carina-logs a34cd54] 02/14/21 08:09:24 EST: Logs
+ 2 files changed, 12 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   292cd09..a34cd54  carina-logs -> carina-logs
+packet_write_wait: Connection to 140.82.113.3 port 22: Broken pipe
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
