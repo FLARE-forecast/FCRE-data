@@ -52047,3 +52047,27 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    f0329dc..c351f9b  carina-logs -> carina-logs
+[carina-logs a4bf606] 02/15/21 08:05:01 EST: Logs
+ 3 files changed, 11 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   c351f9b..a4bf606  carina-logs -> carina-logs
+
+############################ carina - 02/15/21 14:05:01 EST ############################
+
+Data:
+
+[fcre-metstation-data 515acd1] 02/15/21 14:05:01 EST: Git Backup
+ 2 files changed, 720 insertions(+)
+From github.com:FLARE-forecast/FCRE-data
+   eb4c2a4..1f6418a  fcre-metstation-data -> origin/fcre-metstation-data
+Merge made by the 'recursive' strategy.
+ FCRmet_legacy_2018.csv | 389029 ++++++++++++++++++++++++++++++++++
+ FCRmet_legacy_2019.csv | 525419 ++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 914448 insertions(+)
+ create mode 100644 FCRmet_legacy_2018.csv
+ create mode 100644 FCRmet_legacy_2019.csv
+To github.com:FLARE-forecast/FCRE-data.git
+   1f6418a..81817c1  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
