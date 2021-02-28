@@ -53919,3 +53919,13 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    90c4c0a..4ec1edb  carina-logs -> carina-logs
+[carina-logs ea7d3d0] 02/28/21 08:09:40 EST: Logs
+ 2 files changed, 18 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   4ec1edb..ea7d3d0  carina-logs -> carina-logs
+packet_write_wait: Connection to 140.82.112.3 port 22: Broken pipe
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Everything up-to-date
