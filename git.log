@@ -54050,3 +54050,15 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    a4efa6a..26ecec8  carina-logs -> carina-logs
+[carina-logs 9e1e805] 03/01/21 08:09:41 EST: Logs
+ 2 files changed, 12 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   26ecec8..9e1e805  carina-logs -> carina-logs
+ssh_dispatch_run_fatal: Connection to 140.82.113.3 port 22: Network is unreachable
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
