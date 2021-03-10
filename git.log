@@ -55261,3 +55261,23 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[carina-logs d426990] 03/10/21 08:05:01 EST: Logs
+ 1 file changed, 8 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ carina - 03/10/21 08:09:49 EST ############################
+
+Data:
+
+[fcre-metstation-data 66e6e0e] 03/10/21 08:09:49 EST: Git Backup
+ 1 file changed, 120 insertions(+)
+Already up to date.
+To github.com:FLARE-forecast/FCRE-data.git
+   921f789..66e6e0e  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
