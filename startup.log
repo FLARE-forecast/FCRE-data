@@ -4379,3 +4379,7 @@ From github.com:FLARE-forecast/FCRE-data
 First, rewinding head to replay your work on top of it...
 Applying: Fri Mar 12 08:25:46 EST 2021
 Applying: Fri Mar 12 13:25:42 EST 2021
+remote: fatal error in commit_refs        
+To github.com:FLARE-forecast/FCRE-data.git
+ ! [remote rejected] master -> master (failure)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/FCRE-data.git'
