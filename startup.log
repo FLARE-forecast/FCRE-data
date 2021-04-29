@@ -5948,3 +5948,12 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[master a4a6b41] Thu Apr 29 13:26:34 EST 2021
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   3ad1011..c7ca8fa  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Thu Apr 29 08:26:36 EST 2021
+Applying: Thu Apr 29 13:26:34 EST 2021
+To github.com:FLARE-forecast/FCRE-data.git
+   c7ca8fa..5cc1ad4  master -> master
