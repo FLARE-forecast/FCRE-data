@@ -85683,3 +85683,36 @@ See "git help gc" for manual housekeeping.
  4 files changed, 199 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    d263190..4ff6d7b  bita-logs -> bita-logs
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bita-logs 677946a] 05/06/21 00:26:07 EST: Logs
+ 2 files changed, 15 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   4ff6d7b..677946a  bita-logs -> bita-logs
+
+############################ bita - 05/06/21 00:33:07 EST ############################
+
+Data:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+On branch fcre-weir-data
+Your branch is up to date with 'origin/fcre-weir-data'.
+
+nothing to commit, working tree clean
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
