@@ -87721,3 +87721,9 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bita-logs ff4be7d] 05/14/21 13:26:16 EST: Logs
+ 5 files changed, 254 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   3051df0..ff4be7d  bita-logs -> bita-logs
