@@ -1994,3 +1994,15 @@ First, rewinding head to replay your work on top of it...
 Applying: Mon May 17 00:23:51 EST 2021
 To github.com:FLARE-forecast/FCRE-data.git
    c0ed8b3..237db44  master -> master
+[master da8ccc1] Tue May 18 00:23:49 EST 2021
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
