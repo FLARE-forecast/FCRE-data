@@ -2086,3 +2086,13 @@ To github.com:FLARE-forecast/FCRE-data.git
    6dcda0f..e4519fc  master -> master
 [master f04c593] Fri May 28 00:23:51 EST 2021
  1 file changed, 1 insertion(+), 1 deletion(-)
+ssh_dispatch_run_fatal: Connection to 140.82.112.3 port 22: Network is unreachable
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
