@@ -93602,3 +93602,28 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bita-logs b4a28b4] 06/07/21 13:33:29 EST: Logs
+ 1 file changed, 11 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ bita - 06/07/21 18:26:32 EST ############################
+
+Data:
+
+Already up to date.
+[fcre-weir-data 22ba55b] 06/07/21 18:26:32 EST: Git Backup
+ 1 file changed, 24 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   e412e5a..22ba55b  fcre-weir-data -> fcre-weir-data
+
+Logs:
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Already up to date.
