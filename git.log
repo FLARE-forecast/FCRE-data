@@ -65792,3 +65792,20 @@ and the repository exists.
 packet_write_wait: Connection to 140.82.114.3 port 22: Broken pipe
 fatal: The remote end hung up unexpectedly
 fatal: The remote end hung up unexpectedly
+[carina-logs 604dff9] 06/11/21 08:05:01 EST: Logs
+ 3 files changed, 33 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   9d73c3e..604dff9  carina-logs -> carina-logs
+
+############################ carina - 06/11/21 14:05:01 EST ############################
+
+Data:
+
+[fcre-metstation-data 8333dfd] 06/11/21 14:05:01 EST: Git Backup
+ 2 files changed, 720 insertions(+)
+Already up to date.
+To github.com:FLARE-forecast/FCRE-data.git
+   cbb1586..8333dfd  fcre-metstation-data -> fcre-metstation-data
+
+Logs:
+
