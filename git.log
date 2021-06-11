@@ -65651,3 +65651,38 @@ Logs:
 Already up to date.
 To github.com:FLARE-forecast/FCRE-data.git
    29393a1..0470ebc  carina-logs -> carina-logs
+[carina-logs 32a2e05] 06/10/21 14:05:01 EST: Logs
+ 1 file changed, 5 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   0470ebc..32a2e05  carina-logs -> carina-logs
+
+############################ carina - 06/10/21 20:05:01 EST ############################
+
+Data:
+
+[fcre-metstation-data 82bb686] 06/10/21 20:05:01 EST: Git Backup
+ 2 files changed, 720 insertions(+)
+From github.com:FLARE-forecast/FCRE-data
+   842541f..65ca864  fcre-metstation-data -> origin/fcre-metstation-data
+Removing stats_legacy_2018_2019_2020.csv
+Removing FCRmet_legacy_2020.csv
+Removing FCRmet_legacy_2019.csv
+Removing FCRmet_legacy_2018.csv
+Merge made by the 'recursive' strategy.
+ FCRmet_legacy_2018.csv          |  389029 ----------
+ FCRmet_legacy_2019.csv          |  525419 -------------
+ FCRmet_legacy_2020.csv          |  516519 -------------
+ stats_legacy_2018_2019_2020.csv | 1438910 ------------------------------------
+ 4 files changed, 2869877 deletions(-)
+ delete mode 100644 FCRmet_legacy_2018.csv
+ delete mode 100644 FCRmet_legacy_2019.csv
+ delete mode 100644 FCRmet_legacy_2020.csv
+ delete mode 100644 stats_legacy_2018_2019_2020.csv
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
