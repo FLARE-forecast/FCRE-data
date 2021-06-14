@@ -95255,3 +95255,28 @@ See "git help gc" for manual housekeeping.
  5 files changed, 144 insertions(+)
 To github.com:FLARE-forecast/FCRE-data.git
    ff500f5..b608ae8  bita-logs -> bita-logs
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[bita-logs 52b08e1] 06/14/21 13:33:30 EST: Logs
+ 1 file changed, 8 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+   b608ae8..52b08e1  bita-logs -> bita-logs
+
+############################ bita - 06/14/21 18:26:30 EST ############################
+
+Data:
+
+Already up to date.
+[fcre-weir-data 05c200e] 06/14/21 18:26:30 EST: Git Backup
+ 1 file changed, 24 insertions(+)
+ssh: connect to host github.com port 22: Network is unreachable
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Already up to date.
