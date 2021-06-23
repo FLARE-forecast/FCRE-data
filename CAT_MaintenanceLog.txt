@@ -29,7 +29,7 @@ CAT, 2020-05-18 09:50:00 EST, 2020-05-18 10:10:00 EST, All_Cat, c(1:41), 1, sens
 CAT, 2020-05-25 10:20:00 EST, 2020-05-25 11:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-01 10:21:00 EST, 2020-06-08 11:00:00 EST, All_Cat, c(24:26), 5, high conductivity event with no explanantion NEED DATE AND TIME FIX
 CAT, 2020-06-08 12:30:00 EST, 2020-06-08 13:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2020-06-12 10:25:00 EST, 2020-06-12 10:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-06-12 10:25:00 EST, 2020-06-12 10:45:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-22 09:00:00 EST, 2020-06-22 09:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-29 11:20:00 EST, 2020-06-29 11:50:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-07-06 11:40:00 EST, 2020-07-06 12:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
@@ -66,8 +66,9 @@ CAT, 2020-10-19 15:00:00 EST, 2020-10-20 11:22:00 EST, wtr_surface, 5, 1, surfac
 CAT, 2020-10-20 11:23:00 EST, 2020-10-20 13:38:00 EST, All_Cat, c(1:41), 1, sensor string up troubleshooting
 CAT, 2020-10-20 13:38:00 EST, 2020-10-22 09:26:00 EST, wtr_2, 7, 1, the 2m sensor was moved to the surface spot and moved back when fixed with BVR sensor
 CAT, 2020-10-26 10:04:00 EST, 2020-10-26 10:09:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2020-11-02 10:21:00 EST, 2020-11-02 10:30:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-11-02 11:21:00 EST, 2020-11-02 11:30:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-11-09 10:25:00 EST, 2020-11-09 10:50:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-11-09 11:30:00 EST, 2020-11-09 11:50:00 EST, All_Cat, c(1:41), 1, sensor string up for maintenance
 CAT, 2020-11-24 11:30:00 EST, 2020-11-24 11:55:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-12-02 12:25:00 EST, 2020-12-02 12:57:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-12-02 12:50:00 EST, 2020-12-27 12:40:00 EST, EXO_*, c(21:39), 1, EXO sent for cleaning and calibration
@@ -77,12 +78,12 @@ CAT, 2021-02-08 14:25:00 EST, 2021-02-08 14:35:00 EST, All_Cat, c(1:41), 1, sens
 CAT, 2021-02-08 14:30:00 EST, 2021-02-26 12:00:00 EST, wtr_1, 6, 1, thermistor broken removed and replaced
 CAT, 2021-02-08 14:30:00 EST, 2021-02-26 12:00:00 EST, wtr_4, 9, 1, thermistor broken removed and replaced
 CAT, 2021-02-26 10:40:00 EST, 2021-02-26 14:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and testing Sunappee Temp String
-CAT, 2021-03-22 10:50:00 EST, 2021-03-22 11:30:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and calibrate DO and depth
-CAT, 2021-04-16 11:50:00 EST, 2021-04-16 12:20:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and calibration
+CAT, 2021-03-22 10:50:00 EST, 2021-03-22 11:40:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and calibrate DO and depth
+CAT, 2021-04-16 11:50:00 EST, 2021-04-16 12:40:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and calibration
 CAT, 2021-04-16 11:50:00 EST, 2021-04-26 13:10:00 EST, fdom, c(33:34), 4, bad fdom calibration
-CAT, 2021-04-26 10:55:00 EST, 2021-04-26 11:05:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2021-05-06 13:25:00 EST, 2021-05-06 13:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2021-05-14 13:45:00 EST, 2021-05-14 13:55:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2021-05-24 10:15:00 EST, 2021-05-24 10:25:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2021-05-31 10:55:00 EST, 2021-05-31 11:05:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2021-04-26 10:55:00 EST, 2021-04-26 11:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2021-05-06 13:25:00 EST, 2021-05-06 13:50:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2021-05-14 13:45:00 EST, 2021-05-14 14:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2021-05-24 10:15:00 EST, 2021-05-24 10:40:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2021-05-31 10:55:00 EST, 2021-05-31 11:20:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2021-06-07 10:25:00 EST, 2021-06-07 10:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
