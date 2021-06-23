@@ -29,6 +29,7 @@ CAT, 2020-05-18 09:50:00 EST, 2020-05-18 10:10:00 EST, All_Cat, c(1:41), 1, sens
 CAT, 2020-05-25 10:20:00 EST, 2020-05-25 11:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-01 10:21:00 EST, 2020-06-08 11:00:00 EST, All_Cat, c(24:26), 5, high conductivity event with no explanantion NEED DATE AND TIME FIX
 CAT, 2020-06-08 12:30:00 EST, 2020-06-08 13:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-06-12 10:25:00 EST, 2020-06-12 10:35:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-22 09:00:00 EST, 2020-06-22 09:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-06-29 11:20:00 EST, 2020-06-29 11:50:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-07-06 11:40:00 EST, 2020-07-06 12:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
@@ -47,7 +48,7 @@ CAT, 2020-09-11 09:42:00 EST, 2020-09-11 10:00:00 EST, All_Cat, c(1:41), 1, sens
 CAT, 2020-09-15 09:46:00 EST, 2020-09-15 10:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning and EXO DO calibrated
 CAT, 2020-09-15 11:40:00 EST, 2020-09-15 13:20:00 EST, All_Cat, c(1:41), 1, RDO calibrated
 CAT, 2020-09-19 12:51:00 EST, 2020-09-19 13:10:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning 
-CAT, 2020-09-30 09:57:00 EST, 2020-09-30 10:25:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-09-30 09:57:00 EST, 2020-09-30 10:30:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-10-05 13:41:00 EST, 2020-10-05 13:44:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-10-09 09:47:00 EST, 2020-10-09 10:00:00 EST, All_Cat, c(1:41), 1, out of the water to measure placement of co2 sensors
 CAT, 2020-10-09 09:47:00 EST, 2020-10-11 09:50:00 EST, wtr_5, 10, 1, string was out of poistion and all data that was effected was changed to NAs
@@ -59,7 +60,7 @@ CAT, 2020-10-09 09:47:00 EST, 2020-10-11 09:50:00 EST, doobs_9, 18, 1, string wa
 CAT, 2020-10-09 09:47:00 EST, 2020-10-11 09:50:00 EST, dosat_9, 19, 1, string was out of poistion and all data that was effected was changed to NAs
 CAT, 2020-10-09 09:47:00 EST, 2020-10-11 09:50:00 EST, dotemp_9, 20, 1, string was out of poistion and all data that was effected was changed to NAs
 CAT, 2020-10-11 09:09:00 EST, 2020-10-11 09:50:00 EST, All_Cat, c(1:41), 1, string out of the water and repositioned because it was caught 
-CAT, 2020-10-14 11:50:00 EST, 2020-10-14 12:03:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2020-10-14 11:50:00 EST, 2020-10-14 12:20:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2020-10-19 12:18:00 EST, 2020-10-19 15:00:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning DO calibration and surface reading broken
 CAT, 2020-10-19 15:00:00 EST, 2020-10-20 11:22:00 EST, wtr_surface, 5, 1, surface temp sensor broke and is reading NA
 CAT, 2020-10-20 11:23:00 EST, 2020-10-20 13:38:00 EST, All_Cat, c(1:41), 1, sensor string up troubleshooting
