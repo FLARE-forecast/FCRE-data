@@ -11718,3 +11718,25 @@ hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[mia-logs fe51c78] 06/24/21 11:18:15 EST: Logs
+ 1 file changed, 12 insertions(+)
+To github.com:FLARE-forecast/FCRE-data.git
+ ! [rejected]        mia-logs -> mia-logs (non-fast-forward)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/FCRE-data.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+############################ mia - 06/24/21 14:05:01 EST ############################
+
+Data:
+
+[fcre-catwalk-data 6aa9afd] 06/24/21 14:05:01 EST: Git Backup
+ 2 files changed, 36 insertions(+)
+Already up to date.
+To github.com:FLARE-forecast/FCRE-data.git
+   b315b9a..6aa9afd  fcre-catwalk-data -> fcre-catwalk-data
+
+Logs:
+
