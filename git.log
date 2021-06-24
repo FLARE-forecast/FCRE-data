@@ -11680,3 +11680,11 @@ Everything up-to-date
 
 Logs:
 
+[mia-logs 07deec9] 06/24/21 11:15:29 EST: Logs
+ 3 files changed, 23 insertions(+)
+Already up to date.
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File ping-full.log is 100.00 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com:FLARE-forecast/FCRE-data.git
+   86117bb..07deec9  mia-logs -> mia-logs
