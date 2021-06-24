@@ -11706,3 +11706,15 @@ Everything up-to-date
 
 Logs:
 
+[mia-logs 6ef000b] 06/24/21 11:18:15 EST: Logs
+ 1 file changed, 14 insertions(+)
+From github.com:FLARE-forecast/FCRE-data
+ + e47acca...9bbd310 mia-logs   -> origin/mia-logs  (forced update)
+fatal: refusing to merge unrelated histories
+To github.com:FLARE-forecast/FCRE-data.git
+ ! [rejected]        mia-logs -> mia-logs (non-fast-forward)
+error: failed to push some refs to 'git@github.com:FLARE-forecast/FCRE-data.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
