@@ -46215,3 +46215,103 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 2 received, 33% packet loss, time 2008ms
 rtt min/avg/max/mdev = 39.974/40.659/41.345/0.714 ms
+
+############################ mia - 06/25/21 12:00:01 EST ############################
+
+ 12:00:02 up 11:38,  0 users,  load average: 0.00, 0.06, 0.07
+
+
+reboot   system boot  5.3.0-53-generic Fri Jun 25 00:21   still running
+reboot   system boot  5.3.0-53-generic Thu Jun 24 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Wed Jun 23 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Tue Jun 22 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Mon Jun 21 00:21 - 00:10  (23:48)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    7.000196] rndis_host 2-6:1.0 enx0015ff357651: renamed from eth0
+
+
+[35390.097659] device tnl-58b88f8 left promiscuous mode
+[35406.933984] device tnl-58b88f8 entered promiscuous mode
+[35651.019533] device tnl-58b88f8 left promiscuous mode
+[35755.612382] device tnl-58b88f8 entered promiscuous mode
+[35774.813824] device tnl-58b88f8 left promiscuous mode
+[36908.957162] device tnl-58b88f8 entered promiscuous mode
+[37056.424815] device tnl-58b88f8 left promiscuous mode
+[37088.381213] device tnl-58b88f8 entered promiscuous mode
+[37401.497866] device tnl-58b88f8 left promiscuous mode
+[37729.790662] device tnl-58b88f8 entered promiscuous mode
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  8.0G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2030ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=49 time=44.0 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=49 time=40.8 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=3 ttl=49 time=39.9 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 39.966/41.636/44.075/1.778 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=30.9 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=40.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=44.9 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 30.909/38.779/44.962/5.862 ms
