@@ -45916,3 +45916,157 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 43.567/47.422/52.516/3.761 ms
+
+############################ mia - 06/25/21 00:00:01 EST ############################
+
+ 00:00:01 up 23:38,  0 users,  load average: 0.10, 0.08, 0.06
+
+
+reboot   system boot  5.3.0-53-generic Thu Jun 24 00:21   still running
+reboot   system boot  5.3.0-53-generic Wed Jun 23 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Tue Jun 22 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Mon Jun 21 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Sun Jun 20 00:21 - 00:10  (23:48)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    6.201751] rndis_host 2-6:1.0 enx0015ff357651: renamed from eth0
+
+
+[61624.110781] device tnl-58b88f8 left promiscuous mode
+[61745.717962] device tnl-58b88f8 entered promiscuous mode
+[61763.567602] device tnl-58b88f8 left promiscuous mode
+[61830.601251] device tnl-58b88f8 entered promiscuous mode
+[61909.351536] device tnl-58b88f8 left promiscuous mode
+[62016.617110] device tnl-58b88f8 entered promiscuous mode
+[65898.056723] device tnl-dace86b entered promiscuous mode
+[66583.488441] device tnl-dace86b left promiscuous mode
+[72559.860708] device tnl-dace86b entered promiscuous mode
+[73782.202092] device tnl-dace86b left promiscuous mode
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+192.168.1.5/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2027ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2050ms
+
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=47 time=33.3 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=2 ttl=47 time=57.9 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=47 time=40.0 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 33.380/43.800/57.934/10.362 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=29.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=54.2 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=35.2 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 29.064/39.529/54.299/10.743 ms
+
+############################ mia - 06/25/21 00:27:06 EST ############################
+
+ 00:27:06 up 5 min,  0 users,  load average: 0.17, 0.27, 0.14
+
+
+reboot   system boot  5.3.0-53-generic Fri Jun 25 00:21   still running
+reboot   system boot  5.3.0-53-generic Thu Jun 24 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Wed Jun 23 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Tue Jun 22 00:21 - 00:10  (23:48)
+reboot   system boot  5.3.0-53-generic Mon Jun 21 00:21 - 00:10  (23:48)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    7.000196] rndis_host 2-6:1.0 enx0015ff357651: renamed from eth0
+
+
+[   14.038296] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+[   17.409287] device ovs-system entered promiscuous mode
+[   17.451194] device evioCIBR2 entered promiscuous mode
+[   17.524883] device appbrCIBR2 entered promiscuous mode
+[   24.147979] device tnl-58b88f8 entered promiscuous mode
+[   65.132969] device tnl-58b88f8 left promiscuous mode
+[  237.524928] device tnl-58b88f8 entered promiscuous mode
+[  316.070473] EXT4-fs (sda1): error count since last fsck: 1
+[  316.070478] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.070497] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  8.0G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+192.168.1.5/24
+
+

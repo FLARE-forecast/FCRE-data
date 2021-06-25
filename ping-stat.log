@@ -153,3 +153,7 @@
 
 2021-05-02 00:01:26 284 packets transmitted, 284 received, 0% packet loss, time 84912486ms
 2021-05-02 00:01:26 rtt min/avg/max/mdev = 31.132/46.628/285.783/21.699 ms
+
+############## mia - 06/24/21 00:27:06 EST -0500 ##############
+
+tail: cannot open '/data/mia-logs/ping-full.log' for reading: No such file or directory
