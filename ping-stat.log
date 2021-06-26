@@ -157,3 +157,8 @@
 ############## mia - 06/24/21 00:27:06 EST -0500 ##############
 
 tail: cannot open '/data/mia-logs/ping-full.log' for reading: No such file or directory
+
+############## mia - 06/25/21 00:27:06 EST -0500 ##############
+
+2021-06-26 00:02:19 284 packets transmitted, 284 received, 0% packet loss, time 84912744ms
+2021-06-26 00:02:19 rtt min/avg/max/mdev = 30.405/45.164/106.111/10.178 ms
