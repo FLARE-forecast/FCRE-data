@@ -2,8 +2,8 @@ DataStream, TIMESTAMP_start, TIMESTAMP_end, parameter, colnumber, flag, notes
 CAT, 2018-07-05 00:00:00 EST, 2018-08-28 14:30:00 EST, EXO_Date, 21, 4, internally logged data; different format than when logging with CR6
 CAT, 2018-07-05 00:00:00 EST, 2018-08-28 14:30:00 EST, EXO_Time, 22, 4, internally logged data; different format than when logging with CR6
 CAT, 2018-07-05 00:00:00 EST, 2018-08-20 14:40:00 EST, doobs_9, 18, 3, incorrectly calibrated; needs correcting to match factory value
-CAT, 2018-11-19 12:10:00 EST, 2018-11-19 12:30:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
-CAT, 2018-12-17 10:30:00 EST, 2018-12-17 10:40:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2018-11-19 12:00:00 EST, 2018-11-19 13:50:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
+CAT, 2018-12-17 10:20:00 EST, 2018-12-17 13:15:00 EST, All_Cat, c(1:41), 1, sensor string up for cleaning
 CAT, 2019-01-15 12:50:00 EST, 2019-01-15 13:10:00 EST, All_Cat, c(1:41), 1, sensor_string_up_for_cleaning_EXO_only
 CAT, 2019-02-08 12:50:00 EST, 2019-02-08 13:10:00 EST, All_Cat, c(1:41), 1, sensor_string_up
 CAT, 2019-04-15 09:50:00 EST, 2019-04-15 09:50:00 EST, All_Cat, c(1:41), 4, switched_time_GMT-4_to_GMT-5
