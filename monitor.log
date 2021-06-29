@@ -48278,3 +48278,44 @@ reboot   system boot  5.3.0-53-generic Mon Jun 28 00:22 - 14:10  (13:48)
 reboot   system boot  5.3.0-53-generic Sun Jun 27 00:22 - 00:10  (23:48)
 
 
+
+
+Bus 001 Device 004: ID 1410:9031 Novatel Wireless 
+
+
+[    6.862885] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+
+
+[   12.030688] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   12.330868] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   13.622710] igb 0000:03:00.0 eno1: igb: eno1 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[   13.622979] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+[   16.225893] device ovs-system entered promiscuous mode
+[   16.258296] device evioCIBR2 entered promiscuous mode
+[   16.332970] device appbrCIBR2 entered promiscuous mode
+[  316.435526] EXT4-fs (sda1): error count since last fsck: 1
+[  316.435534] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.435542] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  50      ▂▄__  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  35      ▂▄__  WPA2     
+
+
+enx0015ff030033:
+100.88.147.80/27
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
