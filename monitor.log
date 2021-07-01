@@ -50043,3 +50043,46 @@ reboot   system boot  5.3.0-53-generic Thu Jul  1 00:22   still running
 wtmp begins Thu Jul  1 00:10:11 2021
 
 
+
+
+Bus 001 Device 007: ID 1410:9031 Novatel Wireless 
+
+
+[    6.473204] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+[  138.439425] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+[  139.574325] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+
+
+[  139.492440] usb 1-6: Product: MiFi USB730L
+[  139.492445] usb 1-6: Manufacturer: Novatel Wireless
+[  139.492449] usb 1-6: SerialNumber: 0123456789ABCDEF
+[  139.531293] rndis_host 1-6:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-6, RNDIS device, 00:15:ff:03:00:33
+[  139.541745] cdc_acm 1-6:1.12: ttyACM0: USB ACM device
+[  139.545129] hid-generic 0003:1410:9031.0002: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-6/input14
+[  139.574325] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+[  316.414064] EXT4-fs (sda1): error count since last fsck: 1
+[  316.414094] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.414100] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.8G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  35      ▂▄__  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  29      ▂___  WPA2     
+
+
+enx0015ff030033:
+100.66.223.186/30
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
