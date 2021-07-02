@@ -50214,3 +50214,110 @@ PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
 
 
 
+PING github.com (140.82.114.3) 56(84) bytes of data.
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=1 ttl=47 time=737 ms
+64 bytes from lb-140-82-114-3-iad.github.com (140.82.114.3): icmp_seq=2 ttl=47 time=332 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 2 received, 33% packet loss, time 10082ms
+rtt min/avg/max/mdev = 332.331/534.979/737.627/202.648 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=700 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=763 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=816 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 700.754/760.243/816.342/47.254 ms
+
+############################ mia - 07/01/21 18:00:01 EST ############################
+
+ 18:00:01 up  3:08,  0 users,  load average: 0.48, 0.23, 0.17
+
+
+reboot   system boot  5.3.0-53-generic Thu Jul  1 14:51   still running
+reboot   system boot  5.3.0-53-generic Thu Jul  1 14:49   still running
+reboot   system boot  5.3.0-53-generic Thu Jul  1 14:29   still running
+reboot   system boot  5.3.0-53-generic Thu Jul  1 00:22   still running
+
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    7.055739] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[   11.895713] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.247127] openvswitch: Open vSwitch switching datapath
+[   12.532960] device ovs-system entered promiscuous mode
+[   12.596002] device appbrCIBR2 entered promiscuous mode
+[   12.607016] device evioCIBR2 entered promiscuous mode
+[   13.911492] igb 0000:03:00.0 eno1: igb: eno1 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[   13.911726] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+[  316.685103] EXT4-fs (sda1): error count since last fsck: 1
+[  316.685111] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.685119] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.8G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+ping: github.com: Name or service not known
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
