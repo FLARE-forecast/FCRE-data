@@ -12813,3 +12813,35 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[mia-logs 3965396] 07/02/21 00:27:19 EST: Logs
+ 2 files changed, 26 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+############################ mia - 07/02/21 02:05:01 EST ############################
+
+Data:
+
+[fcre-catwalk-data fe47331] 07/02/21 02:05:01 EST: Git Backup
+ 2 files changed, 24 insertions(+)
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+On branch fcre-catwalk-data
+Your branch is ahead of 'origin/fcre-catwalk-data' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Logs:
+
