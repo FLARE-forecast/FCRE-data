@@ -50982,3 +50982,10 @@ PING github.com (140.82.114.3) 56(84) bytes of data.
 rtt min/avg/max/mdev = 525.959/886.472/1551.100/470.526 ms, pipe 2
 
 
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=1620 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=964 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 2 received, 33% packet loss, time 2022ms
+rtt min/avg/max/mdev = 964.836/1292.865/1620.894/328.029 ms, pipe 2
