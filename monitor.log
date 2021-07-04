@@ -51474,3 +51474,17 @@ PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
 PING github.com (140.82.114.4) 56(84) bytes of data.
 64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=1 ttl=49 time=350 ms
 64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=2 ttl=49 time=853 ms
+64 bytes from lb-140-82-114-4-iad.github.com (140.82.114.4): icmp_seq=3 ttl=49 time=1645 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 1999ms
+rtt min/avg/max/mdev = 350.516/949.823/1645.494/533.045 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=408 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=666 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 2 received, 33% packet loss, time 2000ms
+rtt min/avg/max/mdev = 408.781/537.788/666.796/129.009 ms
