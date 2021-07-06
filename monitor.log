@@ -52184,3 +52184,103 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2000ms
 rtt min/avg/max/mdev = 283.877/398.124/507.382/91.313 ms
+
+############################ mia - 07/05/21 18:00:01 EST ############################
+
+ 18:00:01 up 17:37,  0 users,  load average: 0.00, 0.02, 0.01
+
+
+reboot   system boot  5.3.0-53-generic Mon Jul  5 00:22   still running
+reboot   system boot  5.3.0-53-generic Sun Jul  4 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul  3 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Fri Jul  2 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Thu Jul  1 14:51 - 00:10  (09:18)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    7.620791] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[37066.959956] audit: type=1400 audit(1625499595.433:59): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/11316/usr/lib/snapd/snap-confine" pid=17703 comm="apparmor_parser"
+[37066.959965] audit: type=1400 audit(1625499595.433:60): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/11316/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=17703 comm="apparmor_parser"
+[37067.440505] audit: type=1400 audit(1625499595.913:61): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.hook.configure" pid=17707 comm="apparmor_parser"
+[37068.124904] audit: type=1400 audit(1625499596.597:62): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=17706 comm="apparmor_parser"
+[37068.671592] audit: type=1400 audit(1625499597.145:63): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-characters" pid=17705 comm="apparmor_parser"
+[37068.681055] audit: type=1400 audit(1625499597.153:64): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=17709 comm="apparmor_parser"
+[37068.682759] audit: type=1400 audit(1625499597.153:65): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=17710 comm="apparmor_parser"
+[46939.518918] perf: interrupt took too long (2529 > 2500), lowering kernel.perf_event_max_sample_rate to 79000
+[54450.405156] TCP: request_sock_TCP: Possible SYN flooding on port 61001. Sending cookies.  Check SNMP counters.
+[60228.371524] perf: interrupt took too long (3212 > 3161), lowering kernel.perf_event_max_sample_rate to 62250
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2006ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=47 time=109 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=47 time=245 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=47 time=186 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 109.590/180.329/245.077/55.474 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=200 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=413 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=312 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 200.184/308.745/413.662/87.190 ms
