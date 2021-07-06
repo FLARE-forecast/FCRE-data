@@ -1290,3 +1290,12 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[master 42b1ab6] Tue Jul  6 00:26:47 EST 2021
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+From github.com:FLARE-forecast/FCRE-data
+   280d5fd..0e65e7c  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: Mon Jul  5 00:26:48 EST 2021
+Applying: Tue Jul  6 00:26:47 EST 2021
+To github.com:FLARE-forecast/FCRE-data.git
+   0e65e7c..ace0acd  master -> master
