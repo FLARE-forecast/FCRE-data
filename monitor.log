@@ -52784,3 +52784,116 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
 rtt min/avg/max/mdev = 211.477/219.237/229.031/7.319 ms
+
+############################ mia - 07/07/21 00:00:01 EST ############################
+
+ 00:00:01 up 23:37,  0 users,  load average: 0.03, 0.08, 0.08
+
+
+reboot   system boot  5.3.0-53-generic Tue Jul  6 00:22   still running
+reboot   system boot  5.3.0-53-generic Mon Jul  5 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sun Jul  4 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul  3 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Fri Jul  2 00:22 - 00:10  (23:47)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[    6.631191] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[   16.479768] device evioCIBR2 entered promiscuous mode
+[   16.570135] device appbrCIBR2 entered promiscuous mode
+[  316.226566] EXT4-fs (sda1): error count since last fsck: 1
+[  316.226574] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.226581] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[44843.159671] perf: interrupt took too long (2509 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[61094.993613] perf: interrupt took too long (3173 > 3136), lowering kernel.perf_event_max_sample_rate to 63000
+[72173.745792] device tnl-68c5834 entered promiscuous mode
+[72356.556100] device tnl-68c5834 left promiscuous mode
+[79430.625309] perf: interrupt took too long (3973 > 3966), lowering kernel.perf_event_max_sample_rate to 50250
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2036ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=49 time=78.5 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=49 time=65.1 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=49 time=67.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 65.132/70.348/78.543/5.870 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=79.8 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=81.7 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=74.0 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 74.022/78.522/81.735/3.293 ms
+
+############################ mia - 07/07/21 00:27:18 EST ############################
+
+ 00:27:18 up 5 min,  0 users,  load average: 0.41, 0.45, 0.23
+
+
+reboot   system boot  5.3.0-53-generic Wed Jul  7 00:22   still running
+reboot   system boot  5.3.0-53-generic Tue Jul  6 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Mon Jul  5 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sun Jul  4 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul  3 00:22 - 00:10  (23:47)
+
+
