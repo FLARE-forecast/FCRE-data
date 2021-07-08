@@ -53184,3 +53184,105 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 120.216/158.275/206.943/36.194 ms
+
+############################ mia - 07/07/21 18:00:01 EST ############################
+
+ 18:00:01 up 17:37,  0 users,  load average: 0.11, 0.07, 0.08
+
+
+reboot   system boot  5.3.0-53-generic Wed Jul  7 00:22   still running
+reboot   system boot  5.3.0-53-generic Tue Jul  6 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Mon Jul  5 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sun Jul  4 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul  3 00:22 - 00:10  (23:47)
+
+
+
+
+Bus 002 Device 004: ID 1410:b020 Novatel Wireless 
+
+
+[    6.781181] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+[46322.825360] rndis_host 2-2:1.0 enx0015ff357651: unregister 'rndis_host' usb-0000:00:15.0-2, RNDIS device
+[54813.519533] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[53839.983432] perf: interrupt took too long (3176 > 3137), lowering kernel.perf_event_max_sample_rate to 62750
+[54813.424413] usb 2-2: new SuperSpeed Gen 1 USB device number 4 using xhci_hcd
+[54813.453799] usb 2-2: New USB device found, idVendor=1410, idProduct=b020, bcdDevice= 3.18
+[54813.453808] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[54813.453813] usb 2-2: Product: MiFi 8800L
+[54813.453818] usb 2-2: Manufacturer: Novatel Wireless
+[54813.453822] usb 2-2: SerialNumber: 0123456789ABCDEF
+[54813.476365] rndis_host 2-2:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-2, RNDIS device, 00:15:ff:35:76:51
+[54813.481898] hid-generic 0003:1410:B020.0003: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi 8800L] on usb-0000:00:15.0-2/input2
+[54813.519533] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2023ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2043ms
+
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=49 time=89.4 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=49 time=222 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=49 time=127 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 89.409/146.296/222.381/55.958 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=92.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=109 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=91.2 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 91.229/97.736/109.960/8.649 ms
