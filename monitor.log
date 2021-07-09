@@ -53788,3 +53788,103 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 41.846/54.523/73.027/13.381 ms
+
+############################ mia - 07/08/21 18:00:01 EST ############################
+
+ 18:00:01 up  7:40,  0 users,  load average: 0.24, 0.21, 0.12
+
+
+reboot   system boot  5.3.0-53-generic Thu Jul  8 10:19   still running
+reboot   system boot  5.3.0-53-generic Thu Jul  8 00:22   still running
+reboot   system boot  5.3.0-53-generic Wed Jul  7 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Tue Jul  6 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Mon Jul  5 00:22 - 00:10  (23:47)
+
+
+
+
+Bus 002 Device 002: ID 1410:b020 Novatel Wireless 
+
+
+[    6.043661] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[   11.187049] device ovs-system entered promiscuous mode
+[   11.248958] device appbrCIBR2 entered promiscuous mode
+[   11.250052] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.250304] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   11.272615] device evioCIBR2 entered promiscuous mode
+[   12.918105] igb 0000:03:00.0 eno1: igb: eno1 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[   12.918323] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+[  316.424062] EXT4-fs (sda1): error count since last fsck: 1
+[  316.424069] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.424077] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   14G  53% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2029ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.113.4) 56(84) bytes of data.
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=49 time=78.2 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=49 time=81.4 ms
+64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=49 time=84.4 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 78.208/81.371/84.408/2.543 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=101 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=83.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=210 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 83.072/131.520/210.331/56.214 ms
