@@ -192,3 +192,8 @@ tail: cannot open '/data/mia-logs/ping-full.log' for reading: No such file or di
 
 2021-07-07 00:07:41 284 packets transmitted, 273 received, 3% packet loss, time 84923872ms
 2021-07-07 00:07:41 rtt min/avg/max/mdev = 44.838/338.707/3559.144/471.555 ms
+
+############## mia - 07/10/21 00:27:22 EST -0500 ##############
+
+2021-07-11 00:08:01 284 packets transmitted, 269 received, +1 errors, 5% packet loss, time 84939205ms
+2021-07-11 00:08:01 rtt min/avg/max/mdev = 33.036/253.818/8992.777/854.306 ms
