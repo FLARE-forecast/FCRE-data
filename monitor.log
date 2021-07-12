@@ -55678,3 +55678,69 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
 rtt min/avg/max/mdev = 50.988/62.271/68.737/8.012 ms
+
+############################ mia - 07/12/21 08:15:42 EST ############################
+
+ 08:15:42 up 5 min,  0 users,  load average: 0.54, 0.58, 0.30
+
+
+reboot   system boot  5.3.0-53-generic Mon Jul 12 08:10   still running
+reboot   system boot  5.3.0-53-generic Mon Jul 12 00:22   still running
+reboot   system boot  5.3.0-53-generic Sun Jul 11 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul 10 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Fri Jul  9 00:22 - 00:10  (23:47)
+
+
+
+
+
+
+
+
+[   11.970943] igb 0000:02:00.0 enp2s0: igb: enp2s0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX
+[   11.971192] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+[   12.128500] device ovs-system entered promiscuous mode
+[   12.180517] device appbrCIBR2 entered promiscuous mode
+[   12.451417] device evioCIBR2 entered promiscuous mode
+[   13.822958] igb 0000:03:00.0 eno1: igb: eno1 NIC Link is Up 100 Mbps Full Duplex, Flow Control: RX/TX
+[   13.823206] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+[  316.466336] EXT4-fs (sda1): error count since last fsck: 1
+[  316.466344] EXT4-fs (sda1): initial error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+[  316.466351] EXT4-fs (sda1): last error at time 1597424088: __ext4_get_inode_loc:4743: inode 917505: block 3670048
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   13G  54% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  35      ▂▄__  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  32      ▂▄__  WPA2     
+
+
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+connect: Network is unreachable
+
+
+connect: Network is unreachable
+
+
+connect: Network is unreachable
+
+
+connect: Network is unreachable
+
+
+ping: github.com: Name or service not known
+
+
+connect: Network is unreachable
