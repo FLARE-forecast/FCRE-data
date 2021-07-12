@@ -55744,3 +55744,103 @@ ping: github.com: Name or service not known
 
 
 connect: Network is unreachable
+
+############################ mia - 07/12/21 12:00:01 EST ############################
+
+ 12:00:01 up  3:49,  0 users,  load average: 0.01, 0.03, 0.00
+
+
+reboot   system boot  5.3.0-53-generic Mon Jul 12 08:10   still running
+reboot   system boot  5.3.0-53-generic Mon Jul 12 00:22   still running
+reboot   system boot  5.3.0-53-generic Sun Jul 11 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul 10 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Fri Jul  9 00:22 - 00:10  (23:47)
+
+
+
+
+Bus 002 Device 002: ID 1410:b020 Novatel Wireless 
+
+
+[ 5995.798552] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[ 5995.694019] usb 2-2: Manufacturer: Novatel Wireless
+[ 5995.694023] usb 2-2: SerialNumber: 0123456789ABCDEF
+[ 5995.754150] hidraw: raw HID events driver (C) Jiri Kosina
+[ 5995.763049] usbcore: registered new interface driver cdc_ether
+[ 5995.764614] usbcore: registered new interface driver usbhid
+[ 5995.764617] usbhid: USB HID core driver
+[ 5995.769772] rndis_host 2-2:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-2, RNDIS device, 00:15:ff:35:76:51
+[ 5995.776365] usbcore: registered new interface driver rndis_host
+[ 5995.798552] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+[ 5995.798782] hid-generic 0003:1410:B020.0001: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi 8800L] on usb-0000:00:15.0-2/input2
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   13G  54% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2025ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2051ms
+
+
+
+PING github.com (140.82.112.3) 56(84) bytes of data.
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=1 ttl=49 time=41.7 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=2 ttl=49 time=53.2 ms
+64 bytes from lb-140-82-112-3-iad.github.com (140.82.112.3): icmp_seq=3 ttl=49 time=51.3 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 41.760/48.780/53.260/5.033 ms
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=39.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=80.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=54.3 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 39.678/58.200/80.589/16.924 ms
