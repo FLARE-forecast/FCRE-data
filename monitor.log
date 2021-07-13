@@ -55946,3 +55946,117 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 rtt min/avg/max/mdev = 37.240/38.886/40.252/1.266 ms
+
+############################ mia - 07/13/21 00:00:01 EST ############################
+
+ 00:00:01 up 15:49,  0 users,  load average: 0.18, 0.09, 0.09
+
+
+reboot   system boot  5.3.0-53-generic Mon Jul 12 08:10   still running
+reboot   system boot  5.3.0-53-generic Mon Jul 12 00:22   still running
+reboot   system boot  5.3.0-53-generic Sun Jul 11 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul 10 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Fri Jul  9 00:22 - 00:10  (23:47)
+
+
+
+
+Bus 002 Device 003: ID 1410:b020 Novatel Wireless 
+
+
+[ 5995.798552] rndis_host 2-2:1.0 enx0015ff357651: renamed from eth0
+[15877.539102] rndis_host 2-2:1.0 enx0015ff357651: unregister 'rndis_host' usb-0000:00:15.0-2, RNDIS device
+[27916.527183] cdc_ether 2-2:1.0 enx0015ff357651: renamed from eth0
+
+
+[27916.449459] usb 2-2: new SuperSpeed Gen 1 USB device number 3 using xhci_hcd
+[27916.476821] usb 2-2: New USB device found, idVendor=1410, idProduct=b020, bcdDevice= 3.18
+[27916.476829] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[27916.476834] usb 2-2: Product: MiFi 8800L
+[27916.476839] usb 2-2: Manufacturer: Novatel Wireless
+[27916.476843] usb 2-2: SerialNumber: 0123456789ABCDEF
+[27916.495242] cdc_ether 2-2:1.0 eth0: register 'cdc_ether' at usb-0000:00:15.0-2, CDC Ethernet Device, 00:15:ff:35:76:51
+[27916.501275] hid-generic 0003:1410:B020.0002: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi 8800L] on usb-0000:00:15.0-2/input2
+[27916.527183] cdc_ether 2-2:1.0 enx0015ff357651: renamed from eth0
+[44780.847136] perf: interrupt took too long (2516 > 2500), lowering kernel.perf_event_max_sample_rate to 79250
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G   15G   13G  54% /
+/dev/mmcblk0p1  511M  6.1M  505M   2% /boot/efi
+/dev/sda1        29G  7.9G   20G  29% /data
+
+
+IN-USE  SSID                    MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        Verizon-MiFi8800L-4C16  Infra  6     130 Mbit/s  100     ▂▄▆█  WPA2     
+        Verizon-MiFi8800L-4C16  Infra  149   270 Mbit/s  100     ▂▄▆█  WPA2     
+
+
+enx0015ff357651:
+192.168.1.7/24
+
+
+
+
+enp2s0:
+10.10.1.2/24
+
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+--- 192.168.10.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2037ms
+
+
+
+PING 192.168.10.11 (192.168.10.11) 56(84) bytes of data.
+
+--- 192.168.10.11 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING 192.168.10.12 (192.168.10.12) 56(84) bytes of data.
+
+--- 192.168.10.12 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2055ms
+
+
+
+PING 192.168.10.13 (192.168.10.13) 56(84) bytes of data.
+
+--- 192.168.10.13 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2054ms
+
+
+
+PING github.com (140.82.113.3) 56(84) bytes of data.
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=1 ttl=49 time=1259 ms
+64 bytes from lb-140-82-113-3-iad.github.com (140.82.113.3): icmp_seq=3 ttl=49 time=1468 ms
+
+--- github.com ping statistics ---
+3 packets transmitted, 2 received, 33% packet loss, time 10123ms
+rtt min/avg/max/mdev = 1259.508/1364.117/1468.726/104.609 ms, pipe 2
+
+
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=647 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=844 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=862 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 1999ms
+rtt min/avg/max/mdev = 647.192/784.970/862.899/97.702 ms
+
+############################ mia - 07/13/21 00:27:25 EST ############################
+
+ 00:27:25 up 5 min,  0 users,  load average: 0.19, 0.36, 0.18
+
+
+reboot   system boot  5.3.0-53-generic Tue Jul 13 00:22   still running
+reboot   system boot  5.3.0-53-generic Mon Jul 12 08:10 - 00:10  (15:59)
+reboot   system boot  5.3.0-53-generic Mon Jul 12 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sun Jul 11 00:22 - 00:10  (23:47)
+reboot   system boot  5.3.0-53-generic Sat Jul 10 00:22 - 00:10  (23:47)
+
+
