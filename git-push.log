@@ -177572,3 +177572,23 @@
 07/21/25 11:41:22 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
 07/21/25 11:41:22 EDT -0400 |    6a76616..3ad4b0a  3ad4b0a84894803fe477249ea7f28a85a33b691f -> mia-logs
 07/21/25 11:41:22 EDT -0400 | ##########  END  ##########
+07/21/25 13:46:48 EDT -0400 | ########## START ##########
+07/21/25 13:46:48 EDT -0400 | rsync: [Receiver] mkdir "/home/ubuntu/exp-/data/fcre-weir-data" failed: No such file or directory (2)
+07/21/25 13:46:48 EDT -0400 | rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
+07/21/25 13:55:23 EDT -0400 | ########## START ##########
+07/21/25 13:55:24 EDT -0400 | Processing: /data/fcre-weir-data
+07/21/25 13:55:24 EDT -0400 | [fcre-weir-data fa158b2] Mon 2025-07-21 13:55:23 EDT
+07/21/25 13:55:24 EDT -0400 |  1 file changed, 180346 deletions(-)
+07/21/25 13:55:24 EDT -0400 |  delete mode 100644 FCRweir_legacy_2019_2020_2021_2022_2023_2024.csv
+07/21/25 13:55:24 EDT -0400 | Found unpushed commit(s).
+07/21/25 13:56:31 EDT -0400 | ########## START ##########
+07/21/25 13:56:31 EDT -0400 | Processing: /data/fcre-weir-data
+07/21/25 13:56:31 EDT -0400 | On branch fcre-weir-data
+07/21/25 13:56:31 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+07/21/25 13:56:31 EDT -0400 |   (use "git push" to publish your local commits)
+07/21/25 13:56:31 EDT -0400 | 
+07/21/25 13:56:31 EDT -0400 | nothing to commit, working tree clean
+07/21/25 13:56:31 EDT -0400 | Found unpushed commit(s).
+07/21/25 13:58:49 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/21/25 13:58:49 EDT -0400 |    112e52a..fa158b2  fa158b285400548e7cbc30d88461ea72c21f3daf -> fcre-weir-data
+07/21/25 13:58:49 EDT -0400 | Processing: /data/mia-logs
