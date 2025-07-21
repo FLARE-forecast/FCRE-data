@@ -1,0 +1,53 @@
+Reservoir;Site;DataStream; TIMESTAMP_start; TIMESTAMP_end;start_parameter;end_parameter;flag;update_value;adjustment_code; notes
+FCR;100;WEIR;2014-03-20 09:00:00 EST;2014-04-28 05:45:00 EST;WVWA_Baro_pressure_psi;WVWA_Flow_cms;2;NA;NA;bad WVWA barometric pressure readings
+FCR;100;WEIR;2016-04-18 15:15:00 EST;2019-06-07 00:00:00 EST;WVWA_Pressure_psia;NA;1;-0.14;NA;WVWA Pressure down corrected after sensor maintenance by 0.14
+FCR;100;RATING;2013-05-15 15:00:00 EST;2019-06-07 00:00:00 EST;WVWA_Flow_cms;NA;100;NA;NA;rectangular weir
+FCR;100;WEIR;2017-10-15 05:00:00 EST;2017-11-13 10:45:00 EST;WVWA_Pressure_psi;NA;5;NA;NA;leaking weir and remove values
+FCR;100;WEIR;2017-10-15 05:00:00 EST;2017-11-13 10:45:00 EST;WVWA_Pressure_psia;WVWA_Temp_C;5;NA;NA;leaking weir and remove values
+FCR;100;WEIR;2019-04-22 00:00:00 EST;2019-06-07 00:00:00 EST;VT_Flow_cms;NA;4;NA;NA;weir un-plugged demonic intrusion. No rating curve
+FCR;100;WEIR;2019-06-03 00:00:00 EST;2019-06-07 00:00:00 EST;WVWA_Flow_cms;NA;14;NA;NA;weir un-plugged demonic intrusion and downcorrected values
+FCR;100;WEIR;2020-05-14 17:00:00 EST;2020-08-24 15:00:00 EST;WVWA_Pressure_psi;WVWA_Temp_C;7;NA;NA;missing WVAW data due to user error
+FCR;100;WEIR;2020-07-20 10:00:00 EST;2020-08-24 14:49:00 EST;WVWA_Pressure_psi; VT_Temp_C;24;NA;NA;Weir blown out and flow diverted around the weir
+FCR;100;RATING;2019-06-07 00:15:00 EST;2020-08-24 13:00:00 EST;WVWA_Flow_cms;NA;101;NA;NA;original installation of the V-Notch weir until weir blown out and fixed
+FCR;100;RATING;2019-06-07 00:15:00 EST;2020-08-24 13:00:00 EST;VT_Flow_cms;NA;101;NA;NA;original installation of the V-Notch weir until weir blown out and fixed
+FCR;100;WEIR;2020-08-13 09:00:00 EST;2020-08-24 14:49:00 EST;WVWA_Pressure_psi;VT_Temp_C;8;NA;NA;the ISCO and all the sensors were removed so the weir could be fixed
+FCR;100;RATING;2020-08-24 15:00:00 EST;2020-09-02 13:15:00 EST;WVWA_Flow_cms;NA;101;NA;NA;V-notch weir post blow-out but before final pressure transducer location
+FCR;100;RATING;2020-08-24 15:00:00 EST;2020-09-02 13:15:00 EST;VT_Flow_cms;NA;101;NA;NA;V-notch weir post blow-out but before final pressure transducer location
+FCR;100;WEIR;2020-09-02 13:15:00 EST;2020-09-02 13:45:00 EST;WVWA_Pressure_psi; VT_Temp_C;8;NA;NA;moved the sensors from vertical to horizontal
+FCR;100;RATING;2020-09-02 13:45:00 EST;2021-11-08 13:45:00 EST;WVWA_Flow_cms;NA;101;NA;NA;Moved when had to replace the battery in the WVWA sensor
+FCR;100;RATING;2020-09-02 13:45:00 EST;2021-11-08 13:45:00 EST;VT_Flow_cms;NA;101;NA;NA;Moved when had to replace the battery in the WVWA sensor
+FCR;100;WEIR;2021-11-08 13:30:00 EST;2021-11-08 13:45:00 EST;WVWA_Pressure_psi;VT_Temp_C;8;NA;NA;removed to replace batteries in WVWA sensor
+FCR;100;WEIR;2021-11-08 13:45:00 EST;2022-11-16 16:38:00 EST;VT_Pressure_psia;NA;1;0.033;NA;VT pressure up corrected after sensor maintenance by 0.033 so inline with WVWA sensor
+FCR;100;WEIR;2022-03-12 10:15:00 EST;2022-03-12 10:45:00 EST;WVWA_Baro_pressure_psi;WVWA_Flow_cms;2;NA;NA;bad WVWA barometric pressure readings
+FCR;100;WEIR;2022-03-13 08:15:00 EST;2022-03-13 11:15:00 EST;WVWA_Baro_pressure_psi;WVWA_Flow_cms;2;NA;NA;bad WVWA barometric pressure readings
+FCR;100;RATING;2021-11-08 14:00:00 EST;2022-05-09 13:15:00 EST;WVWA_Flow_cms;NA;101;NA;NA;Moved when the weir was cleaned out
+FCR;100;RATING;2021-11-08 14:00:00 EST;2022-05-09 13:15:00 EST;VT_Flow_cms;NA;101;NA;NA;Moved when the weir was cleaned out
+FCR;100;WEIR;2022-05-09 09:15:00 EST;2022-05-09 13:15:00 EST;WVWA_Pressure_psi;VT_Temp_C;8;NA;NA;removed to clean out the weir
+FCR;100;WEIR;2022-07-21 18:45:00 EST;2022-07-21 21:30:00 EST;WVWA_Baro_pressure_psi;WVWA_Flow_cms;2;NA;NA;bad WVWA barometric pressure readings
+FCR;100;WEIR;2022-07-22 15:00:00 EST;2022-07-22 15:15:00 EST;WVWA_Baro_pressure_psi; WVWA_Flow_cms;2;NA;NA;bad WVWA barometric pressure readings
+FCR;100;WEIR;2022-07-27 01:45:00 EST;2022-08-16 13:15:00 EST;WVWA_Baro_pressure_psi;WVWA_Flow_cms;2;NA;NA;bad WVWA barometric pressure readings
+FCR;100;RATING;2022-05-09 13:20:00 EST;2022-11-16 16:38:00 EST;VT_Flow_cms;NA;101;NA;NA;Moved the VT sensor so it is in line with the WVWA sensor
+FCR;100;WEIR;2022-11-16 15:45:00 EST;2022-11-16 16:45:00 EST;WVWA_Pressure_psi;NA;8;NA;NA;removed to check on bad VT sensor readings and moved VT sensor
+FCR;100;WEIR;2022-11-06 09:15:00 EST;2022-11-19 06:00:00 EST;VT_Pressure_psia;NA;2;NA;NA;removed because sensor malfunctioning and reading very low values
+FCR;100;WEIR;2022-12-08 05:15:00 EST;2022-12-08 05:15:00 EST;WVWA_Baro_pressure_psi;NA;2;NA;NA;bad WVWA barometric pressure reading
+FCR;100;WEIR;2022-12-09 21:15:00 EST;2022-12-09 21:15:00 EST;WVWA_Baro_pressure_psi;NA;2;NA;NA;bad WVWA barometric pressure reading
+FCR;100;RATING;2022-05-09 14:15:00 EST;2023-06-05 11:30:00 EST;WVWA_Flow_cms;NA;101;NA;NA;sensor moved to check on VT pressure sensor
+FCR;100;RATING;2022-11-16 17:15:00 EST;2023-04-01 00:00:00 EST;VT_Flow_cms;NA;101;NA;NA;sensor moved to check on VT pressure sensor
+FCR;100;WEIR;2023-05-29 17:00:00 EST;2023-07-10 15:00:00 EST;VT_Pressure_psia;VT_Temp_C;2;NA;NA;VT sensor broken and observations out of range
+FCR;100;RATING;2023-06-05 12:30:00 EST;2023-07-10 14:30:00 EST;WVWA_Flow_cms;NA;101;NA;NA;sensor moved to switch VT pressure sensor with the one from the catwalk
+FCR;100;RATING;2023-06-05 12:30:00 EST;2023-07-10 15:00:00 EST;VT_Flow_cms;NA;101;NA;NA;sensor moved to switch VT pressure sensor with the one from the catwalk
+FCR;100;RATING;2023-07-10 14:45:00 EST;2023-07-13 08:45:00 EST;WVWA_Flow_cms;NA;101;NA;NA;took out VT pressure sensor and put it back at the catwalk
+FCR;100;RATING;2023-07-10 15:15:00 EST;2023-07-13 08:45:00 EST;VT_Flow_cms;NA;101;NA;NA;took out VT pressure sensor and put it back at the catwalk
+FCR;100;RATING;2023-07-13 09:00:00 EST;2023-08-07 09:00:00 EST;WVWA_Flow_cms;NA;101;NA;NA;moved sensors to cleaned out the weir
+FCR;100;RATING;2023-07-17 13:15:00 EST;2023-08-07 09:00:00 EST;VT_Flow_cms;NA;101;NA;NA;moved sensors to cleaned out the weir
+FCR;100;WEIR;2023-08-07 09:00:00 EST;2023-08-14 12:45:00 EST;WVWA_Pressure_psi; VT_Temp_C;8;NA;NA; took out sensors while the weir was cleaned out
+FCR;100;WEIR;2023-08-14 12:45:00 EST;2023-08-21 13:15:00 EST;WVWA_Flow_cms;NA;8; NA; NA;flow removed because sensors placed in the wrong place
+FCR;100;WEIR;2023-08-21 11:45:00 EST;2023-08-21 13:15:00 EST;WVWA_Pressure_psi;VT_Temp_C;8;NA;NA;moved sensors around and secured them with a pipe
+FCR;100;WEIR;2023-11-22 12:00:00 EST;2024-04-22-09:10:00 EST;WVWA_Pressure_psia;WVWA_Flow_cms;9;NA;NA; questionable values when the sensor was clogged with sediment 
+FCR;100;RATING;2023-08-21 13:15:00 EST;2024-04-22 09:10:00 EST;WVWA_Flow_cms;NA;101;NA;NA;moved sensor because WVWA reading low-cleaned out the pressure plate inside the WVWA sensor
+FCR;100;RATING;2023-08-14 12:45:00 EST;2024-04-22 09:10:00 EST;VT_Flow_cms;NA;101;NA;NA;moved sensor because WVWA reading low-cleaned out the pressure plate inside the WVWA sensor
+FCR;100;WEIR;2024-01-29 04:40:00 EST; 2024-01-29 04:50:00 EST; VT_Pressure_psia;VT_Temp_C;2;NA;NA;sensor malfunction and very very high readings for all variables
+FCR;100;WEIR;2024-04-22 08:20:00 EST;2024-04-22 09:35:00 EST;WVWA_Pressure_psi; VT_Temp_C;8;NA;NA; took out sensors to check the WVWA readings out of the water
+FCR;100;WEIR;2024-07-01 00:00:00 EST;2024-12-10 12:45:00 EST;WVWA_Pressure_psia;NA;1;NA;(All_Inflow[Time, 'VT_Pressure_psia']*0.927)+0.279; WVWA pressure sensor off from July to middle of Dec. Made a linear correction with pressures from the VT sensor and WVWA from April 22- Jun 30th and all of December. 
+FCR;100;RATING;2024-04-22 09:35:00 EST;2025-07-01 00:00:00 EST;WVWA_Flow_cms;NA;101;NA;NA;CURRENT POSiTION OF WVWA SENSOR
+FCR;100;RATING;2024-04-22 09:35:00 EST;2025-07-01 00:00:00 EST;VT_Flow_cms;NA;101;NA;NA;CURRENT POSITION OF VT SENSOR
