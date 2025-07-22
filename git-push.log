@@ -178676,3 +178676,50 @@
 07/22/25 14:57:09 EDT -0400 | nothing to commit, working tree clean
 07/22/25 14:57:09 EDT -0400 | ========Experiemental directory end========
 07/22/25 14:57:10 EDT -0400 | ========Primary directory========
+07/22/25 14:57:10 EDT -0400 | Processing: /data/mia-logs
+07/22/25 14:57:11 EDT -0400 | [mia-logs ac43088] Tue 2025-07-22 14:57:10 EDT
+07/22/25 14:57:11 EDT -0400 |  1 file changed, 75 insertions(+)
+07/22/25 14:57:11 EDT -0400 | Found unpushed commit(s).
+07/22/25 14:59:02 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 14:59:02 EDT -0400 |    d9c8c9b..ac43088  ac43088c015556f71c42941413d664e9aaab38a7 -> mia-logs
+07/22/25 14:59:02 EDT -0400 | Successfully pushed: ac43088c015556f71c42941413d664e9aaab38a7
+07/22/25 14:59:02 EDT -0400 | ========Primary directory end========
+07/22/25 14:59:02 EDT -0400 | ========Experiemental directory========
+07/22/25 14:59:02 EDT -0400 | Processing: /data/exp-mia-logs
+07/22/25 14:59:03 EDT -0400 | [exp-mia-logs ab62485] Tue 2025-07-22 14:59:02 EDT
+07/22/25 14:59:03 EDT -0400 |  1 file changed, 76 insertions(+)
+07/22/25 14:59:03 EDT -0400 | Found unpushed commit(s).
+07/22/25 14:59:30 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+07/22/25 15:00:14 EDT -0400 | remote: + exec        
+07/22/25 15:00:16 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/22/25 15:00:16 EDT -0400 |    014022d..ab62485  ab6248586a45e1633a0c351edd8681e66ca9afd0 -> exp-mia-logs
+07/22/25 15:00:16 EDT -0400 | Successfully pushed: ab6248586a45e1633a0c351edd8681e66ca9afd0
+07/22/25 15:00:16 EDT -0400 | ========Experiemental directory end========
+07/22/25 15:00:16 EDT -0400 | ##########  END  ##########
+07/22/25 15:02:23 EDT -0400 | ########## START ##########
+07/22/25 15:02:23 EDT -0400 | # Host 10.10.101.1 found: line 16
+07/22/25 15:02:23 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+07/22/25 15:02:23 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+07/22/25 15:02:24 EDT -0400 | ========Primary directory========
+07/22/25 15:02:24 EDT -0400 | Processing: /data/fcre-weir-data
+07/22/25 15:02:24 EDT -0400 | [fcre-weir-data 91defb6] Tue 2025-07-22 15:02:24 EDT
+07/22/25 15:02:24 EDT -0400 |  1 file changed, 20 insertions(+)
+07/22/25 15:02:24 EDT -0400 |  create mode 100644 test.csv
+07/22/25 15:02:24 EDT -0400 | Found unpushed commit(s).
+07/22/25 15:03:38 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 15:03:38 EDT -0400 |    8615c7d..91defb6  91defb6e89a5f044ac62bcb2abecf633da4a24aa -> fcre-weir-data
+07/22/25 15:03:38 EDT -0400 | Successfully pushed: 91defb6e89a5f044ac62bcb2abecf633da4a24aa
+07/22/25 15:03:38 EDT -0400 | ========Primary directory end========
+07/22/25 15:03:38 EDT -0400 | ========Experiemental directory========
+07/22/25 15:03:38 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/22/25 15:03:38 EDT -0400 | [exp-fcre-weir-data 87c60aa] Tue 2025-07-22 15:03:38 EDT
+07/22/25 15:03:38 EDT -0400 |  1 file changed, 20 insertions(+)
+07/22/25 15:03:38 EDT -0400 |  create mode 100644 test.csv
+07/22/25 15:03:38 EDT -0400 | Found unpushed commit(s).
+07/22/25 15:04:22 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+07/22/25 15:05:00 EDT -0400 | remote: + exec        
+07/22/25 15:05:10 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/22/25 15:05:10 EDT -0400 |    e8faa97..87c60aa  87c60aada44ac88089356e2d89c7b5cbe6afc9d3 -> exp-fcre-weir-data
+07/22/25 15:05:10 EDT -0400 | Successfully pushed: 87c60aada44ac88089356e2d89c7b5cbe6afc9d3
+07/22/25 15:05:10 EDT -0400 | ========Experiemental directory end========
+07/22/25 15:05:11 EDT -0400 | ========Primary directory========
