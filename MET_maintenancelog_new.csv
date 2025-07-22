@@ -1,0 +1,66 @@
+Reservoir; Site; DataStream; TIMESTAMP_start; TIMESTAMP_end; start_parameter; end_parameter; flag; update_value; adjustment_code; notes
+FCR; 50; MET; 2015-07-07 15:45:00 EST; 2015-07-13 11:28:00 EST; Rain_Total_mm; NA; 4; NA; (original_value/5); Change_to_mm_per_min because it was mm per 5 min
+FCR; 50; MET; 2015-07-07 15:45:00 EST; 2015-07-13 11:28:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 1; NA; NA; PAR sensors programed wrong. Reprogramed when changed recorded obs to every minute instead of 5 minutes
+FCR; 50; MET; 2016-07-18 13:38:00 EST; 2016-07-18 13:38:00 EST; ShortwaveRadiationDown_Average_W_m2; NA; 4; NA; NA; Outlier_set_to_NA
+FCR; 50; MET; 2016-01-01 00:00:00 EST; 2018-09-03 11:46:00 EST; RH_percent; NA; 5; NA; NA; potentially_high_values_due_to_fouling
+FCR; 50; MET; 2017-11-06 14:45:00 EST; 2017-11-06 14:50:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2018-03-18 10:15:00 EST; 2018-03-18 10:20:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2018-08-06 9:00:00 EST; 2018-08-06 11:00:00 EST; PAR_umolm2s_Average; NA; 4; NA; NA; PAR_sensor_cleaned_sometime_this_day
+FCR; 50; MET; 2018-06-20 23:28:00 EST; 2018-06-20 23:30:00 EST; PAR_umolm2s_Average; Albedo_Average_W_m2; 4; NA; NA; all very very questionable values that are removed
+FCR; 50; MET; 2018-09-03 10:46:00 EST; 2018-09-03 11:46:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; cleaned_air_temp_shield
+FCR; 50; MET; 2018-09-05 12:00:00 EST; 2018-09-07 20:00:00 EST; ShortwaveRadiationUp_Average_W_m2; NA; 4; NA; NA; Outlier_set_to_NA
+FCR; 50; MET; 2018-09-10 11:30:00 EST; 2018-09-10 11:32:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2018-09-10 13:30:00 EST; 2018-09-10 14:05:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2018-08-02 01:32:00 EST; 2018-09-10 11:32:00 EST; ShortwaveRadiationDown_Average_W_m2; NA; 4; NA; NA;  sensor_reading_low_values_due_to_fouling
+FCR; 50; MET; 2019-02-08 12:25:00 EST; 2019-02-08 12:40:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2019-02-08 15:12:00 EST; 2019-02-08 15:25:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; cleaned_air_temp_shield
+FCR; 50; MET; 2019-02-20 14:05:00 EST; 2019-02-21 04:13:00 EST; WindSpeed_Average_m_s; NA; 4; NA; NA; potential_ice_interference
+FCR; 50; MET; 2019-02-20 14:05:00 EST; 2019-02-21 04:13:00 EST; WindDir_degrees; WindDir_degrees; 4; NA; NA; potential_ice_interference
+FCR; 50; MET; 2019-02-21 11:40:00 EST; 2019-02-21 11:50:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; replaced_sensor_filter
+FCR; 50; MET; 2019-04-22 9:45:00 EST; 2019-04-22 9:55:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2019-07-22 8:00:00 EST; 2019-07-22 18:00:00 EST; Rain_Total_mm; NA; 1; NA; NA; possibly_calibrated_rain_gauge
+FCR; 50; MET; 2019-08-04 00:00:00 EST; 2019-08-05 00:00:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; outlier_set_to_NA_due_to_probable_sensor_failure
+FCR; 50; MET; 2019-08-08 12:20:00 EST; 2019-08-08 14:00:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2019-08-15 00:00:00 EST; 2020-01-01 00:00:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; outlier_set_to_NA_due_to_probable_sensor_failure
+FCR; 50; MET; 2020-05-04 13:02:00 EST; 2020-05-04 13:53:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2020-07-03 11:56:00 EST; 2020-07-21 13:38:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; outlier_set_to_NA_due_to_probable_sensor_failure
+FCR; 50; MET; 2020-07-31 14:00:00 EST; 2020-07-31 15:00:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2020-07-31 13:48:00 EST; 2020-07-31 13:57:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; cleaned_airshield_and_outside_of_filter
+FCR; 50; MET; 2020-07-31 13:44:00 EST; 2020-07-31 13:46:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; PAR_sensor_cleaned_sometime_this_day
+FCR; 50; MET; 2020-10-09 11:20:00 EST; 2020-10-09 11:30:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2020-10-17 10:45:00 EST; 2020-10-17 11:09:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; cleaned_airshield_and_outside_of_filter
+FCR; 50; MET; 2020-11-01 12:37:00 EST; 2020-11-24 12:32:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; outlier_set_to_NA_due_to_probable_sensor_failure
+FCR; 50; MET; 2020-11-24 11:30:00 EST; 2020-11-24 12:05:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2020-11-24 12:10:00 EST; 2020-11-24 12:30:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; cleaned_airshield_and_outside_of_filter
+FCR; 50; MET; 2020-11-24 12:35:00 EST; 2020-11-24 13:18:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge_and_releveled
+FCR; 50; MET; 2020-11-24 12:35:00 EST; 2020-11-24 13:18:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; PAR_sensor_cleaned_sometime_this_day
+FCR; 50; MET; 2020-12-01 09:54:00 EST; 2021-01-01 00:00:00 EST; PAR_Total_mmol_m2; NA; 4; NA; NA; outlier_set_to_NA_due_to_probable_sensor_failure
+FCR; 50; MET; 2020-12-01 09:54:00 EST; 2021-01-01 00:00:00 EST; PAR_umolm2s_Average; NA; 4; NA; NA; outlier_set_to_NA_due_to_probable_sensor_failure
+FCR; 50; MET; 2021-01-27 23:04:00 EST; 2021-01-28 00:39:00 EST; WindSpeed_Average_m_s; WindDir_degrees; 4; NA; NA; potential_ice_interference
+FCR; 50; MET; 2021-01-28 01:12:00 EST; 2021-01-28 10:23:00 EST; WindSpeed_Average_m_s; WindDir_degrees; 4; NA; NA; potential_ice_interference
+FCR; 50; MET; 2021-02-08 14:48:00 EST; 2021-02-08 15:00:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2021-02-08 15:22:00 EST; 2021-02-08 15:22:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; PAR_sensor_cleaned
+FCR; 50; MET; 2021-02-13 07:15:00 EST; 2021-02-14 06:35:00 EST; WindSpeed_Average_m_s; WindDir_degrees; 4; NA; NA; potential_ice_interference
+FCR; 50; MET; 2021-02-18 08:52:00 EST; 2021-02-19 09:18:00 EST; WindSpeed_Average_m_s; WindDir_degrees; 4; NA; NA; potential_ice_interference
+FCR; 50; MET; 2021-02-26 13:30:00 EST; 2021-02-26 13:40:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2021-11-09 13:30:00 EST; 2021-11-09 13:40:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 1; NA; NA; cleaned_air_shield_and_changed_filter-check_time
+FCR; 50; MET; 2021-12-06 15:10:00 EST; 2021-12-06 15:20:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2022-03-04 00:00:00 EST; 2022-03-05 00:00:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; Outlier PAR values removed
+FCR; 50; MET; 2022-07-15 13:25:00 EST; 2022-07-15 13:29:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 1; NA; NA; PAR sensor replaced with the one from Carvins Cove while waiting on a replacement
+FCR; 50; MET; 2022-03-29 08:46:00 EST; 2022-03-29 08:58:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2022-03-15 00:00:00 EST; 2022-04-04 00:00:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; Very low PAR values so removed
+FCR; 50; MET; 2022-05-21 00:00:00 EST; 2022-07-15 13:25:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; Very low PAR values so removed until the sensor was replaced
+FCR; 50; MET; 2022-07-15 13:30:00 EST; 2022-07-16 04:59:00 EST; PAR_Total_mmol_m2; NA; 4; NA; (original_value*0.4999); High PAR values are adjusted by dividing by offset value
+FCR; 50; MET; 2022-12-15 00:00:00 EST; 2023-01-24 11:43:00 EST; ShortwaveRadiationUp_Average_W_m2; NA; 4; NA; NA; sensor malfunctioning because of loose wire that was out of place. 
+FCR; 50; MET; 2023-01-24 11:07:00 EST; 2023-01-24 11:40:00 EST; ShortwaveRadiationDown_Average_W_m2; NA; 1; NA; NA; wire was pulled out and then reinstalled
+FCR; 50; MET; 2023-01-08 20:00:00 EST; 2023-01-08 08:00:00 EST; WindDir_degrees; WindSpeed_Average_m_s; 4; NA; NA; potential ice interference as the wind speed is 0 m/s. Check exact time
+FCR; 50; MET; 2023-01-24 11:37:00 EST; 2023-01-24 11:43:00 EST; DateTime; Albedo_Average_W_m2; 1; NA; NA; Reset the clock on the data logger so these times are duplicates. Just going to have a gap
+FCR; 50; MET; 2022-07-15 13:29:00 EST; 2023-01-24 12:19:00 EST; PAR_Total_mmol_m2; NA; 4; NA; (original_value*0.4999); PAR_Tot multiplier was incorrect in the program. Was 2.55 but needs to be 1.27
+FCR; 50; MET; 2023-01-24 12:00:00 EST; 2023-01-24 12:20:00 EST; PAR_Total_mmol_m2; NA; 1; NA; NA; Checking the multiplier on the PAR totals 
+FCR; 50; MET; 2023-06-19 11:53:00 EST; 2023-06-19 11:57:00 EST; Rain_Total_mm; NA; 1; NA; NA; cleaned_rain_gauge
+FCR; 50; MET; 2023-09-05 10:55:00 EST; 2023-09-05 11:28:00 EST; ShortwaveRadiationUp_Average_W_m2; InfraredRadiationUp_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
+FCR; 50; MET; 2024-06-03 10:51:00 EST; 2024-06-03 10:54:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 1; NA; NA; changed temperature sensor and interfered with PAR sensor while installing it
+FCR; 50; MET; 2024-06-03 10:51:00 EST; 2024-06-03 10:54:00 EST; AirTemp_C_Average; RH_percent; 1; NA; NA; installed a new temp and RH sensor ADD SN 
+FCR; 50; MET; 2024-09-25 00:00:00 EST; 2024-10-07 10:48:00 EST; Rain_Total_mm; NA; 5; NA; NA; rain gauge clogged with mud so tipping very slowly so rain under reported on the right day
+FCR; 50; MET; 2024-10-07 10:49:00 EST; 2024-10-07 10:52:00 EST; Rain_Total_mm; NA; 1; NA; NA; cleaned rain gague and dumped out all water
+FCR; 50; MET; 2024-10-29 09:29:00 EST; 2024-10-29 09:32:00 EST; Rain_Total_mm; NA; 1; NA; NA; checked and cleaned rain gauge
