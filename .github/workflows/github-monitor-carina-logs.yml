@@ -1,0 +1,80 @@
+name: GitHub Monitor carina-logs
+on:
+  schedule:
+    - cron: "30 * * * *" #Check every hour
+jobs:
+  Github-monitoring:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout with carina-logs branch
+        uses: actions/checkout@v2
+        with:
+          ref: carina-logs
+          fetch-depth: 1
+      - name: Run CommitsWithinTime script
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
+        id: commitswithintime
+        with:
+          hours: 24 #Max time between updates
+      # Use the output from the `commitswithintime` step
+      - name: Get the output from CommitsWithinTime
+        run: |
+          echo "The 'has-new-commits-within-time' value is ${{ steps.commitswithintime.outputs.has-new-commits-within-time }}"
+          echo "The 'number-of-commits-within-time' value is ${{ steps.commitswithintime.outputs.number-of-commits-within-time }}"
+          echo "The 'total-commits' value is ${{ steps.commitswithintime.outputs.total-commits }}"
+      - name: Set server status to Up
+        if: ${{ steps.commitswithintime.outputs.has-new-commits-within-time == 'true' }}
+        run:
+          echo "status=Up" >> $GITHUB_ENV
+      - name: Set server status to Down
+        if: ${{ steps.commitswithintime.outputs.has-new-commits-within-time == 'false' }}
+        run:
+          echo "status=Down" >> $GITHUB_ENV
+      
+      - name: Checkout with master branch
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 1
+      - name: JSON to variables
+        uses: antifree/json-to-variables@v1.0.1
+        with:
+          filename: 'carina-logs-action-status.json'
+          prefix: action
+      - name: Show output
+        run: echo "${{ env.action_status }}"
+      - name: Send Slack Message
+        if: ${{ env.status != env.action_status }}
+        uses: archive/github-actions-slack@v2.0.0
+        id: send-message
+
+        with:
+          slack-function: send-message
+          slack-bot-user-oauth-access-token: ${{ secrets.SLACK_BOT_USER_OAUTH_ACCESS_TOKEN }}
+          slack-channel: C029BRRA6KA
+          slack-text: FCRE-data/carina-logs is "${{ env.status }}"!
+      - name: Get Time
+        id: time
+        uses: nanzm/get-time-action@v1.1
+        with:
+          timeZone: -4
+          format: 'YYYY-MM-DD-HH-mm-ss'
+      - uses: joutvhu/write-file@v1
+        with:
+          path: ./carina-logs-action-status.json
+          contents: |
+            {
+                "status": "${{ env.status }}",
+                "Timestamp": "${{ steps.time.outputs.time }}"
+            }
+          write_mode: overwrite
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Update Status" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master

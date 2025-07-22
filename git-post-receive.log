@@ -1,0 +1,279 @@
+[post-receive] Starting sync task...
+[post-receive] Processing branch: main-exp
+[post-receive] WORKDIR does not exist, initializing...
+fatal: repository '/data/fcre-data-exp-remote.git' does not exist
+[post-receive] Starting sync task...
+[post-receive] Processing branch: main-exp
+[post-receive] WORKDIR does not exist, initializing...
+Cloning into '/data/main-exp'...
+done.
+warning: remote HEAD refers to nonexistent ref, unable to checkout.
+
+fatal: not a git repository: '.'
+[post-receive] Starting sync task...
+[post-receive] Processing branch: main-exp
+[post-receive] WORKDIR already exists.
+fatal: not a git repository: '.'
+fatal: not a git repository: '.'
+[post-receive] Starting sync task...
+[post-receive] Processing branch: main-exp
+[post-receive] WORKDIR does not exist, initializing...
+Cloning into '/data/main-exp'...
+done.
+warning: remote HEAD refers to nonexistent ref, unable to checkout.
+
+fatal: not a git repository: '.'
++ BARE_REPO=/data/fcre-data-exp-remote.git
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/main-exp
++ git checkout main-exp
+fatal: not a git repository: '.'
++ git checkout -b main-exp origin/main-exp
+fatal: not a git repository: '.'
++ BARE_REPO=/data/fcre-data-exp-remote.git
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR does not exist, initializing...'
+[post-receive] WORKDIR does not exist, initializing...
++ git clone /data/fcre-data-exp-worktree.git /data/main-exp
+Cloning into '/data/main-exp'...
+done.
+warning: remote HEAD refers to nonexistent ref, unable to checkout.
+
++ cd /data/main-exp
++ git remote add github git@github.com:FLARE-forecast/TEST-data.git
+fatal: not a git repository: '.'
++ BARE_REPO=/data/fcre-data-exp-remote.git
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR does not exist, initializing...'
+[post-receive] WORKDIR does not exist, initializing...
++ git clone /data/fcre-data-exp-worktree.git /data/main-exp
+Cloning into '/data/main-exp'...
+done.
+warning: remote HEAD refers to nonexistent ref, unable to checkout.
+
++ cd /data/main-exp
++ git checkout origin/main-exp
+fatal: not a git repository: '.'
++ BARE_REPO=/data/fcre-data-exp-remote.git
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR does not exist, initializing...'
+[post-receive] WORKDIR does not exist, initializing...
++ git clone /data/fcre-data-exp-worktree.git /data/main-exp
+Cloning into '/data/main-exp'...
+done.
++ cd /data/main-exp
++ git checkout origin/main-exp
+fatal: not a git repository: '.'
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR does not exist, initializing...'
+[post-receive] WORKDIR does not exist, initializing...
++ git clone --no-checkout /data/fcre-data-exp-worktree.git /data/main-exp
+Cloning into '/data/main-exp'...
+done.
++ cd /data/main-exp
++ git fetch origin
+fatal: not a git repository: '.'
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR does not exist, initializing...'
+[post-receive] WORKDIR does not exist, initializing...
++ git clone --no-checkout /data/fcre-data-exp-worktree.git /data/main-exp
+Cloning into '/data/main-exp'...
+done.
++ cd /data/main-exp
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git fetch origin
++ git checkout -B main-exp origin/main-exp
+Reset branch 'main-exp'
+Branch 'main-exp' set up to track remote branch 'main-exp' from 'origin'.
+Your branch is up to date with 'origin/main-exp'.
++ git remote add github git@github.com:FLARE-forecast/TEST-data.git
++ git checkout main-exp
+Already on 'main-exp'
+Your branch is up to date with 'origin/main-exp'.
++ git fetch origin
++ git reset --hard origin/main-exp
+HEAD is now at 4aafdc6 initial commit123
++ git push github main-exp
+remote: 
+remote: Create a pull request for 'main-exp' on GitHub by visiting:        
+remote:      https://github.com/FLARE-forecast/TEST-data/pull/new/main-exp        
+remote: 
+To github.com:FLARE-forecast/TEST-data.git
+ * [new branch]      main-exp -> main-exp
++ echo '[post-receive] Sync complete for main-exp.'
+[post-receive] Sync complete for main-exp.
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/main-exp
++ git checkout main-exp
+fatal: not a git repository: '.'
++ git checkout -b main-exp origin/main-exp
+fatal: not a git repository: '.'
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR does not exist, initializing...'
+[post-receive] WORKDIR does not exist, initializing...
++ git clone --no-checkout /data/fcre-data-exp-worktree.git /data/main-exp
+Cloning into '/data/main-exp'...
+done.
++ cd /data/main-exp
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git fetch origin
++ git checkout -B main-exp origin/main-exp
+Reset branch 'main-exp'
+Branch 'main-exp' set up to track remote branch 'main-exp' from 'origin'.
+Your branch is up to date with 'origin/main-exp'.
++ git remote add github git@github.com:FLARE-forecast/TEST-data.git
++ git checkout main-exp
+Already on 'main-exp'
+Your branch is up to date with 'origin/main-exp'.
++ git fetch origin
++ git reset --hard origin/main-exp
+HEAD is now at 946d215 final test1
++ git push github main-exp
+To github.com:FLARE-forecast/TEST-data.git
+   4aafdc6..946d215  main-exp -> main-exp
++ echo '[post-receive] Sync complete for main-exp.'
+[post-receive] Sync complete for main-exp.
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/main-exp
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout main-exp
+Already on 'main-exp'
+Your branch is up to date with 'origin/main-exp'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   946d215..3b70e4c  main-exp   -> origin/main-exp
++ git reset --hard origin/main-exp
+HEAD is now at 3b70e4c final test12
++ git push github main-exp
+To github.com:FLARE-forecast/TEST-data.git
+   946d215..3b70e4c  main-exp -> main-exp
++ echo '[post-receive] Sync complete for main-exp.'
+[post-receive] Sync complete for main-exp.
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/main-exp =~ ^refs/heads/ ]]
++ branch=main-exp
++ echo '[post-receive] Processing branch: main-exp'
+[post-receive] Processing branch: main-exp
++ WORKDIR=/data/main-exp
++ LOCKFILE=/tmp/git-post-receive-main-exp.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for main-exp'
+[post-receive] Acquired lock for main-exp
++ '[' '!' -d /data/main-exp/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/main-exp
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout main-exp
+Already on 'main-exp'
+Your branch is up to date with 'origin/main-exp'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   3b70e4c..1f404a1  main-exp   -> origin/main-exp
++ git reset --hard origin/main-exp
+HEAD is now at 1f404a1 test
++ git push github main-exp
+To github.com:FLARE-forecast/TEST-data.git
+   3b70e4c..1f404a1  main-exp -> main-exp
++ echo '[post-receive] Sync complete for main-exp.'
+[post-receive] Sync complete for main-exp.
++ exec
++ read oldrev newrev refname
