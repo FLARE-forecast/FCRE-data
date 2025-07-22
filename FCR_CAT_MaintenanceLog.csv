@@ -1,0 +1,285 @@
+Reservoir; Site; DataStream; TIMESTAMP_start; TIMESTAMP_end; start_parameter; end_parameter; flag;update_value;adjustment_code; notes
+FCR;50; CAT; 2018-07-05 00:00:00 EST; 2018-08-20 14:40:00 EST; RDO_mgL_9; NA;2; NA; NA; incorrectly calibrated-needs correcting to match factory value
+FCR;50; CAT; 2018-09-25 10:40:00 EST; 2018-09-25 10:55:00 EST; RDO_mgL_5; RDOsat_percent_5;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2018-10-01 00:00:00 EST; 2019-03-01 00:00:00 EST; EXOChla_RFU_1; EXOBGAPC_ugL_1;4; NA; NA; major outliers during the winter of 2018 going into 2019 due to fouling. Remove greater than 4sd above the mean
+FCR;50; CAT; 2018-11-19 12:00:00 EST; 2018-11-19 13:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA;  sensor string up for cleaning
+FCR;50; CAT; 2018-11-19 15:00:00 EST; 2018-11-20 12:20:00 EST; RDO_mgL_9; RDOsat_percent_9;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2018-12-17 10:20:00 EST; 2018-12-17 13:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-01-15 12:50:00 EST; 2019-01-15 13:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning  EXO only
+FCR;50; CAT; 2019-02-08 12:50:00 EST; 2019-02-08 13:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up
+FCR;50; CAT; 2019-04-15 09:51:00 EST; 2019-04-15 09:51:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;5; NA; NA; switched time GMT-4 to GMT-5
+FCR;50; CAT; 2019-06-17 11:10:00 EST; 2019-06-17 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-06-17 13:50:00 EST; 2019-06-17 15:40:00 EST; RDO_mgL_5; RDOsat_percent_5;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2019-07-13 00:00:00 EST; 2019-07-17 11:40:00 EST; RDO_mgL_5; RDOsat_percent_5;5; NA; NA; questionable DO values but leaving in 
+FCR;50; CAT; 2019-07-17 11:50:00 EST; 2019-07-17 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;5; NA; NA; sensor string disturbed during field work
+FCR;50; CAT; 2019-07-17 12:35:00 EST; 2019-07-17 12:55:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-08-05 12:45:00 EST; 2019-08-12 12:40:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime,start, units = 'mins')))/70; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2019-08-05 12:45:00 EST; 2019-08-12 12:40:00 EST; RDOsat_percent_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start,  units = 'mins')))/70/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2019-08-11 00:00:00 EST; 2019-08-12 12:35:00 EST; RDO_mgL_5; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime,start, units = 'mins')))/30; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2019-08-11 00:00:00 EST; 2019-08-12 12:35:00 EST; RDOsat_percent_5; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start,  units = 'mins')))/30/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2019-08-12 12:40:00 EST; 2019-08-12 13:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-09-02 13:00:00 EST; 2020-09-27 12:30:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/3000; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2019-09-02 13:00:00 EST; 2020-09-27 12:30:00 EST; RDOsat_percent_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/3000/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2019-09-27 12:25:00 EST; 2019-09-27 12:55:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-10-07 09:30:00 EST; 2019-10-07 10:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-10-11 11:00:00 EST; 2019-10-11 12:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-10-23 10:35:00 EST; 2019-10-23 10:45:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-11-15 11:50:00 EST; 2019-11-15 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2019-12-06 13:35:00 EST; 2019-12-06 13:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-01-31 12:00:00 EST; 2020-01-31 12:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-03-06 10:20:00 EST; 2020-03-06 11:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for installing CO2 sensors
+FCR;50; CAT; 2020-03-16 11:50:00 EST; 2020-03-16 12:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; EXO up for cleaning NEED TIME if applicable
+FCR;50; CAT; 2020-04-10 12:01:00 EST; 2020-04-10 12:02:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;5; NA; NA; CO2 surface sensors moved onto temp string
+FCR;50; CAT; 2020-04-10 12:01:00 EST; 2020-04-10 12:02:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;5; NA; NA; scan deployed at 4.5m
+FCR;50; CAT; 2020-04-20 12:01:00 EST; 2020-04-20 12:02:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; scans cleaned temp string not recorded as cleaned
+FCR;50; CAT; 2020-04-24 11:50:00 EST; 2020-04-24 12:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-05-01 00:00:00 EST; 2020-09-01 00:00:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;5; NA; NA; Flag high conductivity values if over 37 uScm. Something weird happening in the reservoir
+FCR;50; CAT; 2020-05-11 10:20:00 EST; 2020-05-11 11:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-05-15 15:11:00 EST; 2020-05-15 15:12:00 EST; LvlPressure_psi_9; LvlTemp_C_9;5; NA; NA; added in pressure transducer at 9m
+FCR;50; CAT; 2020-05-15 12:00:00 EST; 2020-05-15 12:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for installing pressure transducer and cleaning
+FCR;50; CAT; 2020-05-15 14:55:00 EST; 2020-05-15 15:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for installing pressure transducer and cleaning
+FCR;50; CAT; 2020-05-18 09:50:00 EST; 2020-05-18 10:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-05-25 10:05:00 EST; 2020-05-25 11:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-05-28 04:50:00 EST; 2020-06-09 00:00:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-06-08 12:30:00 EST; 2020-06-08 13:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-06-12 10:25:00 EST; 2020-06-12 10:45:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-06-13 22:50:00 EST; 2020-06-14 19:50:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-06-22 09:00:00 EST; 2020-06-22 09:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-06-29 11:20:00 EST; 2020-06-29 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-07-06 11:25:00 EST; 2020-07-06 12:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-07-06 14:35:00 EST; 2020-07-06 14:45:00 EST; RDO_mgL_5; RDOsat_percent_5;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2020-07-13 10:30:00 EST; 2020-07-13 11:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-07-13 13:00:00 EST; 2020-07-13 14:50:00 EST; RDO_mgL_5; RDOsat_percent_5;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2020-07-20 10:49:00 EST; 2020-07-20 11:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-07-27 11:35:00 EST; 2020-07-27 12:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-07-27 06:40:00 EST; 2020-07-28 16:10:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-08-03 11:50:00 EST; 2020-08-03 12:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-08-03 11:50:00 EST; 2020-08-05 00:00:00 EST; RDO_mgL_9; RDOsat_percent_9;1; NA; NA; sensor data very high and not agreeing with handheld DO probe
+FCR;50; CAT; 2020-08-07 10:00:00 EST; 2020-08-07 12:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and changed DO caps on EXO and RDO
+FCR;50; CAT; 2020-08-07 07:40:00 EST; 2020-08-12 00:00:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-08-10 12:20:00 EST; 2020-08-10 12:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-08-11 07:00:00 EST; 2020-08-17 12:50:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/6500; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-08-11 07:00:00 EST; 2020-08-17 12:50:00 EST; RDOsat_percent_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/6500/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-08-13 09:20:00 EST; 2020-08-13 12:40:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-08-17 12:42:00 EST; 2020-08-17 15:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and calibrated DO caps on EXO and RDO
+FCR;50; CAT; 2020-08-18 09:50:00 EST; 2020-08-22 12:40:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-08-19 20:00:00 EST; 2020-08-24 10:40:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/6500; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-08-19 20:00:00 EST; 2020-08-24 10:40:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/6500/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-08-24 08:51:00 EST; 2020-08-24 08:52:00 EST; EXOTemp_C_1; EXOWiper_V;5; NA; NA; added a depth correction factor of -0.2m to the EXO 
+FCR;50; CAT; 2020-08-24 10:47:00 EST; 2020-08-24 11:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-08-26 12:00:00 EST; 2020-09-02 10:50:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/10000; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-08-26 12:00:00 EST; 2020-09-02 10:50:00 EST; RDOsat_percent_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/10000/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-08-28 19:20:00 EST; 2020-08-29 05:40:00 EST; EXOCond_uScm_1; EXOTDS_mgL_1;2; NA; NA; high conductivity event not represenative of whole reservoir
+FCR;50; CAT; 2020-09-02 08:51:00 EST; 2020-09-02 08:52:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;5; NA; NA; conductivity check 34.8 microsiemens 
+FCR;50; CAT; 2020-09-02 10:55:00 EST; 2020-09-02 12:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-09-05 06:00:00 EST; 2020-09-09 17:50:00 EST; RDO_mgL_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/3000; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-09-05 06:00:00 EST; 2020-09-09 17:50:00 EST; RDOsat_percent_9; NA; 6; NA; sqrt(as.numeric(difftime(dt$DateTime, start, units = 'mins')))/3000/11.3*100; apparent fouling on DO sensor and corrected with linear adjustment
+FCR;50; CAT; 2020-09-11 09:42:00 EST; 2020-09-11 10:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning 
+FCR;50; CAT; 2020-09-15 09:46:00 EST; 2020-09-15 10:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and EXO DO calibrated
+FCR;50; CAT; 2020-09-15 10:30:00 EST; 2020-09-15 13:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; RDO calibrated
+FCR;50; CAT; 2020-09-19 12:51:00 EST; 2020-09-19 13:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning 
+FCR;50; CAT; 2020-09-30 09:57:00 EST; 2020-09-30 10:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-10-05 13:41:00 EST; 2020-10-05 13:44:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-10-09 09:47:00 EST; 2020-10-09 10:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; out of the water to measure placement of co2 sensors
+FCR;50; CAT; 2020-10-09 09:47:00 EST; 2020-10-11 09:50:00 EST; ThermistorTemp_C_5; ThermistorTemp_C_9;1; NA; NA; string was out of poistion and all data that was affected was changed to NAs
+FCR;50; CAT; 2020-10-09 09:47:00 EST; 2020-10-11 09:50:00 EST; RDO_mgL_9; RDOTemp_C_9;1; NA; NA; string was out of poistion and all data that was effected was changed to NAs
+FCR;50; CAT; 2020-10-09 09:47:00 EST; 2020-10-11 09:50:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; string was out of poistion and all data that was effected was changed to NAs
+FCR;50; CAT; 2020-10-11 09:09:00 EST; 2020-10-11 09:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; string out of the water and repositioned because it was caught 
+FCR;50; CAT; 2020-10-14 11:50:00 EST; 2020-10-14 12:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-10-19 12:18:00 EST; 2020-10-19 15:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning DO calibration and surface reading broken
+FCR;50; CAT; 2020-10-19 15:00:00 EST; 2020-10-20 11:22:00 EST; ThermistorTemp_C_surface; NA;1; NA; NA; surface temp sensor broke and is reading NA
+FCR;50; CAT; 2020-10-20 11:23:00 EST; 2020-10-20 13:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up troubleshooting
+FCR;50; CAT; 2020-10-20 13:38:00 EST; 2020-10-22 09:26:00 EST; ThermistorTemp_C_2; NA;1; NA; NA; the 2m sensor was moved to the surface spot and moved back when fixed with BVR sensor
+FCR;50; CAT; 2020-10-26 09:05:00 EST; 2020-10-26 09:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-10-30 13:00:00 EST; 2021-02-08 14:30:00 EST; ThermistorTemp_C_1; NA;8; NA;-0.22617; thermistor broken and values adjusted
+FCR;50; CAT; 2020-10-31 05:00:00 EST; 2021-02-08 14:30:00 EST; ThermistorTemp_C_4; NA;8; NA;-0.18122; thermistor broken and values adjusted
+FCR;50; CAT; 2020-11-02 11:21:00 EST; 2020-11-02 11:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-11-09 10:25:00 EST; 2020-11-09 10:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-11-09 11:30:00 EST; 2020-11-09 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance
+FCR;50; CAT; 2020-11-24 11:30:00 EST; 2020-11-24 11:55:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-12-02 12:25:00 EST; 2020-12-02 12:57:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2020-12-02 15:00:00 EST; 2020-12-02 18:00:00 EST; RDO_mgL_9; RDOsat_percent_9;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2020-12-02 12:50:00 EST; 2020-12-27 12:40:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO sent for cleaning and calibration
+FCR;50; CAT; 2021-01-07 09:40:00 EST; 2021-01-07 09:55:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-01-07 10:00:00 EST; 2021-01-07 11:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; troubleshooting broken thermistors
+FCR;50; CAT; 2021-02-08 14:25:00 EST; 2021-02-08 14:45:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-02-08 17:40:00 EST; 2021-02-08 18:10:00 EST; RDO_mgL_9; RDOsat_percent_9;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2021-02-08 14:30:00 EST; 2021-02-26 12:00:00 EST; ThermistorTemp_C_1; NA;1; NA; NA; thermistor broken removed and replaced
+FCR;50; CAT; 2021-02-08 14:30:00 EST; 2021-02-26 12:00:00 EST; ThermistorTemp_C_4; NA;1; NA; NA; thermistor broken removed and replaced
+FCR;50; CAT; 2021-02-26 10:40:00 EST; 2021-02-26 14:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and testing Sunappee Temp String
+FCR;50; CAT; 2021-03-22 10:50:00 EST; 2021-03-22 11:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and calibrate DO and depth
+FCR;50; CAT; 2021-04-16 11:50:00 EST; 2021-04-16 12:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and calibration
+FCR;50; CAT; 2021-04-16 11:50:00 EST; 2021-04-26 13:10:00 EST; EXOfDOM_RFU_1; EXOfDOM_QSU_1;1; NA; NA; bad fdom calibration
+FCR;50; CAT; 2021-04-26 10:55:00 EST; 2021-04-26 11:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-05-06 12:20:00 EST; 2021-05-06 13:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-05-14 13:45:00 EST; 2021-05-14 14:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-05-24 10:15:00 EST; 2021-05-24 10:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-05-31 10:55:00 EST; 2021-05-31 11:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-06-07 10:25:00 EST; 2021-06-07 14:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-06-07 12:40:00 EST; 2021-06-08 12:00:00 EST; RDO_mgL_9; RDOsat_percent_9;2; NA; NA; removing questionable DO values
+FCR;50; CAT; 2021-06-11 09:41:00 EST; 2021-09-14 13:30:00 EST; RDO_mgL_5; RDOsat_percent_5;5; NA; NA; questionable because HOX system was working intermittently 
+FCR;50; CAT; 2021-06-11 09:41:00 EST; 2021-09-14 13:30:00 EST; RDO_mgL_9; RDOsat_percent_9;5; NA; NA; questionable because HOX system was working intermittently
+FCR;50; CAT; 2021-06-15 09:00:00 EST; 2021-06-15 13:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-06-16 08:10:00 EST; 2021-06-16 08:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-06-18 10:00:00 EST; 2021-06-21 10:00:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2021-06-18 10:00:00 EST; 2021-06-21 10:00:00 EST; LvlPressure_psi_9;  LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2021-06-18 10:00:00 EST; 2021-06-18 10:40:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; sensor string up for cleaning and then it was tangled but EXO was fine
+FCR;50; CAT; 2021-06-21 09:40:00 EST; 2021-06-21 10:00:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-06-28 14:10:00 EST; 2021-06-28 14:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and SSS not working
+FCR;50; CAT; 2021-07-12 16:00:00 EST; 2021-07-12 16:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and SSS off
+FCR;50; CAT; 2021-07-21 13:20:00 EST; 2021-07-26 12:00:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2021-07-21 13:20:00 EST; 2021-07-26 12:00:00 EST; LvlPressure_psi_9;  LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2021-07-21 13:20:00 EST; 2021-07-21 13:40:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; sensor string up for cleaning and then it was tangled but EXO was fine
+FCR;50; CAT; 2021-07-26 11:50:00 EST; 2021-07-26 12:00:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; sensor string up for cleaning and turned on SSS with Alicat from CCR
+FCR;50; CAT; 2021-08-02 10:30:00 EST; 2021-08-02 10:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning. Not sure O2 is being added to the system
+FCR;50; CAT; 2021-08-09 13:30:00 EST; 2021-08-09 14:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and played with SSS pump rate
+FCR;50; CAT; 2021-08-16 10:30:00 EST; 2021-08-16 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and calibrated EXO DO
+FCR;50; CAT; 2021-08-17 06:10:00 EST; 2021-08-17 10:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and calibrated the RDO at 9m and check the 5m one
+FCR;50; CAT; 2021-08-20 14:30:00 EST; 2021-08-20 15:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-08-23 12:50:00 EST; 2021-08-23 13:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-08-24 10:20:00 EST; 2021-08-24 10:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and anti-fouling cap was removed because it was casuing fouling
+FCR;50; CAT; 2021-08-31 11:20:00 EST; 2021-08-31 12:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and installed new DO cap at 5m
+FCR;50; CAT; 2021-09-06 13:00:00 EST; 2021-09-06 13:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-09-14 13:10:00 EST; 2021-09-14 13:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and put in fixed Alicat in the SSS system and O2 should be good
+FCR;50; CAT; 2021-09-21 14:00:00 EST; 2021-09-21 14:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-09-27 12:40:00 EST; 2021-09-27 13:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-10-04 13:40:00 EST; 2021-10-04 14:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-10-11 12:41:00 EST; 2021-10-11 13:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-10-18 11:20:00 EST; 2021-10-18 11:55:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-10-25 12:15:00 EST; 2021-10-25 13:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-11-08 12:05:00 EST; 2021-11-08 12:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-12-06 15:35:00 EST; 2021-12-06 15:45:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-12-13 10:05:00 EST; 2021-12-13 10:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2021-12-13 10:25:00 EST; 2021-12-14 12:25:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; sensor string up for cleaning and cleaning in the lab
+FCR;50; CAT; 2022-03-17 11:40:00 EST; 2022-03-17 14:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and RDO calibrated and EXO DO calibrated
+FCR;50; CAT; 2022-03-29 11:40:00 EST; 2022-03-29 12:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-04-12 11:40:00 EST; 2022-04-12 12:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-04-19 10:20:00 EST; 2022-04-19 10:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-05-02 12:20:00 EST; 2022-05-02 14:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and added a turbidity sensor to the EXO
+FCR;50; CAT; 2022-05-09 12:30:00 EST; 2022-05-09 13:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning 
+FCR;50; CAT; 2022-05-23 13:10:00 EST; 2022-05-23 13:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning 
+FCR;50; CAT; 2022-05-23 13:40:00 EST; 2022-05-25 11:50:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2022-05-23 13:40:00 EST; 2022-05-25 11:50:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2022-06-07 13:00:00 EST; 2022-06-07 13:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-06-20 14:20:00 EST; 2022-06-20 14:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-06-27 10:00:00 EST; 2022-06-27 10:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-06-30 21:50:00 EST; 2022-06-30 22:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for repositioning EXO
+FCR;50; CAT; 2022-07-11 12:30:00 EST; 2022-07-11 13:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-07-25 09:40:00 EST; 2022-07-25 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and RDO calibrations
+FCR;50; CAT; 2022-08-01 11:00:00 EST; 2022-08-01 11:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-08-08 11:30:00 EST; 2022-08-08 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-08-08 12:00:00 EST; 2022-08-09 13:10:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2022-08-08 12:00:00 EST; 2022-08-09 13:10:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and then it was tangled so not measuring the correct depth
+FCR;50; CAT; 2022-08-18 10:50:00 EST; 2022-08-18 11:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-09-05 12:40:00 EST; 2022-09-05 13:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-09-12 14:40:00 EST; 2022-09-12 16:10:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; sensor string up for troubleshooting turbidity sensor bad port
+FCR;50; CAT; 2022-09-05 08:00:00 EST; 2022-09-12 16:00:00 EST; EXOTurbidity_FNU_1; NA;2; NA; NA; bad turbidity data with lots of spikes turned out to be sensor was in a bad port
+FCR;50; CAT; 2022-09-19 12:30:00 EST; 2022-09-19 13:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-09-26 11:00:00 EST; 2022-09-26 12:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and maintenance checks
+FCR;50; CAT; 2022-10-03 10:50:00 EST; 2022-10-03 11:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-10-11 13:30:00 EST; 2022-10-11 14:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-11-28 12:40:00 EST; 2022-11-28 13:00:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2022-12-12 10:30:00 EST; 2022-12-17 15:50:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and calibration and replaced with BVR EXO while getting serviced
+FCR;50; CAT; 2022-12-17 15:50:00 EST; 2023-03-14 09:40:00 EST; EXOTurbidity_FNU_1; NA;1; NA; NA; BVR EXO doesnt have a turbidity sensor so it is not measured CHANGE WHEN NEW FCR EXO BACK
+FCR;50; CAT; 2022-12-18 17:35:00 EST; 2022-12-18 17:45:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2022-12-19 07:45:00 EST; 2022-12-19 07:55:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2022-12-23 12:15:00 EST; 2022-12-23 12:25:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2022-12-26 03:35:00 EST; 2022-12-26 03:45:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2022-12-29 03:10:00 EST; 2023-01-02 16:20:00 EST; EXOTemp_C_1; EXOWiper_V;7; NA; NA; EXO had a connection issue was not connected to the data logger therefore no data was collected
+FCR;50; CAT; 2023-01-02 16:25:00 EST; 2023-01-02 16:35:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for toubleshooting connection issues
+FCR;50; CAT; 2023-01-02 17:35:00 EST; 2023-01-02 17:45:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for toubleshooting connection issues
+FCR;50; CAT; 2023-01-02 18:45:00 EST; 2023-01-02 18:55:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for toubleshooting connection issues
+FCR;50; CAT; 2023-01-02 22:05:00 EST; 2023-01-02 22:15:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2023-01-05 18:45:00 EST; 2023-01-05 18:55:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2023-01-18 05:15:00 EST; 2023-01-18 05:25:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO2 out of postion
+FCR;50; CAT; 2023-03-07 11:30:00 EST; 2023-03-07 12:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-03-07 11:30:00 EST; 2023-03-07 14:20:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning
+FCR;50; CAT; 2023-03-13 11:50:00 EST; 2023-03-13 12:10:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and replaced with FCR EXO after service mainentance
+FCR;50; CAT; 2023-03-13 12:20:00 EST; 2023-03-14 09:50:00 EST; EXOTemp_C_1; EXOWiper_V;7; NA; NA; EXO up for cleaning and replaced with FCR EXO after service mainentance
+FCR;50; CAT; 2023-04-04 11:10:00 EST; 2023-04-04 11:20:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-04-05 10:35:00 EST; 2023-04-05 10:45:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-04-07 11:55:00 EST; 2023-04-07 12:05:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-04-15 22:05:00 EST; 2023-04-15 22:15:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-04-18 11:55:00 EST; 2023-04-18 12:22:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-04-24 14:55:00 EST; 2023-04-24 15:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-04-29 00:35:00 EST; 2023-04-29 00:45:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-05-04 08:05:00 EST; 2023-05-04 08:15:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-05-08 09:25:00 EST; 2023-05-08 09:35:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-05-08 13:15:00 EST; 2023-05-08 13:25:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-05-08 09:25:00 EST; 2023-05-08 09:35:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-05-21 10:45:00 EST; 2023-05-21 10:55:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-06-03 14:15:00 EST; 2023-06-03 14:25:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-06-27 13:00:00 EST; 2023-06-27 13:10:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning
+FCR;50; CAT; 2023-07-06 08:30:00 EST; 2023-07-06 14:35:00 EST; EXOTemp_C_1; EXOWiper_V;7; NA; NA; EXO disconnected and used for surface measurments
+FCR;50; CAT; 2023-07-10 09:30:00 EST; 2023-07-10 11:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-07-10 09:30:00 EST; 2023-07-13 14:00:00 EST; LvlPressure_psi_9;  LvlTemp_C_9;7; NA; NA; sensor moved to weir
+FCR;50; CAT; 2023-07-13 09:25:00 EST; 2023-07-13 09:35:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-07-13 13:25:00 EST; 2023-07-13 14:25:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and taking EXO
+FCR;50; CAT; 2023-07-13 09:40:00 EST; 2023-07-13 14:00:00 EST; EXOTemp_C_1; EXOWiper_V;7; NA; NA; EXO used taken and used with surface ADCP sampling
+FCR;50; CAT; 2023-07-13 20:50:00 EST; 2023-07-13 22:20:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; EXO a bit higher in the water column and DO was ~100% sat. Probably because of the rain. Remove all EXO obs
+FCR;50; CAT; 2023-07-17 11:20:00 EST; 2023-07-17 11:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance
+FCR;50; CAT; 2023-07-17 13:40:00 EST; 2023-07-17 14:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance
+FCR;50; CAT; 2023-07-23 01:40:00 EST; 2023-07-24 14:30:00 EST; RDO_mgL_5; RDOsat_percent_5;7; NA; NA; DO sensor malfunctioning 
+FCR;50; CAT; 2023-07-24 12:05:00 EST; 2023-07-24 12:45:00 EST; ThermistorTemp_C_surface; RDOTemp_C_5; 1; NA; NA; DO sensors malfunctioning and temp string up for troubleshooting
+FCR;50; CAT; 2022-07-23 01:40:00 EST; 2023-07-28 12:20:00 EST; RDO_mgL_9; RDOsat_percent_9;7; NA; NA; DO sensor malfunctioning 
+FCR;50; CAT; 2023-07-24 11:10:00 EST; 2023-07-24 11:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and check DO sensors
+FCR;50; CAT; 2023-07-24 12:50:00 EST; 2023-07-24 14:40:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and check DO sensors
+FCR;50; CAT; 2023-07-28 11:35:00 EST; 2023-07-28 13:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and check DO sensors
+FCR;50; CAT; 2023-07-31 12:40:00 EST; 2023-07-31 14:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and check DO sensors
+FCR;50; CAT; 2023-08-04 07:45:00 EST; 2023-08-04 07:55:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-08-04 10:35:00 EST; 2023-08-04 10:45:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-08-04 00:00:00 EST; 2023-08-07 12:51:00 EST; EXOfDOM_RFU_1; EXOfDOM_QSU_1;2; NA; NA; EXO wiper broken and parked over fdom sensor and affected reading
+FCR;50; CAT; 2023-08-05 17:35:00 EST; 2023-08-05 17:45:00 EST; EXOTemp_C_1; EXOWiper_V;2; NA; NA; wiper out of position
+FCR;50; CAT; 2023-08-07 11:28:00 EST; 2023-08-07 12:38:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up and  replace wiper
+FCR;50; CAT; 2023-08-07 12:38:00 EST; 2023-08-07 12:51:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning and replace wiper
+FCR;50; CAT; 2023-09-05 12:20:00 EST; 2023-09-05 13:30:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and check DO sensors
+FCR;50; CAT; 2023-07-17 11:10:00 EST; 2023-09-05 13:30:00 EST; LvlPressure_psi_9; LvlTemp_C_9;7; NA; NA; sensor moved to weir and then replaced
+FCR;50; CAT; 2023-10-03 13:55:00 EST; 2023-10-03 14:05:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-10-03 13:55:00 EST; 2023-10-03 14:05:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
+FCR;50; CAT; 2023-10-03 13:55:00 EST; 2023-10-03 15:25:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and changing program to wipe every 52 minutes instead every 5 minutes
+FCR;50; CAT; 2023-10-24 14:15:00 EST; 2023-10-24 14:35:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for maintenance and clean DO sensors
+FCR;50; CAT; 2023-10-24 14:15:00 EST; 2023-10-24 14:35:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and clean DO sensors
+FCR;50; CAT; 2023-11-06 12:55:00 EST; 2023-11-06 13:05:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning 
+FCR;50; CAT; 2023-11-14 12:55:00 EST; 2023-11-14 13:05:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning
+FCR;50; CAT; 2023-12-12 13:15:00 EST; 2023-12-12 14:15:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and calibrated DO
+FCR;50; CAT; 2023-12-12 13:15:00 EST; 2023-12-12 14:15:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; EXO up for cleaning and calibrated DO
+FCR;50; CAT; 2023-12-12 13:15:00 EST; 2023-12-12 14:15:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; EXO up for cleaning and calibrated DO
+FCR;50; CAT; 2023-12-12 14:15:00 EST; 2023-12-12 14:55:00 EST; RDO_mgL_5; RDOTemp_C_9;2; NA; NA; Bad calibration and recalibrated later in the day
+FCR;50; CAT; 2023-12-12 14:55:00 EST; 2023-12-12 15:45:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; EXO up for cleaning and calibrated DO
+FCR;50; CAT; 2023-12-12 14:55:00 EST; 2023-12-12 15:45:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; EXO up for cleaning and calibrated DO
+FCR;50; CAT; 2023-12-18 15:05:00 EST; 2023-12-18 15:45:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-01-29 14:05:00 EST; 2024-01-29 14:35:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and clean DO sensors
+FCR;50; CAT; 2024-02-13 13:25:00 EST; 2024-02-13 13:35:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-03-05 09:35:00 EST; 2024-03-05 12:45:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and calibrating the chla sensor to compare with other chla sensor
+FCR;50; CAT; 2024-03-18 11:55:00 EST; 2024-03-18 12:05:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-04-22 11:45:00 EST; 2024-04-22 11:55:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for maintenance and clean DO sensors
+FCR;50; CAT; 2024-04-22 11:45:00 EST; 2024-04-22 11:55:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and clean DO sensors
+FCR;50; CAT; 2024-05-09 00:00:00 EST; 2024-05-15 12:00:00 EST; EXOTurbidity_FNU_1; NA;2; NA; NA; Wiper over the turbidity sensor causing spikes/high readings in the data
+FCR;50; CAT; 2024-05-13 13:05:00 EST; 2024-05-13 13:25:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up for maintenance and changed DO cap on RDO
+FCR;50; CAT; 2024-05-13 13:05:00 EST; 2024-05-13 13:25:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up for maintenance and chnaged DO cap on RDO
+FCR;50; CAT; 2024-05-13 13:20:00 EST; 2024-06-17 12:10:00 EST; RDO_mgL_5;NA;8;NA; 0.6; correct DO because could not calibrate for a month
+FCR;50; CAT; 2024-05-13 13:20:00 EST; 2024-06-17 12:10:00 EST; RDOsat_percent_5;NA;8;NA; 5.7; correct DO because could not calibrate for a month
+FCR;50; CAT; 2024-05-17 09:30:00 EST; 2024-05-20 10:30:00 EST; RDO_mgL_9; RDOsat_percent_9;2;NA;NA; sensor malfunctioned and reading NA
+FCR;50; CAT; 2024-05-20 10:35:00 EST; 2024-05-20 10:45:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up because 9m DO reading NA and fixing it- rewired sensor
+FCR;50; CAT; 2024-05-20 10:35:00 EST; 2024-05-20 10:45:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up because 9m DO reading NA and fixing it- rewired sensor
+FCR;50; CAT; 2024-05-21 13:55:00 EST; 2024-05-22 17:00:00 EST; RDO_mgL_9; RDOsat_percent_9;2; NA; NA; sensor reading 0. Change to NA and flag
+FCR;50; CAT; 2024-05-22 17:05:00 EST; 2024-05-22 18:35:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up because 9m DO reading 0. Replaced it wil a new sensor #ADD SN
+FCR;50; CAT; 2024-05-22 17:05:00 EST; 2024-05-22 18:35:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up because 9m DO reading 0. Replaced with a new sensor #ADD SN
+FCR;50; CAT; 2024-05-22 18:20:00 EST; 2024-06-17 12:15:00 EST; RDO_mgL_9; NA;8; NA; 1.01; correct DO after calibrating DO sensor
+FCR;50; CAT; 2024-05-22 18:20:00 EST; 2024-06-17 12:15:00 EST; RDOsat_percent_9; NA;8; NA; 9.26; correct DO after calibrating DO sensor
+FCR;50; CAT; 2024-06-10 12:35:00 EST; 2024-06-10 13:05:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up to clean 
+FCR;50; CAT; 2024-06-10 12:35:00 EST; 2024-06-10 13:05:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up to clean 
+FCR;50; CAT; 2024-06-10 13:15:00 EST; 2024-06-10 13:25:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-06-17 12:15:00 EST; 2024-06-17 13:25:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up to clean and calibrate RDO
+FCR;50; CAT; 2024-06-17 12:15:00 EST; 2024-06-17 13:25:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up to clean and calibrate RDO
+FCR;50; CAT; 2024-06-24 12:25:00 EST; 2024-06-24 12:55:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-08-28 14:25:00 EST; 2024-08-28 14:35:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-08-28 14:25:00 EST; 2024-08-28 14:35:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-09-02 13:35:00 EST; 2024-09-02 13:45:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-09-09 13:05:00 EST; 2024-09-09 13:25:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-08-28 14:35:00 EST; 2024-09-17 10:55:00 EST; EXOChla_RFU_1; EXOBGAPC_ugL_1;5; NA; NA; potential fouling on sensor. Lots of variable and high readings.
+FCR;50; CAT; 2024-09-17 10:55:00 EST; 2024-09-17 11:05:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-09-23 13:35:00 EST; 2024-09-23 14:05:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
+FCR;50; CAT; 2024-10-29 13:15:00 EST; 2024-10-29 13:55:00 EST; ThermistorTemp_C_surface; RDOTemp_C_9;1; NA; NA; sensor string up to clean and checking DO
+FCR;50; CAT; 2024-10-29 13:15:00 EST; 2024-10-29 13:55:00 EST; LvlPressure_psi_9; LvlTemp_C_9;1; NA; NA; sensor string up to clean and check DO 
+FCR;50; CAT; 2024-12-03 15:15:00 EST; 2024-12-03 15:35:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
