@@ -178497,3 +178497,56 @@
 07/22/25 14:30:01 EDT -0400 | nothing to commit, working tree clean
 07/22/25 14:30:01 EDT -0400 | ========Experiemental directory end========
 07/22/25 14:30:02 EDT -0400 | ========Primary directory========
+07/22/25 14:30:02 EDT -0400 | Processing: /data/mia-logs
+07/22/25 14:30:04 EDT -0400 | [mia-logs 171f2ad] Tue 2025-07-22 14:30:02 EDT
+07/22/25 14:30:04 EDT -0400 |  3 files changed, 114 insertions(+)
+07/22/25 14:30:04 EDT -0400 | Found unpushed commit(s).
+07/22/25 14:31:37 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 14:31:37 EDT -0400 |    a1b3b00..c129409  c129409ca2f91d086a07f273c2a40f24d4f3d50a -> mia-logs
+07/22/25 14:31:37 EDT -0400 | Successfully pushed: c129409ca2f91d086a07f273c2a40f24d4f3d50a
+07/22/25 14:31:37 EDT -0400 | ========Primary directory end========
+07/22/25 14:31:37 EDT -0400 | ========Experiemental directory========
+07/22/25 14:31:37 EDT -0400 | Processing: /data/exp-mia-logs
+07/22/25 14:31:39 EDT -0400 | [exp-mia-logs 4c063a0] Tue 2025-07-22 14:31:37 EDT
+07/22/25 14:31:39 EDT -0400 |  3 files changed, 158 insertions(+)
+07/22/25 14:31:39 EDT -0400 | Found unpushed commit(s).
+07/22/25 14:32:25 EDT -0400 | Everything up-to-date
+07/22/25 14:32:25 EDT -0400 | Successfully pushed: c129409ca2f91d086a07f273c2a40f24d4f3d50a
+07/22/25 14:33:53 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 14:33:53 EDT -0400 |    c129409..171f2ad  171f2add00f12db5aa2330b7ac1d7dd872c872b9 -> mia-logs
+07/22/25 14:33:53 EDT -0400 | Successfully pushed: 171f2add00f12db5aa2330b7ac1d7dd872c872b9
+07/22/25 14:33:53 EDT -0400 | ========Primary directory end========
+07/22/25 14:33:53 EDT -0400 | ========Experiemental directory========
+07/22/25 14:33:53 EDT -0400 | Processing: /data/exp-mia-logs
+07/22/25 14:33:53 EDT -0400 | On branch exp-mia-logs
+07/22/25 14:33:53 EDT -0400 | Your branch is ahead of 'origin/exp-mia-logs' by 8 commits.
+07/22/25 14:33:53 EDT -0400 |   (use "git push" to publish your local commits)
+07/22/25 14:33:53 EDT -0400 | 
+07/22/25 14:33:53 EDT -0400 | nothing to commit, working tree clean
+07/22/25 14:33:53 EDT -0400 | Found unpushed commit(s).
+07/22/25 14:34:27 EDT -0400 | Host key verification failed.
+07/22/25 14:34:27 EDT -0400 | fatal: Could not read from remote repository.
+07/22/25 14:34:27 EDT -0400 | 
+07/22/25 14:34:27 EDT -0400 | Please make sure you have the correct access rights
+07/22/25 14:34:27 EDT -0400 | and the repository exists.
+07/22/25 14:34:27 EDT -0400 | Failed to push: 8c64382742de6e72af9eeabcc4f2ddb05d8a2ffb
+07/22/25 14:34:27 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+07/22/25 14:34:27 EDT -0400 | ========Experiemental directory end========
+07/22/25 14:34:27 EDT -0400 | ##########  END  ##########
+07/22/25 14:34:43 EDT -0400 | ########## START ##########
+07/22/25 14:34:43 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+07/22/25 14:34:43 EDT -0400 | ========Primary directory========
+07/22/25 14:34:43 EDT -0400 | Processing: /data/fcre-weir-data
+07/22/25 14:34:43 EDT -0400 | On branch fcre-weir-data
+07/22/25 14:34:43 EDT -0400 | Your branch is up to date with 'origin/fcre-weir-data'.
+07/22/25 14:34:43 EDT -0400 | 
+07/22/25 14:34:43 EDT -0400 | nothing to commit, working tree clean
+07/22/25 14:34:43 EDT -0400 | ========Primary directory end========
+07/22/25 14:34:43 EDT -0400 | ========Experiemental directory========
+07/22/25 14:34:43 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/22/25 14:34:43 EDT -0400 | On branch exp-fcre-weir-data
+07/22/25 14:34:43 EDT -0400 | Your branch is up to date with 'origin/exp-fcre-weir-data'.
+07/22/25 14:34:43 EDT -0400 | 
+07/22/25 14:34:43 EDT -0400 | nothing to commit, working tree clean
+07/22/25 14:34:43 EDT -0400 | ========Experiemental directory end========
+07/22/25 14:34:43 EDT -0400 | ========Primary directory========
