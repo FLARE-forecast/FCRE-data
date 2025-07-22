@@ -177837,3 +177837,38 @@
 07/21/25 22:00:32 EDT -0400 | Processing: /data/fcre-weir-data
 07/21/25 22:00:32 EDT -0400 | On branch fcre-weir-data
 07/21/25 22:00:32 EDT -0400 | Your branch is up to date with 'origin/fcre-weir-data'.
+07/21/25 22:00:32 EDT -0400 | 
+07/21/25 22:00:32 EDT -0400 | nothing to commit, working tree clean
+07/21/25 22:00:32 EDT -0400 | Processing: /data/mia-logs
+07/21/25 22:00:33 EDT -0400 | [mia-logs fa7f9ea] Mon 2025-07-21 22:00:32 EDT
+07/21/25 22:00:33 EDT -0400 |  2 files changed, 43 insertions(+)
+07/21/25 22:00:33 EDT -0400 | Found unpushed commit(s).
+07/21/25 22:01:39 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/21/25 22:01:39 EDT -0400 |    5ec9571..fa7f9ea  fa7f9ea3a9925bb7807311d8a7f4427d25d7a018 -> mia-logs
+07/21/25 22:01:39 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/21/25 22:01:39 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/21/25 22:01:39 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/21/25 23:37:43 EDT -0400 | ########## START ##########
+07/21/25 23:37:43 EDT -0400 | rsync: [Receiver] mkdir "/home/ubuntu/exp-/data/fcre-weir-data" failed: No such file or directory (2)
+07/21/25 23:37:43 EDT -0400 | rsync error: error in file IO (code 11) at main.c(791) [Receiver=3.2.7]
+07/21/25 23:40:25 EDT -0400 | ########## START ##########
+07/21/25 23:40:25 EDT -0400 | ========Primary directory========
+07/21/25 23:40:25 EDT -0400 | Processing: /data/fcre-weir-data
+07/21/25 23:40:25 EDT -0400 | On branch fcre-weir-data
+07/21/25 23:40:25 EDT -0400 | Your branch is up to date with 'origin/fcre-weir-data'.
+07/21/25 23:40:25 EDT -0400 | 
+07/21/25 23:40:25 EDT -0400 | nothing to commit, working tree clean
+07/21/25 23:40:25 EDT -0400 | /home/ubuntu/miscellaneous/gateways/git-maintenance/git-push-exp.sh: line 53: return: failed_on_push: numeric argument required
+07/21/25 23:40:25 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+07/21/25 23:40:25 EDT -0400 | ========Primary directory end========
+07/21/25 23:40:25 EDT -0400 | ========Experiemental directory========
+07/21/25 23:40:25 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/21/25 23:40:26 EDT -0400 | On branch fcre-weir-data
+07/21/25 23:40:26 EDT -0400 | Your branch is up to date with 'origin/fcre-weir-data'.
+07/21/25 23:40:26 EDT -0400 | 
+07/21/25 23:40:26 EDT -0400 | nothing to commit, working tree clean
+07/21/25 23:40:26 EDT -0400 | /home/ubuntu/miscellaneous/gateways/git-maintenance/git-push-exp.sh: line 53: return: failed_on_push: numeric argument required
+07/21/25 23:40:26 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+07/21/25 23:40:26 EDT -0400 | ========Experiemental directory end========
+07/21/25 23:40:27 EDT -0400 | ========Primary directory========
+07/21/25 23:40:27 EDT -0400 | Processing: /data/mia-logs
