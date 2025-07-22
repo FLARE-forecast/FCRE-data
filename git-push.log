@@ -178019,3 +178019,43 @@
 07/22/25 00:55:14 EDT -0400 | nothing to commit, working tree clean
 07/22/25 00:55:14 EDT -0400 | ========Experiemental directory end========
 07/22/25 00:55:14 EDT -0400 | ========Primary directory========
+07/22/25 00:55:14 EDT -0400 | Processing: /data/mia-logs
+07/22/25 00:55:15 EDT -0400 | [mia-logs 1cd2bd9] Tue 2025-07-22 00:55:14 EDT
+07/22/25 00:55:15 EDT -0400 |  1 file changed, 34 insertions(+)
+07/22/25 00:55:15 EDT -0400 | Found unpushed commit(s).
+07/22/25 00:55:16 EDT -0400 | ssh: connect to host github.com port 22: Network is unreachable
+07/22/25 00:55:16 EDT -0400 | fatal: Could not read from remote repository.
+07/22/25 00:55:16 EDT -0400 | 
+07/22/25 00:55:16 EDT -0400 | Please make sure you have the correct access rights
+07/22/25 00:55:16 EDT -0400 | and the repository exists.
+07/22/25 00:55:16 EDT -0400 | Failed to push: 1cd2bd9044adc218fd6dd102d9c1830e50bc1e30
+07/22/25 00:55:16 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+07/22/25 00:55:16 EDT -0400 | ========Primary directory end========
+07/22/25 00:55:16 EDT -0400 | ========Experiemental directory========
+07/22/25 00:55:16 EDT -0400 | Processing: /data/exp-mia-logs
+07/22/25 00:55:16 EDT -0400 | [exp-mia-logs 779291e] Tue 2025-07-22 00:55:16 EDT
+07/22/25 00:55:16 EDT -0400 |  1 file changed, 31 insertions(+)
+07/22/25 00:55:16 EDT -0400 | Found unpushed commit(s).
+07/22/25 00:56:38 EDT -0400 | remote: + exec        
+07/22/25 00:56:39 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/22/25 00:56:39 EDT -0400 |    284215c..779291e  779291ea14bc6f36737c82e3c5dc4cae0ead8d01 -> exp-mia-logs
+07/22/25 00:56:39 EDT -0400 | Successfully pushed: 779291ea14bc6f36737c82e3c5dc4cae0ead8d01
+07/22/25 00:56:39 EDT -0400 | ========Experiemental directory end========
+07/22/25 00:56:39 EDT -0400 | ##########  END  ##########
+07/22/25 11:49:37 EDT -0400 | ########## START ##########
+07/22/25 11:49:37 EDT -0400 | ========Primary directory========
+07/22/25 11:49:37 EDT -0400 | Processing: /data/fcre-weir-data
+07/22/25 11:49:37 EDT -0400 | On branch fcre-weir-data
+07/22/25 11:49:37 EDT -0400 | Your branch is up to date with 'origin/fcre-weir-data'.
+07/22/25 11:49:37 EDT -0400 | 
+07/22/25 11:49:37 EDT -0400 | nothing to commit, working tree clean
+07/22/25 11:49:37 EDT -0400 | ========Primary directory end========
+07/22/25 11:49:37 EDT -0400 | ========Experiemental directory========
+07/22/25 11:49:37 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/22/25 11:49:37 EDT -0400 | On branch exp-fcre-weir-data
+07/22/25 11:49:37 EDT -0400 | Your branch is up to date with 'origin/exp-fcre-weir-data'.
+07/22/25 11:49:37 EDT -0400 | 
+07/22/25 11:49:37 EDT -0400 | nothing to commit, working tree clean
+07/22/25 11:49:37 EDT -0400 | ========Experiemental directory end========
+07/22/25 11:49:38 EDT -0400 | ========Primary directory========
+07/22/25 11:49:38 EDT -0400 | Processing: /data/mia-logs
