@@ -177911,3 +177911,77 @@
 07/22/25 00:33:51 EDT -0400 | nothing to commit, working tree clean
 07/22/25 00:33:51 EDT -0400 | ========Experiemental directory end========
 07/22/25 00:33:52 EDT -0400 | ========Primary directory========
+07/22/25 00:33:52 EDT -0400 | Processing: /data/mia-logs
+07/22/25 00:33:54 EDT -0400 | [mia-logs e234641] Tue 2025-07-22 00:33:52 EDT
+07/22/25 00:33:54 EDT -0400 |  3 files changed, 89 insertions(+)
+07/22/25 00:33:54 EDT -0400 | Found unpushed commit(s).
+07/22/25 00:34:00 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 00:34:00 EDT -0400 |    fa7f9ea..2adb03e  2adb03ea8e1c1dccf92ec5330c970a1e834b4d66 -> mia-logs
+07/22/25 00:34:00 EDT -0400 | Successfully pushed: 2adb03ea8e1c1dccf92ec5330c970a1e834b4d66
+07/22/25 00:34:06 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 00:34:06 EDT -0400 |    2adb03e..e094edd  e094eddfb40551a8ad43a957cb1c3a5420084c00 -> mia-logs
+07/22/25 00:34:06 EDT -0400 | Successfully pushed: e094eddfb40551a8ad43a957cb1c3a5420084c00
+07/22/25 00:34:13 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/22/25 00:34:13 EDT -0400 |    e094edd..e234641  e2346412079ef9d3638bba48f7d1ba4c393a62bb -> mia-logs
+07/22/25 00:34:13 EDT -0400 | Successfully pushed: e2346412079ef9d3638bba48f7d1ba4c393a62bb
+07/22/25 00:34:13 EDT -0400 | ========Primary directory end========
+07/22/25 00:34:13 EDT -0400 | ========Experiemental directory========
+07/22/25 00:34:13 EDT -0400 | Processing: /data/exp-mia-logs
+07/22/25 00:34:15 EDT -0400 | [exp-mia-logs 859db17] Tue 2025-07-22 00:34:13 EDT
+07/22/25 00:34:15 EDT -0400 |  3 files changed, 189 insertions(+)
+07/22/25 00:34:15 EDT -0400 | Found unpushed commit(s).
+07/22/25 00:35:37 EDT -0400 | remote: + exec        
+07/22/25 00:35:41 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/22/25 00:35:41 EDT -0400 |    5d42e5a..859db17  859db17c47dacd36af5fb6c6b56abceffb4e3014 -> exp-mia-logs
+07/22/25 00:35:41 EDT -0400 | Successfully pushed: 859db17c47dacd36af5fb6c6b56abceffb4e3014
+07/22/25 00:35:41 EDT -0400 | ========Experiemental directory end========
+07/22/25 00:35:41 EDT -0400 | ========Primary directory========
+07/22/25 00:35:41 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/22/25 00:35:41 EDT -0400 | On branch exp-fcre-weir-data
+07/22/25 00:35:41 EDT -0400 | Your branch is up to date with 'origin/exp-fcre-weir-data'.
+07/22/25 00:35:41 EDT -0400 | 
+07/22/25 00:35:41 EDT -0400 | nothing to commit, working tree clean
+07/22/25 00:35:41 EDT -0400 | ========Primary directory end========
+07/22/25 00:35:41 EDT -0400 | ========Experiemental directory========
+07/22/25 00:35:41 EDT -0400 | Processing: /data/exp-exp-fcre-weir-data
+07/22/25 00:35:41 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/22/25 00:35:41 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/22/25 00:35:41 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/22/25 00:35:41 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/22/25 00:35:41 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/22/25 00:35:41 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/22/25 00:35:41 EDT -0400 | ========Experiemental directory end========
+07/22/25 00:35:41 EDT -0400 | ========Primary directory========
+07/22/25 00:35:41 EDT -0400 | Processing: /data/exp-mia-logs
+07/22/25 00:35:41 EDT -0400 | On branch exp-mia-logs
+07/22/25 00:35:41 EDT -0400 | Your branch is up to date with 'origin/exp-mia-logs'.
+07/22/25 00:35:41 EDT -0400 | 
+07/22/25 00:35:41 EDT -0400 | nothing to commit, working tree clean
+07/22/25 00:35:41 EDT -0400 | ========Primary directory end========
+07/22/25 00:35:41 EDT -0400 | ========Experiemental directory========
+07/22/25 00:35:41 EDT -0400 | Processing: /data/exp-exp-mia-logs
+07/22/25 00:35:41 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/22/25 00:35:41 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/22/25 00:35:41 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/22/25 00:35:41 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/22/25 00:35:41 EDT -0400 | fatal: not a git repository (or any parent up to mount point /)
+07/22/25 00:35:41 EDT -0400 | Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+07/22/25 00:35:41 EDT -0400 | ========Experiemental directory end========
+07/22/25 00:35:41 EDT -0400 | ##########  END  ##########
+07/22/25 00:48:46 EDT -0400 | ########## START ##########
+07/22/25 00:48:46 EDT -0400 | ========Primary directory========
+07/22/25 00:48:46 EDT -0400 | Processing: /data/fcre-weir-data
+07/22/25 00:48:46 EDT -0400 | On branch fcre-weir-data
+07/22/25 00:48:46 EDT -0400 | Your branch is up to date with 'origin/fcre-weir-data'.
+07/22/25 00:48:46 EDT -0400 | 
+07/22/25 00:48:46 EDT -0400 | nothing to commit, working tree clean
+07/22/25 00:48:46 EDT -0400 | ========Primary directory end========
+07/22/25 00:48:46 EDT -0400 | ========Experiemental directory========
+07/22/25 00:48:46 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/22/25 00:48:46 EDT -0400 | On branch exp-fcre-weir-data
+07/22/25 00:48:46 EDT -0400 | Your branch is up to date with 'origin/exp-fcre-weir-data'.
+07/22/25 00:48:46 EDT -0400 | 
+07/22/25 00:48:46 EDT -0400 | nothing to commit, working tree clean
+07/22/25 00:48:46 EDT -0400 | ========Experiemental directory end========
+07/22/25 00:48:48 EDT -0400 | ========Primary directory========
+07/22/25 00:48:48 EDT -0400 | Processing: /data/mia-logs
