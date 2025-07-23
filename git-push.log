@@ -178850,3 +178850,57 @@
 07/23/25 14:10:43 EDT -0400 | nothing to commit, working tree clean
 07/23/25 14:10:43 EDT -0400 | ========Experiemental directory end========
 07/23/25 14:10:43 EDT -0400 | ========Primary directory========
+07/23/25 14:10:43 EDT -0400 | Processing: /data/mia-logs
+07/23/25 14:10:44 EDT -0400 | [mia-logs dcad58a] Wed 2025-07-23 14:10:43 EDT
+07/23/25 14:10:44 EDT -0400 |  1 file changed, 42 insertions(+)
+07/23/25 14:10:44 EDT -0400 | Found unpushed commit(s).
+07/23/25 14:10:44 EDT -0400 | ssh: connect to host github.com port 22: Network is unreachable
+07/23/25 14:10:44 EDT -0400 | fatal: Could not read from remote repository.
+07/23/25 14:10:44 EDT -0400 | 
+07/23/25 14:10:44 EDT -0400 | Please make sure you have the correct access rights
+07/23/25 14:10:44 EDT -0400 | and the repository exists.
+07/23/25 14:10:44 EDT -0400 | Failed to push: b52636d12a4969ff01906cf83285b449cf529509
+07/23/25 14:10:44 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+07/23/25 14:10:44 EDT -0400 | ========Primary directory end========
+07/23/25 14:10:44 EDT -0400 | ========Experiemental directory========
+07/23/25 14:10:44 EDT -0400 | Processing: /data/exp-mia-logs
+07/23/25 14:10:45 EDT -0400 | [exp-mia-logs 580a29c] Wed 2025-07-23 14:10:44 EDT
+07/23/25 14:10:45 EDT -0400 |  1 file changed, 40 insertions(+)
+07/23/25 14:10:45 EDT -0400 | Found unpushed commit(s).
+07/23/25 14:10:45 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+07/23/25 14:10:45 EDT -0400 | fatal: Could not read from remote repository.
+07/23/25 14:10:45 EDT -0400 | 
+07/23/25 14:10:45 EDT -0400 | Please make sure you have the correct access rights
+07/23/25 14:10:45 EDT -0400 | and the repository exists.
+07/23/25 14:10:45 EDT -0400 | Failed to push: ab5efa2074de1c494323484824e618341683c52d
+07/23/25 14:10:45 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+07/23/25 14:10:45 EDT -0400 | ========Experiemental directory end========
+07/23/25 14:10:45 EDT -0400 | ##########  END  ##########
+07/23/25 14:36:04 EDT -0400 | ########## START ##########
+07/23/25 14:36:04 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+07/23/25 14:36:04 EDT -0400 | ========Primary directory========
+07/23/25 14:36:04 EDT -0400 | Processing: /data/fcre-weir-data
+07/23/25 14:36:04 EDT -0400 | [fcre-weir-data 3db1148] Wed 2025-07-23 14:36:04 EDT
+07/23/25 14:36:04 EDT -0400 |  1 file changed, 33 insertions(+)
+07/23/25 14:36:04 EDT -0400 | Found unpushed commit(s).
+07/23/25 14:57:22 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Connection timed out
+07/23/25 14:57:22 EDT -0400 | fatal: Could not read from remote repository.
+07/23/25 14:57:22 EDT -0400 | 
+07/23/25 14:57:22 EDT -0400 | Please make sure you have the correct access rights
+07/23/25 14:57:22 EDT -0400 | and the repository exists.
+07/23/25 14:57:22 EDT -0400 | Failed to push: 3db114898fedaf76fdf895c2584276d851141072
+07/23/25 14:57:22 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+07/23/25 14:57:22 EDT -0400 | ========Primary directory end========
+07/23/25 14:57:22 EDT -0400 | ========Experiemental directory========
+07/23/25 14:57:22 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/23/25 14:57:22 EDT -0400 | [exp-fcre-weir-data 4f2077a] Wed 2025-07-23 14:57:22 EDT
+07/23/25 14:57:22 EDT -0400 |  1 file changed, 33 insertions(+)
+07/23/25 14:57:22 EDT -0400 | Found unpushed commit(s).
+07/23/25 14:57:56 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+07/23/25 14:58:46 EDT -0400 | remote: + exec        
+07/23/25 14:58:48 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/23/25 14:58:48 EDT -0400 |    b0fdebd..4f2077a  4f2077a599b0c1c344df01923983b89f58219e86 -> exp-fcre-weir-data
+07/23/25 14:58:48 EDT -0400 | Successfully pushed: 4f2077a599b0c1c344df01923983b89f58219e86
+07/23/25 14:58:48 EDT -0400 | ========Experiemental directory end========
+07/23/25 14:58:50 EDT -0400 | ========Primary directory========
+07/23/25 14:58:50 EDT -0400 | Processing: /data/mia-logs
