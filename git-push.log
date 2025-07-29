@@ -179028,3 +179028,42 @@
 07/28/25 15:38:09 EDT -0400 | ========Experiemental directory end========
 07/28/25 15:38:10 EDT -0400 | ========Primary directory========
 07/28/25 15:38:10 EDT -0400 | Processing: /data/mia-logs
+07/28/25 15:38:13 EDT -0400 | [mia-logs 5338b11] Mon 2025-07-28 15:38:10 EDT
+07/28/25 15:38:13 EDT -0400 |  3 files changed, 168 insertions(+)
+07/28/25 15:38:13 EDT -0400 | Found unpushed commit(s).
+07/28/25 21:09:12 EDT -0400 | ########## START ##########
+07/28/25 21:09:12 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+07/28/25 21:09:12 EDT -0400 | ========Primary directory========
+07/28/25 21:09:12 EDT -0400 | Processing: /data/fcre-weir-data
+07/28/25 21:09:12 EDT -0400 | [fcre-weir-data f1a4732] Mon 2025-07-28 21:09:12 EDT
+07/28/25 21:09:12 EDT -0400 |  1 file changed, 24 insertions(+)
+07/28/25 21:09:12 EDT -0400 | Found unpushed commit(s).
+07/28/25 21:09:31 EDT -0400 | ssh: connect to host github.com port 22: Network is unreachable
+07/28/25 21:09:31 EDT -0400 | fatal: Could not read from remote repository.
+07/28/25 21:09:31 EDT -0400 | 
+07/28/25 21:09:31 EDT -0400 | Please make sure you have the correct access rights
+07/28/25 21:09:31 EDT -0400 | and the repository exists.
+07/28/25 21:09:31 EDT -0400 | Failed to push: 3db114898fedaf76fdf895c2584276d851141072
+07/28/25 21:09:31 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+07/28/25 21:09:31 EDT -0400 | ========Primary directory end========
+07/28/25 21:09:31 EDT -0400 | ========Experiemental directory========
+07/28/25 21:09:31 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/28/25 21:09:31 EDT -0400 | [exp-fcre-weir-data 6271aa0] Mon 2025-07-28 21:09:31 EDT
+07/28/25 21:09:31 EDT -0400 |  1 file changed, 24 insertions(+)
+07/28/25 21:09:31 EDT -0400 | Found unpushed commit(s).
+07/28/25 21:10:22 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+07/28/25 21:14:36 EDT -0400 | remote: + exec        
+07/28/25 21:14:42 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/28/25 21:14:42 EDT -0400 |    4f2077a..59d3346  59d3346743daec7b46dfade8298cc48877e427f7 -> exp-fcre-weir-data
+07/28/25 21:14:42 EDT -0400 | Successfully pushed: 59d3346743daec7b46dfade8298cc48877e427f7
+07/28/25 21:18:08 EDT -0400 | remote: + exec        
+07/28/25 21:18:11 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/28/25 21:18:11 EDT -0400 |    59d3346..7519c7e  7519c7e07869ae6f00606608590a986ff91c664c -> exp-fcre-weir-data
+07/28/25 21:18:11 EDT -0400 | Successfully pushed: 7519c7e07869ae6f00606608590a986ff91c664c
+07/28/25 21:20:59 EDT -0400 | remote: + exec        
+07/28/25 21:21:08 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/28/25 21:21:08 EDT -0400 |    7519c7e..6271aa0  6271aa08e4d8d1043f3b3dc4846ed57e263ca2ed -> exp-fcre-weir-data
+07/28/25 21:21:08 EDT -0400 | Successfully pushed: 6271aa08e4d8d1043f3b3dc4846ed57e263ca2ed
+07/28/25 21:21:08 EDT -0400 | ========Experiemental directory end========
+07/28/25 21:21:09 EDT -0400 | ========Primary directory========
+07/28/25 21:21:09 EDT -0400 | Processing: /data/mia-logs
