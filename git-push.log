@@ -179441,3 +179441,82 @@
 07/29/25 12:32:16 EDT -0400 | ========Experiemental directory end========
 07/29/25 12:32:17 EDT -0400 | ========Primary directory========
 07/29/25 12:32:17 EDT -0400 | Processing: /data/mia-logs
+07/29/25 12:32:19 EDT -0400 | [mia-logs 4caa3fa] Tue 2025-07-29 12:32:17 EDT
+07/29/25 12:32:19 EDT -0400 |  3 files changed, 140 insertions(+)
+07/29/25 12:32:19 EDT -0400 | Found unpushed commit(s).
+07/29/25 12:37:00 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/29/25 12:37:00 EDT -0400 |    eedf522..9f86aaf  9f86aaf8b6aecb6fc0ea256b487ded8c4cdefecc -> mia-logs
+07/29/25 12:37:00 EDT -0400 | Successfully pushed: 9f86aaf8b6aecb6fc0ea256b487ded8c4cdefecc
+07/29/25 12:38:39 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/29/25 12:38:39 EDT -0400 |    9f86aaf..4caa3fa  4caa3fa8337add9e05e7d385075bb0b0d1f67b6e -> mia-logs
+07/29/25 12:38:39 EDT -0400 | Successfully pushed: 4caa3fa8337add9e05e7d385075bb0b0d1f67b6e
+07/29/25 12:38:39 EDT -0400 | ========Primary directory end========
+07/29/25 12:38:40 EDT -0400 | ========Experiemental directory========
+07/29/25 12:38:40 EDT -0400 | Processing: /data/exp-mia-logs
+07/29/25 12:38:42 EDT -0400 | [exp-mia-logs 6e52fd4] Tue 2025-07-29 12:38:39 EDT
+07/29/25 12:38:42 EDT -0400 |  3 files changed, 139 insertions(+)
+07/29/25 12:38:42 EDT -0400 | Found unpushed commit(s).
+07/29/25 12:41:29 EDT -0400 | remote: + exec        
+07/29/25 12:41:42 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/29/25 12:41:42 EDT -0400 |    b2b5448..b623a96  b623a968bacdece9c4c65b3d0f4d1a44255122c9 -> exp-mia-logs
+07/29/25 12:41:42 EDT -0400 | Successfully pushed: b623a968bacdece9c4c65b3d0f4d1a44255122c9
+07/29/25 12:43:38 EDT -0400 | remote: + exec        
+07/29/25 12:43:52 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+07/29/25 12:43:52 EDT -0400 |    b623a96..6e52fd4  6e52fd47b83f09ff558b576b3311c594c883c51f -> exp-mia-logs
+07/29/25 12:43:52 EDT -0400 | Successfully pushed: 6e52fd47b83f09ff558b576b3311c594c883c51f
+07/29/25 12:43:52 EDT -0400 | ========Experiemental directory end========
+07/29/25 12:43:52 EDT -0400 | ##########  END  ##########
+07/29/25 12:44:18 EDT -0400 | ########## START ##########
+07/29/25 12:44:18 EDT -0400 | # Host 10.10.101.1 found: line 16
+07/29/25 12:44:18 EDT -0400 | # Host 10.10.101.1 found: line 17
+07/29/25 12:44:18 EDT -0400 | # Host 10.10.101.1 found: line 18
+07/29/25 12:44:18 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+07/29/25 12:44:18 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+07/29/25 12:44:18 EDT -0400 | ========Primary directory========
+07/29/25 12:44:18 EDT -0400 | Processing: /data/fcre-weir-data
+07/29/25 12:44:18 EDT -0400 | On branch fcre-weir-data
+07/29/25 12:44:18 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 9 commits.
+07/29/25 12:44:18 EDT -0400 |   (use "git push" to publish your local commits)
+07/29/25 12:44:18 EDT -0400 | 
+07/29/25 12:44:18 EDT -0400 | nothing to commit, working tree clean
+07/29/25 12:44:18 EDT -0400 | Found unpushed commit(s).
+07/29/25 12:46:31 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/29/25 12:46:31 EDT -0400 |    9e7cdb3..3db1148  3db114898fedaf76fdf895c2584276d851141072 -> fcre-weir-data
+07/29/25 12:46:31 EDT -0400 | Successfully pushed: 3db114898fedaf76fdf895c2584276d851141072
+07/29/25 12:48:18 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/29/25 12:48:18 EDT -0400 |    3db1148..c0b3f96  c0b3f966bbede8a54bd6da535e575e795e5f9a59 -> fcre-weir-data
+07/29/25 12:48:18 EDT -0400 | Successfully pushed: c0b3f966bbede8a54bd6da535e575e795e5f9a59
+07/29/25 12:50:40 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+07/29/25 12:50:40 EDT -0400 |    c0b3f96..28a9078  28a9078e2ce54e3c6a5fed371dcbba36877c2001 -> fcre-weir-data
+07/29/25 12:50:40 EDT -0400 | Successfully pushed: 28a9078e2ce54e3c6a5fed371dcbba36877c2001
+07/29/25 15:19:13 EDT -0400 | ########## START ##########
+07/29/25 15:19:13 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+07/29/25 15:19:13 EDT -0400 | ========Primary directory========
+07/29/25 15:19:13 EDT -0400 | Processing: /data/fcre-weir-data
+07/29/25 15:19:13 EDT -0400 | [fcre-weir-data 642d49f] Tue 2025-07-29 15:19:13 EDT
+07/29/25 15:19:13 EDT -0400 |  1 file changed, 12 insertions(+)
+07/29/25 15:19:13 EDT -0400 | Found unpushed commit(s).
+07/29/25 15:35:45 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Connection timed out
+07/29/25 15:35:45 EDT -0400 | fatal: Could not read from remote repository.
+07/29/25 15:35:45 EDT -0400 | 
+07/29/25 15:35:45 EDT -0400 | Please make sure you have the correct access rights
+07/29/25 15:35:45 EDT -0400 | and the repository exists.
+07/29/25 15:35:45 EDT -0400 | Failed to push: f081a08d5b173984398c215750faf7a7e18b62f8
+07/29/25 15:35:45 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+07/29/25 15:35:45 EDT -0400 | ========Primary directory end========
+07/29/25 15:35:45 EDT -0400 | ========Experiemental directory========
+07/29/25 15:35:45 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/29/25 15:35:45 EDT -0400 | [exp-fcre-weir-data 810b9a8] Tue 2025-07-29 15:35:45 EDT
+07/29/25 15:35:45 EDT -0400 |  1 file changed, 12 insertions(+)
+07/29/25 15:35:45 EDT -0400 | Found unpushed commit(s).
+07/29/25 15:36:37 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+07/29/25 15:37:54 EDT -0400 | Connection closed by 10.10.101.1 port 22
+07/29/25 15:37:54 EDT -0400 | fatal: Could not read from remote repository.
+07/29/25 15:37:54 EDT -0400 | 
+07/29/25 15:37:54 EDT -0400 | Please make sure you have the correct access rights
+07/29/25 15:37:54 EDT -0400 | and the repository exists.
+07/29/25 15:37:54 EDT -0400 | Failed to push: b7bffdc28d6f37ad316e125d3930acea0f0b743a
+07/29/25 15:37:54 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+07/29/25 15:37:54 EDT -0400 | ========Experiemental directory end========
+07/29/25 15:37:55 EDT -0400 | ========Primary directory========
+07/29/25 15:37:55 EDT -0400 | Processing: /data/mia-logs
