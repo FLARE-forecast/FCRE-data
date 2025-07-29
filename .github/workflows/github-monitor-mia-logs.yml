@@ -31,10 +31,10 @@ jobs:
         run:
           echo "status=Down" >> $GITHUB_ENV
       
-      - name: Checkout with master branch
+      - name: Checkout with main branch
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
           fetch-depth: 1
       - name: JSON to variables
         uses: antifree/json-to-variables@v1.0.1
@@ -74,7 +74,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -m "Update Status" -a
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: main
