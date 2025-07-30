@@ -179696,3 +179696,59 @@
 07/30/25 01:20:53 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
 07/30/25 01:20:53 EDT -0400 | ========Experiemental directory end========
 07/30/25 01:20:54 EDT -0400 | ========Primary directory========
+07/30/25 01:20:54 EDT -0400 | Processing: /data/mia-logs
+07/30/25 01:20:54 EDT -0400 | [mia-logs b2520d9] Wed 2025-07-30 01:20:54 EDT
+07/30/25 01:20:54 EDT -0400 |  1 file changed, 60 insertions(+)
+07/30/25 01:20:54 EDT -0400 | Found unpushed commit(s).
+07/30/25 01:21:09 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+07/30/25 01:21:09 EDT -0400 | fatal: Could not read from remote repository.
+07/30/25 01:21:09 EDT -0400 | 
+07/30/25 01:21:09 EDT -0400 | Please make sure you have the correct access rights
+07/30/25 01:21:09 EDT -0400 | and the repository exists.
+07/30/25 01:21:09 EDT -0400 | Failed to push: f6710102c75a2b4dce61e2d345dcb15a4a085dae
+07/30/25 01:21:09 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+07/30/25 01:21:09 EDT -0400 | ========Primary directory end========
+07/30/25 01:21:09 EDT -0400 | ========Experiemental directory========
+07/30/25 01:21:09 EDT -0400 | Processing: /data/exp-mia-logs
+07/30/25 01:21:09 EDT -0400 | [exp-mia-logs 4cac709] Wed 2025-07-30 01:21:09 EDT
+07/30/25 01:21:09 EDT -0400 |  1 file changed, 59 insertions(+)
+07/30/25 01:21:09 EDT -0400 | Found unpushed commit(s).
+07/30/25 01:21:24 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+07/30/25 01:21:24 EDT -0400 | fatal: Could not read from remote repository.
+07/30/25 01:21:24 EDT -0400 | 
+07/30/25 01:21:24 EDT -0400 | Please make sure you have the correct access rights
+07/30/25 01:21:24 EDT -0400 | and the repository exists.
+07/30/25 01:21:24 EDT -0400 | Failed to push: eb1684bca72fdbc35f29a077313a70ed7db52f04
+07/30/25 01:21:24 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+07/30/25 01:21:24 EDT -0400 | ========Experiemental directory end========
+07/30/25 01:21:24 EDT -0400 | ##########  END  ##########
+07/30/25 07:04:14 EDT -0400 | ########## START ##########
+07/30/25 07:04:14 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+07/30/25 07:04:14 EDT -0400 | ========Primary directory========
+07/30/25 07:04:14 EDT -0400 | Processing: /data/fcre-weir-data
+07/30/25 07:04:14 EDT -0400 | [fcre-weir-data e06e0bf] Wed 2025-07-30 07:04:14 EDT
+07/30/25 07:04:14 EDT -0400 |  1 file changed, 24 insertions(+)
+07/30/25 07:04:14 EDT -0400 | Found unpushed commit(s).
+07/30/25 07:22:32 EDT -0400 | kex_exchange_identification: read: Connection timed out
+07/30/25 07:22:32 EDT -0400 | banner exchange: Connection to 140.82.114.3 port 22: Connection timed out
+07/30/25 07:22:32 EDT -0400 | fatal: Could not read from remote repository.
+07/30/25 07:22:32 EDT -0400 | 
+07/30/25 07:22:32 EDT -0400 | Please make sure you have the correct access rights
+07/30/25 07:22:32 EDT -0400 | and the repository exists.
+07/30/25 07:22:32 EDT -0400 | Failed to push: f081a08d5b173984398c215750faf7a7e18b62f8
+07/30/25 07:22:32 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+07/30/25 07:22:32 EDT -0400 | ========Primary directory end========
+07/30/25 07:22:32 EDT -0400 | ========Experiemental directory========
+07/30/25 07:22:32 EDT -0400 | Processing: /data/exp-fcre-weir-data
+07/30/25 07:22:32 EDT -0400 | [exp-fcre-weir-data 874ca90] Wed 2025-07-30 07:22:32 EDT
+07/30/25 07:22:32 EDT -0400 |  1 file changed, 24 insertions(+)
+07/30/25 07:22:32 EDT -0400 | Found unpushed commit(s).
+07/30/25 07:24:33 EDT -0400 | Connection closed by 10.10.101.1 port 22
+07/30/25 07:24:33 EDT -0400 | fatal: Could not read from remote repository.
+07/30/25 07:24:33 EDT -0400 | 
+07/30/25 07:24:33 EDT -0400 | Please make sure you have the correct access rights
+07/30/25 07:24:33 EDT -0400 | and the repository exists.
+07/30/25 07:24:33 EDT -0400 | Failed to push: b7bffdc28d6f37ad316e125d3930acea0f0b743a
+07/30/25 07:24:34 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+07/30/25 07:24:34 EDT -0400 | ========Experiemental directory end========
+07/30/25 07:24:35 EDT -0400 | ========Primary directory========
