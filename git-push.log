@@ -134045,3 +134045,34 @@ Completed at 08/17/23 06:22:17 EST
 08/03/25 00:30:20 EST -0500 |    48e47086..983b8877  983b887789e2b7b2fe14dcb547bd221d81ce7a5f -> fcre-metstation-data
 08/03/25 00:30:20 EST -0500 | Successfully pushed: 983b887789e2b7b2fe14dcb547bd221d81ce7a5f
 08/03/25 00:30:20 EST -0500 | Processing: /data/norvel-logs
+08/03/25 00:30:27 EST -0500 | [norvel-logs 9dd3d0d8] Sun 2025-08-03 00:30:20 EST
+08/03/25 00:30:27 EST -0500 |  2 files changed, 123 insertions(+)
+08/03/25 00:30:27 EST -0500 | Found unpushed commit(s).
+08/03/25 00:30:36 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/03/25 00:30:36 EST -0500 |    c20027d1..9dd3d0d8  9dd3d0d87ea062bec82235e4acaceba51b77a262 -> norvel-logs
+08/03/25 00:30:36 EST -0500 | Successfully pushed: 9dd3d0d87ea062bec82235e4acaceba51b77a262
+08/03/25 00:30:36 EST -0500 | ##########  END  ##########
+08/03/25 00:30:58 EST -0500 | ########## START ##########
+08/03/25 00:30:58 EST -0500 | Processing: /data/fcre-metstation-data
+08/03/25 00:30:58 EST -0500 | ########## START ##########
+08/03/25 00:30:58 EST -0500 | Processing: /data/fcre-metstation-data
+08/03/25 00:30:58 EST -0500 | fatal: Unable to create '/data/fcre-metstation-data/.git/index.lock': File exists.
+08/03/25 00:30:58 EST -0500 | 
+08/03/25 00:30:58 EST -0500 | On branch fcre-metstation-data
+08/03/25 00:30:58 EST -0500 | Another git process seems to be running in this repository, e.g.
+08/03/25 00:30:58 EST -0500 | Your branch is up to date with 'origin/fcre-metstation-data'.
+08/03/25 00:30:58 EST -0500 | an editor opened by 'git commit'. Please make sure all processes
+08/03/25 00:30:58 EST -0500 | 
+08/03/25 00:30:58 EST -0500 | are terminated then try again. If it still fails, a git process
+08/03/25 00:30:58 EST -0500 | nothing to commit, working tree clean
+08/03/25 00:30:58 EST -0500 | may have crashed in this repository earlier:
+08/03/25 00:30:58 EST -0500 | Processing: /data/norvel-logs
+08/03/25 00:30:58 EST -0500 | remove the file manually to continue.
+08/03/25 00:30:58 EST -0500 | fatal: Unable to create '/data/norvel-logs/.git/index.lock': File exists.
+08/03/25 00:30:58 EST -0500 | Processing: /data/norvel-logs
+08/03/25 00:30:58 EST -0500 | 
+08/03/25 00:30:58 EST -0500 | Another git process seems to be running in this repository, e.g.
+08/03/25 00:30:58 EST -0500 | an editor opened by 'git commit'. Please make sure all processes
+08/03/25 00:30:58 EST -0500 | are terminated then try again. If it still fails, a git process
+08/03/25 00:30:58 EST -0500 | may have crashed in this repository earlier:
+08/03/25 00:30:58 EST -0500 | remove the file manually to continue.
