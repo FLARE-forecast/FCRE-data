@@ -181835,3 +181835,56 @@
 08/04/25 12:43:02 EDT -0400 | ========Experiemental directory end========
 08/04/25 12:43:04 EDT -0400 | ========Primary directory========
 08/04/25 12:43:04 EDT -0400 | Processing: /data/mia-logs
+08/04/25 12:43:06 EDT -0400 | [mia-logs e0f6681] Mon 2025-08-04 12:43:04 EDT
+08/04/25 12:43:06 EDT -0400 |  3 files changed, 232 insertions(+)
+08/04/25 12:43:06 EDT -0400 | Found unpushed commit(s).
+08/04/25 12:44:43 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/04/25 12:44:43 EDT -0400 |    aece047..f14d8f3  f14d8f3d90e3b073434142988b0761ec6543ab7d -> mia-logs
+08/04/25 12:44:43 EDT -0400 | Successfully pushed: f14d8f3d90e3b073434142988b0761ec6543ab7d
+08/04/25 12:47:46 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/04/25 12:47:46 EDT -0400 |    f14d8f3..519bc46  519bc4648668261502f63dc3f93845513d1e8a65 -> mia-logs
+08/04/25 12:47:46 EDT -0400 | Successfully pushed: 519bc4648668261502f63dc3f93845513d1e8a65
+08/04/25 12:49:11 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/04/25 12:49:11 EDT -0400 |    519bc46..c14ff6a  c14ff6ac0b458d09179a7aadcf2ef1b2e23c7120 -> mia-logs
+08/04/25 12:49:11 EDT -0400 | Successfully pushed: c14ff6ac0b458d09179a7aadcf2ef1b2e23c7120
+08/04/25 15:19:15 EDT -0400 | ########## START ##########
+08/04/25 15:19:15 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/04/25 15:19:15 EDT -0400 | # Host 10.10.101.1 found: line 17
+08/04/25 15:19:15 EDT -0400 | # Host 10.10.101.1 found: line 18
+08/04/25 15:19:15 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/04/25 15:19:15 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/04/25 15:19:15 EDT -0400 | ========Primary directory========
+08/04/25 15:19:15 EDT -0400 | Processing: /data/fcre-weir-data
+08/04/25 15:19:15 EDT -0400 | [fcre-weir-data f5b9aa6] Mon 2025-08-04 15:19:15 EDT
+08/04/25 15:19:15 EDT -0400 |  1 file changed, 12 insertions(+)
+08/04/25 15:19:15 EDT -0400 | Found unpushed commit(s).
+08/04/25 21:09:17 EDT -0400 | ########## START ##########
+08/04/25 21:09:17 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/04/25 21:09:17 EDT -0400 | ========Primary directory========
+08/04/25 21:09:17 EDT -0400 | Processing: /data/fcre-weir-data
+08/04/25 21:09:17 EDT -0400 | [fcre-weir-data f10d282] Mon 2025-08-04 21:09:17 EDT
+08/04/25 21:09:17 EDT -0400 |  1 file changed, 24 insertions(+)
+08/04/25 21:09:17 EDT -0400 | Found unpushed commit(s).
+08/04/25 21:29:35 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Network is unreachable
+08/04/25 21:29:35 EDT -0400 | fatal: Could not read from remote repository.
+08/04/25 21:29:35 EDT -0400 | 
+08/04/25 21:29:35 EDT -0400 | Please make sure you have the correct access rights
+08/04/25 21:29:35 EDT -0400 | and the repository exists.
+08/04/25 21:29:35 EDT -0400 | Failed to push: 90d348ca462b6e641e9da652f126bd1ba8e1b86d
+08/04/25 21:29:35 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/04/25 21:29:35 EDT -0400 | ========Primary directory end========
+08/04/25 21:29:35 EDT -0400 | ========Experiemental directory========
+08/04/25 21:29:35 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/04/25 21:29:35 EDT -0400 | [exp-fcre-weir-data 446c7d7] Mon 2025-08-04 21:29:35 EDT
+08/04/25 21:29:35 EDT -0400 |  1 file changed, 36 insertions(+)
+08/04/25 21:29:35 EDT -0400 | Found unpushed commit(s).
+08/04/25 21:32:28 EDT -0400 | Connection reset by 10.10.101.1 port 22
+08/04/25 21:32:28 EDT -0400 | fatal: Could not read from remote repository.
+08/04/25 21:32:28 EDT -0400 | 
+08/04/25 21:32:28 EDT -0400 | Please make sure you have the correct access rights
+08/04/25 21:32:28 EDT -0400 | and the repository exists.
+08/04/25 21:32:28 EDT -0400 | Failed to push: 99b326c58acb2e2b20ecc9b8916f878edcafd418
+08/04/25 21:32:28 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/04/25 21:32:28 EDT -0400 | ========Experiemental directory end========
+08/04/25 21:32:29 EDT -0400 | ========Primary directory========
+08/04/25 21:32:29 EDT -0400 | Processing: /data/mia-logs
