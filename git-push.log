@@ -182740,3 +182740,59 @@
 08/06/25 10:11:11 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
 08/06/25 10:11:11 EDT -0400 | ========Experiemental directory end========
 08/06/25 10:11:11 EDT -0400 | ========Primary directory========
+08/06/25 10:11:11 EDT -0400 | Processing: /data/mia-logs
+08/06/25 10:11:12 EDT -0400 | [mia-logs 47a9101] Wed 2025-08-06 10:11:11 EDT
+08/06/25 10:11:12 EDT -0400 |  1 file changed, 60 insertions(+)
+08/06/25 10:11:12 EDT -0400 | Found unpushed commit(s).
+08/06/25 10:11:26 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/06/25 10:11:26 EDT -0400 | fatal: Could not read from remote repository.
+08/06/25 10:11:26 EDT -0400 | 
+08/06/25 10:11:26 EDT -0400 | Please make sure you have the correct access rights
+08/06/25 10:11:26 EDT -0400 | and the repository exists.
+08/06/25 10:11:26 EDT -0400 | Failed to push: ea1158c0d239916bac1e5d6c2ffae306b6315696
+08/06/25 10:11:26 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/06/25 10:11:26 EDT -0400 | ========Primary directory end========
+08/06/25 10:11:26 EDT -0400 | ========Experiemental directory========
+08/06/25 10:11:26 EDT -0400 | Processing: /data/exp-mia-logs
+08/06/25 10:11:27 EDT -0400 | [exp-mia-logs ffb09eb] Wed 2025-08-06 10:11:26 EDT
+08/06/25 10:11:27 EDT -0400 |  1 file changed, 61 insertions(+)
+08/06/25 10:11:27 EDT -0400 | Found unpushed commit(s).
+08/06/25 10:11:41 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/06/25 10:11:41 EDT -0400 | fatal: Could not read from remote repository.
+08/06/25 10:11:41 EDT -0400 | 
+08/06/25 10:11:41 EDT -0400 | Please make sure you have the correct access rights
+08/06/25 10:11:41 EDT -0400 | and the repository exists.
+08/06/25 10:11:41 EDT -0400 | Failed to push: 9c57203d7f82ef637e0d5447d9618bf986d667b1
+08/06/25 10:11:41 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/06/25 10:11:41 EDT -0400 | ========Experiemental directory end========
+08/06/25 10:11:41 EDT -0400 | ##########  END  ##########
+08/06/25 12:09:16 EDT -0400 | ########## START ##########
+08/06/25 12:09:16 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/06/25 12:09:16 EDT -0400 | ========Primary directory========
+08/06/25 12:09:16 EDT -0400 | Processing: /data/fcre-weir-data
+08/06/25 12:09:16 EDT -0400 | [fcre-weir-data 1c98ca9] Wed 2025-08-06 12:09:16 EDT
+08/06/25 12:09:16 EDT -0400 |  1 file changed, 8 insertions(+)
+08/06/25 12:09:16 EDT -0400 | Found unpushed commit(s).
+08/06/25 12:11:26 EDT -0400 | ssh: connect to host github.com port 22: Connection timed out
+08/06/25 12:11:26 EDT -0400 | fatal: Could not read from remote repository.
+08/06/25 12:11:26 EDT -0400 | 
+08/06/25 12:11:26 EDT -0400 | Please make sure you have the correct access rights
+08/06/25 12:11:26 EDT -0400 | and the repository exists.
+08/06/25 12:11:26 EDT -0400 | Failed to push: bcf4b96d2fe8aa9029f96852474337bd7b859033
+08/06/25 12:11:26 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/06/25 12:11:26 EDT -0400 | ========Primary directory end========
+08/06/25 12:11:26 EDT -0400 | ========Experiemental directory========
+08/06/25 12:11:26 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/06/25 12:11:26 EDT -0400 | [exp-fcre-weir-data 61e7cc1] Wed 2025-08-06 12:11:26 EDT
+08/06/25 12:11:26 EDT -0400 |  1 file changed, 8 insertions(+)
+08/06/25 12:11:26 EDT -0400 | Found unpushed commit(s).
+08/06/25 12:15:17 EDT -0400 | Connection closed by 10.10.101.1 port 22
+08/06/25 12:15:17 EDT -0400 | fatal: Could not read from remote repository.
+08/06/25 12:15:17 EDT -0400 | 
+08/06/25 12:15:17 EDT -0400 | Please make sure you have the correct access rights
+08/06/25 12:15:17 EDT -0400 | and the repository exists.
+08/06/25 12:15:17 EDT -0400 | Failed to push: 61a380534c89d31efdb43b09a1d6896409f17dfc
+08/06/25 12:15:17 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/06/25 12:15:17 EDT -0400 | ========Experiemental directory end========
+08/06/25 12:15:19 EDT -0400 | ========Primary directory========
+08/06/25 12:15:19 EDT -0400 | Processing: /data/mia-logs
