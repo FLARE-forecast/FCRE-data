@@ -182960,3 +182960,57 @@
 08/06/25 21:30:40 EDT -0400 | Connection closed by 10.10.101.1 port 22
 08/06/25 21:30:40 EDT -0400 | fatal: Could not read from remote repository.
 08/06/25 21:30:40 EDT -0400 | 
+08/06/25 21:30:40 EDT -0400 | Please make sure you have the correct access rights
+08/06/25 21:30:40 EDT -0400 | and the repository exists.
+08/06/25 21:30:40 EDT -0400 | Failed to push: 02d3929cb4a353a8d77ff653d348bb422317140d
+08/06/25 21:30:40 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/06/25 21:30:40 EDT -0400 | ========Experiemental directory end========
+08/06/25 21:30:42 EDT -0400 | ========Primary directory========
+08/06/25 21:30:42 EDT -0400 | Processing: /data/mia-logs
+08/06/25 21:30:44 EDT -0400 | [mia-logs 458b44b] Wed 2025-08-06 21:30:42 EDT
+08/06/25 21:30:44 EDT -0400 |  3 files changed, 122 insertions(+)
+08/06/25 21:30:44 EDT -0400 | Found unpushed commit(s).
+08/06/25 21:41:40 EDT -0400 | Connection closed by 140.82.114.3 port 22
+08/06/25 21:41:40 EDT -0400 | fatal: Could not read from remote repository.
+08/06/25 21:41:40 EDT -0400 | 
+08/06/25 21:41:40 EDT -0400 | Please make sure you have the correct access rights
+08/06/25 21:41:40 EDT -0400 | and the repository exists.
+08/06/25 21:41:40 EDT -0400 | Failed to push: ea1158c0d239916bac1e5d6c2ffae306b6315696
+08/06/25 21:41:40 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/06/25 21:41:40 EDT -0400 | ========Primary directory end========
+08/06/25 21:41:40 EDT -0400 | ========Experiemental directory========
+08/06/25 21:41:40 EDT -0400 | Processing: /data/exp-mia-logs
+08/06/25 21:41:42 EDT -0400 | [exp-mia-logs c8864fc] Wed 2025-08-06 21:41:40 EDT
+08/06/25 21:41:42 EDT -0400 |  3 files changed, 191 insertions(+)
+08/06/25 21:41:42 EDT -0400 | Found unpushed commit(s).
+08/06/25 21:42:42 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/06/25 21:49:53 EDT -0400 | remote: + exec        
+08/06/25 21:50:05 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/06/25 21:50:05 EDT -0400 |    50df639..9c57203  9c57203d7f82ef637e0d5447d9618bf986d667b1 -> exp-mia-logs
+08/06/25 21:50:05 EDT -0400 | Successfully pushed: 9c57203d7f82ef637e0d5447d9618bf986d667b1
+08/07/25 01:19:17 EDT -0400 | ########## START ##########
+08/07/25 01:19:17 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/07/25 01:19:17 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/07/25 01:19:17 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/07/25 01:19:17 EDT -0400 | ========Primary directory========
+08/07/25 01:19:17 EDT -0400 | Processing: /data/fcre-weir-data
+08/07/25 01:19:17 EDT -0400 | [fcre-weir-data 6a7b6ad] Thu 2025-08-07 01:19:17 EDT
+08/07/25 01:19:17 EDT -0400 |  1 file changed, 16 insertions(+)
+08/07/25 01:19:17 EDT -0400 | Found unpushed commit(s).
+08/07/25 01:19:28 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/07/25 01:19:28 EDT -0400 | fatal: Could not read from remote repository.
+08/07/25 01:19:28 EDT -0400 | 
+08/07/25 01:19:28 EDT -0400 | Please make sure you have the correct access rights
+08/07/25 01:19:28 EDT -0400 | and the repository exists.
+08/07/25 01:19:28 EDT -0400 | Failed to push: bcf4b96d2fe8aa9029f96852474337bd7b859033
+08/07/25 01:19:28 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/07/25 01:19:28 EDT -0400 | ========Primary directory end========
+08/07/25 01:19:28 EDT -0400 | ========Experiemental directory========
+08/07/25 01:19:28 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/07/25 01:19:29 EDT -0400 | [exp-fcre-weir-data 37cf028] Thu 2025-08-07 01:19:28 EDT
+08/07/25 01:19:29 EDT -0400 |  1 file changed, 16 insertions(+)
+08/07/25 01:19:29 EDT -0400 | Found unpushed commit(s).
+08/07/25 01:19:44 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/07/25 01:19:44 EDT -0400 | fatal: Could not read from remote repository.
+08/07/25 01:19:44 EDT -0400 | 
+08/07/25 01:19:44 EDT -0400 | Please make sure you have the correct access rights
