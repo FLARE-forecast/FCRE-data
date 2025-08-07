@@ -183075,3 +183075,56 @@
 08/07/25 01:21:01 EDT -0400 | fatal: Could not read from remote repository.
 08/07/25 01:21:01 EDT -0400 | 
 08/07/25 01:21:01 EDT -0400 | Please make sure you have the correct access rights
+08/07/25 01:21:01 EDT -0400 | and the repository exists.
+08/07/25 01:21:01 EDT -0400 | Failed to push: 02d3929cb4a353a8d77ff653d348bb422317140d
+08/07/25 01:21:01 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/07/25 01:21:01 EDT -0400 | ========Experiemental directory end========
+08/07/25 01:21:01 EDT -0400 | ========Primary directory========
+08/07/25 01:21:01 EDT -0400 | Processing: /data/mia-logs
+08/07/25 01:21:02 EDT -0400 | [mia-logs a6a1bc3] Thu 2025-08-07 01:21:01 EDT
+08/07/25 01:21:02 EDT -0400 |  1 file changed, 60 insertions(+)
+08/07/25 01:21:02 EDT -0400 | Found unpushed commit(s).
+08/07/25 01:21:16 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/07/25 01:21:16 EDT -0400 | fatal: Could not read from remote repository.
+08/07/25 01:21:16 EDT -0400 | 
+08/07/25 01:21:16 EDT -0400 | Please make sure you have the correct access rights
+08/07/25 01:21:16 EDT -0400 | and the repository exists.
+08/07/25 01:21:16 EDT -0400 | Failed to push: ea1158c0d239916bac1e5d6c2ffae306b6315696
+08/07/25 01:21:16 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/07/25 01:21:16 EDT -0400 | ========Primary directory end========
+08/07/25 01:21:16 EDT -0400 | ========Experiemental directory========
+08/07/25 01:21:16 EDT -0400 | Processing: /data/exp-mia-logs
+08/07/25 01:21:17 EDT -0400 | [exp-mia-logs cdbbbbd] Thu 2025-08-07 01:21:16 EDT
+08/07/25 01:21:17 EDT -0400 |  1 file changed, 61 insertions(+)
+08/07/25 01:21:17 EDT -0400 | Found unpushed commit(s).
+08/07/25 01:21:31 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/07/25 01:21:31 EDT -0400 | fatal: Could not read from remote repository.
+08/07/25 01:21:31 EDT -0400 | 
+08/07/25 01:21:31 EDT -0400 | Please make sure you have the correct access rights
+08/07/25 01:21:31 EDT -0400 | and the repository exists.
+08/07/25 01:21:31 EDT -0400 | Failed to push: a1115af5689a65d88094b4ab0cddc85c52314ffa
+08/07/25 01:21:31 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/07/25 01:21:31 EDT -0400 | ========Experiemental directory end========
+08/07/25 01:21:31 EDT -0400 | ##########  END  ##########
+08/07/25 07:04:17 EDT -0400 | ########## START ##########
+08/07/25 07:04:17 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/07/25 07:04:17 EDT -0400 | ========Primary directory========
+08/07/25 07:04:17 EDT -0400 | Processing: /data/fcre-weir-data
+08/07/25 07:04:17 EDT -0400 | [fcre-weir-data ea11e4e] Thu 2025-08-07 07:04:17 EDT
+08/07/25 07:04:17 EDT -0400 |  1 file changed, 24 insertions(+)
+08/07/25 07:04:17 EDT -0400 | Found unpushed commit(s).
+08/07/25 07:23:53 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Connection timed out
+08/07/25 07:23:53 EDT -0400 | fatal: Could not read from remote repository.
+08/07/25 07:23:53 EDT -0400 | 
+08/07/25 07:23:53 EDT -0400 | Please make sure you have the correct access rights
+08/07/25 07:23:53 EDT -0400 | and the repository exists.
+08/07/25 07:23:53 EDT -0400 | Failed to push: bcf4b96d2fe8aa9029f96852474337bd7b859033
+08/07/25 07:23:53 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/07/25 07:23:53 EDT -0400 | ========Primary directory end========
+08/07/25 07:23:53 EDT -0400 | ========Experiemental directory========
+08/07/25 07:23:53 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/07/25 07:23:54 EDT -0400 | [exp-fcre-weir-data b5347f1] Thu 2025-08-07 07:23:53 EDT
+08/07/25 07:23:54 EDT -0400 |  1 file changed, 24 insertions(+)
+08/07/25 07:23:54 EDT -0400 | Found unpushed commit(s).
+08/07/25 07:26:11 EDT -0400 | Connection closed by 10.10.101.1 port 22
+08/07/25 07:26:11 EDT -0400 | fatal: Could not read from remote repository.
