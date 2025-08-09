@@ -183707,3 +183707,64 @@
 08/09/25 01:19:42 EDT -0400 | fatal: Could not read from remote repository.
 08/09/25 01:19:42 EDT -0400 | 
 08/09/25 01:19:42 EDT -0400 | Please make sure you have the correct access rights
+08/09/25 01:19:42 EDT -0400 | and the repository exists.
+08/09/25 01:19:42 EDT -0400 | Failed to push: 446c7d7108a2968de475a94949b787cfb7d54bca
+08/09/25 01:19:42 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/09/25 01:19:42 EDT -0400 | ========Experiemental directory end========
+08/09/25 01:19:44 EDT -0400 | ========Primary directory========
+08/09/25 01:19:44 EDT -0400 | Processing: /data/mia-logs
+08/09/25 01:19:46 EDT -0400 | [mia-logs d9e788f] Sat 2025-08-09 01:19:44 EDT
+08/09/25 01:19:46 EDT -0400 |  3 files changed, 129 insertions(+)
+08/09/25 01:19:46 EDT -0400 | Found unpushed commit(s).
+08/09/25 01:19:58 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/09/25 01:19:58 EDT -0400 | fatal: Could not read from remote repository.
+08/09/25 01:19:58 EDT -0400 | 
+08/09/25 01:19:58 EDT -0400 | Please make sure you have the correct access rights
+08/09/25 01:19:58 EDT -0400 | and the repository exists.
+08/09/25 01:19:58 EDT -0400 | Failed to push: 21234a88c93ea0d68cfd5825ebfd0310f448a9ff
+08/09/25 01:19:58 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/09/25 01:19:58 EDT -0400 | ========Primary directory end========
+08/09/25 01:19:58 EDT -0400 | ========Experiemental directory========
+08/09/25 01:19:58 EDT -0400 | Processing: /data/exp-mia-logs
+08/09/25 01:20:00 EDT -0400 | [exp-mia-logs b55373b] Sat 2025-08-09 01:19:58 EDT
+08/09/25 01:20:00 EDT -0400 |  3 files changed, 270 insertions(+)
+08/09/25 01:20:00 EDT -0400 | Found unpushed commit(s).
+08/09/25 01:20:13 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/09/25 01:20:13 EDT -0400 | fatal: Could not read from remote repository.
+08/09/25 01:20:13 EDT -0400 | 
+08/09/25 01:20:13 EDT -0400 | Please make sure you have the correct access rights
+08/09/25 01:20:13 EDT -0400 | and the repository exists.
+08/09/25 01:20:13 EDT -0400 | Failed to push: a1115af5689a65d88094b4ab0cddc85c52314ffa
+08/09/25 01:20:13 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/09/25 01:20:13 EDT -0400 | ========Experiemental directory end========
+08/09/25 01:20:13 EDT -0400 | ##########  END  ##########
+08/09/25 01:20:43 EDT -0400 | ########## START ##########
+08/09/25 01:20:43 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/09/25 01:20:43 EDT -0400 | ========Primary directory========
+08/09/25 01:20:43 EDT -0400 | Processing: /data/fcre-weir-data
+08/09/25 01:20:43 EDT -0400 | On branch fcre-weir-data
+08/09/25 01:20:43 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 63 commits.
+08/09/25 01:20:43 EDT -0400 |   (use "git push" to publish your local commits)
+08/09/25 01:20:43 EDT -0400 | 
+08/09/25 01:20:43 EDT -0400 | nothing to commit, working tree clean
+08/09/25 01:20:43 EDT -0400 | Found unpushed commit(s).
+08/09/25 01:20:44 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/09/25 01:20:44 EDT -0400 | fatal: Could not read from remote repository.
+08/09/25 01:20:44 EDT -0400 | 
+08/09/25 01:20:44 EDT -0400 | Please make sure you have the correct access rights
+08/09/25 01:20:44 EDT -0400 | and the repository exists.
+08/09/25 01:20:44 EDT -0400 | Failed to push: 642d49f882fa36c84c498d20fd087379f57ca148
+08/09/25 01:20:44 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/09/25 01:20:44 EDT -0400 | ========Primary directory end========
+08/09/25 01:20:44 EDT -0400 | ========Experiemental directory========
+08/09/25 01:20:44 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/09/25 01:20:44 EDT -0400 | On branch exp-fcre-weir-data
+08/09/25 01:20:44 EDT -0400 | Your branch is ahead of 'origin/exp-fcre-weir-data' by 25 commits.
+08/09/25 01:20:44 EDT -0400 |   (use "git push" to publish your local commits)
+08/09/25 01:20:44 EDT -0400 | 
+08/09/25 01:20:44 EDT -0400 | nothing to commit, working tree clean
+08/09/25 01:20:44 EDT -0400 | Found unpushed commit(s).
+08/09/25 01:20:59 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/09/25 01:20:59 EDT -0400 | fatal: Could not read from remote repository.
+08/09/25 01:20:59 EDT -0400 | 
+08/09/25 01:20:59 EDT -0400 | Please make sure you have the correct access rights
