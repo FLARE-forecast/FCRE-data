@@ -184112,3 +184112,57 @@
 08/10/25 01:20:59 EDT -0400 | fatal: Could not read from remote repository.
 08/10/25 01:20:59 EDT -0400 | 
 08/10/25 01:20:59 EDT -0400 | Please make sure you have the correct access rights
+08/10/25 01:20:59 EDT -0400 | and the repository exists.
+08/10/25 01:20:59 EDT -0400 | Failed to push: 446c7d7108a2968de475a94949b787cfb7d54bca
+08/10/25 01:20:59 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/10/25 01:20:59 EDT -0400 | ========Experiemental directory end========
+08/10/25 01:20:59 EDT -0400 | ========Primary directory========
+08/10/25 01:20:59 EDT -0400 | Processing: /data/mia-logs
+08/10/25 01:21:00 EDT -0400 | [mia-logs 94f5a0a] Sun 2025-08-10 01:20:59 EDT
+08/10/25 01:21:00 EDT -0400 |  1 file changed, 60 insertions(+)
+08/10/25 01:21:00 EDT -0400 | Found unpushed commit(s).
+08/10/25 01:21:14 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/10/25 01:21:14 EDT -0400 | fatal: Could not read from remote repository.
+08/10/25 01:21:14 EDT -0400 | 
+08/10/25 01:21:14 EDT -0400 | Please make sure you have the correct access rights
+08/10/25 01:21:14 EDT -0400 | and the repository exists.
+08/10/25 01:21:14 EDT -0400 | Failed to push: 21234a88c93ea0d68cfd5825ebfd0310f448a9ff
+08/10/25 01:21:14 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/10/25 01:21:14 EDT -0400 | ========Primary directory end========
+08/10/25 01:21:14 EDT -0400 | ========Experiemental directory========
+08/10/25 01:21:14 EDT -0400 | Processing: /data/exp-mia-logs
+08/10/25 01:21:15 EDT -0400 | [exp-mia-logs e6e5daf] Sun 2025-08-10 01:21:14 EDT
+08/10/25 01:21:15 EDT -0400 |  1 file changed, 61 insertions(+)
+08/10/25 01:21:15 EDT -0400 | Found unpushed commit(s).
+08/10/25 01:21:30 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/10/25 01:21:30 EDT -0400 | fatal: Could not read from remote repository.
+08/10/25 01:21:30 EDT -0400 | 
+08/10/25 01:21:30 EDT -0400 | Please make sure you have the correct access rights
+08/10/25 01:21:30 EDT -0400 | and the repository exists.
+08/10/25 01:21:30 EDT -0400 | Failed to push: db5064018c50e1dd040c54d10358d45e54c31345
+08/10/25 01:21:30 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/10/25 01:21:30 EDT -0400 | ========Experiemental directory end========
+08/10/25 01:21:30 EDT -0400 | ##########  END  ##########
+08/10/25 07:04:20 EDT -0400 | ########## START ##########
+08/10/25 07:04:20 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/10/25 07:04:20 EDT -0400 | ========Primary directory========
+08/10/25 07:04:20 EDT -0400 | Processing: /data/fcre-weir-data
+08/10/25 07:04:20 EDT -0400 | [fcre-weir-data 7c488d2] Sun 2025-08-10 07:04:20 EDT
+08/10/25 07:04:20 EDT -0400 |  1 file changed, 24 insertions(+)
+08/10/25 07:04:20 EDT -0400 | Found unpushed commit(s).
+08/10/25 07:04:39 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/10/25 07:04:39 EDT -0400 | fatal: Could not read from remote repository.
+08/10/25 07:04:39 EDT -0400 | 
+08/10/25 07:04:39 EDT -0400 | Please make sure you have the correct access rights
+08/10/25 07:04:39 EDT -0400 | and the repository exists.
+08/10/25 07:04:39 EDT -0400 | Failed to push: 642d49f882fa36c84c498d20fd087379f57ca148
+08/10/25 07:04:39 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/10/25 07:04:39 EDT -0400 | ========Primary directory end========
+08/10/25 07:04:39 EDT -0400 | ========Experiemental directory========
+08/10/25 07:04:39 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/10/25 07:04:39 EDT -0400 | [exp-fcre-weir-data 4130b65] Sun 2025-08-10 07:04:39 EDT
+08/10/25 07:04:39 EDT -0400 |  1 file changed, 24 insertions(+)
+08/10/25 07:04:39 EDT -0400 | Found unpushed commit(s).
+08/10/25 07:05:17 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/10/25 07:08:47 EDT -0400 | Connection reset by 10.10.101.1 port 22
+08/10/25 07:08:47 EDT -0400 | fatal: Could not read from remote repository.
