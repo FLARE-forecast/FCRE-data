@@ -3210,3 +3210,74 @@ To github.com:FLARE-forecast/TEST-data.git
 [post-receive] Sync complete for exp-fcre-weir-data.
 + exec
 + read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/exp-fcre-weir-data =~ ^refs/heads/ ]]
++ branch=exp-fcre-weir-data
++ echo '[post-receive] Processing branch: exp-fcre-weir-data'
+[post-receive] Processing branch: exp-fcre-weir-data
++ WORKDIR=/data/exp-fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-exp-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for exp-fcre-weir-data'
+[post-receive] Acquired lock for exp-fcre-weir-data
++ '[' '!' -d /data/exp-fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/exp-fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout exp-fcre-weir-data
+Already on 'exp-fcre-weir-data'
+Your branch is up to date with 'origin/exp-fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   f048160..1f842fc  exp-fcre-weir-data -> origin/exp-fcre-weir-data
++ git reset --hard origin/exp-fcre-weir-data
+HEAD is now at 1f842fc Fri 2025-08-08 12:31:41 EDT
++ git push github exp-fcre-weir-data
+To github.com:FLARE-forecast/TEST-data.git
+   f048160..1f842fc  exp-fcre-weir-data -> exp-fcre-weir-data
++ echo '[post-receive] Sync complete for exp-fcre-weir-data.'
+[post-receive] Sync complete for exp-fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/exp-mia-logs =~ ^refs/heads/ ]]
++ branch=exp-mia-logs
++ echo '[post-receive] Processing branch: exp-mia-logs'
+[post-receive] Processing branch: exp-mia-logs
++ WORKDIR=/data/exp-mia-logs
++ LOCKFILE=/tmp/git-post-receive-exp-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for exp-mia-logs'
+[post-receive] Acquired lock for exp-mia-logs
++ '[' '!' -d /data/exp-mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/exp-mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout exp-mia-logs
+Already on 'exp-mia-logs'
+Your branch is up to date with 'origin/exp-mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   db50640..b736e02  exp-mia-logs       -> origin/exp-mia-logs
+   9c8b2aa..1f842fc  exp-fcre-weir-data -> origin/exp-fcre-weir-data
++ git reset --hard origin/exp-mia-logs
+HEAD is now at b736e02 Fri 2025-08-01 01:19:56 EDT
++ git push github exp-mia-logs
+To github.com:FLARE-forecast/TEST-data.git
+   db50640..b736e02  exp-mia-logs -> exp-mia-logs
++ echo '[post-receive] Sync complete for exp-mia-logs.'
+[post-receive] Sync complete for exp-mia-logs.
++ exec
++ read oldrev newrev refname
