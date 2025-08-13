@@ -135807,3 +135807,22 @@ Completed at 08/17/23 06:22:17 EST
 08/13/25 14:30:19 EST -0500 |    8fbf841b..8b8f89b4  8b8f89b4cae85190f676355cc20965fb49d78b5f -> fcre-metstation-data
 08/13/25 14:30:19 EST -0500 | Successfully pushed: 8b8f89b4cae85190f676355cc20965fb49d78b5f
 08/13/25 14:30:19 EST -0500 | Processing: /data/norvel-logs
+08/13/25 14:30:22 EST -0500 | [norvel-logs 70bd4219] Wed 2025-08-13 14:30:19 EST
+08/13/25 14:30:22 EST -0500 |  4 files changed, 360 insertions(+)
+08/13/25 14:30:22 EST -0500 | Found unpushed commit(s).
+08/13/25 14:30:31 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/13/25 14:30:31 EST -0500 |    1feb705b..70bd4219  70bd42199cc0ab0c20197e8b0673eba76fd3fb1a -> norvel-logs
+08/13/25 14:30:31 EST -0500 | Successfully pushed: 70bd42199cc0ab0c20197e8b0673eba76fd3fb1a
+08/13/25 14:30:31 EST -0500 | ##########  END  ##########
+08/13/25 14:36:51 EST -0500 | ########## START ##########
+08/13/25 14:36:51 EST -0500 | Processing: /data/fcre-metstation-data
+08/13/25 14:36:57 EST -0500 | [fcre-metstation-data ea41e00c] Wed 2025-08-13 14:36:51 EST
+08/13/25 14:36:57 EST -0500 |  2 files changed, 20 insertions(+)
+08/13/25 14:36:57 EST -0500 | Found unpushed commit(s).
+08/13/25 14:37:17 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+08/13/25 14:37:17 EST -0500 | fatal: Could not read from remote repository.
+08/13/25 14:37:17 EST -0500 | 
+08/13/25 14:37:17 EST -0500 | Please make sure you have the correct access rights
+08/13/25 14:37:17 EST -0500 | and the repository exists.
+08/13/25 14:37:17 EST -0500 | Failed to push: ea41e00c23de7b12ee8ee0fca21cf242678ef5c8
+08/13/25 14:37:17 EST -0500 | Processing: /data/norvel-logs
