@@ -186196,3 +186196,80 @@
 08/14/25 07:27:24 EDT -0400 | ========Experiemental directory end========
 08/14/25 07:27:25 EDT -0400 | ========Primary directory========
 08/14/25 07:27:25 EDT -0400 | Processing: /data/mia-logs
+08/14/25 07:27:27 EDT -0400 | [mia-logs 882fdc3] Thu 2025-08-14 07:27:25 EDT
+08/14/25 07:27:27 EDT -0400 |  3 files changed, 152 insertions(+)
+08/14/25 07:27:27 EDT -0400 | Found unpushed commit(s).
+08/14/25 07:44:21 EDT -0400 | kex_exchange_identification: read: Connection timed out
+08/14/25 07:44:21 EDT -0400 | banner exchange: Connection to 140.82.114.3 port 22: Connection timed out
+08/14/25 07:44:21 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 07:44:21 EDT -0400 | 
+08/14/25 07:44:21 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 07:44:21 EDT -0400 | and the repository exists.
+08/14/25 07:44:21 EDT -0400 | Failed to push: fa1a87df38be413ff11622159e44f335806e027b
+08/14/25 07:44:21 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/14/25 07:44:21 EDT -0400 | ========Primary directory end========
+08/14/25 07:44:21 EDT -0400 | ========Experiemental directory========
+08/14/25 07:44:21 EDT -0400 | Processing: /data/exp-mia-logs
+08/14/25 07:44:24 EDT -0400 | [exp-mia-logs 80d7588] Thu 2025-08-14 07:44:21 EDT
+08/14/25 07:44:24 EDT -0400 |  3 files changed, 151 insertions(+)
+08/14/25 07:44:24 EDT -0400 | Found unpushed commit(s).
+08/14/25 07:46:34 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Connection timed out
+08/14/25 07:46:34 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 07:46:34 EDT -0400 | 
+08/14/25 07:46:34 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 07:46:34 EDT -0400 | and the repository exists.
+08/14/25 07:46:34 EDT -0400 | Failed to push: 5b910f4a15199f5e82634c9146c5eb1ea7f6ca60
+08/14/25 07:46:34 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/14/25 07:46:34 EDT -0400 | ========Experiemental directory end========
+08/14/25 07:46:34 EDT -0400 | ##########  END  ##########
+08/14/25 07:47:00 EDT -0400 | ########## START ##########
+08/14/25 07:47:00 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/14/25 07:47:00 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/14/25 07:47:00 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/14/25 07:47:00 EDT -0400 | ========Primary directory========
+08/14/25 07:47:00 EDT -0400 | Processing: /data/fcre-weir-data
+08/14/25 07:47:00 EDT -0400 | [fcre-weir-data 1987eaa] Thu 2025-08-14 07:47:00 EDT
+08/14/25 07:47:00 EDT -0400 |  1 file changed, 24 insertions(+)
+08/14/25 07:47:00 EDT -0400 | Found unpushed commit(s).
+08/14/25 10:09:19 EDT -0400 | ########## START ##########
+08/14/25 10:09:19 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/14/25 10:09:19 EDT -0400 | ========Primary directory========
+08/14/25 10:09:19 EDT -0400 | Processing: /data/fcre-weir-data
+08/14/25 10:09:19 EDT -0400 | On branch fcre-weir-data
+08/14/25 10:09:19 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 90 commits.
+08/14/25 10:09:19 EDT -0400 |   (use "git push" to publish your local commits)
+08/14/25 10:09:19 EDT -0400 | 
+08/14/25 10:09:19 EDT -0400 | nothing to commit, working tree clean
+08/14/25 10:09:19 EDT -0400 | Found unpushed commit(s).
+08/14/25 10:26:47 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Connection timed out
+08/14/25 10:26:47 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 10:26:47 EDT -0400 | 
+08/14/25 10:26:47 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 10:26:47 EDT -0400 | and the repository exists.
+08/14/25 10:26:47 EDT -0400 | Failed to push: 013b8070a21efc5e7b12c23177d0fc67e027e65e
+08/14/25 10:26:47 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/14/25 10:26:47 EDT -0400 | ========Primary directory end========
+08/14/25 10:26:47 EDT -0400 | ========Experiemental directory========
+08/14/25 10:26:47 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/14/25 10:26:47 EDT -0400 | [exp-fcre-weir-data 0e2859f] Thu 2025-08-14 10:26:47 EDT
+08/14/25 10:26:47 EDT -0400 |  1 file changed, 24 insertions(+)
+08/14/25 10:26:47 EDT -0400 | Found unpushed commit(s).
+08/14/25 10:28:11 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/14/25 10:28:59 EDT -0400 | remote: + exec        
+08/14/25 10:29:04 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 10:29:04 EDT -0400 |    acb353c..1f946bd  1f946bd8f68e9078e89d19164f9d0eda4f9093c8 -> exp-fcre-weir-data
+08/14/25 10:29:04 EDT -0400 | Successfully pushed: 1f946bd8f68e9078e89d19164f9d0eda4f9093c8
+08/14/25 10:35:41 EDT -0400 | remote: + exec        
+08/14/25 10:35:43 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 10:35:43 EDT -0400 |    1f946bd..be5df20  be5df20e0153671beaaae814f06b65c6a21f39b5 -> exp-fcre-weir-data
+08/14/25 10:35:43 EDT -0400 | Successfully pushed: be5df20e0153671beaaae814f06b65c6a21f39b5
+08/14/25 10:38:29 EDT -0400 | Connection closed by 10.10.101.1 port 22
+08/14/25 10:38:29 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 10:38:29 EDT -0400 | 
+08/14/25 10:38:29 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 10:38:29 EDT -0400 | and the repository exists.
+08/14/25 10:38:29 EDT -0400 | Failed to push: 02199245671e67f8a441b7f0106da519d3b7f47d
+08/14/25 10:38:29 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/14/25 10:38:30 EDT -0400 | ========Experiemental directory end========
+08/14/25 10:38:31 EDT -0400 | ========Primary directory========
+08/14/25 10:38:31 EDT -0400 | Processing: /data/mia-logs
