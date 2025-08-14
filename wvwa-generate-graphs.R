@@ -23,7 +23,8 @@ options(timeout=500)
 
 download.file('https://github.com/FLARE-forecast/FCRE-data/raw/fcre-metstation-data/FCRmet.csv','FCRmet.csv')
 download.file('https://github.com/FLARE-forecast/FCRE-data/raw/fcre-catwalk-data/fcre-waterquality.csv','fcre-waterquality.csv')
-download.file('https://github.com/FLARE-forecast/FCRE-data/raw/fcre-weir-data/FCRweir.csv','FCRweir.csv')
+#download.file('https://github.com/FLARE-forecast/FCRE-data/raw/fcre-weir-data/FCRweir.csv','FCRweir.csv')
+download.file('https://raw.githubusercontent.com/FLARE-forecast/TEST-data/refs/heads/exp-fcre-weir-data/FCRweir.csv', 'FCRweir.csv')
 #download.file('https://github.com/FLARE-forecast/BVRE-data/raw/bvre-platform-data/bvre-waterquality.csv','bvre-waterquality.csv')
 download.file('https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-eddyflux-data-qaqc/EddyFlux_streaming_L1.csv', 'Eddyflux.csv')
 
