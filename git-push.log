@@ -186132,3 +186132,59 @@
 08/14/25 01:20:42 EDT -0400 | Found unpushed commit(s).
 08/14/25 01:20:58 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
 08/14/25 01:20:58 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 01:20:58 EDT -0400 | 
+08/14/25 01:20:58 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 01:20:58 EDT -0400 | and the repository exists.
+08/14/25 01:20:58 EDT -0400 | Failed to push: 1f946bd8f68e9078e89d19164f9d0eda4f9093c8
+08/14/25 01:20:58 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/14/25 01:20:58 EDT -0400 | ========Experiemental directory end========
+08/14/25 01:20:58 EDT -0400 | ========Primary directory========
+08/14/25 01:20:58 EDT -0400 | Processing: /data/mia-logs
+08/14/25 01:20:59 EDT -0400 | [mia-logs ac2adee] Thu 2025-08-14 01:20:58 EDT
+08/14/25 01:20:59 EDT -0400 |  1 file changed, 60 insertions(+)
+08/14/25 01:20:59 EDT -0400 | Found unpushed commit(s).
+08/14/25 01:21:13 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/14/25 01:21:13 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 01:21:13 EDT -0400 | 
+08/14/25 01:21:13 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 01:21:13 EDT -0400 | and the repository exists.
+08/14/25 01:21:13 EDT -0400 | Failed to push: fa1a87df38be413ff11622159e44f335806e027b
+08/14/25 01:21:13 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/14/25 01:21:13 EDT -0400 | ========Primary directory end========
+08/14/25 01:21:13 EDT -0400 | ========Experiemental directory========
+08/14/25 01:21:13 EDT -0400 | Processing: /data/exp-mia-logs
+08/14/25 01:21:14 EDT -0400 | [exp-mia-logs 83f27c8] Thu 2025-08-14 01:21:13 EDT
+08/14/25 01:21:14 EDT -0400 |  1 file changed, 59 insertions(+)
+08/14/25 01:21:14 EDT -0400 | Found unpushed commit(s).
+08/14/25 01:21:28 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/14/25 01:21:28 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 01:21:28 EDT -0400 | 
+08/14/25 01:21:28 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 01:21:28 EDT -0400 | and the repository exists.
+08/14/25 01:21:28 EDT -0400 | Failed to push: 5b910f4a15199f5e82634c9146c5eb1ea7f6ca60
+08/14/25 01:21:28 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/14/25 01:21:28 EDT -0400 | ========Experiemental directory end========
+08/14/25 01:21:28 EDT -0400 | ##########  END  ##########
+08/14/25 07:04:20 EDT -0400 | ########## START ##########
+08/14/25 07:04:20 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/14/25 07:04:20 EDT -0400 | ========Primary directory========
+08/14/25 07:04:20 EDT -0400 | Processing: /data/fcre-weir-data
+08/14/25 07:04:21 EDT -0400 | [fcre-weir-data 38dcffb] Thu 2025-08-14 07:04:20 EDT
+08/14/25 07:04:21 EDT -0400 |  1 file changed, 16 insertions(+)
+08/14/25 07:04:21 EDT -0400 | Found unpushed commit(s).
+08/14/25 07:23:22 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Network is unreachable
+08/14/25 07:23:22 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 07:23:22 EDT -0400 | 
+08/14/25 07:23:22 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 07:23:22 EDT -0400 | and the repository exists.
+08/14/25 07:23:22 EDT -0400 | Failed to push: 013b8070a21efc5e7b12c23177d0fc67e027e65e
+08/14/25 07:23:22 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/14/25 07:23:22 EDT -0400 | ========Primary directory end========
+08/14/25 07:23:22 EDT -0400 | ========Experiemental directory========
+08/14/25 07:23:22 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/14/25 07:23:22 EDT -0400 | [exp-fcre-weir-data 609f982] Thu 2025-08-14 07:23:22 EDT
+08/14/25 07:23:22 EDT -0400 |  1 file changed, 16 insertions(+)
+08/14/25 07:23:22 EDT -0400 | Found unpushed commit(s).
+08/14/25 07:27:14 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/14/25 07:27:24 EDT -0400 | Connection closed by 10.10.101.1 port 22
+08/14/25 07:27:24 EDT -0400 | fatal: Could not read from remote repository.
