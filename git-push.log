@@ -186313,3 +186313,192 @@
 08/14/25 12:28:23 EDT -0400 | ========Experiemental directory end========
 08/14/25 12:28:24 EDT -0400 | ========Primary directory========
 08/14/25 12:28:24 EDT -0400 | Processing: /data/mia-logs
+08/14/25 12:28:26 EDT -0400 | [mia-logs 45731f1] Thu 2025-08-14 12:28:24 EDT
+08/14/25 12:28:26 EDT -0400 |  3 files changed, 129 insertions(+)
+08/14/25 12:28:26 EDT -0400 | Found unpushed commit(s).
+08/14/25 12:45:19 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Network is unreachable
+08/14/25 12:45:19 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 12:45:19 EDT -0400 | 
+08/14/25 12:45:19 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 12:45:19 EDT -0400 | and the repository exists.
+08/14/25 12:45:19 EDT -0400 | Failed to push: b64ebb42dec08b37c1c292d8781a1c688b2cc91f
+08/14/25 12:45:19 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/14/25 12:45:19 EDT -0400 | ========Primary directory end========
+08/14/25 12:45:19 EDT -0400 | ========Experiemental directory========
+08/14/25 12:45:19 EDT -0400 | Processing: /data/exp-mia-logs
+08/14/25 12:45:21 EDT -0400 | [exp-mia-logs 74f780b] Thu 2025-08-14 12:45:19 EDT
+08/14/25 12:45:21 EDT -0400 |  3 files changed, 294 insertions(+)
+08/14/25 12:45:21 EDT -0400 | Found unpushed commit(s).
+08/14/25 12:46:21 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/14/25 12:47:23 EDT -0400 | Connection closed by 10.10.101.1 port 22
+08/14/25 12:47:23 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 12:47:23 EDT -0400 | 
+08/14/25 12:47:23 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 12:47:23 EDT -0400 | and the repository exists.
+08/14/25 12:47:23 EDT -0400 | Failed to push: 5b910f4a15199f5e82634c9146c5eb1ea7f6ca60
+08/14/25 12:47:23 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/14/25 12:47:23 EDT -0400 | ========Experiemental directory end========
+08/14/25 12:47:23 EDT -0400 | ##########  END  ##########
+08/14/25 12:47:49 EDT -0400 | ########## START ##########
+08/14/25 12:47:49 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/14/25 12:47:49 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/14/25 12:47:49 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/14/25 12:47:49 EDT -0400 | ========Primary directory========
+08/14/25 12:47:49 EDT -0400 | Processing: /data/fcre-weir-data
+08/14/25 12:47:49 EDT -0400 | On branch fcre-weir-data
+08/14/25 12:47:49 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 91 commits.
+08/14/25 12:47:49 EDT -0400 |   (use "git push" to publish your local commits)
+08/14/25 12:47:49 EDT -0400 | 
+08/14/25 12:47:49 EDT -0400 | nothing to commit, working tree clean
+08/14/25 12:47:49 EDT -0400 | Found unpushed commit(s).
+08/14/25 12:50:27 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/14/25 12:50:27 EDT -0400 |    e06e0bf..013b807  013b8070a21efc5e7b12c23177d0fc67e027e65e -> fcre-weir-data
+08/14/25 12:50:27 EDT -0400 | Successfully pushed: 013b8070a21efc5e7b12c23177d0fc67e027e65e
+08/14/25 15:23:10 EDT -0400 | ########## START ##########
+08/14/25 15:23:10 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/14/25 15:23:10 EDT -0400 | ========Primary directory========
+08/14/25 15:23:10 EDT -0400 | Processing: /data/fcre-weir-data
+08/14/25 15:23:10 EDT -0400 | On branch fcre-weir-data
+08/14/25 15:23:10 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 90 commits.
+08/14/25 15:23:10 EDT -0400 |   (use "git push" to publish your local commits)
+08/14/25 15:23:10 EDT -0400 | 
+08/14/25 15:23:10 EDT -0400 | nothing to commit, working tree clean
+08/14/25 15:23:10 EDT -0400 | Found unpushed commit(s).
+08/14/25 15:43:27 EDT -0400 | client_loop: send disconnect: Broken pipe
+08/14/25 15:43:27 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 15:43:27 EDT -0400 | 
+08/14/25 15:43:27 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 15:43:27 EDT -0400 | and the repository exists.
+08/14/25 15:43:27 EDT -0400 | Failed to push: 7c6f40315802f1205e0f78d2d9d608d4a2cc4d30
+08/14/25 15:43:27 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/14/25 15:43:27 EDT -0400 | ========Primary directory end========
+08/14/25 15:43:27 EDT -0400 | ========Experiemental directory========
+08/14/25 15:43:27 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/14/25 15:43:27 EDT -0400 | On branch exp-fcre-weir-data
+08/14/25 15:43:27 EDT -0400 | Your branch is ahead of 'origin/exp-fcre-weir-data' by 29 commits.
+08/14/25 15:43:27 EDT -0400 |   (use "git push" to publish your local commits)
+08/14/25 15:43:27 EDT -0400 | 
+08/14/25 15:43:27 EDT -0400 | nothing to commit, working tree clean
+08/14/25 15:43:27 EDT -0400 | Found unpushed commit(s).
+08/14/25 15:44:10 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/14/25 15:49:20 EDT -0400 | remote: + exec        
+08/14/25 15:51:29 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 15:51:29 EDT -0400 |    be5df20..0219924  02199245671e67f8a441b7f0106da519d3b7f47d -> exp-fcre-weir-data
+08/14/25 15:51:29 EDT -0400 | Successfully pushed: 02199245671e67f8a441b7f0106da519d3b7f47d
+08/14/25 21:09:21 EDT -0400 | ########## START ##########
+08/14/25 21:09:21 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/14/25 21:09:21 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/14/25 21:09:21 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/14/25 21:09:21 EDT -0400 | ========Primary directory========
+08/14/25 21:09:21 EDT -0400 | Processing: /data/fcre-weir-data
+08/14/25 21:09:21 EDT -0400 | [fcre-weir-data ac86ea8] Thu 2025-08-14 21:09:21 EDT
+08/14/25 21:09:21 EDT -0400 |  1 file changed, 35 insertions(+)
+08/14/25 21:09:21 EDT -0400 | Found unpushed commit(s).
+08/14/25 21:28:16 EDT -0400 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Network is unreachable
+08/14/25 21:28:16 EDT -0400 | fatal: Could not read from remote repository.
+08/14/25 21:28:16 EDT -0400 | 
+08/14/25 21:28:16 EDT -0400 | Please make sure you have the correct access rights
+08/14/25 21:28:16 EDT -0400 | and the repository exists.
+08/14/25 21:28:16 EDT -0400 | Failed to push: 7c6f40315802f1205e0f78d2d9d608d4a2cc4d30
+08/14/25 21:28:16 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/14/25 21:28:16 EDT -0400 | ========Primary directory end========
+08/14/25 21:28:16 EDT -0400 | ========Experiemental directory========
+08/14/25 21:28:16 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/14/25 21:28:16 EDT -0400 | [exp-fcre-weir-data 3676acc] Thu 2025-08-14 21:28:16 EDT
+08/14/25 21:28:16 EDT -0400 |  1 file changed, 35 insertions(+)
+08/14/25 21:28:16 EDT -0400 | Found unpushed commit(s).
+08/14/25 21:28:49 EDT -0400 | Warning: Permanently added '10.10.101.1' (ED25519) to the list of known hosts.
+08/14/25 21:29:40 EDT -0400 | remote: + exec        
+08/14/25 21:29:43 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:29:43 EDT -0400 |    0219924..e96630e  e96630e8d29bb4c30ef8fd6877e95ed235bec92e -> exp-fcre-weir-data
+08/14/25 21:29:43 EDT -0400 | Successfully pushed: e96630e8d29bb4c30ef8fd6877e95ed235bec92e
+08/14/25 21:31:59 EDT -0400 | remote: + exec        
+08/14/25 21:32:03 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:32:03 EDT -0400 |    e96630e..04840a8  04840a801d744f4c17878aaf89b72354a2de9d4b -> exp-fcre-weir-data
+08/14/25 21:32:03 EDT -0400 | Successfully pushed: 04840a801d744f4c17878aaf89b72354a2de9d4b
+08/14/25 21:33:48 EDT -0400 | remote: + exec        
+08/14/25 21:33:50 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:33:50 EDT -0400 |    04840a8..8515a55  8515a5535de8830bf6e09ee09eec83fbcd886913 -> exp-fcre-weir-data
+08/14/25 21:33:50 EDT -0400 | Successfully pushed: 8515a5535de8830bf6e09ee09eec83fbcd886913
+08/14/25 21:35:28 EDT -0400 | remote: + exec        
+08/14/25 21:35:30 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:35:30 EDT -0400 |    8515a55..4130b65  4130b6589bb5d23971437dfd757813ae7ce3fccf -> exp-fcre-weir-data
+08/14/25 21:35:30 EDT -0400 | Successfully pushed: 4130b6589bb5d23971437dfd757813ae7ce3fccf
+08/14/25 21:37:48 EDT -0400 | remote: + exec        
+08/14/25 21:37:50 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:37:50 EDT -0400 |    4130b65..b6d511f  b6d511fc5b57806c8120f5b960e3be6c50164202 -> exp-fcre-weir-data
+08/14/25 21:37:50 EDT -0400 | Successfully pushed: b6d511fc5b57806c8120f5b960e3be6c50164202
+08/14/25 21:38:58 EDT -0400 | remote: + exec        
+08/14/25 21:39:00 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:39:00 EDT -0400 |    b6d511f..969d329  969d329f97a8d9f34b71378ea5248b6240136187 -> exp-fcre-weir-data
+08/14/25 21:39:00 EDT -0400 | Successfully pushed: 969d329f97a8d9f34b71378ea5248b6240136187
+08/14/25 21:40:06 EDT -0400 | remote: + exec        
+08/14/25 21:40:08 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:40:08 EDT -0400 |    969d329..0c7d7c4  0c7d7c4986f6e17adf08ae8dc6ef5c8c99fa4de8 -> exp-fcre-weir-data
+08/14/25 21:40:08 EDT -0400 | Successfully pushed: 0c7d7c4986f6e17adf08ae8dc6ef5c8c99fa4de8
+08/14/25 21:41:19 EDT -0400 | remote: + exec        
+08/14/25 21:41:21 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:41:21 EDT -0400 |    0c7d7c4..9def9a8  9def9a8d90a77e1a6897aaad3fc17c38085473c9 -> exp-fcre-weir-data
+08/14/25 21:41:21 EDT -0400 | Successfully pushed: 9def9a8d90a77e1a6897aaad3fc17c38085473c9
+08/14/25 21:42:26 EDT -0400 | remote: + exec        
+08/14/25 21:42:28 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:42:28 EDT -0400 |    9def9a8..86c695e  86c695ee979d6774a5a3558619b355153a6ba7f3 -> exp-fcre-weir-data
+08/14/25 21:42:28 EDT -0400 | Successfully pushed: 86c695ee979d6774a5a3558619b355153a6ba7f3
+08/14/25 21:43:35 EDT -0400 | remote: + exec        
+08/14/25 21:43:37 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:43:37 EDT -0400 |    86c695e..6a61a0c  6a61a0c35935effbb281f648d63571616a3671bb -> exp-fcre-weir-data
+08/14/25 21:43:37 EDT -0400 | Successfully pushed: 6a61a0c35935effbb281f648d63571616a3671bb
+08/14/25 21:44:41 EDT -0400 | remote: + exec        
+08/14/25 21:44:43 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:44:43 EDT -0400 |    6a61a0c..c7eb902  c7eb902c3ba26c51aac1ff34d4a713e2d225d61a -> exp-fcre-weir-data
+08/14/25 21:44:43 EDT -0400 | Successfully pushed: c7eb902c3ba26c51aac1ff34d4a713e2d225d61a
+08/14/25 21:45:51 EDT -0400 | remote: + exec        
+08/14/25 21:45:52 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:45:52 EDT -0400 |    c7eb902..95a3c00  95a3c0060e69d94daf2e99285875ff86960c3667 -> exp-fcre-weir-data
+08/14/25 21:45:52 EDT -0400 | Successfully pushed: 95a3c0060e69d94daf2e99285875ff86960c3667
+08/14/25 21:48:50 EDT -0400 | remote: + exec        
+08/14/25 21:48:51 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:48:51 EDT -0400 |    95a3c00..83702fb  83702fbbe53f611a41d5783c4a888d104620089e -> exp-fcre-weir-data
+08/14/25 21:48:51 EDT -0400 | Successfully pushed: 83702fbbe53f611a41d5783c4a888d104620089e
+08/14/25 21:50:14 EDT -0400 | remote: + exec        
+08/14/25 21:50:16 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:50:16 EDT -0400 |    83702fb..05485c9  05485c9f7fc1cdd881fc9cb8c523cb0b9c8e6b2d -> exp-fcre-weir-data
+08/14/25 21:50:16 EDT -0400 | Successfully pushed: 05485c9f7fc1cdd881fc9cb8c523cb0b9c8e6b2d
+08/14/25 21:51:21 EDT -0400 | remote: + exec        
+08/14/25 21:51:22 EDT -0400 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+08/14/25 21:51:23 EDT -0400 |    05485c9..10dc378  10dc3787dbe94734a6fc77aa78889d9d3c1c5016 -> exp-fcre-weir-data
+08/14/25 21:51:23 EDT -0400 | Successfully pushed: 10dc3787dbe94734a6fc77aa78889d9d3c1c5016
+08/15/25 01:19:20 EDT -0400 | ########## START ##########
+08/15/25 01:19:20 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/15/25 01:19:20 EDT -0400 | # Host 10.10.101.1 found: line 17
+08/15/25 01:19:20 EDT -0400 | # Host 10.10.101.1 found: line 18
+08/15/25 01:19:20 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/15/25 01:19:20 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/15/25 01:19:20 EDT -0400 | ========Primary directory========
+08/15/25 01:19:20 EDT -0400 | Processing: /data/fcre-weir-data
+08/15/25 01:19:20 EDT -0400 | [fcre-weir-data 3023aa2] Fri 2025-08-15 01:19:20 EDT
+08/15/25 01:19:20 EDT -0400 |  1 file changed, 16 insertions(+)
+08/15/25 01:19:20 EDT -0400 | Found unpushed commit(s).
+08/15/25 01:19:29 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/15/25 01:19:29 EDT -0400 | fatal: Could not read from remote repository.
+08/15/25 01:19:29 EDT -0400 | 
+08/15/25 01:19:29 EDT -0400 | Please make sure you have the correct access rights
+08/15/25 01:19:29 EDT -0400 | and the repository exists.
+08/15/25 01:19:29 EDT -0400 | Failed to push: 7c6f40315802f1205e0f78d2d9d608d4a2cc4d30
+08/15/25 01:19:29 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/15/25 01:19:29 EDT -0400 | ========Primary directory end========
+08/15/25 01:19:29 EDT -0400 | ========Experiemental directory========
+08/15/25 01:19:29 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/15/25 01:19:29 EDT -0400 | [exp-fcre-weir-data f727a18] Fri 2025-08-15 01:19:29 EDT
+08/15/25 01:19:29 EDT -0400 |  1 file changed, 16 insertions(+)
+08/15/25 01:19:29 EDT -0400 | Found unpushed commit(s).
+08/15/25 01:19:45 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/15/25 01:19:45 EDT -0400 | fatal: Could not read from remote repository.
+08/15/25 01:19:45 EDT -0400 | 
+08/15/25 01:19:45 EDT -0400 | Please make sure you have the correct access rights
+08/15/25 01:19:45 EDT -0400 | and the repository exists.
+08/15/25 01:19:45 EDT -0400 | Failed to push: 94c82b665d921b02d6708fe59bab92409a8a1403
+08/15/25 01:19:45 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/15/25 01:19:45 EDT -0400 | ========Experiemental directory end========
+08/15/25 01:19:46 EDT -0400 | ========Primary directory========
+08/15/25 01:19:46 EDT -0400 | Processing: /data/mia-logs
