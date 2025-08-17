@@ -187268,3 +187268,47 @@
 08/16/25 21:36:06 EDT -0400 | ========Experiemental directory end========
 08/16/25 21:36:07 EDT -0400 | ========Primary directory========
 08/16/25 21:36:07 EDT -0400 | Processing: /data/mia-logs
+08/16/25 21:36:10 EDT -0400 | [mia-logs f578c55] Sat 2025-08-16 21:36:07 EDT
+08/16/25 21:36:10 EDT -0400 |  3 files changed, 259 insertions(+)
+08/16/25 21:36:10 EDT -0400 | Found unpushed commit(s).
+08/16/25 21:39:35 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/16/25 21:39:35 EDT -0400 |    7b8fd95..de4febc  de4febc1cff16d20f695759c26a9d93f39a6fcf3 -> mia-logs
+08/16/25 21:39:35 EDT -0400 | Successfully pushed: de4febc1cff16d20f695759c26a9d93f39a6fcf3
+08/16/25 21:45:35 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/16/25 21:45:35 EDT -0400 |    de4febc..0d6185d  0d6185d31c827df572250f4f14d5475553658cd3 -> mia-logs
+08/16/25 21:45:35 EDT -0400 | Successfully pushed: 0d6185d31c827df572250f4f14d5475553658cd3
+08/16/25 21:48:57 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/16/25 21:48:57 EDT -0400 |    0d6185d..e890047  e890047433fd3d29e340ff6a44186d5e290cc282 -> mia-logs
+08/16/25 21:48:57 EDT -0400 | Successfully pushed: e890047433fd3d29e340ff6a44186d5e290cc282
+08/17/25 01:19:20 EDT -0400 | ########## START ##########
+08/17/25 01:19:20 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/17/25 01:19:20 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/17/25 01:19:20 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/17/25 01:19:20 EDT -0400 | ========Primary directory========
+08/17/25 01:19:20 EDT -0400 | Processing: /data/fcre-weir-data
+08/17/25 01:19:20 EDT -0400 | [fcre-weir-data 3659c36] Sun 2025-08-17 01:19:20 EDT
+08/17/25 01:19:20 EDT -0400 |  1 file changed, 16 insertions(+)
+08/17/25 01:19:20 EDT -0400 | Found unpushed commit(s).
+08/17/25 01:19:31 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/17/25 01:19:31 EDT -0400 | fatal: Could not read from remote repository.
+08/17/25 01:19:31 EDT -0400 | 
+08/17/25 01:19:31 EDT -0400 | Please make sure you have the correct access rights
+08/17/25 01:19:31 EDT -0400 | and the repository exists.
+08/17/25 01:19:31 EDT -0400 | Failed to push: 7c6f40315802f1205e0f78d2d9d608d4a2cc4d30
+08/17/25 01:19:31 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/17/25 01:19:31 EDT -0400 | ========Primary directory end========
+08/17/25 01:19:31 EDT -0400 | ========Experiemental directory========
+08/17/25 01:19:31 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/17/25 01:19:31 EDT -0400 | [exp-fcre-weir-data d5965f3] Sun 2025-08-17 01:19:31 EDT
+08/17/25 01:19:31 EDT -0400 |  1 file changed, 16 insertions(+)
+08/17/25 01:19:31 EDT -0400 | Found unpushed commit(s).
+08/17/25 01:19:46 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/17/25 01:19:46 EDT -0400 | fatal: Could not read from remote repository.
+08/17/25 01:19:46 EDT -0400 | 
+08/17/25 01:19:46 EDT -0400 | Please make sure you have the correct access rights
+08/17/25 01:19:46 EDT -0400 | and the repository exists.
+08/17/25 01:19:46 EDT -0400 | Failed to push: c1088739897c1ab12b6aaa8bc7c1bad9d9c9ed96
+08/17/25 01:19:46 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/17/25 01:19:46 EDT -0400 | ========Experiemental directory end========
+08/17/25 01:19:48 EDT -0400 | ========Primary directory========
+08/17/25 01:19:48 EDT -0400 | Processing: /data/mia-logs
