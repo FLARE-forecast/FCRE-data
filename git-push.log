@@ -187593,3 +187593,58 @@
 08/17/25 21:38:32 EDT -0400 | Connection closed by 10.10.101.1 port 22
 08/17/25 21:38:32 EDT -0400 | fatal: Could not read from remote repository.
 08/17/25 21:38:32 EDT -0400 | 
+08/17/25 21:38:32 EDT -0400 | Please make sure you have the correct access rights
+08/17/25 21:38:32 EDT -0400 | and the repository exists.
+08/17/25 21:38:32 EDT -0400 | Failed to push: be5581e13b8426002a716a3b26b9b16bf0aefe28
+08/17/25 21:38:32 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/17/25 21:38:32 EDT -0400 | ========Experiemental directory end========
+08/17/25 21:38:33 EDT -0400 | ========Primary directory========
+08/17/25 21:38:33 EDT -0400 | Processing: /data/mia-logs
+08/17/25 21:38:35 EDT -0400 | [mia-logs cb42aef] Sun 2025-08-17 21:38:33 EDT
+08/17/25 21:38:35 EDT -0400 |  3 files changed, 145 insertions(+)
+08/17/25 21:38:35 EDT -0400 | Found unpushed commit(s).
+08/17/25 21:40:51 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/17/25 21:40:51 EDT -0400 |    e890047..de27625  de27625713f6b9911a61cc3cb45fe54b6a6c19bd -> mia-logs
+08/17/25 21:40:51 EDT -0400 | Successfully pushed: de27625713f6b9911a61cc3cb45fe54b6a6c19bd
+08/17/25 21:46:55 EDT -0400 | Received disconnect from 140.82.114.3 port 22:11: Bye Bye
+08/17/25 21:46:55 EDT -0400 | Disconnected from 140.82.114.3 port 22
+08/17/25 21:46:55 EDT -0400 | fatal: Could not read from remote repository.
+08/17/25 21:46:55 EDT -0400 | 
+08/17/25 21:46:55 EDT -0400 | Please make sure you have the correct access rights
+08/17/25 21:46:55 EDT -0400 | and the repository exists.
+08/17/25 21:46:55 EDT -0400 | Failed to push: d9e788f13299badcc2f5aa1cf311618ac5c5469d
+08/17/25 21:46:55 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/17/25 21:46:55 EDT -0400 | ========Primary directory end========
+08/17/25 21:46:55 EDT -0400 | ========Experiemental directory========
+08/17/25 21:46:55 EDT -0400 | Processing: /data/exp-mia-logs
+08/17/25 21:46:57 EDT -0400 | [exp-mia-logs 82fe93b] Sun 2025-08-17 21:46:55 EDT
+08/17/25 21:46:57 EDT -0400 |  3 files changed, 144 insertions(+)
+08/17/25 21:46:57 EDT -0400 | Found unpushed commit(s).
+08/18/25 01:19:21 EDT -0400 | ########## START ##########
+08/18/25 01:19:21 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/18/25 01:19:21 EDT -0400 | # Host 10.10.101.1 found: line 17
+08/18/25 01:19:21 EDT -0400 | # Host 10.10.101.1 found: line 18
+08/18/25 01:19:21 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/18/25 01:19:21 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/18/25 01:19:21 EDT -0400 | ========Primary directory========
+08/18/25 01:19:21 EDT -0400 | Processing: /data/fcre-weir-data
+08/18/25 01:19:21 EDT -0400 | [fcre-weir-data 6b67914] Mon 2025-08-18 01:19:21 EDT
+08/18/25 01:19:21 EDT -0400 |  1 file changed, 16 insertions(+)
+08/18/25 01:19:21 EDT -0400 | Found unpushed commit(s).
+08/18/25 01:19:29 EDT -0400 | ssh: connect to host github.com port 22: No route to host
+08/18/25 01:19:29 EDT -0400 | fatal: Could not read from remote repository.
+08/18/25 01:19:29 EDT -0400 | 
+08/18/25 01:19:29 EDT -0400 | Please make sure you have the correct access rights
+08/18/25 01:19:29 EDT -0400 | and the repository exists.
+08/18/25 01:19:29 EDT -0400 | Failed to push: 18422f37f980b33173ddaf13632cb56bc8b94fe9
+08/18/25 01:19:29 EDT -0400 | Primary directory /data/fcre-weir-data failed but continuing with experimental directory.
+08/18/25 01:19:29 EDT -0400 | ========Primary directory end========
+08/18/25 01:19:29 EDT -0400 | ========Experiemental directory========
+08/18/25 01:19:29 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/18/25 01:19:29 EDT -0400 | [exp-fcre-weir-data c19a15d] Mon 2025-08-18 01:19:29 EDT
+08/18/25 01:19:29 EDT -0400 |  1 file changed, 16 insertions(+)
+08/18/25 01:19:29 EDT -0400 | Found unpushed commit(s).
+08/18/25 01:19:44 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: No route to host
+08/18/25 01:19:44 EDT -0400 | fatal: Could not read from remote repository.
+08/18/25 01:19:44 EDT -0400 | 
+08/18/25 01:19:44 EDT -0400 | Please make sure you have the correct access rights
