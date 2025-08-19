@@ -187779,3 +187779,408 @@
 08/18/25 07:31:55 EDT -0400 | ========Experiemental directory end========
 08/18/25 07:31:56 EDT -0400 | ========Primary directory========
 08/18/25 07:31:56 EDT -0400 | Processing: /data/mia-logs
+08/18/25 07:31:58 EDT -0400 | [mia-logs 56589a5] Mon 2025-08-18 07:31:56 EDT
+08/18/25 07:31:58 EDT -0400 |  3 files changed, 154 insertions(+)
+08/18/25 07:31:58 EDT -0400 | Found unpushed commit(s).
+08/18/25 07:34:32 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/18/25 07:34:32 EDT -0400 |    de27625..d9e788f  d9e788f13299badcc2f5aa1cf311618ac5c5469d -> mia-logs
+08/18/25 07:34:32 EDT -0400 | Successfully pushed: d9e788f13299badcc2f5aa1cf311618ac5c5469d
+08/18/25 07:39:50 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/18/25 07:39:50 EDT -0400 |    d9e788f..bbfcc56  bbfcc56cd34fcc518cf83759b4d731ad0cde9c78 -> mia-logs
+08/18/25 07:39:50 EDT -0400 | Successfully pushed: bbfcc56cd34fcc518cf83759b4d731ad0cde9c78
+08/18/25 07:42:13 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/18/25 07:42:13 EDT -0400 |    bbfcc56..6abc290  6abc290e4fd41ae46fee40c96ef21ac9d0115c31 -> mia-logs
+08/18/25 07:42:13 EDT -0400 | Successfully pushed: 6abc290e4fd41ae46fee40c96ef21ac9d0115c31
+08/18/25 07:44:54 EDT -0400 | Received disconnect from 140.82.114.3 port 22:11: Bye Bye
+08/18/25 07:44:54 EDT -0400 | Disconnected from 140.82.114.3 port 22
+08/18/25 07:44:54 EDT -0400 | fatal: Could not read from remote repository.
+08/18/25 07:44:54 EDT -0400 | 
+08/18/25 07:44:54 EDT -0400 | Please make sure you have the correct access rights
+08/18/25 07:44:54 EDT -0400 | and the repository exists.
+08/18/25 07:44:54 EDT -0400 | Failed to push: 77d9a2970f9b0e0dc001b27c94dc9ee47c4b45f8
+08/18/25 07:44:54 EDT -0400 | Primary directory /data/mia-logs failed but continuing with experimental directory.
+08/18/25 07:44:54 EDT -0400 | ========Primary directory end========
+08/18/25 07:44:54 EDT -0400 | ========Experiemental directory========
+08/18/25 07:44:54 EDT -0400 | Processing: /data/exp-mia-logs
+08/18/25 07:44:56 EDT -0400 | [exp-mia-logs baaf677] Mon 2025-08-18 07:44:54 EDT
+08/18/25 07:44:56 EDT -0400 |  3 files changed, 151 insertions(+)
+08/18/25 07:44:56 EDT -0400 | Found unpushed commit(s).
+08/18/25 07:47:00 EDT -0400 | Connection closed by 10.10.101.1 port 22
+08/18/25 07:47:00 EDT -0400 | fatal: Could not read from remote repository.
+08/18/25 07:47:00 EDT -0400 | 
+08/18/25 07:47:00 EDT -0400 | Please make sure you have the correct access rights
+08/18/25 07:47:00 EDT -0400 | and the repository exists.
+08/18/25 07:47:00 EDT -0400 | Failed to push: 31fc46ae738f660780b49edfcac112e24a0f031b
+08/18/25 07:47:00 EDT -0400 | Experimental directory /data/exp-mia-logs failed.
+08/18/25 07:47:00 EDT -0400 | ========Experiemental directory end========
+08/18/25 07:47:00 EDT -0400 | ##########  END  ##########
+08/18/25 10:09:20 EDT -0400 | ########## START ##########
+08/18/25 10:09:20 EDT -0400 | # Host 10.10.101.1 found: line 16
+08/18/25 10:09:20 EDT -0400 | # Host 10.10.101.1 found: line 17
+08/18/25 10:09:20 EDT -0400 | # Host 10.10.101.1 found: line 18
+08/18/25 10:09:20 EDT -0400 | /home/ubuntu/.ssh/known_hosts updated.
+08/18/25 10:09:20 EDT -0400 | Original contents retained as /home/ubuntu/.ssh/known_hosts.old
+08/18/25 10:09:20 EDT -0400 | ========Primary directory========
+08/18/25 10:09:20 EDT -0400 | Processing: /data/fcre-weir-data
+08/18/25 10:09:20 EDT -0400 | [fcre-weir-data e416639] Mon 2025-08-18 10:09:20 EDT
+08/18/25 10:09:20 EDT -0400 |  1 file changed, 12 insertions(+)
+08/18/25 10:09:20 EDT -0400 | Found unpushed commit(s).
+08/19/25 10:08:56 EDT -0400 | ########## START ##########
+08/19/25 10:08:56 EDT -0400 | Host 10.10.101.1 not found in /home/ubuntu/.ssh/known_hosts
+08/19/25 10:08:56 EDT -0400 | ========Primary directory========
+08/19/25 10:08:56 EDT -0400 | Processing: /data/fcre-weir-data
+08/19/25 10:08:56 EDT -0400 | On branch fcre-weir-data
+08/19/25 10:08:56 EDT -0400 | Your branch is ahead of 'origin/fcre-weir-data' by 111 commits.
+08/19/25 10:08:56 EDT -0400 |   (use "git push" to publish your local commits)
+08/19/25 10:08:56 EDT -0400 | 
+08/19/25 10:08:56 EDT -0400 | nothing to commit, working tree clean
+08/19/25 10:08:56 EDT -0400 | Found unpushed commit(s).
+08/19/25 10:08:57 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:08:57 EDT -0400 |    7c6f403..18422f3  18422f37f980b33173ddaf13632cb56bc8b94fe9 -> fcre-weir-data
+08/19/25 10:08:57 EDT -0400 | Successfully pushed: 18422f37f980b33173ddaf13632cb56bc8b94fe9
+08/19/25 10:08:58 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:08:58 EDT -0400 |    18422f3..2198f2c  2198f2c3bba1d569f709fd24b0dc0ff3b23f02d5 -> fcre-weir-data
+08/19/25 10:08:58 EDT -0400 | Successfully pushed: 2198f2c3bba1d569f709fd24b0dc0ff3b23f02d5
+08/19/25 10:08:59 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:08:59 EDT -0400 |    2198f2c..60d0c4a  60d0c4ab482522351961de460e63216339dd4fa0 -> fcre-weir-data
+08/19/25 10:08:59 EDT -0400 | Successfully pushed: 60d0c4ab482522351961de460e63216339dd4fa0
+08/19/25 10:09:00 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:00 EDT -0400 |    60d0c4a..e18a24c  e18a24cb97a2938d4e8322b06dbaafe91bd46b4c -> fcre-weir-data
+08/19/25 10:09:00 EDT -0400 | Successfully pushed: e18a24cb97a2938d4e8322b06dbaafe91bd46b4c
+08/19/25 10:09:01 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:01 EDT -0400 |    e18a24c..bc89aba  bc89abae0140ed125a51c0f700057dd4bc0fc487 -> fcre-weir-data
+08/19/25 10:09:01 EDT -0400 | Successfully pushed: bc89abae0140ed125a51c0f700057dd4bc0fc487
+08/19/25 10:09:03 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:03 EDT -0400 |    bc89aba..ee988d6  ee988d607eb1ec6972e82df2175e489510c45144 -> fcre-weir-data
+08/19/25 10:09:03 EDT -0400 | Successfully pushed: ee988d607eb1ec6972e82df2175e489510c45144
+08/19/25 10:09:04 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:04 EDT -0400 |    ee988d6..cefc4ba  cefc4baf5fa74bcffa8103f81e9a5b07bb11ee0f -> fcre-weir-data
+08/19/25 10:09:04 EDT -0400 | Successfully pushed: cefc4baf5fa74bcffa8103f81e9a5b07bb11ee0f
+08/19/25 10:09:05 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:05 EDT -0400 |    cefc4ba..d7ce912  d7ce912bbba9b9d484b83ae4698fddff4410a485 -> fcre-weir-data
+08/19/25 10:09:05 EDT -0400 | Successfully pushed: d7ce912bbba9b9d484b83ae4698fddff4410a485
+08/19/25 10:09:06 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:06 EDT -0400 |    d7ce912..c2b175e  c2b175e1216b77a196949d56cfbc8459b2d3ea2a -> fcre-weir-data
+08/19/25 10:09:06 EDT -0400 | Successfully pushed: c2b175e1216b77a196949d56cfbc8459b2d3ea2a
+08/19/25 10:09:07 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:07 EDT -0400 |    c2b175e..6997e47  6997e47b7b634161593106b4e1c03ee71e66ce9d -> fcre-weir-data
+08/19/25 10:09:07 EDT -0400 | Successfully pushed: 6997e47b7b634161593106b4e1c03ee71e66ce9d
+08/19/25 10:09:08 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:08 EDT -0400 |    6997e47..3ea094f  3ea094fc9bd58a8141fd154d0e025f3bd7a9f353 -> fcre-weir-data
+08/19/25 10:09:08 EDT -0400 | Successfully pushed: 3ea094fc9bd58a8141fd154d0e025f3bd7a9f353
+08/19/25 10:09:09 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:09 EDT -0400 |    3ea094f..8bddfe5  8bddfe506593dc9b4dcbe521e7150f16f645f988 -> fcre-weir-data
+08/19/25 10:09:09 EDT -0400 | Successfully pushed: 8bddfe506593dc9b4dcbe521e7150f16f645f988
+08/19/25 10:09:10 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:10 EDT -0400 |    8bddfe5..fa5c39c  fa5c39c7a3b4fa541183fc3ddb65cbb4fe55b550 -> fcre-weir-data
+08/19/25 10:09:10 EDT -0400 | Successfully pushed: fa5c39c7a3b4fa541183fc3ddb65cbb4fe55b550
+08/19/25 10:09:11 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:11 EDT -0400 |    fa5c39c..bd10ebd  bd10ebdc1075852b3e699052f7d9e2d489e59867 -> fcre-weir-data
+08/19/25 10:09:11 EDT -0400 | Successfully pushed: bd10ebdc1075852b3e699052f7d9e2d489e59867
+08/19/25 10:09:12 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:12 EDT -0400 |    bd10ebd..bb05a03  bb05a03313608617d9e5dc14d4dea49abb8bb7a7 -> fcre-weir-data
+08/19/25 10:09:12 EDT -0400 | Successfully pushed: bb05a03313608617d9e5dc14d4dea49abb8bb7a7
+08/19/25 10:09:13 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:13 EDT -0400 |    bb05a03..f05c87f  f05c87f47ac0d88a1dad5f81c644e29ef86f6f16 -> fcre-weir-data
+08/19/25 10:09:13 EDT -0400 | Successfully pushed: f05c87f47ac0d88a1dad5f81c644e29ef86f6f16
+08/19/25 10:09:14 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:14 EDT -0400 |    f05c87f..dddb265  dddb265cb174b0d17bd586c4d46f3b8a94224f9f -> fcre-weir-data
+08/19/25 10:09:14 EDT -0400 | Successfully pushed: dddb265cb174b0d17bd586c4d46f3b8a94224f9f
+08/19/25 10:09:15 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:15 EDT -0400 |    dddb265..b4e0a54  b4e0a54137d4e96cf7d11035f8bca50930a745c4 -> fcre-weir-data
+08/19/25 10:09:15 EDT -0400 | Successfully pushed: b4e0a54137d4e96cf7d11035f8bca50930a745c4
+08/19/25 10:09:16 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:16 EDT -0400 |    b4e0a54..0eaf81e  0eaf81e950fdb29a04524841f71be1cdd5c4e486 -> fcre-weir-data
+08/19/25 10:09:16 EDT -0400 | Successfully pushed: 0eaf81e950fdb29a04524841f71be1cdd5c4e486
+08/19/25 10:09:17 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:17 EDT -0400 |    0eaf81e..059c978  059c9781ab22810231962cc473ae66395c83f1c3 -> fcre-weir-data
+08/19/25 10:09:17 EDT -0400 | Successfully pushed: 059c9781ab22810231962cc473ae66395c83f1c3
+08/19/25 10:09:18 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:18 EDT -0400 |    059c978..e40d3d0  e40d3d0a2b31de0b084e6a5b42d4ead305bc1f18 -> fcre-weir-data
+08/19/25 10:09:18 EDT -0400 | Successfully pushed: e40d3d0a2b31de0b084e6a5b42d4ead305bc1f18
+08/19/25 10:09:19 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:19 EDT -0400 |    e40d3d0..60de627  60de627bb9c357bc6507c88582d8f6859a9019b2 -> fcre-weir-data
+08/19/25 10:09:19 EDT -0400 | Successfully pushed: 60de627bb9c357bc6507c88582d8f6859a9019b2
+08/19/25 10:09:20 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:20 EDT -0400 |    60de627..d84497d  d84497d93b883f0272778449799ba3764e357cc8 -> fcre-weir-data
+08/19/25 10:09:20 EDT -0400 | Successfully pushed: d84497d93b883f0272778449799ba3764e357cc8
+08/19/25 10:09:21 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:21 EDT -0400 |    d84497d..d61d48f  d61d48f55d5281218e83df60b77bfa79ec7eb22d -> fcre-weir-data
+08/19/25 10:09:21 EDT -0400 | Successfully pushed: d61d48f55d5281218e83df60b77bfa79ec7eb22d
+08/19/25 10:09:22 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:22 EDT -0400 |    d61d48f..adab04d  adab04d5d3b985a05e3ac0c9113d96653a4f6f29 -> fcre-weir-data
+08/19/25 10:09:22 EDT -0400 | Successfully pushed: adab04d5d3b985a05e3ac0c9113d96653a4f6f29
+08/19/25 10:09:23 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:23 EDT -0400 |    adab04d..43903af  43903af97c1dd21a788646e7b25354b234b40e21 -> fcre-weir-data
+08/19/25 10:09:23 EDT -0400 | Successfully pushed: 43903af97c1dd21a788646e7b25354b234b40e21
+08/19/25 10:09:24 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:24 EDT -0400 |    43903af..14ab4cd  14ab4cdff9d69a878c23a9ee24b25a78cc774745 -> fcre-weir-data
+08/19/25 10:09:24 EDT -0400 | Successfully pushed: 14ab4cdff9d69a878c23a9ee24b25a78cc774745
+08/19/25 10:09:25 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:25 EDT -0400 |    14ab4cd..970af09  970af097a96eecc39598229208d2aad63bb5daec -> fcre-weir-data
+08/19/25 10:09:25 EDT -0400 | Successfully pushed: 970af097a96eecc39598229208d2aad63bb5daec
+08/19/25 10:09:26 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:26 EDT -0400 |    970af09..8825c5d  8825c5d6fe1add2570c4107b13a925cdf8e8f731 -> fcre-weir-data
+08/19/25 10:09:26 EDT -0400 | Successfully pushed: 8825c5d6fe1add2570c4107b13a925cdf8e8f731
+08/19/25 10:09:27 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:27 EDT -0400 |    8825c5d..0285d23  0285d234618cfd27dbe064256be5951e9abe286e -> fcre-weir-data
+08/19/25 10:09:27 EDT -0400 | Successfully pushed: 0285d234618cfd27dbe064256be5951e9abe286e
+08/19/25 10:09:28 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:28 EDT -0400 |    0285d23..f5b9aa6  f5b9aa6a65714a61d4add6168af7945ac745fc11 -> fcre-weir-data
+08/19/25 10:09:28 EDT -0400 | Successfully pushed: f5b9aa6a65714a61d4add6168af7945ac745fc11
+08/19/25 10:09:29 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:29 EDT -0400 |    f5b9aa6..f10d282  f10d282f91f2c8897507e0b9b1198d1366ef6d4b -> fcre-weir-data
+08/19/25 10:09:29 EDT -0400 | Successfully pushed: f10d282f91f2c8897507e0b9b1198d1366ef6d4b
+08/19/25 10:09:30 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:30 EDT -0400 |    f10d282..d81426d  d81426d920c64db34e72b16db47dfd4d9f769436 -> fcre-weir-data
+08/19/25 10:09:30 EDT -0400 | Successfully pushed: d81426d920c64db34e72b16db47dfd4d9f769436
+08/19/25 10:09:31 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:31 EDT -0400 |    d81426d..4fd8137  4fd81377c8f75c646e4b59602f1ef7705b5ca211 -> fcre-weir-data
+08/19/25 10:09:31 EDT -0400 | Successfully pushed: 4fd81377c8f75c646e4b59602f1ef7705b5ca211
+08/19/25 10:09:32 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:32 EDT -0400 |    4fd8137..ff4823d  ff4823dbfe9e3c450057607c5021037794033845 -> fcre-weir-data
+08/19/25 10:09:32 EDT -0400 | Successfully pushed: ff4823dbfe9e3c450057607c5021037794033845
+08/19/25 10:09:33 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:33 EDT -0400 |    ff4823d..bf81f39  bf81f39fbc00bfad4cd9c08a29a9a65ef213a517 -> fcre-weir-data
+08/19/25 10:09:33 EDT -0400 | Successfully pushed: bf81f39fbc00bfad4cd9c08a29a9a65ef213a517
+08/19/25 10:09:34 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:34 EDT -0400 |    bf81f39..0bda94e  0bda94ed9a122619aa4cd1572529493ec029b9d1 -> fcre-weir-data
+08/19/25 10:09:34 EDT -0400 | Successfully pushed: 0bda94ed9a122619aa4cd1572529493ec029b9d1
+08/19/25 10:09:35 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:35 EDT -0400 |    0bda94e..783d4c0  783d4c0d49c028344e73d0c265ab6e60271e6e04 -> fcre-weir-data
+08/19/25 10:09:35 EDT -0400 | Successfully pushed: 783d4c0d49c028344e73d0c265ab6e60271e6e04
+08/19/25 10:09:36 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:36 EDT -0400 |    783d4c0..ab45c2f  ab45c2f385459ed1aa7fe5c9ae9631163368b720 -> fcre-weir-data
+08/19/25 10:09:36 EDT -0400 | Successfully pushed: ab45c2f385459ed1aa7fe5c9ae9631163368b720
+08/19/25 10:09:37 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:37 EDT -0400 |    ab45c2f..49f0bda  49f0bdace9e556ec4d15d6c76484db3726cac549 -> fcre-weir-data
+08/19/25 10:09:37 EDT -0400 | Successfully pushed: 49f0bdace9e556ec4d15d6c76484db3726cac549
+08/19/25 10:09:38 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:38 EDT -0400 |    49f0bda..5018294  5018294c2014aa6f01b1acd1d05944fd2ab236ed -> fcre-weir-data
+08/19/25 10:09:38 EDT -0400 | Successfully pushed: 5018294c2014aa6f01b1acd1d05944fd2ab236ed
+08/19/25 10:09:39 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:39 EDT -0400 |    5018294..1c98ca9  1c98ca9e38874e0924204b4b1f6c718192203090 -> fcre-weir-data
+08/19/25 10:09:39 EDT -0400 | Successfully pushed: 1c98ca9e38874e0924204b4b1f6c718192203090
+08/19/25 10:09:40 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:40 EDT -0400 |    1c98ca9..fcee35f  fcee35f89ab3d25bd71a2c58997766337dbae136 -> fcre-weir-data
+08/19/25 10:09:40 EDT -0400 | Successfully pushed: fcee35f89ab3d25bd71a2c58997766337dbae136
+08/19/25 10:09:42 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:42 EDT -0400 |    fcee35f..0efae8e  0efae8e2abfd701c77ee5efae4b61602c4d7f214 -> fcre-weir-data
+08/19/25 10:09:42 EDT -0400 | Successfully pushed: 0efae8e2abfd701c77ee5efae4b61602c4d7f214
+08/19/25 10:09:43 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:43 EDT -0400 |    0efae8e..6a7b6ad  6a7b6adcd1df4a9c83585d552e73c198e1818144 -> fcre-weir-data
+08/19/25 10:09:43 EDT -0400 | Successfully pushed: 6a7b6adcd1df4a9c83585d552e73c198e1818144
+08/19/25 10:09:44 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:44 EDT -0400 |    6a7b6ad..ea11e4e  ea11e4ec160f993645ae6e8d178218ad9a7f98e8 -> fcre-weir-data
+08/19/25 10:09:44 EDT -0400 | Successfully pushed: ea11e4ec160f993645ae6e8d178218ad9a7f98e8
+08/19/25 10:09:44 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:44 EDT -0400 |    ea11e4e..6361a8e  6361a8e6dc40b23283a82ceafe3bc09d0d9a489a -> fcre-weir-data
+08/19/25 10:09:44 EDT -0400 | Successfully pushed: 6361a8e6dc40b23283a82ceafe3bc09d0d9a489a
+08/19/25 10:09:46 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:46 EDT -0400 |    6361a8e..d8bb911  d8bb911285ecdd23a9f93aeb028f490444d86233 -> fcre-weir-data
+08/19/25 10:09:46 EDT -0400 | Successfully pushed: d8bb911285ecdd23a9f93aeb028f490444d86233
+08/19/25 10:09:47 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:47 EDT -0400 |    d8bb911..2b5334c  2b5334caaa7db1c1a4aea7d4dc5ba4fe4a43c5dd -> fcre-weir-data
+08/19/25 10:09:47 EDT -0400 | Successfully pushed: 2b5334caaa7db1c1a4aea7d4dc5ba4fe4a43c5dd
+08/19/25 10:09:48 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:48 EDT -0400 |    2b5334c..0fb581b  0fb581b499bada0928cedfc9cb44a33ce0270b5c -> fcre-weir-data
+08/19/25 10:09:48 EDT -0400 | Successfully pushed: 0fb581b499bada0928cedfc9cb44a33ce0270b5c
+08/19/25 10:09:49 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:49 EDT -0400 |    0fb581b..ad294f6  ad294f663f98e261105e38d60b7e2b71de6442cf -> fcre-weir-data
+08/19/25 10:09:49 EDT -0400 | Successfully pushed: ad294f663f98e261105e38d60b7e2b71de6442cf
+08/19/25 10:09:50 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:50 EDT -0400 |    ad294f6..b965c59  b965c59e6d4928f1a93abeaac1adb7de29102530 -> fcre-weir-data
+08/19/25 10:09:50 EDT -0400 | Successfully pushed: b965c59e6d4928f1a93abeaac1adb7de29102530
+08/19/25 10:09:51 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:51 EDT -0400 |    b965c59..4902bca  4902bcaba01860480e941b1d6e261b6fbd74577d -> fcre-weir-data
+08/19/25 10:09:51 EDT -0400 | Successfully pushed: 4902bcaba01860480e941b1d6e261b6fbd74577d
+08/19/25 10:09:52 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:52 EDT -0400 |    4902bca..370a892  370a8922616516f9e02364d807c4f835cd27dbce -> fcre-weir-data
+08/19/25 10:09:52 EDT -0400 | Successfully pushed: 370a8922616516f9e02364d807c4f835cd27dbce
+08/19/25 10:09:53 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:53 EDT -0400 |    370a892..2e88fe4  2e88fe44a57f96ec6e60e984a1c8e968b0677d95 -> fcre-weir-data
+08/19/25 10:09:53 EDT -0400 | Successfully pushed: 2e88fe44a57f96ec6e60e984a1c8e968b0677d95
+08/19/25 10:09:54 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:54 EDT -0400 |    2e88fe4..ad3a772  ad3a772d2be9602d1af8302ebcaca3fffa666529 -> fcre-weir-data
+08/19/25 10:09:54 EDT -0400 | Successfully pushed: ad3a772d2be9602d1af8302ebcaca3fffa666529
+08/19/25 10:09:55 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:55 EDT -0400 |    ad3a772..0193b27  0193b271e1b4a30ec737e022a1df78c33e9ab62c -> fcre-weir-data
+08/19/25 10:09:55 EDT -0400 | Successfully pushed: 0193b271e1b4a30ec737e022a1df78c33e9ab62c
+08/19/25 10:09:56 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:56 EDT -0400 |    0193b27..1ebefff  1ebefff511402f600f066cfc3ca6a3a066c251ba -> fcre-weir-data
+08/19/25 10:09:56 EDT -0400 | Successfully pushed: 1ebefff511402f600f066cfc3ca6a3a066c251ba
+08/19/25 10:09:57 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:57 EDT -0400 |    1ebefff..b35ac83  b35ac83e0c63c33e0711ab66e638a12c8d0707ec -> fcre-weir-data
+08/19/25 10:09:57 EDT -0400 | Successfully pushed: b35ac83e0c63c33e0711ab66e638a12c8d0707ec
+08/19/25 10:09:58 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:58 EDT -0400 |    b35ac83..51af0bf  51af0bf3e82d92ad51e1efa29826c623eaeb6420 -> fcre-weir-data
+08/19/25 10:09:58 EDT -0400 | Successfully pushed: 51af0bf3e82d92ad51e1efa29826c623eaeb6420
+08/19/25 10:09:59 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:09:59 EDT -0400 |    51af0bf..ff44311  ff44311d62a20f11e3588e4bbec28e3010cc382f -> fcre-weir-data
+08/19/25 10:09:59 EDT -0400 | Successfully pushed: ff44311d62a20f11e3588e4bbec28e3010cc382f
+08/19/25 10:10:00 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:00 EDT -0400 |    ff44311..2b94256  2b942563daca687cbbbc67cab5d0e28a478f1abe -> fcre-weir-data
+08/19/25 10:10:00 EDT -0400 | Successfully pushed: 2b942563daca687cbbbc67cab5d0e28a478f1abe
+08/19/25 10:10:01 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:01 EDT -0400 |    2b94256..fbecf1c  fbecf1c0d1f5c96c004173c8586c74d88ae8e5bd -> fcre-weir-data
+08/19/25 10:10:01 EDT -0400 | Successfully pushed: fbecf1c0d1f5c96c004173c8586c74d88ae8e5bd
+08/19/25 10:10:03 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:03 EDT -0400 |    fbecf1c..7c488d2  7c488d2d14f687ca957081be3404a52644251506 -> fcre-weir-data
+08/19/25 10:10:03 EDT -0400 | Successfully pushed: 7c488d2d14f687ca957081be3404a52644251506
+08/19/25 10:10:04 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:04 EDT -0400 |    7c488d2..1d1f01b  1d1f01b72d37cb306d1450086f617686609ec88f -> fcre-weir-data
+08/19/25 10:10:04 EDT -0400 | Successfully pushed: 1d1f01b72d37cb306d1450086f617686609ec88f
+08/19/25 10:10:05 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:05 EDT -0400 |    1d1f01b..6c1bed4  6c1bed44bfd7e82f3e27212ddde2be5adfdbcca8 -> fcre-weir-data
+08/19/25 10:10:05 EDT -0400 | Successfully pushed: 6c1bed44bfd7e82f3e27212ddde2be5adfdbcca8
+08/19/25 10:10:06 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:06 EDT -0400 |    6c1bed4..361169b  361169b91ccbb5a2e394caa3420e705e255e0355 -> fcre-weir-data
+08/19/25 10:10:06 EDT -0400 | Successfully pushed: 361169b91ccbb5a2e394caa3420e705e255e0355
+08/19/25 10:10:07 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:07 EDT -0400 |    361169b..e5a65fe  e5a65fe1169d2c7d08c55b5a40fc595752191224 -> fcre-weir-data
+08/19/25 10:10:07 EDT -0400 | Successfully pushed: e5a65fe1169d2c7d08c55b5a40fc595752191224
+08/19/25 10:10:08 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:08 EDT -0400 |    e5a65fe..efa46eb  efa46ebff5495920e2097c68f454ea27dbe4bbef -> fcre-weir-data
+08/19/25 10:10:08 EDT -0400 | Successfully pushed: efa46ebff5495920e2097c68f454ea27dbe4bbef
+08/19/25 10:10:09 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:09 EDT -0400 |    efa46eb..affe521  affe52137a522790a9fff90cbaaad2428bc73309 -> fcre-weir-data
+08/19/25 10:10:09 EDT -0400 | Successfully pushed: affe52137a522790a9fff90cbaaad2428bc73309
+08/19/25 10:10:10 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:10 EDT -0400 |    affe521..c0ae507  c0ae50712a073437748127cd191ce243012bf75d -> fcre-weir-data
+08/19/25 10:10:10 EDT -0400 | Successfully pushed: c0ae50712a073437748127cd191ce243012bf75d
+08/19/25 10:10:11 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:11 EDT -0400 |    c0ae507..bf08593  bf08593f487de70923f0e54a73bf3a3991f86b77 -> fcre-weir-data
+08/19/25 10:10:11 EDT -0400 | Successfully pushed: bf08593f487de70923f0e54a73bf3a3991f86b77
+08/19/25 10:10:12 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:12 EDT -0400 |    bf08593..ef13707  ef137075ddcb4ad4a68d9abaaa6baa5e6abe3b50 -> fcre-weir-data
+08/19/25 10:10:12 EDT -0400 | Successfully pushed: ef137075ddcb4ad4a68d9abaaa6baa5e6abe3b50
+08/19/25 10:10:13 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:13 EDT -0400 |    ef13707..c393cec  c393cec7f933ff3293aefc4e005ddb5bdb043503 -> fcre-weir-data
+08/19/25 10:10:13 EDT -0400 | Successfully pushed: c393cec7f933ff3293aefc4e005ddb5bdb043503
+08/19/25 10:10:14 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:14 EDT -0400 |    c393cec..8db1b49  8db1b49d9e08d9246c3adf3a447a8b925d7148a5 -> fcre-weir-data
+08/19/25 10:10:14 EDT -0400 | Successfully pushed: 8db1b49d9e08d9246c3adf3a447a8b925d7148a5
+08/19/25 10:10:15 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:15 EDT -0400 |    8db1b49..f432e8f  f432e8ff01c768a2ea6589b788c5e9c88e08e093 -> fcre-weir-data
+08/19/25 10:10:15 EDT -0400 | Successfully pushed: f432e8ff01c768a2ea6589b788c5e9c88e08e093
+08/19/25 10:10:16 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:16 EDT -0400 |    f432e8f..6fc8091  6fc80918a572af972bbca058eb8651476aec8b02 -> fcre-weir-data
+08/19/25 10:10:16 EDT -0400 | Successfully pushed: 6fc80918a572af972bbca058eb8651476aec8b02
+08/19/25 10:10:17 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:17 EDT -0400 |    6fc8091..7796940  7796940d006610992b8aaac548a0ee02eb2d78a3 -> fcre-weir-data
+08/19/25 10:10:17 EDT -0400 | Successfully pushed: 7796940d006610992b8aaac548a0ee02eb2d78a3
+08/19/25 10:10:18 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:18 EDT -0400 |    7796940..db8bae3  db8bae3f1ed334e7b2062d9ad9929fc59da671ca -> fcre-weir-data
+08/19/25 10:10:18 EDT -0400 | Successfully pushed: db8bae3f1ed334e7b2062d9ad9929fc59da671ca
+08/19/25 10:10:19 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:19 EDT -0400 |    db8bae3..2a909f4  2a909f476d409ba25c3ba1fe9c044cede81c2b8e -> fcre-weir-data
+08/19/25 10:10:19 EDT -0400 | Successfully pushed: 2a909f476d409ba25c3ba1fe9c044cede81c2b8e
+08/19/25 10:10:20 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:20 EDT -0400 |    2a909f4..dda062d  dda062d3d12832bdcdfcde34802afc7a8ab649d9 -> fcre-weir-data
+08/19/25 10:10:20 EDT -0400 | Successfully pushed: dda062d3d12832bdcdfcde34802afc7a8ab649d9
+08/19/25 10:10:21 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:21 EDT -0400 |    dda062d..b546a61  b546a61fce610c447969213b5256ce845e4b96aa -> fcre-weir-data
+08/19/25 10:10:21 EDT -0400 | Successfully pushed: b546a61fce610c447969213b5256ce845e4b96aa
+08/19/25 10:10:22 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:22 EDT -0400 |    b546a61..423d532  423d532fae660a3a0a2cd981f60db01865722758 -> fcre-weir-data
+08/19/25 10:10:22 EDT -0400 | Successfully pushed: 423d532fae660a3a0a2cd981f60db01865722758
+08/19/25 10:10:23 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:23 EDT -0400 |    423d532..cc17f7a  cc17f7ab1ea87f1da2d7079e87291d3a2a69694e -> fcre-weir-data
+08/19/25 10:10:23 EDT -0400 | Successfully pushed: cc17f7ab1ea87f1da2d7079e87291d3a2a69694e
+08/19/25 10:10:24 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:24 EDT -0400 |    cc17f7a..eceaccc  eceaccc593428b806571e70bb969fbdf634caff3 -> fcre-weir-data
+08/19/25 10:10:24 EDT -0400 | Successfully pushed: eceaccc593428b806571e70bb969fbdf634caff3
+08/19/25 10:10:25 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:25 EDT -0400 |    eceaccc..03e3fba  03e3fbadb062e0481390b6cabb7b37f741aa7250 -> fcre-weir-data
+08/19/25 10:10:25 EDT -0400 | Successfully pushed: 03e3fbadb062e0481390b6cabb7b37f741aa7250
+08/19/25 10:10:26 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:26 EDT -0400 |    03e3fba..38dcffb  38dcffbae5e0a223c6ed17f5a59219438f2a14b6 -> fcre-weir-data
+08/19/25 10:10:26 EDT -0400 | Successfully pushed: 38dcffbae5e0a223c6ed17f5a59219438f2a14b6
+08/19/25 10:10:27 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:27 EDT -0400 |    38dcffb..1987eaa  1987eaa9392defa7c3469e148a1349f7bb73450a -> fcre-weir-data
+08/19/25 10:10:27 EDT -0400 | Successfully pushed: 1987eaa9392defa7c3469e148a1349f7bb73450a
+08/19/25 10:10:28 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:28 EDT -0400 |    1987eaa..e173d3b  e173d3b00488cdfcedfb017e4fc1e259a942b0ce -> fcre-weir-data
+08/19/25 10:10:28 EDT -0400 | Successfully pushed: e173d3b00488cdfcedfb017e4fc1e259a942b0ce
+08/19/25 10:10:29 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:29 EDT -0400 |    e173d3b..ac86ea8  ac86ea8e416fc38e59f7491fb3ef6820fbdccfaf -> fcre-weir-data
+08/19/25 10:10:29 EDT -0400 | Successfully pushed: ac86ea8e416fc38e59f7491fb3ef6820fbdccfaf
+08/19/25 10:10:30 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:30 EDT -0400 |    ac86ea8..3023aa2  3023aa237b13211f66f38d4d97cf269e21ed7075 -> fcre-weir-data
+08/19/25 10:10:30 EDT -0400 | Successfully pushed: 3023aa237b13211f66f38d4d97cf269e21ed7075
+08/19/25 10:10:31 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:31 EDT -0400 |    3023aa2..26df6b6  26df6b6963ddffca419d06b3e72511fd79d4ec77 -> fcre-weir-data
+08/19/25 10:10:31 EDT -0400 | Successfully pushed: 26df6b6963ddffca419d06b3e72511fd79d4ec77
+08/19/25 10:10:32 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:32 EDT -0400 |    26df6b6..6b8c6a4  6b8c6a445c2e6c1cf8676b1cfb8e8b3024b9a5ee -> fcre-weir-data
+08/19/25 10:10:32 EDT -0400 | Successfully pushed: 6b8c6a445c2e6c1cf8676b1cfb8e8b3024b9a5ee
+08/19/25 10:10:33 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:33 EDT -0400 |    6b8c6a4..21404b5  21404b5461bd5a5043e7232abcf3e6218204eb76 -> fcre-weir-data
+08/19/25 10:10:33 EDT -0400 | Successfully pushed: 21404b5461bd5a5043e7232abcf3e6218204eb76
+08/19/25 10:10:34 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:34 EDT -0400 |    21404b5..f9f51c0  f9f51c0eb603003a715a71c7ea994135dda2d278 -> fcre-weir-data
+08/19/25 10:10:34 EDT -0400 | Successfully pushed: f9f51c0eb603003a715a71c7ea994135dda2d278
+08/19/25 10:10:35 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:35 EDT -0400 |    f9f51c0..79daaea  79daaea1411dad2a449c783992977fc038eab2aa -> fcre-weir-data
+08/19/25 10:10:35 EDT -0400 | Successfully pushed: 79daaea1411dad2a449c783992977fc038eab2aa
+08/19/25 10:10:36 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:36 EDT -0400 |    79daaea..9cce846  9cce84645fb9682142e9be5ad8d8aea1753e9ff6 -> fcre-weir-data
+08/19/25 10:10:36 EDT -0400 | Successfully pushed: 9cce84645fb9682142e9be5ad8d8aea1753e9ff6
+08/19/25 10:10:37 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:37 EDT -0400 |    9cce846..2c6dadd  2c6dadd767d167673e26058af45a16b87fae9e1b -> fcre-weir-data
+08/19/25 10:10:37 EDT -0400 | Successfully pushed: 2c6dadd767d167673e26058af45a16b87fae9e1b
+08/19/25 10:10:38 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:38 EDT -0400 |    2c6dadd..3fef7d7  3fef7d76cfb318ca443f1c8a98d2d500b1255b08 -> fcre-weir-data
+08/19/25 10:10:38 EDT -0400 | Successfully pushed: 3fef7d76cfb318ca443f1c8a98d2d500b1255b08
+08/19/25 10:10:39 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:40 EDT -0400 |    3fef7d7..ebd68fc  ebd68fc86fd1f41d6f00be7fc379c288b86fa8ba -> fcre-weir-data
+08/19/25 10:10:40 EDT -0400 | Successfully pushed: ebd68fc86fd1f41d6f00be7fc379c288b86fa8ba
+08/19/25 10:10:40 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:40 EDT -0400 |    ebd68fc..dcfdc6c  dcfdc6cfb03f4c4fba625219d50d8282771db55f -> fcre-weir-data
+08/19/25 10:10:40 EDT -0400 | Successfully pushed: dcfdc6cfb03f4c4fba625219d50d8282771db55f
+08/19/25 10:10:41 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:41 EDT -0400 |    dcfdc6c..53eaf36  53eaf3610b351940ca3b3458cf8b579a6665b0d9 -> fcre-weir-data
+08/19/25 10:10:41 EDT -0400 | Successfully pushed: 53eaf3610b351940ca3b3458cf8b579a6665b0d9
+08/19/25 10:10:42 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:42 EDT -0400 |    53eaf36..3659c36  3659c36062075943a4e1341bbd87bf2dcb85cc4f -> fcre-weir-data
+08/19/25 10:10:42 EDT -0400 | Successfully pushed: 3659c36062075943a4e1341bbd87bf2dcb85cc4f
+08/19/25 10:10:43 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:43 EDT -0400 |    3659c36..c2572a5  c2572a5e4b24c9f8580cbc0a307f1bb4d2c32253 -> fcre-weir-data
+08/19/25 10:10:43 EDT -0400 | Successfully pushed: c2572a5e4b24c9f8580cbc0a307f1bb4d2c32253
+08/19/25 10:10:45 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:45 EDT -0400 |    c2572a5..5b35da7  5b35da7d37496a4dedf03d3e69c3023b0ce3b6c6 -> fcre-weir-data
+08/19/25 10:10:45 EDT -0400 | Successfully pushed: 5b35da7d37496a4dedf03d3e69c3023b0ce3b6c6
+08/19/25 10:10:46 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:46 EDT -0400 |    5b35da7..e231b87  e231b877de61ae5809e8b14cedb1f65a9b24add4 -> fcre-weir-data
+08/19/25 10:10:46 EDT -0400 | Successfully pushed: e231b877de61ae5809e8b14cedb1f65a9b24add4
+08/19/25 10:10:47 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:47 EDT -0400 |    e231b87..fe198f8  fe198f8e1aeeffa20cd8d8b30bf52ab004049120 -> fcre-weir-data
+08/19/25 10:10:47 EDT -0400 | Successfully pushed: fe198f8e1aeeffa20cd8d8b30bf52ab004049120
+08/19/25 10:10:48 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:48 EDT -0400 |    fe198f8..c624293  c6242930d5d56796da922f712e179b53ce6d20fd -> fcre-weir-data
+08/19/25 10:10:48 EDT -0400 | Successfully pushed: c6242930d5d56796da922f712e179b53ce6d20fd
+08/19/25 10:10:49 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:49 EDT -0400 |    c624293..6b67914  6b679142884015d22f0ebc345e19024d8fae5ac6 -> fcre-weir-data
+08/19/25 10:10:49 EDT -0400 | Successfully pushed: 6b679142884015d22f0ebc345e19024d8fae5ac6
+08/19/25 10:10:50 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:50 EDT -0400 |    6b67914..4b13384  4b13384b734b3f0dff73d49521d465314b0801de -> fcre-weir-data
+08/19/25 10:10:50 EDT -0400 | Successfully pushed: 4b13384b734b3f0dff73d49521d465314b0801de
+08/19/25 10:10:51 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/19/25 10:10:51 EDT -0400 |    4b13384..e416639  e41663992837a3c829da69253d9c6514eaa3b569 -> fcre-weir-data
+08/19/25 10:10:51 EDT -0400 | Successfully pushed: e41663992837a3c829da69253d9c6514eaa3b569
+08/19/25 10:10:51 EDT -0400 | ========Primary directory end========
+08/19/25 10:10:51 EDT -0400 | ========Experiemental directory========
+08/19/25 10:10:51 EDT -0400 | Processing: /data/exp-fcre-weir-data
+08/19/25 10:10:51 EDT -0400 | [exp-fcre-weir-data f037cc2] Tue 2025-08-19 10:10:51 EDT
+08/19/25 10:10:51 EDT -0400 |  1 file changed, 12 insertions(+)
+08/19/25 10:10:51 EDT -0400 | Found unpushed commit(s).
+08/19/25 10:10:51 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/19/25 10:10:51 EDT -0400 | fatal: Could not read from remote repository.
+08/19/25 10:10:51 EDT -0400 | 
+08/19/25 10:10:51 EDT -0400 | Please make sure you have the correct access rights
+08/19/25 10:10:51 EDT -0400 | and the repository exists.
+08/19/25 10:10:51 EDT -0400 | Failed to push: a4675fcd280ad2795fa630c6fa279fac1639d884
+08/19/25 10:10:51 EDT -0400 | Experimental directory /data/exp-fcre-weir-data failed.
+08/19/25 10:10:51 EDT -0400 | ========Experiemental directory end========
+08/19/25 10:10:52 EDT -0400 | ========Primary directory========
+08/19/25 10:10:52 EDT -0400 | Processing: /data/mia-logs
