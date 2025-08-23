@@ -189014,3 +189014,523 @@
 08/22/25 14:30:13 EDT -0400 | and the repository exists.
 08/22/25 14:30:13 EDT -0400 | Failed to push commit: ee91ab2570fe618641712bb1432ff3a952c9ae72
 08/22/25 14:30:13 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:13 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:13 EDT -0400 | 
+08/22/25 14:30:13 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:13 EDT -0400 | and the repository exists.
+08/22/25 14:30:13 EDT -0400 | Failed to push commit: c19a15dc9421ef45f2f22f6dd5dd86217d79e38b
+08/22/25 14:30:13 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:13 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:13 EDT -0400 | 
+08/22/25 14:30:13 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:13 EDT -0400 | and the repository exists.
+08/22/25 14:30:13 EDT -0400 | Failed to push commit: a63a139fbd29ca95cb1aa198f007b541d4fd8c86
+08/22/25 14:30:13 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:13 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:13 EDT -0400 | 
+08/22/25 14:30:13 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:13 EDT -0400 | and the repository exists.
+08/22/25 14:30:13 EDT -0400 | Failed to push commit: f037cc291a030de6e13e0798ff9e3ca106d9a80e
+08/22/25 14:30:13 EDT -0400 | Processing: /data/mia-logs
+08/22/25 14:30:14 EDT -0400 | [exp-mia-logs 4fe4bee] Fri 2025-08-22 14:30:13 EDT
+08/22/25 14:30:14 EDT -0400 |  1 file changed, 534 insertions(+)
+08/22/25 14:30:14 EDT -0400 | Found unpushed commit(s).
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: 31fc46ae738f660780b49edfcac112e24a0f031b
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: f5428f620b3a01eaaaf6226874cd8706ef1e4ac5
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: 52638b6deed0607f75848f20489e5d309b7d6743
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: 2cb64dc39fe98eddb940d7288fd4d5585c7674ce
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: dc8ec0c6956a13f7083722c484a9d7c54189e56e
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: 3feac5b9fa9c078f844935143d4923bfbb63a302
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: 29980628ed90e9f216fb91e703c7656025ddac19
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: ab97d819711d7ba24fa83578a7bf30090cc6de05
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: b492136186cc8f83f4d6f0c1770308148553932a
+08/22/25 14:30:14 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:14 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:14 EDT -0400 | 
+08/22/25 14:30:14 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:14 EDT -0400 | and the repository exists.
+08/22/25 14:30:14 EDT -0400 | Failed to push commit: a2ab510fd536987313a3b2cc804314f8ebe63f78
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: c8ab290f95e5d90274d026c29888f3c414fb4c81
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: e649580fab194432c0d75b2f7dd5d1b883891f6b
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: c52b847871131c8ec07f5cb6e9ec0e7e702aa6ce
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: d38e600a0d1cd9e3d65d704b44c7d3e7e7c04bff
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 90be737ebde79362c5487e6c1425999281c89811
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: ffb09eb2913a97b765a1daf002fac77eee4a4981
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 95e3c38182bca80d8ecf05214dd469994b0d2da8
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: e65770261dcfbc5737b13ccc3557576302ce0368
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: c8864fc36afe52ced038a8bb11fb905c135d387e
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 482a59308e4c9ee1b329e99ca1fbaa7d1c60b034
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: cdbbbbd81b1ce41f53d5eea7282365610fe2d33d
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 12e51584e3c8ac2eabc9d7f32221f869ed024dca
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: a2b7b614f1231cf35ca026fa677709f30fa469e7
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: bba3fa6cc92722cfd2867d395b9abbc730034ae9
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 1ca6c09d04b72b370522024c316e807a04f3edc4
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 547327121784eb9630f096bd7ff78680f97f718b
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: f121c5da317e0b696ad844390a9d0ccc0eaa5b0d
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: b55373b092d34569778b54d4da16d97e1474ca7a
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 829b2160ec4c018185aa45d6c23937abc0eba397
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 04315707b2edc61604563231a4281d20e5943212
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 87923eb59f400f0f887f7836a9828968c720cf0d
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: b7315dd42154c70b84f93fdb2e9251936446163c
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 77fb86e2d90d54e139ebe8329eacbf2ffe897335
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: e6e5daf334ed41d5803063722857dc8242682205
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 9314089ac934d738349fac3fa639c487bf43f702
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 567e3247a0b07b288cfb7f9184109429a6fb12f8
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 8f298d02345f89b52e9e0f95f4ee77fa52382fb4
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 4c87b13e70b8abf00f3390377ab59f0e9b607ee3
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: e552a36653f983ac076547627a7db7868ec2f16a
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 777dc2ca79756f2b44892503257c38b934bc11df
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:15 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:15 EDT -0400 | and the repository exists.
+08/22/25 14:30:15 EDT -0400 | Failed to push commit: 85bb0078ddc43cf8813ced3ff0adb6eb6c8e3914
+08/22/25 14:30:15 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:15 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:15 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 1f1a076f58e0c3eeee66e6122fb35a274436b8f4
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: a50741cfc17fe08d621b8887f571c408b2804707
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 2aead75ce9837ca0cccfc642c47df81533e34963
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 0a782df9bcd418dadca65b476b4dd6d86af9efc3
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 52aab0c7a829c4b5f4b2063c958dcf8d0b020e1a
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: d8b4c6a3c59d8e5c6a304a89fabaeb4957b720a8
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: a4efafc49a60f65c0ff7c8cabd96b9779b27fb77
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 02460ee24e864a400858c55a143eacf000ce6600
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 227636119bad0ef12b6b5dbf1ac76ac952c4bfa2
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 88c32c78da978e0001de4c8049235e5eced09259
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 225f3a50b82dbfe0e86d889f104f0292c169b8ba
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 0e819f1bdafd0bd4a4b4927b1d4ca82308f0baf8
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 827240cd8551b2b1e0c7dd791465c5ab2df155ff
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: cea364ef8a2039d5d50720001e2de163721b9fa9
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: fa03e646287a0a164d191ad23bf2df265e420ead
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 1985fc01ac789ed255cd88ca08d6732fbc2308a4
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 5b4f1d96c25ab2d721267241acbf59ffb9871ced
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 5f0139826fff72ce6ae9fea460e4294407eb8fa8
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 83f27c86fb787b1c39c559a26b558523d3009e62
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 80d75884f22b19ea70c5a4667541a678387ab5a7
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 74f780b6b245becd36e5d71a9b7549d7e6d6795f
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 7736626397766c9edc86512a21ce3e998f673c49
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 4d68641ac7e3d7fa6bd1f7eceff832e6ed6fd29f
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 5593ef49732bea4947394d271ba3014f8489b6c0
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 69d54404330d08bc8be449de0dad0d31a629314d
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 5ee15113f755dc66d9025a54645f015d1b60cac5
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 9ead4b309e859d2a5cad538ac4fafa91916c8afe
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 9b4cdb9118cdfb9771851c0541af314380c99d8f
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 71cc35d9f6d3bd4d84db8868acbbeb91a07cdfc0
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 648b897dd0289dbef1b5b3844dc16716eee0f4a6
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 810cff12681f5d60aeb25d28a58cdd06e4081a21
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: ad41b6d67456e2780a53d8c8999c671b11d4ca42
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 7562b9627fcdaf63528d38f1a03486c779986554
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 82fe93ba71f0c912941844808b640ddf330d2c04
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 992652ffd8d1223f451af1a2bc7cb40131848cf3
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: 5c420032c5f4f5ce1ee73052848deedf9484a674
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: baaf67705889919001d52b6d29eab2af2cff2cd0
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: c2514d4832ce8e299ff45acd1bda1a6291cb8afc
+08/22/25 14:30:16 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:16 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:16 EDT -0400 | 
+08/22/25 14:30:16 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:16 EDT -0400 | and the repository exists.
+08/22/25 14:30:16 EDT -0400 | Failed to push commit: db42d3496c7f71c5334cc64e4169316c73bc3f93
+08/22/25 14:30:17 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:17 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:17 EDT -0400 | 
+08/22/25 14:30:17 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:17 EDT -0400 | and the repository exists.
+08/22/25 14:30:17 EDT -0400 | Failed to push commit: 9982e4f97525ae8833bf30fc125f156cffb32419
+08/22/25 14:30:17 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:17 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:17 EDT -0400 | 
+08/22/25 14:30:17 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:17 EDT -0400 | and the repository exists.
+08/22/25 14:30:17 EDT -0400 | Failed to push commit: 18637dcbac73a40c160aeaea59db5fd58079f5e2
+08/22/25 14:30:17 EDT -0400 | ssh: connect to host 10.10.101.1 port 22: Network is unreachable
+08/22/25 14:30:17 EDT -0400 | fatal: Could not read from remote repository.
+08/22/25 14:30:17 EDT -0400 | 
+08/22/25 14:30:17 EDT -0400 | Please make sure you have the correct access rights
+08/22/25 14:30:17 EDT -0400 | and the repository exists.
+08/22/25 14:30:17 EDT -0400 | Failed to push commit: 4fe4bee1195b4738e50082971c11e4c171891529
+08/22/25 14:30:17 EDT -0400 | ##########  END  ##########
