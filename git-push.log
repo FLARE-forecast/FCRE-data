@@ -160749,3 +160749,23 @@ Completed at 08/17/23 18:39:21 EST
 08/27/25 16:04:22 EDT -0400 |  2 files changed, 20 insertions(+)
 08/27/25 16:04:26 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
 08/27/25 16:04:26 EDT -0400 |    7263b15..1682965  168296571f4233cb0c604c0f93176f722f85d6e4 -> fcre-catwalk-data
+08/27/25 16:04:26 EDT -0400 | Processing: /data/henrietta-logs
+08/27/25 16:04:27 EDT -0400 | [henrietta-logs 9f34353] Wed 2025-08-27 16:04:26 EDT
+08/27/25 16:04:27 EDT -0400 |  3 files changed, 36 insertions(+)
+08/27/25 16:04:30 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/27/25 16:04:30 EDT -0400 |    44127ac..9f34353  9f343536f896476cd1427f702b5dba211a36ec53 -> henrietta-logs
+08/27/25 16:04:30 EDT -0400 | Processing: /data/fcre-eddyflux-data
+08/27/25 16:04:30 EDT -0400 | [fcre-eddyflux-data d0511a1] Wed 2025-08-27 16:04:30 EDT
+08/27/25 16:04:30 EDT -0400 |  6 files changed, 283 insertions(+)
+08/27/25 16:04:30 EDT -0400 |  create mode 100755 2025-08-22_AIU-0547_EP-Summary.txt
+08/27/25 16:04:30 EDT -0400 |  create mode 100755 2025-08-23_AIU-0547_EP-Summary.txt
+08/27/25 16:04:30 EDT -0400 |  create mode 100755 2025-08-24_AIU-0547_EP-Summary.txt
+08/27/25 16:04:30 EDT -0400 |  create mode 100755 2025-08-25_AIU-0547_EP-Summary.txt
+08/27/25 16:04:30 EDT -0400 |  create mode 100755 2025-08-26_AIU-0547_EP-Summary.txt
+08/27/25 16:04:30 EDT -0400 |  create mode 100755 2025-08-27_AIU-0547_EP-Summary.txt
+08/27/25 16:04:33 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+08/27/25 16:04:33 EDT -0400 |    006ce96..d0511a1  d0511a1569a2af26b3f9cd6e8f218fcdaa2e70b6 -> fcre-eddyflux-data
+08/27/25 16:04:33 EDT -0400 | ##########  END  ##########
+08/27/25 16:04:47 EDT -0400 | ########## START ##########
+08/27/25 16:04:47 EDT -0400 | Processing: /data/fcre-catwalk-data
+08/27/25 16:04:47 EDT -0400 | On branch fcre-catwalk-data
