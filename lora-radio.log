@@ -72879,4 +72879,702 @@
 08/21/25 14:00:03 EST -0500 | ##########  END  ##########
 08/21/25 15:00:02 EST -0500 | ########## START ##########
 08/21/25 15:00:03 EST -0500 | TNC interface configured as tnc0
-08/21/25 15:00:03 EST -0500 | TNC interface confi
+08/21/25 15:00:03 EST -0500 | TNC interface confi08/22/25 18:00:02 EST -0500 | ########## START ##########
+08/22/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 18:00:03 EST -0500 | ##########  END  ##########
+08/22/25 19:00:02 EST -0500 | ########## START ##########
+08/22/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 19:00:03 EST -0500 | ##########  END  ##########
+08/22/25 20:00:02 EST -0500 | ########## START ##########
+08/22/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 20:00:03 EST -0500 | ##########  END  ##########
+08/22/25 21:00:02 EST -0500 | ########## START ##########
+08/22/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 21:00:03 EST -0500 | ##########  END  ##########
+08/22/25 22:00:02 EST -0500 | ########## START ##########
+08/22/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 22:00:03 EST -0500 | ##########  END  ##########
+08/22/25 23:00:01 EST -0500 | ########## START ##########
+08/22/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/22/25 23:00:03 EST -0500 | ##########  END  ##########
+08/23/25 00:00:02 EST -0500 | ########## START ##########
+08/23/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 00:00:03 EST -0500 | ##########  END  ##########
+08/23/25 00:23:01 EST -0500 | ########## START ##########
+08/23/25 00:23:01 EST -0500 | tncattach: no process found
+08/23/25 00:23:02 EST -0500 | TNC interface configured as tnc0
+08/23/25 00:23:02 EST -0500 | TNC interface configured as tnc0
+08/23/25 00:23:02 EST -0500 | ##########  END  ##########
+08/23/25 01:00:02 EST -0500 | ########## START ##########
+08/23/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 01:00:04 EST -0500 | ##########  END  ##########
+08/23/25 02:00:02 EST -0500 | ########## START ##########
+08/23/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 02:00:03 EST -0500 | ##########  END  ##########
+08/23/25 03:00:01 EST -0500 | ########## START ##########
+08/23/25 03:00:02 EST -0500 | TNC interface configured as tnc0
+08/23/25 03:00:02 EST -0500 | TNC interface configured as tnc0
+08/23/25 03:00:03 EST -0500 | ##########  END  ##########
+08/23/25 04:00:02 EST -0500 | ########## START ##########
+08/23/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 04:00:03 EST -0500 | ##########  END  ##########
+08/23/25 05:00:02 EST -0500 | ########## START ##########
+08/23/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 05:00:03 EST -0500 | ##########  END  ##########
+08/23/25 06:00:02 EST -0500 | ########## START ##########
+08/23/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 06:00:03 EST -0500 | ##########  END  ##########
+08/23/25 07:00:02 EST -0500 | ########## START ##########
+08/23/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 07:00:03 EST -0500 | ##########  END  ##########
+08/23/25 08:00:02 EST -0500 | ########## START ##########
+08/23/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 08:00:03 EST -0500 | ##########  END  ##########
+08/23/25 09:00:02 EST -0500 | ########## START ##########
+08/23/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 09:00:03 EST -0500 | ##########  END  ##########
+08/23/25 10:00:02 EST -0500 | ########## START ##########
+08/23/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 10:00:03 EST -0500 | ##########  END  ##########
+08/23/25 11:00:02 EST -0500 | ########## START ##########
+08/23/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 11:00:03 EST -0500 | ##########  END  ##########
+08/23/25 12:00:02 EST -0500 | ########## START ##########
+08/23/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 12:00:03 EST -0500 | ##########  END  ##########
+08/23/25 13:00:02 EST -0500 | ########## START ##########
+08/23/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 13:00:03 EST -0500 | ##########  END  ##########
+08/23/25 14:00:01 EST -0500 | ########## START ##########
+08/23/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 14:00:03 EST -0500 | ##########  END  ##########
+08/23/25 15:00:02 EST -0500 | ########## START ##########
+08/23/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 15:00:03 EST -0500 | ##########  END  ##########
+08/23/25 16:00:02 EST -0500 | ########## START ##########
+08/23/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 16:00:03 EST -0500 | ##########  END  ##########
+08/23/25 17:00:02 EST -0500 | ########## START ##########
+08/23/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 17:00:03 EST -0500 | ##########  END  ##########
+08/23/25 18:00:02 EST -0500 | ########## START ##########
+08/23/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 18:00:03 EST -0500 | ##########  END  ##########
+08/23/25 19:00:02 EST -0500 | ########## START ##########
+08/23/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 19:00:03 EST -0500 | ##########  END  ##########
+08/23/25 20:00:01 EST -0500 | ########## START ##########
+08/23/25 20:00:02 EST -0500 | TNC interface configured as tnc0
+08/23/25 20:00:02 EST -0500 | TNC interface configured as tnc0
+08/23/25 20:00:03 EST -0500 | ##########  END  ##########
+08/23/25 21:00:02 EST -0500 | ########## START ##########
+08/23/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 21:00:03 EST -0500 | ##########  END  ##########
+08/23/25 22:00:02 EST -0500 | ########## START ##########
+08/23/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 22:00:03 EST -0500 | ##########  END  ##########
+08/23/25 23:00:02 EST -0500 | ########## START ##########
+08/23/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/23/25 23:00:03 EST -0500 | ##########  END  ##########
+08/24/25 00:00:02 EST -0500 | ########## START ##########
+08/24/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 00:00:03 EST -0500 | ##########  END  ##########
+08/24/25 00:23:00 EST -0500 | ########## START ##########
+08/24/25 00:23:00 EST -0500 | tncattach: no process found
+08/24/25 00:23:01 EST -0500 | TNC interface configured as tnc0
+08/24/25 00:23:01 EST -0500 | TNC interface configured as tnc0
+08/24/25 00:23:01 EST -0500 | ##########  END  ##########
+08/24/25 01:00:02 EST -0500 | ########## START ##########
+08/24/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 01:00:03 EST -0500 | ##########  END  ##########
+08/24/25 02:00:02 EST -0500 | ########## START ##########
+08/24/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 02:00:03 EST -0500 | ##########  END  ##########
+08/24/25 03:00:02 EST -0500 | ########## START ##########
+08/24/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 03:00:03 EST -0500 | ##########  END  ##########
+08/24/25 04:00:02 EST -0500 | ########## START ##########
+08/24/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 04:00:03 EST -0500 | ##########  END  ##########
+08/24/25 05:00:02 EST -0500 | ########## START ##########
+08/24/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 05:00:03 EST -0500 | ##########  END  ##########
+08/24/25 06:00:02 EST -0500 | ########## START ##########
+08/24/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 06:00:03 EST -0500 | ##########  END  ##########
+08/24/25 07:00:01 EST -0500 | ########## START ##########
+08/24/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 07:00:03 EST -0500 | ##########  END  ##########
+08/24/25 08:00:02 EST -0500 | ########## START ##########
+08/24/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 08:00:03 EST -0500 | ##########  END  ##########
+08/24/25 09:00:02 EST -0500 | ########## START ##########
+08/24/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 09:00:03 EST -0500 | ##########  END  ##########
+08/24/25 10:00:02 EST -0500 | ########## START ##########
+08/24/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 10:00:03 EST -0500 | ##########  END  ##########
+08/24/25 11:00:02 EST -0500 | ########## START ##########
+08/24/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 11:00:03 EST -0500 | ##########  END  ##########
+08/24/25 12:00:02 EST -0500 | ########## START ##########
+08/24/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 12:00:03 EST -0500 | ##########  END  ##########
+08/24/25 13:00:02 EST -0500 | ########## START ##########
+08/24/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 13:00:03 EST -0500 | ##########  END  ##########
+08/24/25 14:00:02 EST -0500 | ########## START ##########
+08/24/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 14:00:03 EST -0500 | ##########  END  ##########
+08/24/25 15:00:02 EST -0500 | ########## START ##########
+08/24/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 15:00:03 EST -0500 | ##########  END  ##########
+08/24/25 16:00:02 EST -0500 | ########## START ##########
+08/24/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 16:00:04 EST -0500 | ##########  END  ##########
+08/24/25 17:00:02 EST -0500 | ########## START ##########
+08/24/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 17:00:03 EST -0500 | ##########  END  ##########
+08/24/25 18:00:01 EST -0500 | ########## START ##########
+08/24/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 18:00:03 EST -0500 | ##########  END  ##########
+08/24/25 19:00:02 EST -0500 | ########## START ##########
+08/24/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 19:00:03 EST -0500 | ##########  END  ##########
+08/24/25 20:00:02 EST -0500 | ########## START ##########
+08/24/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 20:00:03 EST -0500 | ##########  END  ##########
+08/24/25 21:00:02 EST -0500 | ########## START ##########
+08/24/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 21:00:03 EST -0500 | ##########  END  ##########
+08/24/25 22:00:02 EST -0500 | ########## START ##########
+08/24/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 22:00:03 EST -0500 | ##########  END  ##########
+08/24/25 23:00:02 EST -0500 | ########## START ##########
+08/24/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/24/25 23:00:03 EST -0500 | ##########  END  ##########
+08/25/25 00:00:02 EST -0500 | ########## START ##########
+08/25/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 00:00:03 EST -0500 | ##########  END  ##########
+08/25/25 00:23:00 EST -0500 | ########## START ##########
+08/25/25 00:23:00 EST -0500 | tncattach: no process found
+08/25/25 00:23:01 EST -0500 | TNC interface configured as tnc0
+08/25/25 00:23:01 EST -0500 | TNC interface configured as tnc0
+08/25/25 00:23:01 EST -0500 | ##########  END  ##########
+08/25/25 01:00:01 EST -0500 | ########## START ##########
+08/25/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 01:00:03 EST -0500 | ##########  END  ##########
+08/25/25 02:00:02 EST -0500 | ########## START ##########
+08/25/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 02:00:03 EST -0500 | ##########  END  ##########
+08/25/25 03:00:01 EST -0500 | ########## START ##########
+08/25/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 03:00:03 EST -0500 | ##########  END  ##########
+08/25/25 04:00:01 EST -0500 | ########## START ##########
+08/25/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 04:00:03 EST -0500 | ##########  END  ##########
+08/25/25 05:00:02 EST -0500 | ########## START ##########
+08/25/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 05:00:03 EST -0500 | ##########  END  ##########
+08/25/25 06:00:02 EST -0500 | ########## START ##########
+08/25/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 06:00:03 EST -0500 | ##########  END  ##########
+08/25/25 07:00:02 EST -0500 | ########## START ##########
+08/25/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 07:00:03 EST -0500 | ##########  END  ##########
+08/25/25 08:00:02 EST -0500 | ########## START ##########
+08/25/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 08:00:03 EST -0500 | ##########  END  ##########
+08/25/25 09:00:02 EST -0500 | ########## START ##########
+08/25/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 09:00:03 EST -0500 | ##########  END  ##########
+08/25/25 10:00:02 EST -0500 | ########## START ##########
+08/25/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 10:00:03 EST -0500 | ##########  END  ##########
+08/25/25 11:00:02 EST -0500 | ########## START ##########
+08/25/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 11:00:03 EST -0500 | ##########  END  ##########
+08/25/25 12:00:02 EST -0500 | ########## START ##########
+08/25/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 12:00:03 EST -0500 | ##########  END  ##########
+08/25/25 13:00:02 EST -0500 | ########## START ##########
+08/25/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 13:00:03 EST -0500 | ##########  END  ##########
+08/25/25 14:00:02 EST -0500 | ########## START ##########
+08/25/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 14:00:03 EST -0500 | ##########  END  ##########
+08/25/25 15:00:02 EST -0500 | ########## START ##########
+08/25/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 15:00:03 EST -0500 | ##########  END  ##########
+08/25/25 16:00:02 EST -0500 | ########## START ##########
+08/25/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 16:00:03 EST -0500 | ##########  END  ##########
+08/25/25 17:00:02 EST -0500 | ########## START ##########
+08/25/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 17:00:03 EST -0500 | ##########  END  ##########
+08/25/25 18:00:02 EST -0500 | ########## START ##########
+08/25/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 18:00:03 EST -0500 | ##########  END  ##########
+08/25/25 19:00:02 EST -0500 | ########## START ##########
+08/25/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 19:00:03 EST -0500 | ##########  END  ##########
+08/25/25 20:00:02 EST -0500 | ########## START ##########
+08/25/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 20:00:03 EST -0500 | ##########  END  ##########
+08/25/25 21:00:02 EST -0500 | ########## START ##########
+08/25/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 21:00:03 EST -0500 | ##########  END  ##########
+08/25/25 22:00:02 EST -0500 | ########## START ##########
+08/25/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 22:00:03 EST -0500 | ##########  END  ##########
+08/25/25 23:00:02 EST -0500 | ########## START ##########
+08/25/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/25/25 23:00:03 EST -0500 | ##########  END  ##########
+08/26/25 00:00:02 EST -0500 | ########## START ##########
+08/26/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 00:00:03 EST -0500 | ##########  END  ##########
+08/26/25 00:22:59 EST -0500 | ########## START ##########
+08/26/25 00:22:59 EST -0500 | tncattach: no process found
+08/26/25 00:23:00 EST -0500 | TNC interface configured as tnc0
+08/26/25 00:23:00 EST -0500 | TNC interface configured as tnc0
+08/26/25 00:23:01 EST -0500 | ##########  END  ##########
+08/26/25 01:00:02 EST -0500 | ########## START ##########
+08/26/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 01:00:03 EST -0500 | ##########  END  ##########
+08/26/25 02:00:02 EST -0500 | ########## START ##########
+08/26/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 02:00:03 EST -0500 | ##########  END  ##########
+08/26/25 03:00:02 EST -0500 | ########## START ##########
+08/26/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 03:00:03 EST -0500 | ##########  END  ##########
+08/26/25 04:00:02 EST -0500 | ########## START ##########
+08/26/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 04:00:03 EST -0500 | ##########  END  ##########
+08/26/25 05:00:02 EST -0500 | ########## START ##########
+08/26/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 05:00:03 EST -0500 | ##########  END  ##########
+08/26/25 06:00:02 EST -0500 | ########## START ##########
+08/26/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 06:00:03 EST -0500 | ##########  END  ##########
+08/26/25 07:00:02 EST -0500 | ########## START ##########
+08/26/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 07:00:03 EST -0500 | ##########  END  ##########
+08/26/25 08:00:02 EST -0500 | ########## START ##########
+08/26/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 08:00:03 EST -0500 | ##########  END  ##########
+08/26/25 09:00:02 EST -0500 | ########## START ##########
+08/26/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 09:00:03 EST -0500 | ##########  END  ##########
+08/26/25 10:00:02 EST -0500 | ########## START ##########
+08/26/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 10:00:03 EST -0500 | ##########  END  ##########
+08/26/25 11:00:02 EST -0500 | ########## START ##########
+08/26/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 11:00:03 EST -0500 | ##########  END  ##########
+08/26/25 12:00:02 EST -0500 | ########## START ##########
+08/26/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 12:00:03 EST -0500 | ##########  END  ##########
+08/26/25 13:00:02 EST -0500 | ########## START ##########
+08/26/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 13:00:03 EST -0500 | ##########  END  ##########
+08/26/25 14:00:02 EST -0500 | ########## START ##########
+08/26/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 14:00:03 EST -0500 | ##########  END  ##########
+08/26/25 15:00:02 EST -0500 | ########## START ##########
+08/26/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 15:00:03 EST -0500 | ##########  END  ##########
+08/26/25 16:00:02 EST -0500 | ########## START ##########
+08/26/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 16:00:03 EST -0500 | ##########  END  ##########
+08/26/25 17:00:02 EST -0500 | ########## START ##########
+08/26/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 17:00:04 EST -0500 | ##########  END  ##########
+08/26/25 18:00:02 EST -0500 | ########## START ##########
+08/26/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 18:00:03 EST -0500 | ##########  END  ##########
+08/26/25 19:00:02 EST -0500 | ########## START ##########
+08/26/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 19:00:03 EST -0500 | ##########  END  ##########
+08/26/25 20:00:02 EST -0500 | ########## START ##########
+08/26/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 20:00:04 EST -0500 | ##########  END  ##########
+08/26/25 21:00:02 EST -0500 | ########## START ##########
+08/26/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 21:00:03 EST -0500 | ##########  END  ##########
+08/26/25 22:00:02 EST -0500 | ########## START ##########
+08/26/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 22:00:03 EST -0500 | ##########  END  ##########
+08/26/25 23:00:02 EST -0500 | ########## START ##########
+08/26/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/26/25 23:00:03 EST -0500 | ##########  END  ##########
+08/27/25 00:00:02 EST -0500 | ########## START ##########
+08/27/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 00:00:03 EST -0500 | ##########  END  ##########
+08/27/25 00:23:00 EST -0500 | ########## START ##########
+08/27/25 00:23:00 EST -0500 | tncattach: no process found
+08/27/25 00:23:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 00:23:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 00:23:02 EST -0500 | ##########  END  ##########
+08/27/25 01:00:01 EST -0500 | ########## START ##########
+08/27/25 01:00:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 01:00:03 EST -0500 | ##########  END  ##########
+08/27/25 02:00:02 EST -0500 | ########## START ##########
+08/27/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 02:00:03 EST -0500 | ##########  END  ##########
+08/27/25 03:00:02 EST -0500 | ########## START ##########
+08/27/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 03:00:03 EST -0500 | ##########  END  ##########
+08/27/25 04:00:02 EST -0500 | ########## START ##########
+08/27/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 04:00:03 EST -0500 | ##########  END  ##########
+08/27/25 05:00:02 EST -0500 | ########## START ##########
+08/27/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 05:00:03 EST -0500 | ##########  END  ##########
+08/27/25 06:00:02 EST -0500 | ########## START ##########
+08/27/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 06:00:03 EST -0500 | ##########  END  ##########
+08/27/25 07:00:02 EST -0500 | ########## START ##########
+08/27/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 07:00:03 EST -0500 | ##########  END  ##########
+08/27/25 08:00:02 EST -0500 | ########## START ##########
+08/27/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 08:00:03 EST -0500 | ##########  END  ##########
+08/27/25 09:00:02 EST -0500 | ########## START ##########
+08/27/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 09:00:03 EST -0500 | ##########  END  ##########
+08/27/25 10:00:01 EST -0500 | ########## START ##########
+08/27/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 10:00:03 EST -0500 | ##########  END  ##########
+08/27/25 11:00:02 EST -0500 | ########## START ##########
+08/27/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 11:00:03 EST -0500 | ##########  END  ##########
+08/27/25 12:00:02 EST -0500 | ########## START ##########
+08/27/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 12:00:03 EST -0500 | ##########  END  ##########
+08/27/25 13:00:02 EST -0500 | ########## START ##########
+08/27/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 13:00:03 EST -0500 | ##########  END  ##########
+08/27/25 14:00:02 EST -0500 | ########## START ##########
+08/27/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 14:00:03 EST -0500 | ##########  END  ##########
+08/27/25 15:00:02 EST -0500 | ########## START ##########
+08/27/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 15:00:03 EST -0500 | ##########  END  ##########
+08/27/25 16:00:02 EST -0500 | ########## START ##########
+08/27/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 16:00:03 EST -0500 | ##########  END  ##########
+08/27/25 17:00:02 EST -0500 | ########## START ##########
+08/27/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 17:00:03 EST -0500 | ##########  END  ##########
+08/27/25 18:00:02 EST -0500 | ########## START ##########
+08/27/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 18:00:03 EST -0500 | ##########  END  ##########
+08/27/25 19:00:01 EST -0500 | ########## START ##########
+08/27/25 19:00:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 19:00:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 19:00:03 EST -0500 | ##########  END  ##########
+08/27/25 20:00:02 EST -0500 | ########## START ##########
+08/27/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 20:00:03 EST -0500 | ##########  END  ##########
+08/27/25 21:00:01 EST -0500 | ########## START ##########
+08/27/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 21:00:03 EST -0500 | ##########  END  ##########
+08/27/25 22:00:02 EST -0500 | ########## START ##########
+08/27/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/27/25 22:00:03 EST -0500 | ##########  END  ##########
+08/27/25 23:00:01 EST -0500 | ########## START ##########
+08/27/25 23:00:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 23:00:02 EST -0500 | TNC interface configured as tnc0
+08/27/25 23:00:03 EST -0500 | ##########  END  ##########
+08/28/25 00:00:02 EST -0500 | ########## START ##########
+08/28/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 00:00:03 EST -0500 | ##########  END  ##########
+08/28/25 00:23:00 EST -0500 | ########## START ##########
+08/28/25 00:23:00 EST -0500 | tncattach: no process found
+08/28/25 00:23:01 EST -0500 | TNC interface configured as tnc0
+08/28/25 00:23:01 EST -0500 | TNC interface configured as tnc0
+08/28/25 00:23:01 EST -0500 | ##########  END  ##########
+08/28/25 01:00:02 EST -0500 | ########## START ##########
+08/28/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 01:00:03 EST -0500 | ##########  END  ##########
+08/28/25 02:00:02 EST -0500 | ########## START ##########
+08/28/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 02:00:03 EST -0500 | ##########  END  ##########
+08/28/25 03:00:02 EST -0500 | ########## START ##########
+08/28/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 03:00:03 EST -0500 | ##########  END  ##########
+08/28/25 04:00:02 EST -0500 | ########## START ##########
+08/28/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 04:00:04 EST -0500 | ##########  END  ##########
+08/28/25 05:00:02 EST -0500 | ########## START ##########
+08/28/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 05:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 05:00:03 EST -0500 | ##########  END  ##########
+08/28/25 06:00:01 EST -0500 | ########## START ##########
+08/28/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 06:00:03 EST -0500 | ##########  END  ##########
+08/28/25 07:00:02 EST -0500 | ########## START ##########
+08/28/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 07:00:03 EST -0500 | ##########  END  ##########
+08/28/25 08:00:02 EST -0500 | ########## START ##########
+08/28/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 08:00:03 EST -0500 | ##########  END  ##########
+08/28/25 09:00:02 EST -0500 | ########## START ##########
+08/28/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 09:00:03 EST -0500 | ##########  END  ##########
+08/28/25 10:00:02 EST -0500 | ########## START ##########
+08/28/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 10:00:03 EST -0500 | ##########  END  ##########
+08/28/25 11:00:01 EST -0500 | ########## START ##########
+08/28/25 11:00:02 EST -0500 | TNC interface configured as tnc0
+08/28/25 11:00:02 EST -0500 | TNC interface configured as tnc0
+08/28/25 11:00:03 EST -0500 | ##########  END  ##########
+08/28/25 12:00:02 EST -0500 | ########## START ##########
+08/28/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 12:00:03 EST -0500 | ##########  END  ##########
+08/28/25 13:00:02 EST -0500 | ########## START ##########
+08/28/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 13:00:03 EST -0500 | ##########  END  ##########
+08/28/25 14:00:02 EST -0500 | ########## START ##########
+08/28/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 14:00:03 EST -0500 | ##########  END  ##########
+08/28/25 15:00:02 EST -0500 | ########## START ##########
+08/28/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 15:00:03 EST -0500 | ##########  END  ##########
+08/28/25 16:00:02 EST -0500 | ########## START ##########
+08/28/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 16:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 16:00:03 EST -0500 | ##########  END  ##########
+08/28/25 17:00:02 EST -0500 | ########## START ##########
+08/28/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 17:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 17:00:03 EST -0500 | ##########  END  ##########
+08/28/25 18:00:02 EST -0500 | ########## START ##########
+08/28/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 18:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 18:00:04 EST -0500 | ##########  END  ##########
+08/28/25 19:00:02 EST -0500 | ########## START ##########
+08/28/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 19:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 19:00:03 EST -0500 | ##########  END  ##########
+08/28/25 20:00:02 EST -0500 | ########## START ##########
+08/28/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 20:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 20:00:03 EST -0500 | ##########  END  ##########
+08/28/25 21:00:02 EST -0500 | ########## START ##########
+08/28/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 21:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 21:00:03 EST -0500 | ##########  END  ##########
+08/28/25 22:00:02 EST -0500 | ########## START ##########
+08/28/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 22:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 22:00:03 EST -0500 | ##########  END  ##########
+08/28/25 23:00:02 EST -0500 | ########## START ##########
+08/28/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 23:00:03 EST -0500 | TNC interface configured as tnc0
+08/28/25 23:00:03 EST -0500 | ##########  END  ##########
+08/29/25 00:00:02 EST -0500 | ########## START ##########
+08/29/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 00:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 00:00:03 EST -0500 | ##########  END  ##########
+08/29/25 00:23:01 EST -0500 | ########## START ##########
+08/29/25 00:23:01 EST -0500 | tncattach: no process found
+08/29/25 00:23:02 EST -0500 | TNC interface configured as tnc0
+08/29/25 00:23:02 EST -0500 | TNC interface configured as tnc0
+08/29/25 00:23:02 EST -0500 | ##########  END  ##########
+08/29/25 01:00:02 EST -0500 | ########## START ##########
+08/29/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 01:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 01:00:03 EST -0500 | ##########  END  ##########
+08/29/25 02:00:02 EST -0500 | ########## START ##########
+08/29/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 02:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 02:00:03 EST -0500 | ##########  END  ##########
+08/29/25 03:00:02 EST -0500 | ########## START ##########
+08/29/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 03:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 03:00:03 EST -0500 | ##########  END  ##########
+08/29/25 04:00:02 EST -0500 | ########## START ##########
+08/29/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 04:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 04:00:03 EST -0500 | ##########  END  ##########
+08/29/25 05:00:01 EST -0500 | ########## START ##########
+08/29/25 05:00:02 EST -0500 | TNC interface configured as tnc0
+08/29/25 05:00:02 EST -0500 | TNC interface configured as tnc0
+08/29/25 05:00:03 EST -0500 | ##########  END  ##########
+08/29/25 06:00:02 EST -0500 | ########## START ##########
+08/29/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 06:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 06:00:03 EST -0500 | ##########  END  ##########
+08/29/25 07:00:02 EST -0500 | ########## START ##########
+08/29/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 07:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 07:00:03 EST -0500 | ##########  END  ##########
+08/29/25 08:00:02 EST -0500 | ########## START ##########
+08/29/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 08:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 08:00:03 EST -0500 | ##########  END  ##########
+08/29/25 09:00:02 EST -0500 | ########## START ##########
+08/29/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 09:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 09:00:03 EST -0500 | ##########  END  ##########
+08/29/25 10:00:02 EST -0500 | ########## START ##########
+08/29/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 10:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 10:00:03 EST -0500 | ##########  END  ##########
+08/29/25 11:00:02 EST -0500 | ########## START ##########
+08/29/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 11:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 11:00:03 EST -0500 | ##########  END  ##########
+08/29/25 12:00:02 EST -0500 | ########## START ##########
+08/29/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 12:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 12:00:03 EST -0500 | ##########  END  ##########
+08/29/25 13:00:02 EST -0500 | ########## START ##########
+08/29/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 13:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 13:00:03 EST -0500 | ##########  END  ##########
+08/29/25 14:00:01 EST -0500 | ########## START ##########
+08/29/25 14:00:02 EST -0500 | TNC interface configured as tnc0
+08/29/25 14:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 14:00:03 EST -0500 | ##########  END  ##########
+08/29/25 15:00:02 EST -0500 | ########## START ##########
+08/29/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 15:00:03 EST -0500 | TNC interface configured as tnc0
+08/29/25 15:00:03 EST -0500 | ##########  END  ##########
