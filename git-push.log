@@ -245821,3 +245821,35 @@
 09/23/25 00:20:10 EST -0500 | nothing to commit, working tree clean
 09/23/25 00:20:10 EST -0500 | Found unpushed commit(s).
 09/23/25 00:20:19 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+09/23/25 00:20:19 EST -0500 | fatal: Could not read from remote repository.
+09/23/25 00:20:19 EST -0500 | 
+09/23/25 00:20:19 EST -0500 | Please make sure you have the correct access rights
+09/23/25 00:20:19 EST -0500 | and the repository exists.
+09/23/25 00:20:19 EST -0500 | Failed to push commit: a2774c37cd3998bc3260d0ba5ee7e0a9d77d0284
+09/23/25 00:20:19 EST -0500 | Processing: /data/mia-logs
+09/23/25 00:20:20 EST -0500 | [mia-logs 60b7c39] Tue 2025-09-23 00:20:19 EST
+09/23/25 00:20:20 EST -0500 |  1 file changed, 23 insertions(+)
+09/23/25 00:20:20 EST -0500 | Found unpushed commit(s).
+09/23/25 00:20:34 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+09/23/25 00:20:34 EST -0500 | fatal: Could not read from remote repository.
+09/23/25 00:20:34 EST -0500 | 
+09/23/25 00:20:34 EST -0500 | Please make sure you have the correct access rights
+09/23/25 00:20:34 EST -0500 | and the repository exists.
+09/23/25 00:20:34 EST -0500 | Failed to push commit: 38138c9d9d588ae7a3b3139bbdb30133f75d97da
+09/23/25 00:20:49 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+09/23/25 00:20:49 EST -0500 | fatal: Could not read from remote repository.
+09/23/25 00:20:49 EST -0500 | 
+09/23/25 00:20:49 EST -0500 | Please make sure you have the correct access rights
+09/23/25 00:20:49 EST -0500 | and the repository exists.
+09/23/25 00:20:49 EST -0500 | Failed to push commit: 60b7c391672cb50d664f5a87893de48217a8b53d
+09/23/25 00:20:49 EST -0500 | ##########  END  ##########
+09/23/25 00:30:02 EST -0500 | ########## START ##########
+09/23/25 00:30:02 EST -0500 | Processing: /data/fcre-weir-data
+09/23/25 00:30:02 EST -0500 | On branch fcre-weir-data
+09/23/25 00:30:02 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+09/23/25 00:30:02 EST -0500 |   (use "git push" to publish your local commits)
+09/23/25 00:30:02 EST -0500 | 
+09/23/25 00:30:02 EST -0500 | nothing to commit, working tree clean
+09/23/25 00:30:02 EST -0500 | Found unpushed commit(s).
+09/23/25 00:31:01 EST -0500 | remote: + exec        
+09/23/25 00:31:09 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
