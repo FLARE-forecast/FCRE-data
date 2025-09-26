@@ -247301,3 +247301,17 @@
 09/26/25 14:30:54 EST -0500 | ssh: connect to host 10.10.101.1 port 22: Connection timed out
 09/26/25 14:30:54 EST -0500 | fatal: Could not read from remote repository.
 09/26/25 14:30:54 EST -0500 | 
+09/26/25 14:30:54 EST -0500 | Please make sure you have the correct access rights
+09/26/25 14:30:54 EST -0500 | and the repository exists.
+09/26/25 14:30:54 EST -0500 | Failed to push commit: 44697d9f72998923901068c77b4177c0d41ac231
+09/26/25 14:30:54 EST -0500 | Processing: /data/mia-logs
+09/26/25 14:30:57 EST -0500 | [mia-logs c75c555] Fri 2025-09-26 14:30:54 EST
+09/26/25 14:30:57 EST -0500 |  3 files changed, 199 insertions(+)
+09/26/25 14:30:57 EST -0500 | Found unpushed commit(s).
+09/26/25 14:32:12 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/26/25 14:32:12 EST -0500 | fatal: Could not read from remote repository.
+09/26/25 14:32:12 EST -0500 | 
+09/26/25 14:32:12 EST -0500 | Please make sure you have the correct access rights
+09/26/25 14:32:12 EST -0500 | and the repository exists.
+09/26/25 14:32:12 EST -0500 | Failed to push commit: 6212cf96db01d46e752c57d9c25c6d864e4a7df8
+09/26/25 14:34:55 EST -0500 | Connection closed by 10.10.101.1 port 22
