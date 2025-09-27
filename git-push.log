@@ -247737,3 +247737,39 @@
 09/27/25 10:11:52 EST -0500 | Connection closed by 10.10.101.1 port 22
 09/27/25 10:11:52 EST -0500 | fatal: Could not read from remote repository.
 09/27/25 10:11:52 EST -0500 | 
+09/27/25 10:11:52 EST -0500 | Please make sure you have the correct access rights
+09/27/25 10:11:52 EST -0500 | and the repository exists.
+09/27/25 10:11:52 EST -0500 | Failed to push commit: 7b33f4851f1501a8769d74fdd49bb6574547f909
+09/27/25 10:11:52 EST -0500 | Processing: /data/mia-logs
+09/27/25 10:11:54 EST -0500 | [mia-logs cd3f17f] Sat 2025-09-27 10:11:52 EST
+09/27/25 10:11:54 EST -0500 |  3 files changed, 104 insertions(+)
+09/27/25 10:11:54 EST -0500 | Found unpushed commit(s).
+09/27/25 10:19:37 EST -0500 | Connection reset by 10.10.101.1 port 22
+09/27/25 10:19:37 EST -0500 | fatal: Could not read from remote repository.
+09/27/25 10:19:37 EST -0500 | 
+09/27/25 10:19:37 EST -0500 | Please make sure you have the correct access rights
+09/27/25 10:19:37 EST -0500 | and the repository exists.
+09/27/25 10:19:37 EST -0500 | Failed to push commit: d15bde1c209e0f82888ec3a7533d67f07fe27278
+09/27/25 10:30:31 EST -0500 | kex_exchange_identification: read: Connection reset by peer
+09/27/25 10:30:31 EST -0500 | Connection reset by 10.10.101.1 port 22
+09/27/25 10:30:31 EST -0500 | fatal: Could not read from remote repository.
+09/27/25 10:30:31 EST -0500 | 
+09/27/25 10:30:31 EST -0500 | Please make sure you have the correct access rights
+09/27/25 10:30:31 EST -0500 | and the repository exists.
+09/27/25 10:30:31 EST -0500 | Failed to push commit: 4b465a0c481960f71f9b7e21255c90c3889f1097
+09/27/25 10:32:42 EST -0500 | ssh: connect to host 10.10.101.1 port 22: Connection timed out
+09/27/25 10:32:42 EST -0500 | fatal: Could not read from remote repository.
+09/27/25 10:32:42 EST -0500 | 
+09/27/25 10:32:42 EST -0500 | Please make sure you have the correct access rights
+09/27/25 10:32:42 EST -0500 | and the repository exists.
+09/27/25 10:32:42 EST -0500 | Failed to push commit: cd3f17f9bc1806d62366e21a3392191dde47da49
+09/27/25 10:32:42 EST -0500 | ##########  END  ##########
+09/27/25 10:32:49 EST -0500 | ########## START ##########
+09/27/25 10:32:49 EST -0500 | Processing: /data/fcre-weir-data
+09/27/25 10:32:49 EST -0500 | On branch fcre-weir-data
+09/27/25 10:32:49 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+09/27/25 10:32:49 EST -0500 |   (use "git push" to publish your local commits)
+09/27/25 10:32:49 EST -0500 | 
+09/27/25 10:32:49 EST -0500 | nothing to commit, working tree clean
+09/27/25 10:32:49 EST -0500 | Found unpushed commit(s).
+09/27/25 10:34:39 EST -0500 | kex_exchange_identification: read: Connection reset by peer
