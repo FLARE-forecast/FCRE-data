@@ -248300,3 +248300,63 @@
 09/28/25 10:16:57 EST -0500 | Connection closed by 10.10.101.1 port 22
 09/28/25 10:16:57 EST -0500 | fatal: Could not read from remote repository.
 09/28/25 10:16:57 EST -0500 | 
+09/28/25 10:16:57 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:16:57 EST -0500 | and the repository exists.
+09/28/25 10:16:57 EST -0500 | Failed to push commit: a65bb964446f2d8df2eaf7d2389b4a484261854b
+09/28/25 10:16:57 EST -0500 | Processing: /data/mia-logs
+09/28/25 10:17:00 EST -0500 | [mia-logs a36011d] Sun 2025-09-28 10:16:57 EST
+09/28/25 10:17:00 EST -0500 |  3 files changed, 164 insertions(+)
+09/28/25 10:17:00 EST -0500 | Found unpushed commit(s).
+09/28/25 10:19:08 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:19:08 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:19:08 EST -0500 | 
+09/28/25 10:19:08 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:19:08 EST -0500 | and the repository exists.
+09/28/25 10:19:08 EST -0500 | Failed to push commit: 26205cf0cfbb185d2e05bee93193b330481903b4
+09/28/25 10:24:53 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:24:53 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:24:53 EST -0500 | 
+09/28/25 10:24:53 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:24:53 EST -0500 | and the repository exists.
+09/28/25 10:24:53 EST -0500 | Failed to push commit: a1633ae9ff775d9cf686ddae4327f7218f3efbdd
+09/28/25 10:27:18 EST -0500 | Connection reset by 10.10.101.1 port 22
+09/28/25 10:27:18 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:27:18 EST -0500 | 
+09/28/25 10:27:18 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:27:18 EST -0500 | and the repository exists.
+09/28/25 10:27:18 EST -0500 | Failed to push commit: e42073abf312aed6d4fd944b3b374bbf19b18c21
+09/28/25 10:40:50 EST -0500 | remote: + exec        
+09/28/25 10:41:54 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 10:41:54 EST -0500 |    385f784..9324e02  9324e02431e07658550e44be06b8ef26a439b62a -> mia-logs
+09/28/25 10:44:00 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:44:00 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:44:00 EST -0500 | 
+09/28/25 10:44:00 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:44:00 EST -0500 | and the repository exists.
+09/28/25 10:44:00 EST -0500 | Failed to push commit: 3305d4c64be26e8edb1f4d07dd0aa13d4a4d5848
+09/28/25 10:48:08 EST -0500 | remote: + exec        
+09/28/25 10:48:29 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 10:48:29 EST -0500 |    9324e02..5f89725  5f897254c45771e4457e5da51c79398cbad282b4 -> mia-logs
+09/28/25 10:50:36 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:50:36 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:50:36 EST -0500 | 
+09/28/25 10:50:36 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:50:36 EST -0500 | and the repository exists.
+09/28/25 10:50:36 EST -0500 | Failed to push commit: 789e8a90e76da754a24401d3741c9046ff27895c
+09/28/25 12:09:43 EST -0500 | ########## START ##########
+09/28/25 12:09:43 EST -0500 | Processing: /data/fcre-weir-data
+09/28/25 12:09:43 EST -0500 | [fcre-weir-data 73f59f9] Sun 2025-09-28 12:09:43 EST
+09/28/25 12:09:43 EST -0500 |  1 file changed, 8 insertions(+)
+09/28/25 12:09:43 EST -0500 | Found unpushed commit(s).
+09/28/25 12:12:47 EST -0500 | remote: + exec        
+09/28/25 12:13:03 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 12:13:03 EST -0500 |    ff15fc8..d4716cb  d4716cbb7672c394fd86ee41623c9ba88bc51014 -> fcre-weir-data
+09/28/25 12:15:27 EST -0500 | remote: + exec        
+09/28/25 12:15:28 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 12:15:28 EST -0500 |    d4716cb..143db10  143db10e3fc8485ac0138db6d99ee91b3b900556 -> fcre-weir-data
+09/28/25 12:18:37 EST -0500 | remote: + exec        
+09/28/25 12:18:42 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 12:18:42 EST -0500 |    143db10..a65bb96  a65bb964446f2d8df2eaf7d2389b4a484261854b -> fcre-weir-data
+09/28/25 12:21:33 EST -0500 | remote: + exec        
+09/28/25 12:21:35 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 12:21:35 EST -0500 |    a65bb96..73f59f9  73f59f9a895e93af9a14482154e26e81c13fd149 -> fcre-weir-data
