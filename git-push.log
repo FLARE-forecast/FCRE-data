@@ -248221,3 +248221,82 @@
 09/28/25 06:15:59 EST -0500 | Connection closed by 10.10.101.1 port 22
 09/28/25 06:15:59 EST -0500 | fatal: Could not read from remote repository.
 09/28/25 06:15:59 EST -0500 | 
+09/28/25 06:15:59 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:15:59 EST -0500 | and the repository exists.
+09/28/25 06:15:59 EST -0500 | Failed to push commit: 143db10e3fc8485ac0138db6d99ee91b3b900556
+09/28/25 06:15:59 EST -0500 | Processing: /data/mia-logs
+09/28/25 06:16:02 EST -0500 | [mia-logs 789e8a9] Sun 2025-09-28 06:15:59 EST
+09/28/25 06:16:02 EST -0500 |  3 files changed, 145 insertions(+)
+09/28/25 06:16:02 EST -0500 | Found unpushed commit(s).
+09/28/25 06:22:25 EST -0500 | kex_exchange_identification: read: Connection reset by peer
+09/28/25 06:22:25 EST -0500 | Connection reset by 10.10.101.1 port 22
+09/28/25 06:22:25 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:22:25 EST -0500 | 
+09/28/25 06:22:25 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:22:25 EST -0500 | and the repository exists.
+09/28/25 06:22:25 EST -0500 | Failed to push commit: 26205cf0cfbb185d2e05bee93193b330481903b4
+09/28/25 06:24:36 EST -0500 | ssh: connect to host 10.10.101.1 port 22: Connection timed out
+09/28/25 06:24:36 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:24:36 EST -0500 | 
+09/28/25 06:24:36 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:24:36 EST -0500 | and the repository exists.
+09/28/25 06:24:36 EST -0500 | Failed to push commit: a1633ae9ff775d9cf686ddae4327f7218f3efbdd
+09/28/25 06:26:57 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 06:26:57 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:26:57 EST -0500 | 
+09/28/25 06:26:57 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:26:57 EST -0500 | and the repository exists.
+09/28/25 06:26:57 EST -0500 | Failed to push commit: e42073abf312aed6d4fd944b3b374bbf19b18c21
+09/28/25 06:31:14 EST -0500 | Connection reset by 10.10.101.1 port 22
+09/28/25 06:31:14 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:31:14 EST -0500 | 
+09/28/25 06:31:14 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:31:14 EST -0500 | and the repository exists.
+09/28/25 06:31:14 EST -0500 | Failed to push commit: 9324e02431e07658550e44be06b8ef26a439b62a
+09/28/25 06:35:00 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 06:35:00 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:35:00 EST -0500 | 
+09/28/25 06:35:00 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:35:00 EST -0500 | and the repository exists.
+09/28/25 06:35:00 EST -0500 | Failed to push commit: 3305d4c64be26e8edb1f4d07dd0aa13d4a4d5848
+09/28/25 06:37:11 EST -0500 | ssh: connect to host 10.10.101.1 port 22: Connection timed out
+09/28/25 06:37:11 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:37:11 EST -0500 | 
+09/28/25 06:37:11 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:37:11 EST -0500 | and the repository exists.
+09/28/25 06:37:11 EST -0500 | Failed to push commit: 5f897254c45771e4457e5da51c79398cbad282b4
+09/28/25 06:39:22 EST -0500 | ssh: connect to host 10.10.101.1 port 22: Connection timed out
+09/28/25 06:39:22 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 06:39:22 EST -0500 | 
+09/28/25 06:39:22 EST -0500 | Please make sure you have the correct access rights
+09/28/25 06:39:22 EST -0500 | and the repository exists.
+09/28/25 06:39:22 EST -0500 | Failed to push commit: 789e8a90e76da754a24401d3741c9046ff27895c
+09/28/25 06:39:22 EST -0500 | ##########  END  ##########
+09/28/25 06:39:30 EST -0500 | ########## START ##########
+09/28/25 06:39:30 EST -0500 | Processing: /data/fcre-weir-data
+09/28/25 06:39:30 EST -0500 | On branch fcre-weir-data
+09/28/25 06:39:30 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 2 commits.
+09/28/25 06:39:30 EST -0500 |   (use "git push" to publish your local commits)
+09/28/25 06:39:30 EST -0500 | 
+09/28/25 06:39:30 EST -0500 | nothing to commit, working tree clean
+09/28/25 06:39:30 EST -0500 | Found unpushed commit(s).
+09/28/25 10:09:43 EST -0500 | ########## START ##########
+09/28/25 10:09:43 EST -0500 | Processing: /data/fcre-weir-data
+09/28/25 10:09:43 EST -0500 | [fcre-weir-data a65bb96] Sun 2025-09-28 10:09:43 EST
+09/28/25 10:09:43 EST -0500 |  1 file changed, 16 insertions(+)
+09/28/25 10:09:43 EST -0500 | Found unpushed commit(s).
+09/28/25 10:11:50 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:11:50 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:11:50 EST -0500 | 
+09/28/25 10:11:50 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:11:50 EST -0500 | and the repository exists.
+09/28/25 10:11:50 EST -0500 | Failed to push commit: d4716cbb7672c394fd86ee41623c9ba88bc51014
+09/28/25 10:14:17 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:14:17 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:14:17 EST -0500 | 
+09/28/25 10:14:17 EST -0500 | Please make sure you have the correct access rights
+09/28/25 10:14:17 EST -0500 | and the repository exists.
+09/28/25 10:14:17 EST -0500 | Failed to push commit: 143db10e3fc8485ac0138db6d99ee91b3b900556
+09/28/25 10:16:57 EST -0500 | Connection closed by 10.10.101.1 port 22
+09/28/25 10:16:57 EST -0500 | fatal: Could not read from remote repository.
+09/28/25 10:16:57 EST -0500 | 
