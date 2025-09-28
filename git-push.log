@@ -248394,3 +248394,29 @@
 09/28/25 14:30:02 EST -0500 | Processing: /data/fcre-weir-data
 09/28/25 14:30:02 EST -0500 | On branch fcre-weir-data
 09/28/25 14:30:02 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+09/28/25 14:30:02 EST -0500 | 
+09/28/25 14:30:02 EST -0500 | nothing to commit, working tree clean
+09/28/25 14:30:02 EST -0500 | Processing: /data/mia-logs
+09/28/25 14:30:05 EST -0500 | [mia-logs 5f6cf47] Sun 2025-09-28 14:30:02 EST
+09/28/25 14:30:05 EST -0500 |  3 files changed, 82 insertions(+)
+09/28/25 14:30:05 EST -0500 | Found unpushed commit(s).
+09/28/25 14:32:25 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 14:32:25 EST -0500 |  ! [rejected]        856fd1c209507ab72c7720ffb509a184ed22654f -> mia-logs (non-fast-forward)
+09/28/25 14:32:25 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+09/28/25 14:32:25 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+09/28/25 14:32:25 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+09/28/25 14:32:25 EST -0500 | hint: 'git pull ...') before pushing again.
+09/28/25 14:32:25 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+09/28/25 14:32:25 EST -0500 | Failed to push commit: 856fd1c209507ab72c7720ffb509a184ed22654f
+09/28/25 14:34:59 EST -0500 | Everything up-to-date
+09/28/25 14:38:16 EST -0500 | remote: + exec        
+09/28/25 14:46:05 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 14:46:05 EST -0500 |    856fd1c..bb2f7de  bb2f7de0094ad18c028cb325c93d469c8925c6a8 -> mia-logs
+09/28/25 14:46:05 EST -0500 | ##########  END  ##########
+09/28/25 14:46:09 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/28/25 14:46:09 EST -0500 |    bb2f7de..5f6cf47  5f6cf47c513a4451fc7a130291f5e5da4053d71e -> mia-logs
+09/28/25 14:46:09 EST -0500 | ##########  END  ##########
+09/28/25 14:46:11 EST -0500 | ########## START ##########
+09/28/25 14:46:11 EST -0500 | Processing: /data/fcre-weir-data
+09/28/25 14:46:11 EST -0500 | On branch fcre-weir-data
+09/28/25 14:46:11 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
