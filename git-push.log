@@ -248527,3 +248527,32 @@
 09/29/25 00:19:53 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
 09/29/25 00:19:53 EST -0500 | fatal: Could not read from remote repository.
 09/29/25 00:19:53 EST -0500 | 
+09/29/25 00:19:53 EST -0500 | Please make sure you have the correct access rights
+09/29/25 00:19:53 EST -0500 | and the repository exists.
+09/29/25 00:19:53 EST -0500 | Failed to push commit: 583ad308c7e32e590ec280aaa4fba11385972cdd
+09/29/25 00:19:53 EST -0500 | Processing: /data/mia-logs
+09/29/25 00:19:56 EST -0500 | [mia-logs 37c1f86] Mon 2025-09-29 00:19:53 EST
+09/29/25 00:19:56 EST -0500 |  3 files changed, 101 insertions(+)
+09/29/25 00:19:56 EST -0500 | Found unpushed commit(s).
+09/29/25 00:20:08 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+09/29/25 00:20:08 EST -0500 | fatal: Could not read from remote repository.
+09/29/25 00:20:08 EST -0500 | 
+09/29/25 00:20:08 EST -0500 | Please make sure you have the correct access rights
+09/29/25 00:20:08 EST -0500 | and the repository exists.
+09/29/25 00:20:08 EST -0500 | Failed to push commit: 8cfa789b8e52832539611c81e163a218ea80d4ce
+09/29/25 00:20:24 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+09/29/25 00:20:24 EST -0500 | fatal: Could not read from remote repository.
+09/29/25 00:20:24 EST -0500 | 
+09/29/25 00:20:24 EST -0500 | Please make sure you have the correct access rights
+09/29/25 00:20:24 EST -0500 | and the repository exists.
+09/29/25 00:20:24 EST -0500 | Failed to push commit: 37c1f86e8881d0bd20dcee85b5ae06568daa22a7
+09/29/25 00:20:24 EST -0500 | ##########  END  ##########
+09/29/25 00:20:31 EST -0500 | ########## START ##########
+09/29/25 00:20:31 EST -0500 | Processing: /data/fcre-weir-data
+09/29/25 00:20:31 EST -0500 | On branch fcre-weir-data
+09/29/25 00:20:31 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+09/29/25 00:20:31 EST -0500 |   (use "git push" to publish your local commits)
+09/29/25 00:20:31 EST -0500 | 
+09/29/25 00:20:31 EST -0500 | nothing to commit, working tree clean
+09/29/25 00:20:31 EST -0500 | Found unpushed commit(s).
+09/29/25 00:20:39 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
