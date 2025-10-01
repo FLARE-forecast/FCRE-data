@@ -249421,3 +249421,22 @@
 09/30/25 20:44:44 EST -0500 | Processing: /data/fcre-weir-data
 09/30/25 20:44:44 EST -0500 | On branch fcre-weir-data
 09/30/25 20:44:44 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+09/30/25 20:44:44 EST -0500 | 
+09/30/25 20:44:44 EST -0500 | nothing to commit, working tree clean
+09/30/25 20:44:44 EST -0500 | Processing: /data/mia-logs
+09/30/25 20:44:45 EST -0500 | [mia-logs 04c08bb] Tue 2025-09-30 20:44:44 EST
+09/30/25 20:44:45 EST -0500 |  1 file changed, 21 insertions(+)
+09/30/25 20:44:45 EST -0500 | Found unpushed commit(s).
+09/30/25 20:47:12 EST -0500 | remote: + exec        
+09/30/25 20:47:18 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+09/30/25 20:47:18 EST -0500 |    3c590b6..04c08bb  04c08bb3c3617352e52414dbd8534b6ebad552ec -> mia-logs
+09/30/25 20:47:18 EST -0500 | ##########  END  ##########
+10/01/25 00:19:43 EST -0500 | ########## START ##########
+10/01/25 00:19:43 EST -0500 | Processing: /data/fcre-weir-data
+10/01/25 00:19:43 EST -0500 | [fcre-weir-data 758bff3] Wed 2025-10-01 00:19:43 EST
+10/01/25 00:19:43 EST -0500 |  1 file changed, 16 insertions(+)
+10/01/25 00:19:43 EST -0500 | Found unpushed commit(s).
+10/01/25 00:19:52 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/01/25 00:19:52 EST -0500 | fatal: Could not read from remote repository.
+10/01/25 00:19:52 EST -0500 | 
+10/01/25 00:19:52 EST -0500 | Please make sure you have the correct access rights
