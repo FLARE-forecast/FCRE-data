@@ -253471,3 +253471,19 @@
 10/02/25 14:32:30 EST -0500 | Failed to push commit: 9aef197676bdabb9a9bbea1bd7c32d5eabd71f61
 10/02/25 14:32:45 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
 10/02/25 14:32:45 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/02/25 14:32:45 EST -0500 | fatal: Could not read from remote repository.
+10/02/25 14:32:45 EST -0500 | fatal: Could not read from remote repository.
+10/02/25 14:32:45 EST -0500 | 
+10/02/25 14:32:45 EST -0500 | 
+10/02/25 14:32:45 EST -0500 | Please make sure you have the correct access rights
+10/02/25 14:32:45 EST -0500 | Please make sure you have the correct access rights
+10/02/25 14:32:45 EST -0500 | and the repository exists.
+10/02/25 14:32:45 EST -0500 | and the repository exists.
+10/02/25 14:32:45 EST -0500 | Failed to push commit: a9f97a582b2d0135f7c4865608b76d229aa9fc0b
+10/02/25 14:32:45 EST -0500 | Failed to push commit: 4e6547298c3f5777d02342fa76a2a63857f7c49d
+10/02/25 14:32:45 EST -0500 | Processing: /data/mia-logs
+10/02/25 14:32:47 EST -0500 | [mia-logs 96e9bb8] Thu 2025-10-02 14:32:45 EST
+10/02/25 14:32:47 EST -0500 |  3 files changed, 382 insertions(+)
+10/02/25 14:32:47 EST -0500 | Found unpushed commit(s).
+10/02/25 14:33:00 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/02/25 14:33:00 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
