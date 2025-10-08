@@ -279662,3 +279662,71 @@
 10/08/25 00:30:02 EST -0500 | nothing to commit, working tree clean
 10/08/25 00:30:02 EST -0500 | Found unpushed commit(s).
 10/08/25 00:32:13 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/08/25 00:32:13 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:32:13 EST -0500 | 
+10/08/25 00:32:13 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:32:13 EST -0500 | and the repository exists.
+10/08/25 00:32:13 EST -0500 | Failed to push commit: 79c2701ee4c8e78b9c274732f308c40e2fc50ef2
+10/08/25 00:32:13 EST -0500 | Processing: /data/mia-logs
+10/08/25 00:32:16 EST -0500 | [mia-logs 0c5880f] Wed 2025-10-08 00:32:13 EST
+10/08/25 00:32:16 EST -0500 |  3 files changed, 156 insertions(+)
+10/08/25 00:32:16 EST -0500 | Found unpushed commit(s).
+10/08/25 00:35:58 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/08/25 00:35:58 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:35:58 EST -0500 | 
+10/08/25 00:35:58 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:35:58 EST -0500 | and the repository exists.
+10/08/25 00:35:58 EST -0500 | Failed to push commit: ae93a20fade58000e2cf7509e17acd5276f6e57d
+10/08/25 00:40:37 EST -0500 | remote: + exec        
+10/08/25 00:42:42 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/08/25 00:42:42 EST -0500 |    6ab1493..a387fa8  a387fa8af1198e531b9a232fd8c3b56a4f6a154a -> mia-logs
+10/08/25 00:45:23 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/08/25 00:45:23 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:45:23 EST -0500 | 
+10/08/25 00:45:23 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:45:23 EST -0500 | and the repository exists.
+10/08/25 00:45:23 EST -0500 | Failed to push commit: ffb5d51224299f7037aed69d6fe5f14cda87a9c3
+10/08/25 00:48:05 EST -0500 | Connection reset by 10.10.101.1 port 22
+10/08/25 00:48:05 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:48:05 EST -0500 | 
+10/08/25 00:48:05 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:48:05 EST -0500 | and the repository exists.
+10/08/25 00:48:05 EST -0500 | Failed to push commit: 502e6f3b4a79075e66a2c5412aa9d34af42b0f66
+10/08/25 00:49:46 EST -0500 | remote: error: cannot lock ref 'refs/heads/mia-logs': is at a387fa8af1198e531b9a232fd8c3b56a4f6a154a but expected 6ab14939a118135a2fcce6abe243cc6efda6ec3e        
+10/08/25 00:49:47 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/08/25 00:49:47 EST -0500 |  ! [remote rejected] 5915465f1dcba6c3e60eff5be7c9397ac0f71968 -> mia-logs (failed to update ref)
+10/08/25 00:49:47 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+10/08/25 00:49:47 EST -0500 | Failed to push commit: 5915465f1dcba6c3e60eff5be7c9397ac0f71968
+10/08/25 00:50:42 EST -0500 | Connection reset by 10.10.101.1 port 22
+10/08/25 00:50:42 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:50:42 EST -0500 | 
+10/08/25 00:50:42 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:50:42 EST -0500 | and the repository exists.
+10/08/25 00:50:42 EST -0500 | Failed to push commit: 87ae127a81bc5c3e72e38baac52dcb45d63396f2
+10/08/25 00:52:51 EST -0500 | Connection reset by 10.10.101.1 port 22
+10/08/25 00:52:51 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:52:51 EST -0500 | 
+10/08/25 00:52:51 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:52:51 EST -0500 | and the repository exists.
+10/08/25 00:52:51 EST -0500 | Failed to push commit: b547304f3f3031cfcda488a79ae561cb795bfd5d
+10/08/25 00:53:32 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/08/25 00:53:32 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 00:53:32 EST -0500 | 
+10/08/25 00:53:32 EST -0500 | Please make sure you have the correct access rights
+10/08/25 00:53:32 EST -0500 | and the repository exists.
+10/08/25 00:53:32 EST -0500 | Failed to push commit: a8b317dd024854da7ebf4439eb59aa9ef40e34ef
+10/08/25 06:04:50 EST -0500 | ########## START ##########
+10/08/25 06:04:50 EST -0500 | Processing: /data/fcre-weir-data
+10/08/25 06:04:50 EST -0500 | [fcre-weir-data c94239d] Wed 2025-10-08 06:04:50 EST
+10/08/25 06:04:50 EST -0500 |  1 file changed, 24 insertions(+)
+10/08/25 06:04:50 EST -0500 | Found unpushed commit(s).
+10/08/25 06:07:09 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/08/25 06:07:09 EST -0500 | fatal: Could not read from remote repository.
+10/08/25 06:07:09 EST -0500 | 
+10/08/25 06:07:09 EST -0500 | Please make sure you have the correct access rights
+10/08/25 06:07:09 EST -0500 | and the repository exists.
+10/08/25 06:07:09 EST -0500 | Failed to push commit: 79c2701ee4c8e78b9c274732f308c40e2fc50ef2
+10/08/25 06:09:56 EST -0500 | remote: + exec        
+10/08/25 06:10:11 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/08/25 06:10:11 EST -0500 |    cd6f0b9..c94239d  c94239d1bd5c3993bdb6f9646662eb1204b6125f -> fcre-weir-data
+10/08/25 06:10:11 EST -0500 | Processing: /data/mia-logs
