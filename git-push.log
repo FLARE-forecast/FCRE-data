@@ -280976,3 +280976,34 @@
 10/10/25 20:30:01 EST -0500 | Processing: /data/fcre-weir-data
 10/10/25 20:30:01 EST -0500 | On branch fcre-weir-data
 10/10/25 20:30:01 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+10/10/25 20:30:01 EST -0500 | 
+10/10/25 20:30:01 EST -0500 | nothing to commit, working tree clean
+10/10/25 20:30:01 EST -0500 | Processing: /data/mia-logs
+10/10/25 20:30:04 EST -0500 | [mia-logs ad9da67] Fri 2025-10-10 20:30:01 EST
+10/10/25 20:30:04 EST -0500 |  3 files changed, 85 insertions(+)
+10/10/25 20:30:04 EST -0500 | Found unpushed commit(s).
+10/10/25 20:32:12 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/10/25 20:32:12 EST -0500 |  ! [rejected]        6b4259265c8e5bf63280d83621465110624570c1 -> mia-logs (non-fast-forward)
+10/10/25 20:32:12 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+10/10/25 20:32:12 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+10/10/25 20:32:12 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+10/10/25 20:32:12 EST -0500 | hint: 'git pull ...') before pushing again.
+10/10/25 20:32:12 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+10/10/25 20:32:12 EST -0500 | Failed to push commit: 6b4259265c8e5bf63280d83621465110624570c1
+10/10/25 20:34:35 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/10/25 20:34:35 EST -0500 | fatal: Could not read from remote repository.
+10/10/25 20:34:35 EST -0500 | 
+10/10/25 20:34:35 EST -0500 | Please make sure you have the correct access rights
+10/10/25 20:34:35 EST -0500 | and the repository exists.
+10/10/25 20:34:35 EST -0500 | Failed to push commit: f57e9a99fa21a77d7e5e853fa359587495ac9f70
+10/10/25 20:36:45 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/10/25 20:36:45 EST -0500 | fatal: Could not read from remote repository.
+10/10/25 20:36:45 EST -0500 | 
+10/10/25 20:36:45 EST -0500 | Please make sure you have the correct access rights
+10/10/25 20:36:45 EST -0500 | and the repository exists.
+10/10/25 20:36:45 EST -0500 | Failed to push commit: ad9da6777748f0c401a8e748e30b3057be086941
+10/10/25 20:36:45 EST -0500 | ##########  END  ##########
+10/10/25 20:36:54 EST -0500 | ########## START ##########
+10/10/25 20:36:54 EST -0500 | Processing: /data/fcre-weir-data
+10/10/25 20:36:54 EST -0500 | On branch fcre-weir-data
+10/10/25 20:36:54 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
