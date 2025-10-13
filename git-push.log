@@ -281854,3 +281854,123 @@
 10/13/25 00:20:49 EST -0500 | fatal: Could not read from remote repository.
 10/13/25 00:20:49 EST -0500 | 
 10/13/25 00:20:49 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:20:49 EST -0500 | and the repository exists.
+10/13/25 00:20:49 EST -0500 | Failed to push commit: 9b67eceac650b52cade42caaece2f08ab09cbf6d
+10/13/25 00:20:49 EST -0500 | Processing: /data/mia-logs
+10/13/25 00:20:52 EST -0500 | [mia-logs 2166c23] Mon 2025-10-13 00:20:49 EST
+10/13/25 00:20:52 EST -0500 |  3 files changed, 136 insertions(+)
+10/13/25 00:20:52 EST -0500 | Found unpushed commit(s).
+10/13/25 00:21:05 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:21:05 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:21:05 EST -0500 | 
+10/13/25 00:21:05 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:21:05 EST -0500 | and the repository exists.
+10/13/25 00:21:05 EST -0500 | Failed to push commit: 21b187d92166058ae33493dea64c76357c9c913c
+10/13/25 00:21:20 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:21:20 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:21:20 EST -0500 | 
+10/13/25 00:21:20 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:21:20 EST -0500 | and the repository exists.
+10/13/25 00:21:20 EST -0500 | Failed to push commit: 9fa12fd18d1ffea8feeefd28a7f1c730d3bc5a8b
+10/13/25 00:21:35 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:21:35 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:21:35 EST -0500 | 
+10/13/25 00:21:35 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:21:35 EST -0500 | and the repository exists.
+10/13/25 00:21:35 EST -0500 | Failed to push commit: 8d218b662c4f871660a616cae88464558754a6dc
+10/13/25 00:21:51 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:21:51 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:21:51 EST -0500 | 
+10/13/25 00:21:51 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:21:51 EST -0500 | and the repository exists.
+10/13/25 00:21:51 EST -0500 | Failed to push commit: 13737c2743e8d5bcdb72e921ed864e8167fcc254
+10/13/25 00:22:06 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:22:06 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:22:06 EST -0500 | 
+10/13/25 00:22:06 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:22:06 EST -0500 | and the repository exists.
+10/13/25 00:22:06 EST -0500 | Failed to push commit: 76718041f2e9e3d1af62b68396a60df061299668
+10/13/25 00:22:21 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:22:21 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:22:21 EST -0500 | 
+10/13/25 00:22:21 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:22:21 EST -0500 | and the repository exists.
+10/13/25 00:22:21 EST -0500 | Failed to push commit: c1c36fb4ebeb60b96a01a07ef1a4de97f88d61a3
+10/13/25 00:22:37 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:22:37 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:22:37 EST -0500 | 
+10/13/25 00:22:37 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:22:37 EST -0500 | and the repository exists.
+10/13/25 00:22:37 EST -0500 | Failed to push commit: 57d275c7fd88ed4b12e38ffa4110ad6f7cd4b455
+10/13/25 00:22:52 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:22:52 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:22:52 EST -0500 | 
+10/13/25 00:22:52 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:22:52 EST -0500 | and the repository exists.
+10/13/25 00:22:52 EST -0500 | Failed to push commit: a1eb4ffab5c61718cc754e8a5dcd0ebd59eb0648
+10/13/25 00:23:07 EST -0500 | ssh: connect to host 10.10.101.1 port 22: No route to host
+10/13/25 00:23:07 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:23:07 EST -0500 | 
+10/13/25 00:23:07 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:23:07 EST -0500 | and the repository exists.
+10/13/25 00:23:07 EST -0500 | Failed to push commit: 7aa795fb3e554c573ae76927c59df74c9da0a5f9
+10/13/25 00:30:02 EST -0500 | ########## START ##########
+10/13/25 00:30:02 EST -0500 | Processing: /data/fcre-weir-data
+10/13/25 00:30:02 EST -0500 | On branch fcre-weir-data
+10/13/25 00:30:02 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 4 commits.
+10/13/25 00:30:02 EST -0500 |   (use "git push" to publish your local commits)
+10/13/25 00:30:02 EST -0500 | 
+10/13/25 00:30:02 EST -0500 | nothing to commit, working tree clean
+10/13/25 00:30:02 EST -0500 | Found unpushed commit(s).
+10/13/25 00:31:18 EST -0500 | Connection reset by 10.10.101.1 port 22
+10/13/25 00:31:18 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:31:18 EST -0500 | 
+10/13/25 00:31:18 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:31:18 EST -0500 | and the repository exists.
+10/13/25 00:31:18 EST -0500 | Failed to push commit: 2166c238ab6371d8f3ba9b27f0cd7c7241ccf843
+10/13/25 00:31:18 EST -0500 | ##########  END  ##########
+10/13/25 00:31:32 EST -0500 | ########## START ##########
+10/13/25 00:31:32 EST -0500 | Processing: /data/fcre-weir-data
+10/13/25 00:31:32 EST -0500 | On branch fcre-weir-data
+10/13/25 00:31:32 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 4 commits.
+10/13/25 00:31:32 EST -0500 |   (use "git push" to publish your local commits)
+10/13/25 00:31:32 EST -0500 | 
+10/13/25 00:31:32 EST -0500 | nothing to commit, working tree clean
+10/13/25 00:31:32 EST -0500 | Found unpushed commit(s).
+10/13/25 00:33:03 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/13/25 00:33:03 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:33:03 EST -0500 | 
+10/13/25 00:33:03 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:33:03 EST -0500 | and the repository exists.
+10/13/25 00:33:03 EST -0500 | Failed to push commit: 7b00e6a2fe9c98cbff22019f7c8ca2e4f746aa42
+10/13/25 00:35:59 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/13/25 00:35:59 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:35:59 EST -0500 | 
+10/13/25 00:35:59 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:35:59 EST -0500 | and the repository exists.
+10/13/25 00:35:59 EST -0500 | Failed to push commit: 165436c9ce050c45dca0334c3425851cc086916f
+10/13/25 00:38:08 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/13/25 00:38:08 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:38:08 EST -0500 | 
+10/13/25 00:38:08 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:38:08 EST -0500 | and the repository exists.
+10/13/25 00:38:08 EST -0500 | Failed to push commit: f160a0d7c20513f694ad0e634e391f2690453f24
+10/13/25 00:39:12 EST -0500 | Connection reset by 10.10.101.1 port 22
+10/13/25 00:39:12 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:39:12 EST -0500 | 
+10/13/25 00:39:12 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:39:12 EST -0500 | and the repository exists.
+10/13/25 00:39:12 EST -0500 | Failed to push commit: 7b00e6a2fe9c98cbff22019f7c8ca2e4f746aa42
+10/13/25 00:41:28 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/13/25 00:41:28 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:41:28 EST -0500 | 
+10/13/25 00:41:28 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:41:28 EST -0500 | and the repository exists.
+10/13/25 00:41:28 EST -0500 | Failed to push commit: 165436c9ce050c45dca0334c3425851cc086916f
+10/13/25 00:44:17 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/13/25 00:44:17 EST -0500 | fatal: Could not read from remote repository.
+10/13/25 00:44:17 EST -0500 | 
+10/13/25 00:44:17 EST -0500 | Please make sure you have the correct access rights
+10/13/25 00:44:17 EST -0500 | and the repository exists.
+10/13/25 00:44:17 EST -0500 | Failed to push commit: f160a0d7c20513f694ad0e634e391f2690453f24
+10/13/25 00:46:32 EST -0500 | Connection closed by 10.10.101.1 port 22
