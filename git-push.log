@@ -285573,3 +285573,25 @@
 10/22/25 10:12:17 EST -0500 | Connection closed by 10.10.101.1 port 22
 10/22/25 10:12:17 EST -0500 | fatal: Could not read from remote repository.
 10/22/25 10:12:17 EST -0500 | 
+10/22/25 10:12:17 EST -0500 | Please make sure you have the correct access rights
+10/22/25 10:12:17 EST -0500 | and the repository exists.
+10/22/25 10:12:17 EST -0500 | Failed to push commit: 3fe4af52a3a72b5c695c0f37ea2c604a59e0654e
+10/22/25 10:12:17 EST -0500 | Processing: /data/mia-logs
+10/22/25 10:12:20 EST -0500 | [mia-logs b093de4] Wed 2025-10-22 10:12:17 EST
+10/22/25 10:12:20 EST -0500 |  3 files changed, 111 insertions(+)
+10/22/25 10:12:20 EST -0500 | Found unpushed commit(s).
+10/22/25 10:15:29 EST -0500 | remote: + exec        
+10/22/25 10:15:51 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/22/25 10:15:51 EST -0500 |    b5390c7..ceb77ee  ceb77eef2f86598b4d4aaa8e0d8cc9704310adb9 -> mia-logs
+10/22/25 10:19:32 EST -0500 | remote: + exec        
+10/22/25 12:10:03 EST -0500 | ########## START ##########
+10/22/25 12:10:03 EST -0500 | Processing: /data/fcre-weir-data
+10/22/25 12:10:03 EST -0500 | [fcre-weir-data b71d211] Wed 2025-10-22 12:10:03 EST
+10/22/25 12:10:03 EST -0500 |  1 file changed, 8 insertions(+)
+10/22/25 12:10:03 EST -0500 | Found unpushed commit(s).
+10/22/25 12:11:23 EST -0500 | remote: + exec        
+10/22/25 12:11:31 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/22/25 12:11:31 EST -0500 |    f01f147..3fe4af5  3fe4af52a3a72b5c695c0f37ea2c604a59e0654e -> fcre-weir-data
+10/22/25 12:14:23 EST -0500 | remote: + exec        
+10/22/25 12:14:29 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/22/25 12:14:30 EST -0500 |    3fe4af5..b71d211  b71d2116b435bc7ba93771083dea6b9435e2ca87 -> fcre-weir-data
