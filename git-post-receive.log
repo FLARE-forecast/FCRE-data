@@ -25103,3 +25103,227 @@ To github.com:FLARE-forecast/FCRE-data.git
 Already on 'fcre-weir-data'
 Your branch is up to date with 'origin/fcre-weir-data'.
 + git fetch origin
+From /data/fcre-data-exp-worktree
+   cfe40ef..cadc8f8  fcre-weir-data -> origin/fcre-weir-data
+   1721b78..0df64d3  mia-logs       -> origin/mia-logs
++ git reset --hard origin/fcre-weir-data
+HEAD is now at cadc8f8 Wed 2025-10-22 00:19:59 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   cfe40ef..cadc8f8  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/mia-logs =~ ^refs/heads/ ]]
++ branch=mia-logs
++ echo '[post-receive] Processing branch: mia-logs'
+[post-receive] Processing branch: mia-logs
++ WORKDIR=/data/mia-logs
++ LOCKFILE=/tmp/git-post-receive-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for mia-logs'
+[post-receive] Acquired lock for mia-logs
++ '[' '!' -d /data/mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout mia-logs
+Already on 'mia-logs'
+Your branch is up to date with 'origin/mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   0df64d3..84a16f9  mia-logs       -> origin/mia-logs
+   cfe40ef..cadc8f8  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/mia-logs
+HEAD is now at 84a16f9 Wed 2025-10-22 00:20:09 EST
++ git push github mia-logs
+To github.com:FLARE-forecast/FCRE-data.git
+   0df64d3..84a16f9  mia-logs -> mia-logs
++ echo '[post-receive] Sync complete for mia-logs.'
+[post-receive] Sync complete for mia-logs.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/mia-logs =~ ^refs/heads/ ]]
++ branch=mia-logs
++ echo '[post-receive] Processing branch: mia-logs'
+[post-receive] Processing branch: mia-logs
++ WORKDIR=/data/mia-logs
++ LOCKFILE=/tmp/git-post-receive-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for mia-logs'
+[post-receive] Acquired lock for mia-logs
++ '[' '!' -d /data/mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout mia-logs
+Already on 'mia-logs'
+Your branch is up to date with 'origin/mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   84a16f9..1baa85b  mia-logs   -> origin/mia-logs
++ git reset --hard origin/mia-logs
+HEAD is now at 1baa85b Wed 2025-10-22 00:20:40 EST
++ git push github mia-logs
+To github.com:FLARE-forecast/FCRE-data.git
+   84a16f9..1baa85b  mia-logs -> mia-logs
++ echo '[post-receive] Sync complete for mia-logs.'
+[post-receive] Sync complete for mia-logs.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/mia-logs =~ ^refs/heads/ ]]
++ branch=mia-logs
++ echo '[post-receive] Processing branch: mia-logs'
+[post-receive] Processing branch: mia-logs
++ WORKDIR=/data/mia-logs
++ LOCKFILE=/tmp/git-post-receive-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for mia-logs'
+[post-receive] Acquired lock for mia-logs
++ '[' '!' -d /data/mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout mia-logs
+Already on 'mia-logs'
+Your branch is up to date with 'origin/mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   1baa85b..0aeee72  mia-logs   -> origin/mia-logs
++ git reset --hard origin/mia-logs
+HEAD is now at 0aeee72 Wed 2025-10-22 00:31:16 EST
++ git push github mia-logs
+To github.com:FLARE-forecast/FCRE-data.git
+   1baa85b..0aeee72  mia-logs -> mia-logs
++ echo '[post-receive] Sync complete for mia-logs.'
+[post-receive] Sync complete for mia-logs.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/mia-logs =~ ^refs/heads/ ]]
++ branch=mia-logs
++ echo '[post-receive] Processing branch: mia-logs'
+[post-receive] Processing branch: mia-logs
++ WORKDIR=/data/mia-logs
++ LOCKFILE=/tmp/git-post-receive-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for mia-logs'
+[post-receive] Acquired lock for mia-logs
++ '[' '!' -d /data/mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout mia-logs
+Already on 'mia-logs'
+Your branch is up to date with 'origin/mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   0aeee72..af1b815  mia-logs   -> origin/mia-logs
++ git reset --hard origin/mia-logs
+HEAD is now at af1b815 Wed 2025-10-22 00:35:41 EST
++ git push github mia-logs
+To github.com:FLARE-forecast/FCRE-data.git
+   0aeee72..af1b815  mia-logs -> mia-logs
++ echo '[post-receive] Sync complete for mia-logs.'
+[post-receive] Sync complete for mia-logs.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is up to date with 'origin/fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   cadc8f8..f01f147  fcre-weir-data -> origin/fcre-weir-data
+   0df64d3..af1b815  mia-logs       -> origin/mia-logs
++ git reset --hard origin/fcre-weir-data
+HEAD is now at f01f147 Wed 2025-10-22 06:05:00 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   cadc8f8..f01f147  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/mia-logs =~ ^refs/heads/ ]]
++ branch=mia-logs
++ echo '[post-receive] Processing branch: mia-logs'
+[post-receive] Processing branch: mia-logs
++ WORKDIR=/data/mia-logs
++ LOCKFILE=/tmp/git-post-receive-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for mia-logs'
+[post-receive] Acquired lock for mia-logs
++ '[' '!' -d /data/mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout mia-logs
+Already on 'mia-logs'
+Your branch is up to date with 'origin/mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   af1b815..b5390c7  mia-logs       -> origin/mia-logs
+   cadc8f8..f01f147  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/mia-logs
+HEAD is now at b5390c7 Wed 2025-10-22 06:07:55 EST
++ git push github mia-logs
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
