@@ -286024,3 +286024,37 @@
 10/23/25 14:37:39 EST -0500 | and the repository exists.
 10/23/25 14:37:39 EST -0500 | Failed to push commit: f97c006541b883014468c341518ae65d2a810bfc
 10/23/25 14:38:01 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/23/25 14:38:01 EST -0500 | fatal: Could not read from remote repository.
+10/23/25 14:38:01 EST -0500 | 
+10/23/25 14:38:01 EST -0500 | Please make sure you have the correct access rights
+10/23/25 14:38:01 EST -0500 | and the repository exists.
+10/23/25 14:38:01 EST -0500 | Failed to push commit: d70c3f7cfbb2700b4c001990efef3e7b4234939b
+10/23/25 14:38:01 EST -0500 | Processing: /data/mia-logs
+10/23/25 14:38:02 EST -0500 | [mia-logs 20a7733] Thu 2025-10-23 14:38:01 EST
+10/23/25 14:38:02 EST -0500 |  1 file changed, 39 insertions(+)
+10/23/25 14:38:02 EST -0500 | Found unpushed commit(s).
+10/23/25 14:40:58 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/23/25 14:40:58 EST -0500 | fatal: Could not read from remote repository.
+10/23/25 14:40:58 EST -0500 | 
+10/23/25 14:40:58 EST -0500 | Please make sure you have the correct access rights
+10/23/25 14:40:58 EST -0500 | and the repository exists.
+10/23/25 14:40:58 EST -0500 | Failed to push commit: f97c006541b883014468c341518ae65d2a810bfc
+10/23/25 14:42:16 EST -0500 | remote: + exec        
+10/23/25 14:42:22 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+10/23/25 14:42:22 EST -0500 |    f9adcec..b76d890  b76d8900adeca1ecbc05f21165950b06ff90be8d -> mia-logs
+10/23/25 14:42:22 EST -0500 | ##########  END  ##########
+10/23/25 14:42:32 EST -0500 | ########## START ##########
+10/23/25 14:42:32 EST -0500 | Processing: /data/fcre-weir-data
+10/23/25 14:42:32 EST -0500 | On branch fcre-weir-data
+10/23/25 14:42:32 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+10/23/25 14:42:32 EST -0500 |   (use "git push" to publish your local commits)
+10/23/25 14:42:32 EST -0500 | 
+10/23/25 14:42:32 EST -0500 | nothing to commit, working tree clean
+10/23/25 14:42:32 EST -0500 | Found unpushed commit(s).
+10/23/25 14:43:39 EST -0500 | Connection closed by 10.10.101.1 port 22
+10/23/25 14:43:39 EST -0500 | fatal: Could not read from remote repository.
+10/23/25 14:43:39 EST -0500 | 
+10/23/25 14:43:39 EST -0500 | Please make sure you have the correct access rights
+10/23/25 14:43:39 EST -0500 | and the repository exists.
+10/23/25 14:43:39 EST -0500 | Failed to push commit: b76d8900adeca1ecbc05f21165950b06ff90be8d
+10/23/25 14:45:07 EST -0500 | Connection closed by 10.10.101.1 port 22
