@@ -146798,3 +146798,25 @@ Completed at 08/17/23 06:22:17 EST
 11/06/25 00:24:30 EST -0500 | remote: warning: File FCRmet.csv is 50.49 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
 11/06/25 00:24:30 EST -0500 | remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
 11/06/25 00:24:33 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+11/06/25 00:24:33 EST -0500 |    80215d3..d5316ae  d5316ae544036f9f8fb48a8bd980327860487b90 -> fcre-metstation-data
+11/06/25 00:24:33 EST -0500 | Successfully pushed: d5316ae544036f9f8fb48a8bd980327860487b90
+11/06/25 00:24:33 EST -0500 | Processing: /data/norvel-logs
+11/06/25 00:24:37 EST -0500 | [norvel-logs f4484e2] Thu 2025-11-06 00:24:33 EST
+11/06/25 00:24:37 EST -0500 |  3 files changed, 144 insertions(+)
+11/06/25 00:24:37 EST -0500 | Found unpushed commit(s).
+11/06/25 00:24:45 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+11/06/25 00:24:45 EST -0500 |    455afdb..f4484e2  f4484e2f543989aa55076ff77d889a9ccc02f6c1 -> norvel-logs
+11/06/25 00:24:45 EST -0500 | Successfully pushed: f4484e2f543989aa55076ff77d889a9ccc02f6c1
+11/06/25 00:24:45 EST -0500 | ##########  END  ##########
+11/06/25 00:26:10 EST -0500 | ########## START ##########
+11/06/25 00:26:10 EST -0500 | Processing: /data/fcre-metstation-data
+11/06/25 00:26:17 EST -0500 | [fcre-metstation-data 6de0111] Thu 2025-11-06 00:26:10 EST
+11/06/25 00:26:17 EST -0500 |  2 files changed, 20 insertions(+)
+11/06/25 00:26:17 EST -0500 | Found unpushed commit(s).
+11/06/25 00:26:32 EST -0500 | remote: warning: See https://gh.io/lfs for more information.        
+11/06/25 00:26:32 EST -0500 | remote: warning: File FCRmet.csv is 50.49 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+11/06/25 00:26:32 EST -0500 | remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+11/06/25 00:26:35 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+11/06/25 00:26:35 EST -0500 |    d5316ae..6de0111  6de0111c36a74b120f81f4c88492b557dc2d6746 -> fcre-metstation-data
+11/06/25 00:26:35 EST -0500 | Successfully pushed: 6de0111c36a74b120f81f4c88492b557dc2d6746
+11/06/25 00:26:35 EST -0500 | Processing: /data/norvel-logs
