@@ -186,7 +186,7 @@ if (length(na.omit(catdata$TIMESTAMP[catdata$TIMESTAMP>start.time1]))==0) { #if 
   points(obs1$TIMESTAMP, obs1$Turbidity_FNU_1, col="brown", type='l', lwd=1.5)
   legend("topleft", c("TDS", "SpCond", "Cond", "Turbidity"), text.col=c("orange", "black","red","brown"), x.intersp=0.001)
   
-  plot(obs1$TIMESTAMP,obs1$Chla_1, main="Chla, Phyco, fDOM", xlab="Time", ylab="ug/L or QSU", type='l', col="green", lwd=1.5, ylim=c(min(obs1$BGAPC_1, na.rm = TRUE) - 2, max(obs1$Chla_1, na.rm = TRUE) + 5))
+  plot(obs1$TIMESTAMP,obs1$Chla_1, main="Chla, Phyco, fDOM", xlab="Time", ylab="ug/L or QSU", type='l', col="green", lwd=1.5, ylim=c(min(obs1$BGAPC_1, na.rm = TRUE) - 2, max(c(obs1$Chla_1, obs1$fDOM_QSU_1), na.rm = TRUE) + 5))
   points(obs1$TIMESTAMP, obs1$BGAPC_1, col="blue", type='l', lwd=1.5)
   points(obs1$TIMESTAMP, obs1$fDOM_QSU_1, col="firebrick4", type='l', lwd=1.5)
   legend("topleft", c("Chla", "Phyco", "fDOM"), text.col=c("green", "blue", "firebrick4"), x.intersp=0.001)
