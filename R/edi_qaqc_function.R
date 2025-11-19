@@ -26,8 +26,8 @@ qaqc_fcr <- function(data_file,
                     dir)
 {
 
-  a <-list.files(dir)
-print(a)
+#  a <-list.files(dir)
+#  print(a)
   
   ### 1. Read in files and maintenance log ####
   # These are the column names for EDI 
