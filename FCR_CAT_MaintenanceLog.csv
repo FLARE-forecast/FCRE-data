@@ -289,9 +289,9 @@ FCR;50; CAT; 2025-02-24 11:55:00 EST; 2025-02-24 12:05:00 EST; LvlPressure_psi_9
 FCR;50; CAT; 2025-03-15 09:10:00 EST; 2025-03-15 09:25:00 EST; EXOTurbidity_FNU_1; NA; 2; NA; NA; Very high turbidity value set to NA
 FCR;50; CAT; 2025-03-24 14:45:00 EST; 2025-03-24 14:55:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
 FCR;50; CAT; 2025-03-31 11:15:00 EST; 2025-03-31 11:25:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and putting calibrated EXO2 SN 18D103367 back
-FCR;50; CAT; 2025-02-10 11:45:00 EST; 2025-03-31 11:25:00 EST; EXOSpCond_uScm_1; NA;6;NA; "fcrdata[Time, maintenance_cols]-2.2"; sp cond value adjusted to match after calibration values
-FCR;50; CAT; 2025-02-10 11:45:00 EST; 2025-03-31 11:25:00 EST; EXOCond_uScm_1; NA;6;NA; "fcrdata[Time, maintenance_cols]-1.8"; cond values adjusted to match after calibration values
-FCR;50; CAT; 2025-02-10 11:45:00 EST; 2025-03-31 11:25:00 EST; EXOTDS_mgL_1; NA;6;NA; "fcrdata[Time, maintenance_cols]-1.5"; TDS values adjusted to match after calibration values
+FCR;50; CAT; 2025-02-10 11:45:00 EST; 2025-03-31 11:25:00 EST; EXOSpCond_uScm_1; NA;6;NA; "catdata[Time, maintenance_cols]-2.2"; sp cond value adjusted to match after calibration values
+FCR;50; CAT; 2025-02-10 11:45:00 EST; 2025-03-31 11:25:00 EST; EXOCond_uScm_1; NA;6;NA; "catdata[Time, maintenance_cols]-1.8"; cond values adjusted to match after calibration values
+FCR;50; CAT; 2025-02-10 11:45:00 EST; 2025-03-31 11:25:00 EST; EXOTDS_mgL_1; NA;6;NA; "catdata[Time, maintenance_cols]-1.5"; TDS values adjusted to match after calibration values
 FCR;50; CAT; 2025-04-21 12:15:00 EST; 2025-04-21 12:25:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
 FCR;50; CAT; 2025-06-23 07:25:00 EST; 2025-06-23 07:35:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
 FCR;50; CAT; 2025-06-23 09:55:00 EST; 2025-06-23 10:05:00 EST; EXOTemp_C_1; EXOWiper_V;1; NA; NA; EXO up for cleaning and checking
