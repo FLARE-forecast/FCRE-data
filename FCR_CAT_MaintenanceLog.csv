@@ -6,6 +6,7 @@ FCR;50; CAT; 2018-11-19 12:00:00 EST; 2018-11-19 13:50:00 EST; ThermistorTemp_C_
 FCR;50; CAT; 2018-11-19 15:00:00 EST; 2018-11-20 12:20:00 EST; RDO_mgL_9; RDOsat_percent_9;2; NA; NA; removing questionable DO values
 FCR;50; CAT; 2018-12-17 10:20:00 EST; 2018-12-17 13:15:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
 FCR;50; CAT; 2019-01-15 12:50:00 EST; 2019-01-15 13:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning  EXO only
+FCR;50; CAT; 2019-01-24 15:25:00 EST; 2019-01-24 15:35:00 EST; EXOTemp_C_1; EXOTDS_mgL_1;2; NA; NA; bad temp and conductivity reading
 FCR;50; CAT; 2019-02-08 12:50:00 EST; 2019-02-08 13:10:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up
 FCR;50; CAT; 2019-04-15 09:51:00 EST; 2019-04-15 09:51:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;5; NA; NA; switched time GMT-4 to GMT-5
 FCR;50; CAT; 2019-06-17 11:10:00 EST; 2019-06-17 11:50:00 EST; ThermistorTemp_C_surface; LvlTemp_C_9;1; NA; NA; sensor string up for cleaning
