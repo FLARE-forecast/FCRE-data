@@ -24,13 +24,12 @@ last_edi_date <- as.Date(xml_text(date_attribute)) + lubridate::days(1)
 day_of_run <- Sys.Date() + lubridate::days(1)
 
 ## assign data files 
-wq_data <- 'fcre-waterquality.csv'
-manual_data_url <- 'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/FCRCatwalk_L1.csv'
+wq_data <- c('fcre-waterquality.csv','https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/FCRCatwalk_L1.csv')
 maintenance_file <- 'FCR_CAT_MaintenanceLog.csv'
 outfile <-'fcre-waterquality_L1.csv'
 
 ## run QAQC on the data within github
-qaqc_fcr(data_file = wq_data, data2_file = manual_data_url, maintenance_file = maintenance_file, output_file = outfile, start_date = last_edi_date,  end_date = day_of_run, dir=home_directory)
+qaqc_fcr(data_file = wq_data, maintenance_file = maintenance_file, output_file = outfile, start_date = last_edi_date,  end_date = day_of_run, dir=home_directory)
 
 #wq_qaqc <- read_csv('fcre-waterquality_L1.csv')
 
