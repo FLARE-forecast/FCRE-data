@@ -1,7 +1,10 @@
 # Title: QAQC function for the FCR Catwalk
 # Author: Adrienne Breef-Pilz
 # Created: July 2020 (orignially call temp_oxy_chla_qaqc.R)
-# Edited: 12 Feb 2024
+# Edited: 05 Jan 2026
+
+# edits: 
+# 05 Jan 2026- took out the data_2 file which read in the maintenance file seperatley and just read in all the data files from the same list
 
 # This function:
 # 1. Read in the files and maintenance log
@@ -18,16 +21,15 @@
 
 
 qaqc_fcr <- function(data_file,
-                     data2_file, 
                      maintenance_file, 
                      output_file = 'fcre-waterquality_L1.csv', 
                      start_date = NULL, 
                      end_date = NULL,
-                    dir)
+                     dir)
 {
-
-#  a <-list.files(dir)
-#  print(a)
+  
+  #  a <-list.files(dir)
+  #  print(a)
   
   ### 1. Read in files and maintenance log ####
   # These are the column names for EDI 
@@ -50,30 +52,20 @@ qaqc_fcr <- function(data_file,
   if(is.character(data_file)){
     # read catwalk data and maintenance log
     # NOTE: date-times throughout this script are processed as UTC
-    catdata <- read_csv(data_file, skip = 1, col_names = CATPRES_COL_NAMES,
+    catdata_start <- read_csv(data_file, skip = 1, col_names = CATPRES_COL_NAMES,
                         col_types = cols(.default = col_double(), DateTime = col_datetime()))
   } else {
     
-    catdata <- data_file
+    catdata_start <- data_file
   }
   
-  #read in manual data from the data logger to fill in missing gaps
+  # take out the dups from reading in the streaming and downloaded sensors
+  catdata <- catdata_start|>
+    dplyr::distinct()
   
-  if(is.null(data2_file)){
-    
-    # If there is no manual files then set data2_file to NULL
-    catdata2 <- NULL
-    
-  } else{
-    
-    catdata2 <- read_csv(data2_file, skip = 1, col_names = CATPRES_COL_NAMES,
-                         col_types = cols(.default = col_double(), DateTime = col_datetime()))
-  }
   
-  # Bind the streaming data and the manual downloads together so we can get any missing observations 
-  catdata <-bind_rows(catdata,catdata2)
-
-   ### This was needed for the EDI publishing in 2021 and 
+  
+  ### This was needed for the EDI publishing in 2021 and 
   # if you start with the all the raw files you will will need to run this section.
   # Need to run this section before removing duplicates
   
@@ -89,7 +81,7 @@ qaqc_fcr <- function(data_file,
       filter(DateTime<ymd_hms("2019-04-15 10:50:00", tz="UTC") & RECORD < 32879)
     
     
-   # #now put into GMT-5 from GMT-4
+    # #now put into GMT-5 from GMT-4
     before$DateTime<-force_tz(as.POSIXct(before$DateTime), tz = "Etc/GMT+5") #get dates aligned
     before$DateTime<-with_tz(force_tz(before$DateTime,"Etc/GMT+4"), "Etc/GMT+5") #pre time change data gets assigned proper timezone then corrected to GMT -5 to match the rest of the data set
     
@@ -101,14 +93,14 @@ qaqc_fcr <- function(data_file,
       filter(DateTime>ymd_hms("2019-04-15 09:50:00", tz="UTC"))%>%
       # filter out the observations that were on the cusps and are in the before record
       filter(!(RECORD %in% rec & DateTime>ymd_hms("2019-04-15 09:50:00", tz="UTC") &DateTime<ymd_hms("2019-04-15 10:50:00", tz="UTC")))
-      
+    
     
     # Get all dates in the same timezone so they merge nicely
     after$DateTime<-force_tz(as.POSIXct(after$DateTime), tzone = "Etc/GMT+5")
     
     
     #merge before and after so they are one dataframe in GMT-5 
-    catdata=bind_rows(before, after)
+    catdata <- bind_rows(before, after)
     
   }
   
@@ -203,212 +195,212 @@ qaqc_fcr <- function(data_file,
   
   
   # modify catdata based on the information in the log   
-
-   if(nrow(log)==0){
-     print('No Maintenance Events Found...')
-
-   } else {
   
-  for(i in 1:nrow(log))
-  {
-    ### get start and end time of one maintenance event
-    start <- log$TIMESTAMP_start[i]
-    end <- log$TIMESTAMP_end[i]
+  if(nrow(log)==0){
+    print('No Maintenance Events Found...')
     
+  } else {
     
-    ### Get the Reservoir
-    
-    Reservoir <- log$Reservoir[i]
-    
-    ### Get the Site
-    
-    Site <- log$Site[i]
-    
-    ### Get the Maintenance Flag 
-    
-    flag <- log$flag[i]
-    
-    ### Get the Value or text that will be replaced
-    
-    update_value <- as.numeric(log$update_value[i])
-    
-    ### Get the code for fixing values. If it is not an NA
-    
-    if(flag==6){
-      # These adjustment_code are expressions so they should not be set to numeric
-      adjustment_code <- log$adjustment_code[i]
+    for(i in 1:nrow(log))
+    {
+      ### get start and end time of one maintenance event
+      start <- log$TIMESTAMP_start[i]
+      end <- log$TIMESTAMP_end[i]
       
-    }else{
-      adjustment_code <- as.numeric(log$adjustment_code[i])
-    }
-    
-    
-    ### Get the names of the columns affected by maintenance
-    
-    colname_start <- log$start_parameter[i]
-    colname_end <- log$end_parameter[i]
-    
-    ### if it is only one parameter parameter then only one column will be selected
-    
-    if(is.na(colname_start)){
       
-      maintenance_cols <- colnames(catdata%>%select(any_of(colname_end))) 
+      ### Get the Reservoir
       
-    }else if(is.na(colname_end)){
+      Reservoir <- log$Reservoir[i]
       
-      maintenance_cols <- colnames(catdata%>%select(any_of(colname_start)))
+      ### Get the Site
       
-    }else{
-      maintenance_cols <- colnames(catdata%>%select(c(colname_start:colname_end)))
-    }
-    
-    
-    ### Get the name of the flag column
-    
-    flag_cols <- paste0("Flag_", maintenance_cols)
-    
-    
-    ### Getting the start and end time vector to fix. If the end time is NA then it will put NAs 
-    # until the maintenance log is updated
-    
-    if(is.na(end)){
-      # If there the maintenance is on going then the columns will be removed until
-      # and end date is added
-      Time <- catdata$DateTime >= start
+      Site <- log$Site[i]
       
-    }else if (is.na(start)){
-      # If there is only an end date change columns from beginning of data frame until end date
-      Time <- catdata$DateTime <= end
+      ### Get the Maintenance Flag 
       
-    }else {
+      flag <- log$flag[i]
       
-      Time <- catdata$DateTime >= start & catdata$DateTime <= end
+      ### Get the Value or text that will be replaced
       
-    }
-    
-    ### This is where information in the maintenance log gets removed. Each flag has a different scenario so 
-    # a flag that removes values can not also change a value. If there are different scenarios with in a data
-    # flag then have a nested if statement with other identifying things such as specific columns for that situation. 
-    
-    # replace relevant data with NAs and set flags while maintenance was in effect
-    if (flag==1){
-      # The observations are changed to NA for maintenance or other issues found in the maintenance log
-      catdata[Time, maintenance_cols] <- NA
-      catdata[Time, flag_cols] <- flag
+      update_value <- as.numeric(log$update_value[i])
       
-    } else if (flag==2){
+      ### Get the code for fixing values. If it is not an NA
       
-      # The observations are changed to NA for maintenance or other issues found in the maintenance log
-      catdata[Time, maintenance_cols] <- NA
-      catdata[Time, flag_cols] <- flag
-      
-    } else if (flag==4){
-      # Values are removed because they are out of range
-      if(colname_start == "EXOChla_RFU_1" && colname_end== "EXOBGAPC_ugL_1"){
+      if(flag==6){
+        # These adjustment_code are expressions so they should not be set to numeric
+        adjustment_code <- log$adjustment_code[i]
         
-        Algae <- maintenance_cols[maintenance_cols%in%c("EXOChla_RFU_1", "EXOChla_ugL_1","EXOBGAPC_RFU_1","EXOBGAPC_ugL_1")]
+      }else{
+        adjustment_code <- as.numeric(log$adjustment_code[i])
+      }
+      
+      
+      ### Get the names of the columns affected by maintenance
+      
+      colname_start <- log$start_parameter[i]
+      colname_end <- log$end_parameter[i]
+      
+      ### if it is only one parameter parameter then only one column will be selected
+      
+      if(is.na(colname_start)){
         
-        # for loop to loop through the columns from the algae sensor
-        for(b in 1:length(Algae)){
-          
-          # get means and thresholds for using to find outliers
-          
-          mean <-mean(catdata[[Algae[b]]], na.rm=T)  
-          
-          threshold <- 4 * sd(catdata[[Algae[b]]], na.rm=T)
-          
-          # Set flag and take out files obs that are 4 sd above the mean
-          
-          catdata[c(which(Time & abs(catdata[[Algae[b]]] - mean) > threshold)),Algae[b]] <- NA
-          
-          # Add the flag 
-          catdata[c(which(Time & abs(catdata[[Algae[b]]] - mean) > threshold)),paste0("Flag_",Algae[b])] <- flag
-        }
+        maintenance_cols <- colnames(catdata%>%select(any_of(colname_end))) 
+        
+      }else if(is.na(colname_end)){
+        
+        maintenance_cols <- colnames(catdata%>%select(any_of(colname_start)))
+        
+      }else{
+        maintenance_cols <- colnames(catdata%>%select(c(colname_start:colname_end)))
+      }
+      
+      
+      ### Get the name of the flag column
+      
+      flag_cols <- paste0("Flag_", maintenance_cols)
+      
+      
+      ### Getting the start and end time vector to fix. If the end time is NA then it will put NAs 
+      # until the maintenance log is updated
+      
+      if(is.na(end)){
+        # If there the maintenance is on going then the columns will be removed until
+        # and end date is added
+        Time <- catdata$DateTime >= start
+        
+      }else if (is.na(start)){
+        # If there is only an end date change columns from beginning of data frame until end date
+        Time <- catdata$DateTime <= end
+        
       }else {
-        # Set the values to NA and flag
+        
+        Time <- catdata$DateTime >= start & catdata$DateTime <= end
+        
+      }
+      
+      ### This is where information in the maintenance log gets removed. Each flag has a different scenario so 
+      # a flag that removes values can not also change a value. If there are different scenarios with in a data
+      # flag then have a nested if statement with other identifying things such as specific columns for that situation. 
+      
+      # replace relevant data with NAs and set flags while maintenance was in effect
+      if (flag==1){
+        # The observations are changed to NA for maintenance or other issues found in the maintenance log
         catdata[Time, maintenance_cols] <- NA
         catdata[Time, flag_cols] <- flag
-      }
-      
-    } else if (flag==5){
-      
-      #Flag high conductivity values in 2020 but don't remove them. If want to remove later I will but I am
-      # not convinced it is a sensor malfunction. Did everything based off of conductivity which is temperature
-      # so catches anomalies as opposed to turnover which would happed if we used specific conductivity.  
-      
-      if(colname_start == "EXOCond_uScm_1" && colname_end== "EXOTDS_mgL_1"){
         
-        # Make a vector of the Conductivity columns
+      } else if (flag==2){
         
-        Cond <- maintenance_cols[maintenance_cols%in%c("EXOCond_uScm_1", "EXOSpCond_uScm_1", "EXOTDS_mgL_1")]
-        
-        for(s in 1:length(Cond)){
-          catdata[c(which(Time & catdata[,"EXOCond_uScm_1"]>37 & catdata[,paste0("Flag_",Cond[s])]==0)),paste0("Flag_",Cond[s])] <- flag
-        }
-      }else{
-        # Values are flagged but left in the dataset
+        # The observations are changed to NA for maintenance or other issues found in the maintenance log
+        catdata[Time, maintenance_cols] <- NA
         catdata[Time, flag_cols] <- flag
-      }
-    } else if (flag==6){ #adjusting the RDO_5_mgL
-      
-      # Adjusting the RDO sensors based on the CTD
-      
-      # Create a data frame of just time
-      dt=catdata[Time, "DateTime"]
-      
-      # identify the new columns
-      
-      new_col <- paste0(maintenance_cols, "_adjusted")
-      
-      # put the adjusted value in a new column. The equation used to correct the value is in the maintenance log
-      catdata[Time, new_col] <- catdata[Time, maintenance_cols] + eval(parse(text=adjustment_code))
-      
-      catdata[Time, flag_cols] <- flag
-      
-    }else if (flag==7){
-      # Data was not collected and already flagged as NA above 
-      
-    }else if(flag==8){
-      #  sensors off so made an offset correction which is in the maintenance log
-      catdata[Time, maintenance_cols] <- catdata[Time, maintenance_cols] +adjustment_code
-      
-      catdata[Time, flag_cols] <- flag
-      
-    }else{
-      # Flag is not in Maintenance Log
-      warning(paste0("Flag", flag, "used not defined in the L1 script. 
+        
+      } else if (flag==4){
+        # Values are removed because they are out of range
+        if(colname_start == "EXOChla_RFU_1" && colname_end== "EXOBGAPC_ugL_1"){
+          
+          Algae <- maintenance_cols[maintenance_cols%in%c("EXOChla_RFU_1", "EXOChla_ugL_1","EXOBGAPC_RFU_1","EXOBGAPC_ugL_1")]
+          
+          # for loop to loop through the columns from the algae sensor
+          for(b in 1:length(Algae)){
+            
+            # get means and thresholds for using to find outliers
+            
+            mean <-mean(catdata[[Algae[b]]], na.rm=T)  
+            
+            threshold <- 4 * sd(catdata[[Algae[b]]], na.rm=T)
+            
+            # Set flag and take out files obs that are 4 sd above the mean
+            
+            catdata[c(which(Time & abs(catdata[[Algae[b]]] - mean) > threshold)),Algae[b]] <- NA
+            
+            # Add the flag 
+            catdata[c(which(Time & abs(catdata[[Algae[b]]] - mean) > threshold)),paste0("Flag_",Algae[b])] <- flag
+          }
+        }else {
+          # Set the values to NA and flag
+          catdata[Time, maintenance_cols] <- NA
+          catdata[Time, flag_cols] <- flag
+        }
+        
+      } else if (flag==5){
+        
+        #Flag high conductivity values in 2020 but don't remove them. If want to remove later I will but I am
+        # not convinced it is a sensor malfunction. Did everything based off of conductivity which is temperature
+        # so catches anomalies as opposed to turnover which would happed if we used specific conductivity.  
+        
+        if(colname_start == "EXOCond_uScm_1" && colname_end== "EXOTDS_mgL_1"){
+          
+          # Make a vector of the Conductivity columns
+          
+          Cond <- maintenance_cols[maintenance_cols%in%c("EXOCond_uScm_1", "EXOSpCond_uScm_1", "EXOTDS_mgL_1")]
+          
+          for(s in 1:length(Cond)){
+            catdata[c(which(Time & catdata[,"EXOCond_uScm_1"]>37 & catdata[,paste0("Flag_",Cond[s])]==0)),paste0("Flag_",Cond[s])] <- flag
+          }
+        }else{
+          # Values are flagged but left in the dataset
+          catdata[Time, flag_cols] <- flag
+        }
+      } else if (flag==6){ #adjusting the RDO_5_mgL
+        
+        # Adjusting the RDO sensors based on the CTD
+        
+        # Create a data frame of just time
+        dt=catdata[Time, "DateTime"]
+        
+        # identify the new columns
+        
+        new_col <- paste0(maintenance_cols, "_adjusted")
+        
+        # put the adjusted value in a new column. The equation used to correct the value is in the maintenance log
+        catdata[Time, new_col] <- catdata[Time, maintenance_cols] + eval(parse(text=adjustment_code))
+        
+        catdata[Time, flag_cols] <- flag
+        
+      }else if (flag==7){
+        # Data was not collected and already flagged as NA above 
+        
+      }else if(flag==8){
+        #  sensors off so made an offset correction which is in the maintenance log
+        catdata[Time, maintenance_cols] <- catdata[Time, maintenance_cols] +adjustment_code
+        
+        catdata[Time, flag_cols] <- flag
+        
+      }else{
+        # Flag is not in Maintenance Log
+        warning(paste0("Flag", flag, "used not defined in the L1 script. 
                      Talk to Austin and Adrienne if you get this message"))
-    }
-    
-    # Add the 2 hour adjustment for DO. This means values less than 2 hours after the DO sensor is out of the water are changed to NA and flagged
-    # In 2023 added a 30 minute adjustment for Temp sensors on the temp string  
-    
-    # Make a vector of the DO columns
-    
-    DO <- colnames(catdata%>%select(grep("DO_mgL|DOsat", colnames(catdata))))
-    
-    # Vector of thermistors on the temp string 
-    Temp <- colnames(catdata%>%select(grep("Thermistor|RDOTemp|LvlTemp", colnames(catdata))))
-    
-    # make a vector of the adjusted time
-    Time_adj_DO <- catdata$DateTime>start&catdata$DateTime<end+ADJ_PERIOD_DO
-    
-    Time_adj_Temp <- catdata$DateTime>start&catdata$DateTime<end+ADJ_PERIOD_Temp
-    
-    # Change values to NA after any maintenance for up to 2 hours for DO sensors
-    
-    if (flag ==1){
+      }
       
-      # This is for DO add a 2 hour buffer after the DO sensor was out of the water
-      catdata[Time_adj_DO,  maintenance_cols[maintenance_cols%in%DO]] <- NA
-      catdata[Time_adj_DO, flag_cols[flag_cols%in%DO]] <- flag
+      # Add the 2 hour adjustment for DO. This means values less than 2 hours after the DO sensor is out of the water are changed to NA and flagged
+      # In 2023 added a 30 minute adjustment for Temp sensors on the temp string  
       
-      # Add a 30 minute buffer for when the temp string was out of the water
-      catdata[Time_adj_Temp,  maintenance_cols[maintenance_cols%in%Temp]] <- NA
-      catdata[Time_adj_Temp, flag_cols[flag_cols%in%Temp]] <- flag
+      # Make a vector of the DO columns
+      
+      DO <- colnames(catdata%>%select(grep("DO_mgL|DOsat", colnames(catdata))))
+      
+      # Vector of thermistors on the temp string 
+      Temp <- colnames(catdata%>%select(grep("Thermistor|RDOTemp|LvlTemp", colnames(catdata))))
+      
+      # make a vector of the adjusted time
+      Time_adj_DO <- catdata$DateTime>start&catdata$DateTime<end+ADJ_PERIOD_DO
+      
+      Time_adj_Temp <- catdata$DateTime>start&catdata$DateTime<end+ADJ_PERIOD_Temp
+      
+      # Change values to NA after any maintenance for up to 2 hours for DO sensors
+      
+      if (flag ==1){
+        
+        # This is for DO add a 2 hour buffer after the DO sensor was out of the water
+        catdata[Time_adj_DO,  maintenance_cols[maintenance_cols%in%DO]] <- NA
+        catdata[Time_adj_DO, flag_cols[flag_cols%in%DO]] <- flag
+        
+        # Add a 30 minute buffer for when the temp string was out of the water
+        catdata[Time_adj_Temp,  maintenance_cols[maintenance_cols%in%Temp]] <- NA
+        catdata[Time_adj_Temp, flag_cols[flag_cols%in%Temp]] <- flag
+      }
     }
-  }
- }    
+  }    
   #### 5. Fill in non adjusted DO values ######
   # Fill in adjusted DO values that didn't get changed. If the value didn't get changed then it is the same as values from the 
   # non adjusted columns
@@ -563,7 +555,7 @@ qaqc_fcr <- function(data_file,
     return(catdata)
   }else{
     # convert datetimes to characters so that they are properly formatted in the output file
-   catdata$DateTime <- as.character(catdata$DateTime)
+    catdata$DateTime <- as.character(catdata$DateTime)
     write_csv(catdata, output_file)
   }
   print('QAQC output saved successfully')
@@ -573,9 +565,7 @@ qaqc_fcr <- function(data_file,
 # example usage
 
 # qaqc_fcr(data_file= "https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-catwalk-data/fcre-waterquality.csv",
-#     data2_file = "https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-catwalk-data/fcre-waterquality.csv",
 #     maintenance_file = "https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-catwalk-data-qaqc/FCR_CAT_MaintenanceLog.csv",
 #     output_file = 'fcre-waterquality_L1.csv',
 #     start_date = "2023-01-01 00:00:00",
 #     end_date = Sys.Date())
-
