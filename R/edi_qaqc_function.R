@@ -142,8 +142,7 @@ qaqc_fcr <- function(data_file,
     
     catdata <- catdata %>% 
       filter(DateTime >= start_date)
-    catdata2 <- catdata2 %>% 
-      filter(DateTime >= start_date)
+    
     log <- log %>% 
       filter(TIMESTAMP_start <= end_date)
   }
@@ -154,8 +153,7 @@ qaqc_fcr <- function(data_file,
     
     catdata <- catdata %>% 
       filter(DateTime <= end_date)
-    catdata2 <- catdata2 %>% 
-      filter(DateTime <= end_date)
+   
     log <- log %>% 
       filter(TIMESTAMP_end >= start_date)
   }
