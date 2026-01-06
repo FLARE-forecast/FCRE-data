@@ -1,9 +1,22 @@
 Reservoir; Site; DataStream; TIMESTAMP_start; TIMESTAMP_end; start_parameter; end_parameter; flag; update_value; adjustment_code; notes
-FCR; 50; MET; 2015-07-07 15:45:00 EST; 2015-07-13 11:28:00 EST; Rain_Total_mm; NA; 4; NA; (original_value/5); Change_to_mm_per_min because it was mm per 5 min
+FCR; 50; MET; 2015-07-07 15:45:00 EST; 2015-07-13 11:28:00 EST; Rain_Total_mm; NA; 4; NA; "Met[Time, maintenance_cols]/5"; Change to mm_per_min because it was mm per 5 min
 FCR; 50; MET; 2015-07-07 15:45:00 EST; 2015-07-13 11:28:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 1; NA; NA; PAR sensors programed wrong. Reprogramed when changed recorded obs to every minute instead of 5 minutes
-FCR; 50; MET; 2016-07-18 13:38:00 EST; 2016-07-18 13:38:00 EST; ShortwaveRadiationDown_Average_W_m2; NA; 4; NA; NA; Outlier_set_to_NA
+FCR; 50; MET; 2015-07-07 15:45:00 EST; 2016-07-25 09:55:30 EST; InfraredRadiationUp_Average_W_m2; NA; 4; NA; "Met[Time, maintenance_cols] + 30 + 5.67*10^-8*(Met[Time, 'AirTemp_C_Average']+273.15)^4"; Adjusted the volt readings to be temperature compensated until changed in the program. 
+FCR; 50; MET; 2015-07-07 15:45:00 EST; 2016-07-25 09:55:30 EST; InfraredRadiationDown_Average_W_m2; NA; 4; NA; "Met[Time, maintenance_cols] + 30 + 5.67*10^-8*(Met[Time, 'AirTemp_C_Average']+273.15)^4"; Adjusted the volt readings to be temperature compensated until changed in the program
+FCR; 50; MET; 2016-05-14 09:53:30 EST; 2016-05-14 09:54:30 EST; InfraredRadiationUp_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2016-05-20 12:04:30 EST; 2016-05-20 17:22:30 EST; InfraredRadiationUp_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2016-05-21 15:36:30 EST; 2016-05-21 16:40:30 EST; InfraredRadiationUp_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2016-05-21 17:49:30 EST; 2016-05-21 18:50:30 EST; InfraredRadiationUp_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2016-07-09 22:25:30 EST; 2016-07-09 22:31:30 EST; InfraredRadiationUp_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2016-07-18 13:38:00 EST; 2016-07-18 13:38:00 EST; ShortwaveRadiationDown_Average_W_m2; NA; 2; NA; NA; Outlier_set_to_NA
 FCR; 50; MET; 2016-01-01 00:00:00 EST; 2018-09-03 11:46:00 EST; RH_percent; NA; 5; NA; NA; potentially_high_values_due_to_fouling
 FCR; 50; MET; 2017-11-06 14:45:00 EST; 2017-11-06 14:50:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
+FCR; 50; MET; 2017-12-03 09:52:30 EST; 2017-12-03 09:56:30 EST; InfraredRadiationDown_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2017-12-03 10:11:30 EST; 2017-12-03 10:55:30 EST; InfraredRadiationDown_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2017-12-03 11:23:30 EST; 2017-12-03 11:26:30 EST; InfraredRadiationDown_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2017-12-04 11:40:30 EST; 2017-12-04 11:45:30 EST; InfraredRadiationDown_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2017-12-08 14:58:30 EST; 2017-12-08 15:08:30 EST; InfraredRadiationDown_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
+FCR; 50; MET; 2017-12-11 13:12:30 EST; 2017-12-11 14:13:30 EST; InfraredRadiationDown_Average_W_m2; NA; 2; NA; NA; Bad readings set to NA
 FCR; 50; MET; 2018-03-18 10:15:00 EST; 2018-03-18 10:20:00 EST; Rain_Total_mm; NA; 1; NA; NA; calibrated_rain_gauge
 FCR; 50; MET; 2018-08-06 9:00:00 EST; 2018-08-06 11:00:00 EST; PAR_umolm2s_Average; NA; 4; NA; NA; PAR_sensor_cleaned_sometime_this_day
 FCR; 50; MET; 2018-06-20 23:28:00 EST; 2018-06-20 23:30:00 EST; PAR_umolm2s_Average; Albedo_Average_W_m2; 4; NA; NA; all very very questionable values that are removed
@@ -50,12 +63,12 @@ FCR; 50; MET; 2022-07-15 13:25:00 EST; 2022-07-15 13:29:00 EST; PAR_umolm2s_Aver
 FCR; 50; MET; 2022-03-29 08:46:00 EST; 2022-03-29 08:58:00 EST; ShortwaveRadiationUp_Average_W_m2; Albedo_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
 FCR; 50; MET; 2022-03-15 00:00:00 EST; 2022-04-04 00:00:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; Very low PAR values so removed
 FCR; 50; MET; 2022-05-21 00:00:00 EST; 2022-07-15 13:25:00 EST; PAR_umolm2s_Average; PAR_Total_mmol_m2; 4; NA; NA; Very low PAR values so removed until the sensor was replaced
-FCR; 50; MET; 2022-07-15 13:30:00 EST; 2022-07-16 04:59:00 EST; PAR_Total_mmol_m2; NA; 4; NA; (original_value*0.4999); High PAR values are adjusted by dividing by offset value
+FCR; 50; MET; 2022-07-15 13:30:00 EST; 2022-07-16 04:59:00 EST; PAR_Total_mmol_m2; NA; 4; NA; "Met[Time, maintenance_cols]*0.4999"; High PAR values are adjusted by dividing by offset value
 FCR; 50; MET; 2022-12-15 00:00:00 EST; 2023-01-24 11:43:00 EST; ShortwaveRadiationUp_Average_W_m2; NA; 4; NA; NA; sensor malfunctioning because of loose wire that was out of place. 
 FCR; 50; MET; 2023-01-24 11:07:00 EST; 2023-01-24 11:40:00 EST; ShortwaveRadiationDown_Average_W_m2; NA; 1; NA; NA; wire was pulled out and then reinstalled
 FCR; 50; MET; 2023-01-08 20:00:00 EST; 2023-01-08 08:00:00 EST; WindDir_degrees; WindSpeed_Average_m_s; 4; NA; NA; potential ice interference as the wind speed is 0 m/s. Check exact time
 FCR; 50; MET; 2023-01-24 11:37:00 EST; 2023-01-24 11:43:00 EST; DateTime; Albedo_Average_W_m2; 1; NA; NA; Reset the clock on the data logger so these times are duplicates. Just going to have a gap
-FCR; 50; MET; 2022-07-15 13:29:00 EST; 2023-01-24 12:19:00 EST; PAR_Total_mmol_m2; NA; 4; NA; (original_value*0.4999); PAR_Tot multiplier was incorrect in the program. Was 2.55 but needs to be 1.27
+FCR; 50; MET; 2022-07-15 13:29:00 EST; 2023-01-24 12:19:00 EST; PAR_Total_mmol_m2; NA; 4; NA; "Met[Time, maintenance_cols]*0.4999"; PAR_Tot multiplier was incorrect in the program. Was 2.55 but needs to be 1.27
 FCR; 50; MET; 2023-01-24 12:00:00 EST; 2023-01-24 12:20:00 EST; PAR_Total_mmol_m2; NA; 1; NA; NA; Checking the multiplier on the PAR totals 
 FCR; 50; MET; 2023-06-19 11:53:00 EST; 2023-06-19 11:57:00 EST; Rain_Total_mm; NA; 1; NA; NA; cleaned_rain_gauge
 FCR; 50; MET; 2023-09-05 10:55:00 EST; 2023-09-05 11:28:00 EST; ShortwaveRadiationUp_Average_W_m2; InfraredRadiationUp_Average_W_m2; 1; NA; NA; cleaned_radiation_sensor_lenses
