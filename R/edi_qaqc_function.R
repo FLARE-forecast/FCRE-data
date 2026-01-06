@@ -90,16 +90,21 @@ qaqc_fcrmet <- function(data_file = 'https://raw.githubusercontent.com/FLARE-for
   # Set everything to Etc/GMT+5
   Met$DateTime <- force_tz(as.POSIXct(Met$DateTime), tzone = "Etc/GMT+5")
   
-  if("2019-04-15 10:19:00" %in% Met$DateTime){
-    met_timechange=max(which(Met$DateTime=="2019-04-15 10:19:00")) #shows time point when met station was switched from GMT -4(EDT) to GMT -5(EST)
-    #Met$DateTime<-as.POSIXct(strptime(Met$DateTime, "%Y-%m-%d %H:%M"), tz = "Etc/GMT+5") #get dates aligned
-    Met$DateTime[c(1:met_timechange-1)]<-with_tz(force_tz(Met$DateTime[c(1:met_timechange-1)],"Etc/GMT+4"), "Etc/GMT+5") #pre time change data gets assigned proper timezone then corrected to GMT -5 to match the rest of the data set
-  }else if (min(Met$DateTime, na.rm = TRUE)<"2019-04-15 10:19:00"){
+  # Fixed up the if statement because it wasn't recognizing the time
+ if(max(Met$DateTime, na.rm = TRUE)<"2019-04-15 10:19:00"){
     #pre time change data gets assigned proper timezone then corrected to GMT -5 to match the rest of the data set
     Met$DateTime<-with_tz(force_tz(Met$DateTime,"Etc/GMT+4"), "Etc/GMT+5")
+    print("all")
   }else if(min(Met$DateTime, na.rm = TRUE)>"2019-04-15 10:19:00"){
     # Do nothing because already in EST
-  }
+    print("none")
+  }else{
+    # some of the times need to be changed but not all. 
+    met_timechange=max(which(Met$DateTime=="2019-04-15 10:19:00")) #shows time point when met station was switched from GMT -4(EDT) to GMT -5(EST)
+  #Met$DateTime<-as.POSIXct(strptime(Met$DateTime, "%Y-%m-%d %H:%M"), tz = "Etc/GMT+5") #get dates aligned
+  Met$DateTime[c(1:met_timechange-1)]<-with_tz(force_tz(Met$DateTime[c(1:met_timechange-1)],"Etc/GMT+4"), "Etc/GMT+5") #pre time change data gets assigned proper timezone then corrected to GMT -5 to match the rest of the data set
+  print("section")
+ }
   
   
   # Set timezone as EST. Streaming sensors don't observe daylight savings
