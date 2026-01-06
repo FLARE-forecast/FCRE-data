@@ -26,9 +26,8 @@ last_edi_date <- as.Date(xml_text(date_attribute)) + lubridate::days(1)
 day_of_run <- Sys.Date() + lubridate::days(1)
 
 ## assign data files 
-met_data <- 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-metstation-data/FCRmet.csv'
+met_data <- c('https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-metstation-data/FCRmet.csv', 'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/FCRMet_L1.csv')
 #met_data <- 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-metstation-data-qaqc/FCRmet_L1.csv'
-manual_file <- 'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/FCRMet_L1.csv'
 met_infrared_data <- 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-metstation-data-qaqc/FCR_Met_Infrad_DOY_Avg_2018.csv'
 #maintenance_file <- 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-metstation-data-qaqc/MET_MaintenanceLog.txt'
 maintenance_file <- 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-metstation-data-qaqc/MET_maintenancelog_new.csv'
@@ -36,7 +35,6 @@ outfile <-'FCRmet_L1.csv'
 
 ## run QAQC on the data within github
 qaqc_fcrmet(data_file = met_data, 
-            data2_file = manual_file, 
             maintenance_file = maintenance_file, 
             met_infrad = met_infrared_data, 
             output_file = outfile, 
