@@ -25,8 +25,8 @@ last_edi_date <- as.Date(xml_text(date_attribute)) + lubridate::days(1)
 day_of_run <- Sys.Date() + lubridate::days(1)
 
 ## assign data files 
-wq_data <- 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data/FCRweir.csv'
-VT_manual <- 'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/WeirData_L1.csv'
+wq_data <- c('https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data/FCRweir.csv',
+             'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/WeirData_L1.csv'),
 pressure <- 'https://raw.githubusercontent.com/CareyLabVT/Reservoirs/master/Data/DataNotYetUploadedToEDI/Raw_inflow/WVWA_weirInflow_L1.csv'
 maintenance_url <- 'Weir_MaintenanceLog.csv'
 gauge_reading <- 'Inflow_Gauge_Height_at_Weir.csv'
@@ -35,7 +35,6 @@ output_file_rating_curve <- 'Rating_Curve_Calculations.csv'
 
 ## run QAQC on the data within github
 qaqc_fcrweir(VT_data_file = wq_data, 
-             VT_manual_data_file = VT_manual,
              WVWA_data_file = pressure, 
              maintenance_file = maintenance_url, 
              Staff_gauge_readings = gauge_reading, 
