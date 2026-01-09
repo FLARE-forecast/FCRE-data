@@ -2,6 +2,7 @@
 # Author: Adrienne Breef-Pilz
 # Created: Feb. 2023
 # Updated: 11 Jan 2025
+# 09 Jan. 2026 took out the manual data file argument becasue it was redundant
 
 # This function:
 # 1. Reads in the VT streaming sensors, manual downloads from the VT streaming sensors, and the WVWA sensors
@@ -13,8 +14,8 @@
 # 7. Calculate the rating curve for each time period and calculate the flow
 # 8. Save rating curve and file
 
-qaqc_fcrweir <- function(VT_data_file = 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data/FCRweir.csv',
-                         VT_manual_data_file = 'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/WeirData_L1.csv', 
+qaqc_fcrweir <- function(VT_data_file = c('https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data/FCRweir.csv', 
+                         'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/WeirData_L1.csv'), 
                          WVWA_data_file = 'https://raw.githubusercontent.com/CareyLabVT/Reservoirs/master/Data/DataNotYetUploadedToEDI/Raw_inflow/WVWA_weirInflow_L1.csv', 
                          maintenance_file = 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data-qaqc/Weir_MaintenanceLog.csv', 
                          Staff_gauge_readings = 'https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data-qaqc/Inflow_Gauge_Height_at_Weir.csv', 
@@ -38,18 +39,9 @@ qaqc_fcrweir <- function(VT_data_file = 'https://raw.githubusercontent.com/FLARE
     VTdat<-VTsens
   }
   
-  # Read in the downloads from the VT streaming sensor to fill in missing observations
-  
-  VTsens2<-read_csv(VT_manual_data_file, skip=1, col_names=c("DateTime","Record","BattV","PTemp_C","AirTemp_C","Lvl_psi","wtr_weir"))
-  
-  # Select the columns you want and rename the columns
-  VTdat2 <- VTsens2%>%
-    select(DateTime, Lvl_psi, wtr_weir)%>%
-    dplyr::rename(VT_Pressure_psia = Lvl_psi,
-                  VT_Temp_C = wtr_weir)
   
   # Bind the streaming data with the manual downloads to fill in missing observations
-  VTdat <-bind_rows(VTdat, VTdat2)%>%
+  VTdat <-VTdat|>
     distinct()
   
   # take out the duplicate times
