@@ -512,6 +512,14 @@ qaqc_fcr <- function(data_file,
     catdata[c(which(!is.na(catdata[[Algae[b]]]) & abs(catdata[[Algae[b]]] - mean) > threshold)),
             paste0("Flag_",Algae[b])] <- 5
   }
+
+  # take out high turbidity values
+
+  # take out turbidity values greater than 500 
+  
+   catdata[which(catdata$EXOTurbidity_FNU_1>500), "Flag_EXOTurbidity_FNU_1"] <- 2
+   catdata[which(catdata$EXOTurbidity_FNU_1>500), "EXOTurbidity_FNU_1"] <- NA
+  
   #### 9. Convert psi to depth for pressure sensor ####
   
   #create depth column
