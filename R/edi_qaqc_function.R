@@ -352,10 +352,11 @@ qaqc_fcrmet <- function(data_file = 'https://raw.githubusercontent.com/FLARE-for
   infrad <- read_csv(met_infrad)
   #read_csv("./Data/DataAlreadyUploadedToEDI/EDIProductionFiles/MakeEML_FCRMetData/2022/misc_data_files/FCR_Met_Infrad_DOY_Avg_2018.csv")
   
-  # make new file with new calculated IR. Leave in for if we need to update it again. This shouldn't need to happen
+  # make new file with new calculated IR from 2015-2017. Leave in for if we need to update it again. This shouldn't need to happen
   
   # Ir_down <- Met|>
   #   select(DateTime, InfraredRadiationDown_Average_W_m2)|>
+  #   filter(year(DateTime)<2018)|>
   #   mutate(DOY = yday(DateTime))|>
   #   group_by(DOY)|>
   #   summarise(IR_down_average = mean(InfraredRadiationDown_Average_W_m2, na.rm = T),
