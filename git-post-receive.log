@@ -44588,3 +44588,108 @@ To github.com:FLARE-forecast/FCRE-data.git
 [post-receive] Sync complete for fcre-weir-data.
 + exec
 + read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is up to date with 'origin/fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   438aaf8..140f952  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 140f952 Sun 2026-01-25 10:12:49 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   438aaf8..140f952  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is up to date with 'origin/fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   140f952..4a9d081  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 4a9d081 Sun 2026-01-25 12:12:50 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   140f952..4a9d081  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is up to date with 'origin/fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   4a9d081..8bda532  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 8bda532 Sun 2026-01-25 14:22:50 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   4a9d081..8bda532  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
