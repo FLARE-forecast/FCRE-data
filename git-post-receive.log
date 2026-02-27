@@ -48743,3 +48743,73 @@ To github.com:FLARE-forecast/FCRE-data.git
 [post-receive] Sync complete for fcre-weir-data.
 + exec
 + read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is up to date with 'origin/fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   a01a572..1e033e8  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 1e033e8 Fri 2026-02-27 00:24:11 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   a01a572..1e033e8  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is up to date with 'origin/fcre-weir-data'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   1e033e8..444409a  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 444409a Fri 2026-02-27 06:09:12 EST
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   1e033e8..444409a  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
