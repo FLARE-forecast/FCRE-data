@@ -26,7 +26,7 @@ day_of_run <- Sys.Date() + lubridate::days(1)
 
 ## assign data files 
 wq_data <- c('https://raw.githubusercontent.com/FLARE-forecast/FCRE-data/fcre-weir-data/FCRweir.csv',
-             'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/WeirData_L1.csv'),
+             'https://raw.githubusercontent.com/CareyLabVT/ManualDownloadsSCCData/master/current_files/WeirData_L1.csv')
 pressure <- 'https://raw.githubusercontent.com/CareyLabVT/Reservoirs/master/Data/DataNotYetUploadedToEDI/Raw_inflow/WVWA_weirInflow_L1.csv'
 maintenance_url <- 'Weir_MaintenanceLog.csv'
 gauge_reading <- 'Inflow_Gauge_Height_at_Weir.csv'
