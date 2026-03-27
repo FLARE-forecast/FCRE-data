@@ -4,7 +4,7 @@ on:
       branches: [ fcre-weir-data ]
       #paths: 
       #- 'fcre-waterquality.csv'
-   #workflow_dispatch:
+   workflow_dispatch:
 jobs:
   qaqc_run:
      runs-on: ubuntu-22.04
