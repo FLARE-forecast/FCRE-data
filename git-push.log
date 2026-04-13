@@ -292672,3 +292672,27 @@
 04/13/26 14:21:02 EST -0500 | On branch fcre-weir-data
 04/13/26 14:21:02 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
 04/13/26 14:21:02 EST -0500 | 
+04/13/26 14:21:02 EST -0500 | nothing to commit, working tree clean
+04/13/26 14:21:02 EST -0500 | Processing: /data/mia-logs
+04/13/26 14:21:05 EST -0500 | [mia-logs 74f1e13] Mon 2026-04-13 14:21:02 EST
+04/13/26 14:21:05 EST -0500 |  3 files changed, 114 insertions(+)
+04/13/26 14:21:05 EST -0500 | Found unpushed commit(s).
+04/13/26 14:23:38 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/13/26 14:23:38 EST -0500 |  ! [rejected]        603e2eff3adce79227687f15ade6d205cbb5a456 -> mia-logs (non-fast-forward)
+04/13/26 14:23:38 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/13/26 14:23:38 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/13/26 14:23:38 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/13/26 14:23:38 EST -0500 | hint: 'git pull ...') before pushing again.
+04/13/26 14:23:38 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/13/26 14:23:38 EST -0500 | Failed to push commit: 603e2eff3adce79227687f15ade6d205cbb5a456
+04/13/26 14:26:23 EST -0500 | Everything up-to-date
+04/13/26 14:28:37 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/13/26 14:28:37 EST -0500 | fatal: Could not read from remote repository.
+04/13/26 14:28:37 EST -0500 | 
+04/13/26 14:28:37 EST -0500 | Please make sure you have the correct access rights
+04/13/26 14:28:37 EST -0500 | and the repository exists.
+04/13/26 14:28:37 EST -0500 | Failed to push commit: 94a0c1d760eb700df973bfc0d4246cbcdca912f2
+04/13/26 14:30:02 EST -0500 | ########## START ##########
+04/13/26 14:30:02 EST -0500 | Processing: /data/fcre-weir-data
+04/13/26 14:30:02 EST -0500 | On branch fcre-weir-data
+04/13/26 14:30:02 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
