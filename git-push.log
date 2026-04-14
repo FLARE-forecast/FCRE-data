@@ -293212,3 +293212,114 @@
 04/14/26 12:10:58 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
 04/14/26 12:10:58 EST -0500 | 
 04/14/26 12:10:58 EST -0500 | nothing to commit, working tree clean
+04/14/26 12:10:58 EST -0500 | Processing: /data/mia-logs
+04/14/26 12:11:01 EST -0500 | [mia-logs 82fab47] Tue 2026-04-14 12:10:58 EST
+04/14/26 12:11:01 EST -0500 |  3 files changed, 166 insertions(+)
+04/14/26 12:11:01 EST -0500 | Found unpushed commit(s).
+04/14/26 12:13:44 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:13:44 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:13:44 EST -0500 | 
+04/14/26 12:13:44 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:13:44 EST -0500 | and the repository exists.
+04/14/26 12:13:44 EST -0500 | Failed to push commit: eb06dd8388179830b0c2a42b3ab50c7b5a072de3
+04/14/26 12:16:16 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 12:16:16 EST -0500 |  ! [rejected]        e1d5c1a2d5269ee697004abbb455a89decff8729 -> mia-logs (non-fast-forward)
+04/14/26 12:16:16 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 12:16:16 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 12:16:16 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 12:16:16 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 12:16:16 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 12:16:16 EST -0500 | Failed to push commit: e1d5c1a2d5269ee697004abbb455a89decff8729
+04/14/26 12:18:25 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:18:25 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:18:25 EST -0500 | 
+04/14/26 12:18:26 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:18:26 EST -0500 | and the repository exists.
+04/14/26 12:18:26 EST -0500 | Failed to push commit: 35f289744235305f74dc195a9bd5887a670ec93e
+04/14/26 12:20:34 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:20:34 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:20:34 EST -0500 | 
+04/14/26 12:20:34 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:20:34 EST -0500 | and the repository exists.
+04/14/26 12:20:34 EST -0500 | Failed to push commit: ca2b27de7f44865ca9918d7e39b2dd1f8af433a2
+04/14/26 12:22:49 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:22:49 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:22:49 EST -0500 | 
+04/14/26 12:22:49 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:22:49 EST -0500 | and the repository exists.
+04/14/26 12:22:49 EST -0500 | Failed to push commit: f4148a001d107db686fe89c706693b1bb15d9b91
+04/14/26 12:25:19 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:25:19 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:25:19 EST -0500 | 
+04/14/26 12:25:19 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:25:19 EST -0500 | and the repository exists.
+04/14/26 12:25:19 EST -0500 | Failed to push commit: 355dedddfe0757af5f8b3e546e99227fa5fdd8a0
+04/14/26 12:27:36 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:27:36 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:27:36 EST -0500 | 
+04/14/26 12:27:36 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:27:36 EST -0500 | and the repository exists.
+04/14/26 12:27:36 EST -0500 | Failed to push commit: c6666698b13e70b037e8d0fc9ca02f09500c7d36
+04/14/26 12:32:13 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 12:32:13 EST -0500 |  ! [rejected]        74f1e13239bd0ce43a0e12600e18f194ab81935d -> mia-logs (non-fast-forward)
+04/14/26 12:32:13 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 12:32:13 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 12:32:13 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 12:32:13 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 12:32:13 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 12:32:13 EST -0500 | Failed to push commit: 74f1e13239bd0ce43a0e12600e18f194ab81935d
+04/14/26 12:34:44 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:34:44 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:34:44 EST -0500 | 
+04/14/26 12:34:44 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:34:44 EST -0500 | and the repository exists.
+04/14/26 12:34:44 EST -0500 | Failed to push commit: 8f0cf2454456004a99b987426313aa0688ffdd4f
+04/14/26 12:37:10 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:37:10 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:37:10 EST -0500 | 
+04/14/26 12:37:10 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:37:10 EST -0500 | and the repository exists.
+04/14/26 12:37:10 EST -0500 | Failed to push commit: 48c39b1799cc64f31f1af18bf8a32eeec99ae38d
+04/14/26 12:40:01 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 12:40:01 EST -0500 |  ! [rejected]        9118be3e2ad8649e0f28e636362d356c956106d2 -> mia-logs (non-fast-forward)
+04/14/26 12:40:02 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 12:40:02 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 12:40:02 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 12:40:02 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 12:40:02 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 12:40:02 EST -0500 | Failed to push commit: 9118be3e2ad8649e0f28e636362d356c956106d2
+04/14/26 12:42:28 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:42:28 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:42:28 EST -0500 | 
+04/14/26 12:42:28 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:42:28 EST -0500 | and the repository exists.
+04/14/26 12:42:28 EST -0500 | Failed to push commit: a72a76ba6dddc1ce572e2a63a2971dd2fc8613ad
+04/14/26 12:44:47 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:44:47 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:44:47 EST -0500 | 
+04/14/26 12:44:47 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:44:47 EST -0500 | and the repository exists.
+04/14/26 12:44:47 EST -0500 | Failed to push commit: 1b1c1770373fde20b845c404ac73a6f92baa7f55
+04/14/26 12:47:02 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:47:02 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:47:02 EST -0500 | 
+04/14/26 12:47:02 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:47:02 EST -0500 | and the repository exists.
+04/14/26 12:47:02 EST -0500 | Failed to push commit: b10e1df3cd81af1a6f07ca16bc4fc34f9185f5d0
+04/14/26 12:49:21 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:49:21 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:49:21 EST -0500 | 
+04/14/26 12:49:21 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:49:21 EST -0500 | and the repository exists.
+04/14/26 12:49:21 EST -0500 | Failed to push commit: 3394bbd8a071e88562e31b4e3b09723145624f8e
+04/14/26 12:51:40 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 12:51:40 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 12:51:40 EST -0500 | 
+04/14/26 12:51:40 EST -0500 | Please make sure you have the correct access rights
+04/14/26 12:51:40 EST -0500 | and the repository exists.
+04/14/26 12:51:40 EST -0500 | Failed to push commit: 82fab476a6afd12a33cb225973748ea5958fce9c
+04/14/26 12:51:40 EST -0500 | ##########  END  ##########
+04/14/26 12:51:53 EST -0500 | ########## START ##########
+04/14/26 12:51:53 EST -0500 | Processing: /data/fcre-weir-data
+04/14/26 12:51:53 EST -0500 | On branch fcre-weir-data
+04/14/26 12:51:53 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
