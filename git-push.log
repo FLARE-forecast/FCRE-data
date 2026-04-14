@@ -293010,3 +293010,91 @@
 04/14/26 00:30:02 EST -0500 | Processing: /data/fcre-weir-data
 04/14/26 00:30:02 EST -0500 | On branch fcre-weir-data
 04/14/26 00:30:02 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+04/14/26 00:30:02 EST -0500 | 
+04/14/26 00:30:02 EST -0500 | nothing to commit, working tree clean
+04/14/26 00:30:02 EST -0500 | Processing: /data/mia-logs
+04/14/26 00:30:05 EST -0500 | [mia-logs 1b1c177] Tue 2026-04-14 00:30:02 EST
+04/14/26 00:30:05 EST -0500 |  3 files changed, 199 insertions(+)
+04/14/26 00:30:05 EST -0500 | Found unpushed commit(s).
+04/14/26 00:32:58 EST -0500 | remote: + exec        
+04/14/26 00:33:16 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 00:33:16 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 00:33:16 EST -0500 | 
+04/14/26 00:33:16 EST -0500 | Please make sure you have the correct access rights
+04/14/26 00:33:16 EST -0500 | and the repository exists.
+04/14/26 00:33:16 EST -0500 | Failed to push commit: 5420905673783cd3471c0fac26a3137bc917e798
+04/14/26 00:34:03 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:34:03 EST -0500 |    ed6bd8d..8b86b3b  8b86b3bfe2b8f7a0368acb00bc422ec3c7e2fd02 -> mia-logs
+04/14/26 00:36:16 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:36:16 EST -0500 |  ! [rejected]        8ee317619cb52b7d71feb3956982c9d93a9a0156 -> mia-logs (non-fast-forward)
+04/14/26 00:36:16 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 00:36:16 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 00:36:16 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 00:36:16 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 00:36:16 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 00:36:16 EST -0500 | Failed to push commit: 8ee317619cb52b7d71feb3956982c9d93a9a0156
+04/14/26 00:37:31 EST -0500 | remote: + exec        
+04/14/26 00:37:43 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:37:43 EST -0500 |    8b86b3b..3ea5c55  3ea5c553fec5a4b192621ef1a3eef7417c89b8b1 -> mia-logs
+04/14/26 00:39:30 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:39:30 EST -0500 |  ! [rejected]        4746acfc596bc612bf12252476737e19811fc62f -> mia-logs (non-fast-forward)
+04/14/26 00:39:30 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 00:39:30 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 00:39:30 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 00:39:30 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 00:39:30 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 00:39:30 EST -0500 | Failed to push commit: 4746acfc596bc612bf12252476737e19811fc62f
+04/14/26 00:41:24 EST -0500 | remote: + exec        
+04/14/26 00:41:39 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:41:39 EST -0500 |    3ea5c55..2873b5e  2873b5e8356c3538f3de3af06549ab55e81d8acb -> mia-logs
+04/14/26 00:42:06 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 00:42:06 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 00:42:06 EST -0500 | 
+04/14/26 00:42:06 EST -0500 | Please make sure you have the correct access rights
+04/14/26 00:42:06 EST -0500 | and the repository exists.
+04/14/26 00:42:06 EST -0500 | Failed to push commit: 0edb7f5260003f9f3223e336068006428b247f3d
+04/14/26 00:44:53 EST -0500 | remote: + exec        
+04/14/26 00:45:09 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:45:09 EST -0500 |  ! [rejected]        169b3393ea09ab9a3831793d24a64ed3e10730f9 -> mia-logs (non-fast-forward)
+04/14/26 00:45:09 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 00:45:09 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 00:45:09 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 00:45:09 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 00:45:09 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 00:45:09 EST -0500 | Failed to push commit: 169b3393ea09ab9a3831793d24a64ed3e10730f9
+04/14/26 00:47:41 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:47:41 EST -0500 |  ! [rejected]        1f7eea15bf51c7d1fc683e8fea784462277e5e3c -> mia-logs (non-fast-forward)
+04/14/26 00:47:41 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 00:47:41 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 00:47:41 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 00:47:41 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 00:47:41 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 00:47:41 EST -0500 | Failed to push commit: 1f7eea15bf51c7d1fc683e8fea784462277e5e3c
+04/14/26 00:49:47 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:49:47 EST -0500 |  ! [rejected]        8b3d3cfcca8bc19963ec32fdf65f2e139f5f4eb3 -> mia-logs (non-fast-forward)
+04/14/26 00:49:47 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 00:49:47 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 00:49:47 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 00:49:47 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 00:49:47 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 00:49:47 EST -0500 | Failed to push commit: 8b3d3cfcca8bc19963ec32fdf65f2e139f5f4eb3
+04/14/26 00:52:15 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 00:52:15 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 00:52:15 EST -0500 | 
+04/14/26 00:52:15 EST -0500 | Please make sure you have the correct access rights
+04/14/26 00:52:15 EST -0500 | and the repository exists.
+04/14/26 00:52:15 EST -0500 | Failed to push commit: 287c7637251e41ad8e364aa789d910bf6fa57300
+04/14/26 00:54:26 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 00:54:26 EST -0500 |  ! [rejected]        f571b543141069354b7d77e4db0e59512570f8e0 -> mia-logs (non-fast-forward)
+04/14/26 00:54:26 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 00:54:26 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 00:54:26 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 00:54:26 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 00:54:26 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 00:54:26 EST -0500 | Failed to push commit: f571b543141069354b7d77e4db0e59512570f8e0
+04/14/26 06:06:03 EST -0500 | ########## START ##########
+04/14/26 06:06:03 EST -0500 | Processing: /data/fcre-weir-data
+04/14/26 06:06:03 EST -0500 | On branch fcre-weir-data
+04/14/26 06:06:03 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+04/14/26 06:06:03 EST -0500 | 
+04/14/26 06:06:03 EST -0500 | nothing to commit, working tree clean
