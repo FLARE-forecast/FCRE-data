@@ -293357,3 +293357,118 @@
 04/14/26 14:30:02 EST -0500 | Processing: /data/fcre-weir-data
 04/14/26 14:30:02 EST -0500 | On branch fcre-weir-data
 04/14/26 14:30:02 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+04/14/26 14:30:02 EST -0500 | 
+04/14/26 14:30:02 EST -0500 | nothing to commit, working tree clean
+04/14/26 14:30:02 EST -0500 | Processing: /data/mia-logs
+04/14/26 14:30:05 EST -0500 | [mia-logs c3f61de] Tue 2026-04-14 14:30:02 EST
+04/14/26 14:30:05 EST -0500 |  3 files changed, 91 insertions(+)
+04/14/26 14:30:05 EST -0500 | Found unpushed commit(s).
+04/14/26 14:30:13 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/14/26 14:30:13 EST -0500 |  ! [rejected]        35f289744235305f74dc195a9bd5887a670ec93e -> mia-logs (non-fast-forward)
+04/14/26 14:30:13 EST -0500 | error: failed to push some refs to '10.10.101.1:/data/fcre-data-exp-worktree.git'
+04/14/26 14:30:13 EST -0500 | hint: Updates were rejected because the tip of your current branch is behind
+04/14/26 14:30:13 EST -0500 | hint: its remote counterpart. Integrate the remote changes (e.g.
+04/14/26 14:30:13 EST -0500 | hint: 'git pull ...') before pushing again.
+04/14/26 14:30:13 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+04/14/26 14:30:13 EST -0500 | Failed to push commit: 35f289744235305f74dc195a9bd5887a670ec93e
+04/14/26 14:33:04 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:33:04 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:33:04 EST -0500 | 
+04/14/26 14:33:04 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:33:04 EST -0500 | and the repository exists.
+04/14/26 14:33:04 EST -0500 | Failed to push commit: ca2b27de7f44865ca9918d7e39b2dd1f8af433a2
+04/14/26 14:33:06 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:33:06 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:33:06 EST -0500 | 
+04/14/26 14:33:06 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:33:06 EST -0500 | and the repository exists.
+04/14/26 14:33:06 EST -0500 | Failed to push commit: eb06dd8388179830b0c2a42b3ab50c7b5a072de3
+04/14/26 14:35:45 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:35:45 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:35:45 EST -0500 | 
+04/14/26 14:35:45 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:35:45 EST -0500 | and the repository exists.
+04/14/26 14:35:45 EST -0500 | Failed to push commit: e1d5c1a2d5269ee697004abbb455a89decff8729
+04/14/26 14:36:10 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:36:10 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:36:10 EST -0500 | 
+04/14/26 14:36:10 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:36:10 EST -0500 | and the repository exists.
+04/14/26 14:36:10 EST -0500 | Failed to push commit: f4148a001d107db686fe89c706693b1bb15d9b91
+04/14/26 14:38:24 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:38:24 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:38:24 EST -0500 | 
+04/14/26 14:38:24 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:38:24 EST -0500 | and the repository exists.
+04/14/26 14:38:24 EST -0500 | Failed to push commit: 35f289744235305f74dc195a9bd5887a670ec93e
+04/14/26 14:40:33 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:40:33 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:40:33 EST -0500 | 
+04/14/26 14:40:33 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:40:33 EST -0500 | and the repository exists.
+04/14/26 14:40:33 EST -0500 | Failed to push commit: 355dedddfe0757af5f8b3e546e99227fa5fdd8a0
+04/14/26 14:41:04 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:41:04 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:41:04 EST -0500 | 
+04/14/26 14:41:04 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:41:04 EST -0500 | and the repository exists.
+04/14/26 14:41:04 EST -0500 | Failed to push commit: ca2b27de7f44865ca9918d7e39b2dd1f8af433a2
+04/14/26 14:43:37 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:43:37 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:43:37 EST -0500 | 
+04/14/26 14:43:37 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:43:37 EST -0500 | and the repository exists.
+04/14/26 14:43:37 EST -0500 | Failed to push commit: c6666698b13e70b037e8d0fc9ca02f09500c7d36
+04/14/26 14:43:57 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:43:57 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:43:57 EST -0500 | 
+04/14/26 14:43:57 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:43:57 EST -0500 | and the repository exists.
+04/14/26 14:43:57 EST -0500 | Failed to push commit: f4148a001d107db686fe89c706693b1bb15d9b91
+04/14/26 14:46:29 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:46:29 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:46:29 EST -0500 | 
+04/14/26 14:46:29 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:46:29 EST -0500 | and the repository exists.
+04/14/26 14:46:29 EST -0500 | Failed to push commit: 74f1e13239bd0ce43a0e12600e18f194ab81935d
+04/14/26 14:46:51 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:46:51 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:46:51 EST -0500 | 
+04/14/26 14:46:51 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:46:51 EST -0500 | and the repository exists.
+04/14/26 14:46:51 EST -0500 | Failed to push commit: 355dedddfe0757af5f8b3e546e99227fa5fdd8a0
+04/14/26 14:49:26 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:49:26 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:49:26 EST -0500 | 
+04/14/26 14:49:26 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:49:26 EST -0500 | and the repository exists.
+04/14/26 14:49:26 EST -0500 | Failed to push commit: 8f0cf2454456004a99b987426313aa0688ffdd4f
+04/14/26 14:50:14 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:50:14 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:50:14 EST -0500 | 
+04/14/26 14:50:14 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:50:14 EST -0500 | and the repository exists.
+04/14/26 14:50:14 EST -0500 | Failed to push commit: c6666698b13e70b037e8d0fc9ca02f09500c7d36
+04/14/26 14:51:48 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:51:48 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:51:48 EST -0500 | 
+04/14/26 14:51:48 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:51:48 EST -0500 | and the repository exists.
+04/14/26 14:51:48 EST -0500 | Failed to push commit: 48c39b1799cc64f31f1af18bf8a32eeec99ae38d
+04/14/26 14:52:57 EST -0500 | Connection reset by 10.10.101.1 port 22
+04/14/26 14:52:57 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:52:57 EST -0500 | 
+04/14/26 14:52:57 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:52:57 EST -0500 | and the repository exists.
+04/14/26 14:52:57 EST -0500 | Failed to push commit: 74f1e13239bd0ce43a0e12600e18f194ab81935d
+04/14/26 14:54:18 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/14/26 14:54:18 EST -0500 | fatal: Could not read from remote repository.
+04/14/26 14:54:18 EST -0500 | 
+04/14/26 14:54:18 EST -0500 | Please make sure you have the correct access rights
+04/14/26 14:54:18 EST -0500 | and the repository exists.
+04/14/26 14:54:18 EST -0500 | Failed to push commit: 9118be3e2ad8649e0f28e636362d356c956106d2
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    04/14/26 20:10:59 EST -0500 | ########## START ##########
+04/14/26 20:10:59 EST -0500 | Processing: /data/fcre-weir-data
+04/14/26 20:10:59 EST -0500 | On branch fcre-weir-data
+04/14/26 20:10:59 EST -0500 | Your branch is up to date with 'origin/fcre-weir-data'.
+04/14/26 20:10:59 EST -0500 | 
