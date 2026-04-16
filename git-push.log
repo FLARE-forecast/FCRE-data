@@ -294409,3 +294409,60 @@
 04/16/26 10:13:28 EST -0500 | Connection closed by 10.10.101.1 port 22
 04/16/26 10:13:28 EST -0500 | fatal: Could not read from remote repository.
 04/16/26 10:13:28 EST -0500 | 
+04/16/26 10:13:28 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:13:28 EST -0500 | and the repository exists.
+04/16/26 10:13:28 EST -0500 | Failed to push commit: 26edf2f217ee110baeaa14933af7404f8cba83c3
+04/16/26 10:13:28 EST -0500 | Processing: /data/mia-logs
+04/16/26 10:13:31 EST -0500 | [mia-logs e218d02] Thu 2026-04-16 10:13:28 EST
+04/16/26 10:13:31 EST -0500 |  3 files changed, 141 insertions(+)
+04/16/26 10:13:31 EST -0500 | Found unpushed commit(s).
+04/16/26 10:15:42 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/16/26 10:15:42 EST -0500 | fatal: Could not read from remote repository.
+04/16/26 10:15:42 EST -0500 | 
+04/16/26 10:15:42 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:15:42 EST -0500 | and the repository exists.
+04/16/26 10:15:42 EST -0500 | Failed to push commit: b673963469ed32ce5131ecd92112ec8025c9b261
+04/16/26 10:19:35 EST -0500 | remote: + exec        
+04/16/26 10:19:42 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/16/26 10:19:42 EST -0500 |    454c2d3..2abed74  2abed74c7e77378c4f21296b2e02fa2e563d6a4a -> mia-logs
+04/16/26 10:22:11 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/16/26 10:22:11 EST -0500 | fatal: Could not read from remote repository.
+04/16/26 10:22:11 EST -0500 | 
+04/16/26 10:22:11 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:22:11 EST -0500 | and the repository exists.
+04/16/26 10:22:11 EST -0500 | Failed to push commit: aeda7f4742118ea2fd73830c0addaa5f33dd81c7
+04/16/26 10:24:56 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/16/26 10:24:56 EST -0500 | fatal: Could not read from remote repository.
+04/16/26 10:24:56 EST -0500 | 
+04/16/26 10:24:56 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:24:56 EST -0500 | and the repository exists.
+04/16/26 10:24:56 EST -0500 | Failed to push commit: 079e633fd88714bfaed22998185dcdf9276dabd0
+04/16/26 10:27:13 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/16/26 10:27:13 EST -0500 | fatal: Could not read from remote repository.
+04/16/26 10:27:13 EST -0500 | 
+04/16/26 10:27:13 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:27:13 EST -0500 | and the repository exists.
+04/16/26 10:27:13 EST -0500 | Failed to push commit: a371613bf2a3782e8e2e8436f7bc18599e6ca5cd
+04/16/26 10:29:45 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/16/26 10:29:45 EST -0500 | fatal: Could not read from remote repository.
+04/16/26 10:29:45 EST -0500 | 
+04/16/26 10:29:45 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:29:45 EST -0500 | and the repository exists.
+04/16/26 10:29:45 EST -0500 | Failed to push commit: acdab83d8cb0e16fb794ef28df58eca0a76583f9
+04/16/26 10:32:06 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/16/26 10:32:06 EST -0500 | fatal: Could not read from remote repository.
+04/16/26 10:32:06 EST -0500 | 
+04/16/26 10:32:06 EST -0500 | Please make sure you have the correct access rights
+04/16/26 10:32:06 EST -0500 | and the repository exists.
+04/16/26 10:32:06 EST -0500 | Failed to push commit: e218d022d1d55a7eacea2d4fa49656f582938389
+04/16/26 10:32:06 EST -0500 | ##########  END  ##########
+04/16/26 10:32:14 EST -0500 | ########## START ##########
+04/16/26 10:32:14 EST -0500 | Processing: /data/fcre-weir-data
+04/16/26 10:32:14 EST -0500 | On branch fcre-weir-data
+04/16/26 10:32:14 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 1 commit.
+04/16/26 10:32:14 EST -0500 |   (use "git push" to publish your local commits)
+04/16/26 10:32:14 EST -0500 | 
+04/16/26 10:32:14 EST -0500 | nothing to commit, working tree clean
+04/16/26 10:32:14 EST -0500 | Found unpushed commit(s).
+04/16/26 10:34:38 EST -0500 | remote: + exec        
+04/16/26 10:34:44 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
