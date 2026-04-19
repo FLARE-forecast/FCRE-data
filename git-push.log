@@ -296227,3 +296227,48 @@
 04/19/26 12:19:39 EST -0500 | Connection closed by 10.10.101.1 port 22
 04/19/26 12:19:39 EST -0500 | fatal: Could not read from remote repository.
 04/19/26 12:19:39 EST -0500 | 
+04/19/26 12:19:39 EST -0500 | Please make sure you have the correct access rights
+04/19/26 12:19:39 EST -0500 | and the repository exists.
+04/19/26 12:19:39 EST -0500 | Failed to push commit: b05f1e024434d5000f80517602ee314ecc208306
+04/19/26 12:19:39 EST -0500 | Processing: /data/mia-logs
+04/19/26 12:19:42 EST -0500 | [mia-logs 046ee54] Sun 2026-04-19 12:19:39 EST
+04/19/26 12:19:42 EST -0500 |  3 files changed, 162 insertions(+)
+04/19/26 12:19:42 EST -0500 | Found unpushed commit(s).
+04/19/26 12:23:01 EST -0500 | remote: + exec        
+04/19/26 12:23:07 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:23:07 EST -0500 |    72c20dc..b0150fa  b0150fa94bebbac9c4563fadc6afe868af150d5c -> mia-logs
+04/19/26 12:25:28 EST -0500 | remote: + exec        
+04/19/26 12:25:38 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:25:38 EST -0500 |    b0150fa..62d6944  62d6944db772a57050210c63a17b33d1055087e3 -> mia-logs
+04/19/26 12:26:40 EST -0500 | remote: + exec        
+04/19/26 12:26:43 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:26:43 EST -0500 |    62d6944..c7b8648  c7b864876b73c98efef555a0b00541840daf090f -> mia-logs
+04/19/26 12:27:57 EST -0500 | remote: + exec        
+04/19/26 12:28:07 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:28:07 EST -0500 |    c7b8648..b155e09  b155e094b651629faf037b43dbbcc20edb2f2b75 -> mia-logs
+04/19/26 12:29:48 EST -0500 | remote: + exec        
+04/19/26 12:29:58 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:29:58 EST -0500 |    b155e09..95d38df  95d38df490f8a286beb414f344ce4992365afae7 -> mia-logs
+04/19/26 12:31:30 EST -0500 | remote: + exec        
+04/19/26 12:31:41 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:31:41 EST -0500 |    95d38df..046ee54  046ee54b3d820edbcd452f34dad43701b474d1d8 -> mia-logs
+04/19/26 12:31:41 EST -0500 | ##########  END  ##########
+04/19/26 12:31:55 EST -0500 | ########## START ##########
+04/19/26 12:31:55 EST -0500 | Processing: /data/fcre-weir-data
+04/19/26 12:31:55 EST -0500 | On branch fcre-weir-data
+04/19/26 12:31:55 EST -0500 | Your branch is ahead of 'origin/fcre-weir-data' by 4 commits.
+04/19/26 12:31:55 EST -0500 |   (use "git push" to publish your local commits)
+04/19/26 12:31:55 EST -0500 | 
+04/19/26 12:31:55 EST -0500 | nothing to commit, working tree clean
+04/19/26 12:31:55 EST -0500 | Found unpushed commit(s).
+04/19/26 12:32:50 EST -0500 | remote: + exec        
+04/19/26 12:33:16 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:33:16 EST -0500 |    e063baa..cf99d14  cf99d14952938a812e9bac19d8f23d423dac2ec7 -> fcre-weir-data
+04/19/26 12:34:08 EST -0500 | remote: + exec        
+04/19/26 12:34:11 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:34:11 EST -0500 |    cf99d14..4d64648  4d646482d09798cbb913dfd2fabe764e46ee7596 -> fcre-weir-data
+04/19/26 12:35:23 EST -0500 | remote: + exec        
+04/19/26 12:35:25 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
+04/19/26 12:35:25 EST -0500 |    4d64648..6af746d  6af746d87940b866d68892dda4b82441abb4935e -> fcre-weir-data
+04/19/26 12:36:18 EST -0500 | remote: + exec        
+04/19/26 12:36:21 EST -0500 | To 10.10.101.1:/data/fcre-data-exp-worktree.git
