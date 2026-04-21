@@ -296978,3 +296978,57 @@
 04/20/26 14:43:00 EST -0500 | and the repository exists.
 04/20/26 14:43:00 EST -0500 | Failed to push commit: 7483b73b6fee2c84a4212ef51e3e8cfd74583e16
 04/20/26 14:45:11 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/20/26 14:45:11 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 14:45:11 EST -0500 | 
+04/20/26 14:45:11 EST -0500 | Please make sure you have the correct access rights
+04/20/26 14:45:11 EST -0500 | and the repository exists.
+04/20/26 14:45:11 EST -0500 | Failed to push commit: ed502c721af3d6a19bacbca4bdadcdafac4ac790
+04/20/26 14:45:11 EST -0500 | Processing: /data/mia-logs
+04/20/26 14:45:12 EST -0500 | [mia-logs de94e50] Mon 2026-04-20 14:45:11 EST
+04/20/26 14:45:12 EST -0500 |  1 file changed, 43 insertions(+)
+04/20/26 14:45:12 EST -0500 | Found unpushed commit(s).
+04/20/26 14:45:14 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/20/26 14:45:14 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 14:45:14 EST -0500 | 
+04/20/26 14:45:14 EST -0500 | Please make sure you have the correct access rights
+04/20/26 14:45:14 EST -0500 | and the repository exists.
+04/20/26 14:45:14 EST -0500 | Failed to push commit: 596d5931db7f9de4399746638560cdfa9edff6fa
+04/20/26 14:48:51 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/20/26 14:48:51 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 14:48:51 EST -0500 | 
+04/20/26 14:48:51 EST -0500 | Please make sure you have the correct access rights
+04/20/26 14:48:51 EST -0500 | and the repository exists.
+04/20/26 14:48:51 EST -0500 | Failed to push commit: 42cf3aade6efb109b31f0e22a5f896e0a33aa9f9
+04/20/26 14:49:23 EST -0500 | Connection reset by 10.10.101.1 port 22
+04/20/26 14:49:23 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 14:49:23 EST -0500 | 
+04/20/26 14:49:23 EST -0500 | Please make sure you have the correct access rights
+04/20/26 14:49:23 EST -0500 | and the repository exists.
+04/20/26 14:49:23 EST -0500 | Failed to push commit: 3326fc205b6039aecfb77bc4f042ba37a870d1d7
+04/20/26 14:49:23 EST -0500 | ##########  END  ##########
+04/20/26 14:51:41 EST -0500 | Connection reset by 10.10.101.1 port 22
+04/20/26 14:51:41 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 14:51:41 EST -0500 | 
+04/20/26 14:51:41 EST -0500 | Please make sure you have the correct access rights
+04/20/26 14:51:41 EST -0500 | and the repository exists.
+04/20/26 14:51:41 EST -0500 | Failed to push commit: 7483b73b6fee2c84a4212ef51e3e8cfd74583e16
+04/20/26 14:54:12 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/20/26 14:54:12 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 14:54:12 EST -0500 | 
+04/20/26 14:54:12 EST -0500 | Please make sure you have the correct access rights
+04/20/26 14:54:12 EST -0500 | and the repository exists.
+04/20/26 14:54:12 EST -0500 | Failed to push commit: 596d5931db7f9de4399746638560cdfa9edff6fa
+04/20/26 20:11:03 EST -0500 | ########## START ##########
+04/20/26 20:11:03 EST -0500 | Processing: /data/fcre-weir-data
+04/20/26 20:11:04 EST -0500 | [fcre-weir-data 10b75df] Mon 2026-04-20 20:11:03 EST
+04/20/26 20:11:04 EST -0500 |  1 file changed, 24 insertions(+)
+04/20/26 20:11:04 EST -0500 | Found unpushed commit(s).
+04/20/26 20:13:28 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/20/26 20:13:28 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 20:13:28 EST -0500 | 
+04/20/26 20:13:28 EST -0500 | Please make sure you have the correct access rights
+04/20/26 20:13:28 EST -0500 | and the repository exists.
+04/20/26 20:13:28 EST -0500 | Failed to push commit: ed502c721af3d6a19bacbca4bdadcdafac4ac790
+04/20/26 20:16:20 EST -0500 | Connection closed by 10.10.101.1 port 22
+04/20/26 20:16:20 EST -0500 | fatal: Could not read from remote repository.
+04/20/26 20:16:20 EST -0500 | 
