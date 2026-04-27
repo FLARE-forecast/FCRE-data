@@ -15,8 +15,8 @@ jobs:
     # The type of runner that the job will run on
   #  runs-on: self-hosted
     runs-on: ubuntu-latest
-    #env:
-     # GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     container:
       image: rocker/tidyverse:4.2
    # steps:
@@ -36,32 +36,35 @@ jobs:
         with:
           ref: wvwa-generate-graphs
           fetch-depth: 1
-
-      - name: Set Up R
-        uses: r-lib/actions/setup-r@v2
-        
-      - name: Create ~/rlib directory
-        run: mkdir -p ~/rlib
-
-      - name: Install packages to ~/rlib
-        run: |
-          rm -rf ~/rlib/00LOCK-*
-          Rscript -e '
-            .libPaths("~/rlib")
-            packages <- c("lubridate", "pacman", "gridExtra", "openair", "ggplot2", "tidyverse", "colorRamps", "purrr", "textshaping", "vroom", "haven", "ragg", "readr", "rvest", "xml2")
-            install_if_missing <- function(pkg) {
-              if (!require(pkg, character.only = TRUE))
-                install.packages(pkg, lib = "~/rlib", repos = "https://cloud.r-project.org")
-            }
-            invisible(lapply(packages, install_if_missing))
-          '
-        env:
-          R_LIBS: ~/rlib
           
-      - name: Run R Script
-        run: Rscript wvwa-generate-graphs.R
-        env:
-          R_LIBS: ~/rlib
+      - name: Run automated target files
+        run: |
+          R -e 'remotes::install_version("pacman", version = "0.5.1")'
+          R -e 'utils::install.packages("RCurl")'
+          Rscript $GITHUB_WORKSPACE/wvwa-generate-graphs.R
+
+     # - name: Set Up R
+     #   uses: r-lib/actions/setup-r@v2
+        
+    #  - name: Create ~/rlib directory
+     #   run: mkdir -p ~/rlib
+
+   #   - name: Install packages to ~/rlib
+       # run: |
+         # rm -rf ~/rlib/00LOCK-*
+        #  Rscript -e '
+         #   .libPaths("~/rlib")
+         #   packages <- c("lubridate", "pacman", "gridExtra", "openair", "ggplot2", "tidyverse", "colorRamps", "purrr", "textshaping", "vroom", "haven", "ragg", "readr", "rvest", "xml2")
+         #   install_if_missing <- function(pkg) {
+         #     if (!require(pkg, character.only = TRUE))
+         #       install.packages(pkg, lib = "~/rlib", repos = "https://cloud.r-project.org")
+         #   }
+         #   invisible(lapply(packages, install_if_missing))
+         # '
+       # env:
+         # R_LIBS: ~/rlib
+          
+       
           
       # Commit files ,and push
       - name: Commit files
