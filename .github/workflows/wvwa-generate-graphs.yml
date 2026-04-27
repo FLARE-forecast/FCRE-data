@@ -41,7 +41,7 @@ jobs:
           rm -rf ~/rlib/00LOCK-*
           Rscript -e '
             .libPaths("~/rlib")
-            packages <- c("pacman", "gridExtra", "readr", "dplyr")
+            packages <- c("pacman", "gridExtra", "dplyr")
             install_if_missing <- function(pkg) {
               if (!require(pkg, character.only = TRUE))
                 install.packages(pkg, lib = "~/rlib", repos = "https://cloud.r-project.org")
