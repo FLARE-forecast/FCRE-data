@@ -13,7 +13,14 @@ on:
 jobs: 
   generate-graphs:
     # The type of runner that the job will run on
-    runs-on: self-hosted
+  #  runs-on: self-hosted
+    runs-on: ubuntu-latest
+    #env:
+     # GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    container:
+      image: rocker/tidyverse:4.2
+   # steps:
+   # - run: git config --system --add safe.directory '*'
 
     # # Specify retry settings with delays
     # strategy:
