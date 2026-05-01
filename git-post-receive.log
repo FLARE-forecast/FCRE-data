@@ -65116,3 +65116,46 @@ To github.com:FLARE-forecast/FCRE-data.git
 [post-receive] Sync complete for fcre-weir-data.
 + exec
 + read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/mia-logs =~ ^refs/heads/ ]]
++ branch=mia-logs
++ echo '[post-receive] Processing branch: mia-logs'
+[post-receive] Processing branch: mia-logs
++ WORKDIR=/data/mia-logs
++ LOCKFILE=/tmp/git-post-receive-mia-logs.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for mia-logs'
+[post-receive] Acquired lock for mia-logs
++ '[' '!' -d /data/mia-logs/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/mia-logs
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout mia-logs
+Already on 'mia-logs'
+Your branch is up to date with 'origin/mia-logs'.
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   574c8bb..3c66da0  mia-logs       -> origin/mia-logs
+   75f17e2..eb8d16d  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/mia-logs
+HEAD is now at 3c66da0 Thu 2026-04-30 14:52:15 EST
++ git fetch github mia-logs
+From github.com:FLARE-forecast/FCRE-data
+ * branch            mia-logs   -> FETCH_HEAD
++ echo '[post-receive] Merging GitHub changes...'
+[post-receive] Merging GitHub changes...
++ git merge github/mia-logs -m 'Auto-merge GitHub config updates' -Xours --no-edit
+Already up to date.
++ git push github mia-logs
+To github.com:FLARE-forecast/FCRE-data.git
+   574c8bb..3c66da0  mia-logs -> mia-logs
++ echo '[post-receive] Sync complete for mia-logs.'
+[post-receive] Sync complete for mia-logs.
++ exec
++ read oldrev newrev refname
