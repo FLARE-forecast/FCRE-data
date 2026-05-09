@@ -68440,3 +68440,22 @@ To github.com:FLARE-forecast/FCRE-data.git
 Already on 'mia-logs'
 Your branch is up to date with 'origin/mia-logs'.
 + git fetch origin
+From /data/fcre-data-exp-worktree
+   2c2b542..3293ea3  mia-logs       -> origin/mia-logs
+   8cd2bfc..ec60d86  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/mia-logs
+HEAD is now at 3293ea3 Fri 2026-05-08 00:45:03 EST
++ git fetch github mia-logs
+From github.com:FLARE-forecast/FCRE-data
+ * branch            mia-logs   -> FETCH_HEAD
++ echo '[post-receive] Merging GitHub changes...'
+[post-receive] Merging GitHub changes...
++ git merge github/mia-logs -m 'Auto-merge GitHub config updates' -Xours --no-edit
+Already up to date.
++ git push github mia-logs
+To github.com:FLARE-forecast/FCRE-data.git
+   2c2b542..3293ea3  mia-logs -> mia-logs
++ echo '[post-receive] Sync complete for mia-logs.'
+[post-receive] Sync complete for mia-logs.
++ exec
++ read oldrev newrev refname
