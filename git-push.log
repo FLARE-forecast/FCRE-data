@@ -205363,3 +205363,23 @@ Completed at 08/17/23 18:39:21 EST
 05/10/26 13:30:39 EDT -0400 | ssh: connect to host github.com port 22: Network is unreachable
 05/10/26 13:30:39 EDT -0400 | fatal: Could not read from remote repository.
 05/10/26 13:30:39 EDT -0400 | 
+05/10/26 13:30:39 EDT -0400 | Please make sure you have the correct access rights
+05/10/26 13:30:39 EDT -0400 | and the repository exists.
+05/10/26 13:30:39 EDT -0400 | Processing: /data/henrietta-logs
+05/10/26 13:30:41 EDT -0400 | [henrietta-logs 087a04f] Sun 2026-05-10 13:30:39 EDT
+05/10/26 13:30:41 EDT -0400 |  3 files changed, 143 insertions(+)
+05/10/26 13:30:44 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+05/10/26 13:30:44 EDT -0400 |    b749bd5..087a04f  087a04fdc13442e6af6483f812e6555b6f7313c4 -> henrietta-logs
+05/10/26 13:30:44 EDT -0400 | Processing: /data/fcre-eddyflux-data
+05/10/26 13:30:44 EDT -0400 | On branch fcre-eddyflux-data
+05/10/26 13:30:44 EDT -0400 | Your branch is up to date with 'origin/fcre-eddyflux-data'.
+05/10/26 13:30:44 EDT -0400 | 
+05/10/26 13:30:44 EDT -0400 | nothing to commit, working tree clean
+05/10/26 13:30:44 EDT -0400 | ##########  END  ##########
+05/10/26 13:30:59 EDT -0400 | ########## START ##########
+05/10/26 13:30:59 EDT -0400 | Processing: /data/fcre-catwalk-data
+05/10/26 13:30:59 EDT -0400 | [fcre-catwalk-data 159f411] Sun 2026-05-10 13:30:59 EDT
+05/10/26 13:30:59 EDT -0400 |  2 files changed, 2 insertions(+)
+05/10/26 13:31:02 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
+05/10/26 13:31:02 EDT -0400 |    4b4b5d8..37cf2b7  37cf2b7291c50169e68d00dc921c9de52704841a -> fcre-catwalk-data
+05/10/26 13:31:04 EDT -0400 | To github.com:FLARE-forecast/FCRE-data.git
