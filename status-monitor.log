@@ -52413,3 +52413,86 @@
 05/25/26 14:25:15 EDT -0400 | ping: github.com: Temporary failure in name resolution
 05/25/26 14:25:15 EDT -0400 | ping: connect: Network is unreachable
 05/25/26 14:25:15 EDT -0400 | ##########  END  ##########
+05/25/26 20:25:02 EDT -0400 | ########## START ##########
+05/25/26 20:25:02 EDT -0400 |  20:25:02 up  6:58,  0 users,  load average: 0.03, 0.18, 0.27
+05/25/26 20:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Mon May 25 13:26   still running
+05/25/26 20:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Mon May 25 01:40   still running
+05/25/26 20:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sun May 24 13:26 - 00:10  (10:43)
+05/25/26 20:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sun May 24 01:40 - 00:10  (22:29)
+05/25/26 20:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sat May 23 13:26 - 00:10  (10:43)
+05/25/26 20:25:02 EDT -0400 | Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+05/25/26 20:25:02 EDT -0400 | Bus 001 Device 004: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub
+05/25/26 20:25:02 EDT -0400 | Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+05/25/26 20:25:02 EDT -0400 | Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+05/25/26 20:25:02 EDT -0400 | [    3.801922] rndis_host 1-6:1.0 enx0015ff080733: renamed from eth0
+05/25/26 20:25:02 EDT -0400 | [    5.456724] rndis_host 1-6:1.0 enx0015ff080733: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+05/25/26 20:25:02 EDT -0400 | [    6.393673] cdc_ether 1-6:1.0 enx0015ff080733: renamed from eth0
+05/25/26 20:25:02 EDT -0400 | [  176.834470] cdc_ether 1-6:1.0 enx0015ff080733: unregister 'cdc_ether' usb-0000:00:15.0-6, CDC Ethernet Device
+05/25/26 20:25:02 EDT -0400 | [   75.448842] systemd-journald[24]: Received client request to flush runtime journal.
+05/25/26 20:25:02 EDT -0400 | [   83.444707] device ovs-system entered promiscuous mode
+05/25/26 20:25:02 EDT -0400 | [   83.448252] Timeout policy base is empty
+05/25/26 20:25:02 EDT -0400 | [   83.448264] Failed to associated timeout policy `ovs_test_tp'
+05/25/26 20:25:02 EDT -0400 | [   83.517542] device eviCIBR6 entered promiscuous mode
+05/25/26 20:25:02 EDT -0400 | [   83.554149] device appCIBR6 entered promiscuous mode
+05/25/26 20:25:02 EDT -0400 | [  176.834217] usb 1-6: USB disconnect, device number 5
+05/25/26 20:25:02 EDT -0400 | [  176.834470] cdc_ether 1-6:1.0 enx0015ff080733: unregister 'cdc_ether' usb-0000:00:15.0-6, CDC Ethernet Device
+05/25/26 20:25:02 EDT -0400 | [  176.856109] option1 ttyUSB1: GSM modem (1-port) converter now disconnected from ttyUSB1
+05/25/26 20:25:02 EDT -0400 | [  176.856142] option 1-6:1.2: device disconnected
+05/25/26 20:25:02 EDT -0400 | Filesystem                         Size  Used Avail Use% Mounted on
+05/25/26 20:25:02 EDT -0400 | tmpfs                              374M  1.6M  372M   1% /run
+05/25/26 20:25:02 EDT -0400 | /dev/mapper/ubuntu--vg-ubuntu--lv   27G   14G   12G  56% /
+05/25/26 20:25:02 EDT -0400 | tmpfs                              1.9G     0  1.9G   0% /dev/shm
+05/25/26 20:25:02 EDT -0400 | tmpfs                              5.0M     0  5.0M   0% /run/lock
+05/25/26 20:25:02 EDT -0400 | /dev/sda1                           59G  5.8G   50G  11% /data
+05/25/26 20:25:02 EDT -0400 | /dev/mmcblk0p2                     2.0G  253M  1.6G  14% /boot
+05/25/26 20:25:02 EDT -0400 | /dev/mmcblk0p1                     1.1G  6.1M  1.1G   1% /boot/efi
+05/25/26 20:25:02 EDT -0400 | 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+05/25/26 20:25:02 EDT -0400 |     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+05/25/26 20:25:02 EDT -0400 |     inet 127.0.0.1/8 scope host lo
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 |     inet6 ::1/128 scope host 
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 | 2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+05/25/26 20:25:02 EDT -0400 |     link/ether 00:01:c0:2a:9e:51 brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 | 3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+05/25/26 20:25:02 EDT -0400 |     link/ether 00:01:c0:2a:9d:3c brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 |     altname enp2s0
+05/25/26 20:25:02 EDT -0400 |     inet 10.10.1.2/24 brd 10.10.1.255 scope global eno1
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 |     inet6 fe80::201:c0ff:fe2a:9d3c/64 scope link 
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 | 6: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+05/25/26 20:25:02 EDT -0400 |     link/ether 02:42:0c:af:39:42 brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 |     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 | 9: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+05/25/26 20:25:02 EDT -0400 |     link/ether 92:c5:0e:a3:a8:e3 brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 | 10: eviCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1410 qdisc noqueue state UNKNOWN group default qlen 1000
+05/25/26 20:25:02 EDT -0400 |     link/ether 0e:b6:38:73:d5:49 brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 | 11: appCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1350 qdisc noqueue state UNKNOWN group default qlen 1000
+05/25/26 20:25:02 EDT -0400 |     link/ether ae:24:81:57:82:40 brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 |     inet 10.10.100.11/24 scope global appCIBR6
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 | 24: tnc0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 400 qdisc tbf state UNKNOWN group default qlen 10
+05/25/26 20:25:02 EDT -0400 |     link/ether 86:f5:4e:cd:bb:18 brd ff:ff:ff:ff:ff:ff
+05/25/26 20:25:02 EDT -0400 |     inet 10.10.101.3/24 brd 10.10.101.255 scope global tnc0
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 | 25: nebula1: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1300 qdisc fq_codel state UNKNOWN group default qlen 500
+05/25/26 20:25:02 EDT -0400 |     link/none 
+05/25/26 20:25:02 EDT -0400 |     inet 10.10.200.11/24 scope global nebula1
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 |     inet6 fe80::35b7:3648:1bd5:9835/64 scope link stable-privacy 
+05/25/26 20:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306141] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 305 bytes, 102.21Kbyte/sec
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306144] CONNECT: Client "::ffff:10.10.1.1"
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306143] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306146] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/fcre-waterquality.csv", 305 bytes, 94.98Kbyte/sec
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306154] CONNECT: Client "::ffff:10.10.1.1"
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306153] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306155] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/EXO_Chla_overlap.csv", 64 bytes, 34.38Kbyte/sec
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:43 2026 [pid 306160] CONNECT: Client "::ffff:10.10.1.1"
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:44 2026 [pid 306159] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/25/26 20:25:02 EDT -0400 | Mon May 25 20:20:44 2026 [pid 306162] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/EXO_Chla_overlap.csv", 64 bytes, 33.39Kbyte/sec
+05/25/26 20:25:14 EDT -0400 | ping: github.com: Temporary failure in name resolution
+05/25/26 20:25:14 EDT -0400 | ping: connect: Network is unreachable
+05/25/26 20:25:14 EDT -0400 | ##########  END  ##########
