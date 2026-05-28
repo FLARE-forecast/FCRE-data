@@ -53436,3 +53436,74 @@
 05/28/26 08:25:14 EDT -0400 | ping: github.com: Temporary failure in name resolution
 05/28/26 08:25:14 EDT -0400 | ping: connect: Network is unreachable
 05/28/26 08:25:14 EDT -0400 | ##########  END  ##########
+05/28/26 13:28:21 EDT -0400 | ########## START ##########
+05/28/26 13:28:28 EDT -0400 |  13:28:28 up 1 min,  0 users,  load average: 6.63, 2.44, 0.90
+05/28/26 13:28:30 EDT -0400 | reboot   system boot  5.15.0-75-generi Thu May 28 13:26   still running
+05/28/26 13:28:30 EDT -0400 | reboot   system boot  5.15.0-75-generi Thu May 28 01:40   still running
+05/28/26 13:28:30 EDT -0400 | reboot   system boot  5.15.0-75-generi Wed May 27 13:26 - 00:10  (10:43)
+05/28/26 13:28:30 EDT -0400 | reboot   system boot  5.15.0-75-generi Wed May 27 01:40 - 00:10  (22:29)
+05/28/26 13:28:30 EDT -0400 | reboot   system boot  5.15.0-75-generi Tue May 26 13:26 - 00:10  (10:43)
+05/28/26 13:28:30 EDT -0400 | Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+05/28/26 13:28:30 EDT -0400 | Bus 001 Device 003: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub
+05/28/26 13:28:30 EDT -0400 | Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+05/28/26 13:28:30 EDT -0400 | Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+05/28/26 13:28:30 EDT -0400 | [   11.798911] audit: type=1400 audit(1779989203.803:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/26865/usr/lib/snapd/snap-confine" pid=629 comm="apparmor_parser"
+05/28/26 13:28:30 EDT -0400 | [   14.760110] igb 0000:02:00.0 eno1: igb: eno1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+05/28/26 13:28:30 EDT -0400 | [   14.867686] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+05/28/26 13:28:30 EDT -0400 | [   19.969091] loop4: detected capacity change from 0 to 8
+05/28/26 13:28:30 EDT -0400 | [   20.323746] kauditd_printk_skb: 2 callbacks suppressed
+05/28/26 13:28:30 EDT -0400 | [   20.323753] audit: type=1400 audit(1779989212.331:14): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1696 comm="apparmor_parser"
+05/28/26 13:28:30 EDT -0400 | [   54.763807] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+05/28/26 13:28:30 EDT -0400 | [   54.768966] Bridge firewalling registered
+05/28/26 13:28:30 EDT -0400 | [   55.035196] Initializing XFRM netlink socket
+05/28/26 13:28:30 EDT -0400 | [   93.810490] systemd-journald[23]: Received client request to flush runtime journal.
+05/28/26 13:28:30 EDT -0400 | Filesystem                         Size  Used Avail Use% Mounted on
+05/28/26 13:28:30 EDT -0400 | tmpfs                              374M  1.6M  372M   1% /run
+05/28/26 13:28:30 EDT -0400 | /dev/mapper/ubuntu--vg-ubuntu--lv   27G   14G   12G  56% /
+05/28/26 13:28:30 EDT -0400 | tmpfs                              1.9G     0  1.9G   0% /dev/shm
+05/28/26 13:28:30 EDT -0400 | tmpfs                              5.0M     0  5.0M   0% /run/lock
+05/28/26 13:28:30 EDT -0400 | /dev/mmcblk0p2                     2.0G  253M  1.6G  14% /boot
+05/28/26 13:28:30 EDT -0400 | /dev/mmcblk0p1                     1.1G  6.1M  1.1G   1% /boot/efi
+05/28/26 13:28:30 EDT -0400 | /dev/sda1                           59G  5.9G   50G  11% /data
+05/28/26 13:28:30 EDT -0400 | 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+05/28/26 13:28:30 EDT -0400 |     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+05/28/26 13:28:30 EDT -0400 |     inet 127.0.0.1/8 scope host lo
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 |     inet6 ::1/128 scope host 
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 | 2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+05/28/26 13:28:30 EDT -0400 |     link/ether 00:01:c0:2a:9e:51 brd ff:ff:ff:ff:ff:ff
+05/28/26 13:28:30 EDT -0400 | 3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+05/28/26 13:28:30 EDT -0400 |     link/ether 00:01:c0:2a:9d:3c brd ff:ff:ff:ff:ff:ff
+05/28/26 13:28:30 EDT -0400 |     altname enp2s0
+05/28/26 13:28:30 EDT -0400 |     inet 10.10.1.2/24 brd 10.10.1.255 scope global eno1
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 |     inet6 fe80::201:c0ff:fe2a:9d3c/64 scope link 
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 | 4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+05/28/26 13:28:30 EDT -0400 |     link/ether 02:42:28:8b:c9:14 brd ff:ff:ff:ff:ff:ff
+05/28/26 13:28:30 EDT -0400 |     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 | 5: tnc0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 400 qdisc tbf state UNKNOWN group default qlen 10
+05/28/26 13:28:30 EDT -0400 |     link/ether 86:f5:4e:cd:bb:18 brd ff:ff:ff:ff:ff:ff
+05/28/26 13:28:30 EDT -0400 |     inet 10.10.101.3/24 brd 10.10.101.255 scope global tnc0
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 | 6: nebula1: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1300 qdisc fq_codel state UNKNOWN group default qlen 500
+05/28/26 13:28:30 EDT -0400 |     link/none 
+05/28/26 13:28:30 EDT -0400 |     inet 10.10.200.11/24 scope global nebula1
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 |     inet6 fe80::58f9:67c1:add2:4441/64 scope link stable-privacy 
+05/28/26 13:28:30 EDT -0400 |        valid_lft forever preferred_lft forever
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:47 2026 [pid 516321] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 309 bytes, 103.84Kbyte/sec
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:47 2026 [pid 516326] CONNECT: Client "::ffff:10.10.1.1"
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:47 2026 [pid 516325] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:47 2026 [pid 516331] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/fcre-waterquality.csv", 309 bytes, 105.00Kbyte/sec
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:47 2026 [pid 516334] CONNECT: Client "::ffff:10.10.1.1"
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:47 2026 [pid 516333] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:48 2026 [pid 516335] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/EXO_Chla_overlap.csv", 65 bytes, 32.74Kbyte/sec
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:48 2026 [pid 516341] CONNECT: Client "::ffff:10.10.1.1"
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:48 2026 [pid 516340] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/28/26 13:28:30 EDT -0400 | Thu May 28 13:20:48 2026 [pid 516342] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/EXO_Chla_overlap.csv", 65 bytes, 35.64Kbyte/sec
+05/28/26 13:28:42 EDT -0400 | ping: github.com: Temporary failure in name resolution
+05/28/26 13:28:42 EDT -0400 | ping: connect: Network is unreachable
+05/28/26 13:28:42 EDT -0400 | ##########  END  ##########
