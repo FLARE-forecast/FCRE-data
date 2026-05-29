@@ -53902,3 +53902,82 @@
 05/29/26 13:28:38 EDT -0400 | ping: github.com: Temporary failure in name resolution
 05/29/26 13:28:38 EDT -0400 | ping: connect: Network is unreachable
 05/29/26 13:28:38 EDT -0400 | ##########  END  ##########
+05/29/26 14:25:02 EDT -0400 | ########## START ##########
+05/29/26 14:25:02 EDT -0400 |  14:25:02 up 58 min,  0 users,  load average: 0.17, 0.13, 0.15
+05/29/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Fri May 29 13:26   still running
+05/29/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Fri May 29 01:40   still running
+05/29/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Thu May 28 13:26 - 00:10  (10:43)
+05/29/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Thu May 28 01:40 - 00:10  (22:29)
+05/29/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Wed May 27 13:26 - 00:10  (10:43)
+05/29/26 14:25:02 EDT -0400 | Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+05/29/26 14:25:02 EDT -0400 | Bus 001 Device 003: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub
+05/29/26 14:25:02 EDT -0400 | Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+05/29/26 14:25:02 EDT -0400 | Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+05/29/26 14:25:02 EDT -0400 | [   21.468593] audit: type=1400 audit(1780075615.475:14): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1639 comm="apparmor_parser"
+05/29/26 14:25:02 EDT -0400 | [   30.650889] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+05/29/26 14:25:02 EDT -0400 | [   30.656741] Bridge firewalling registered
+05/29/26 14:25:02 EDT -0400 | [   30.881810] Initializing XFRM netlink socket
+05/29/26 14:25:02 EDT -0400 | [   33.182284] systemd-journald[22]: Received client request to flush runtime journal.
+05/29/26 14:25:02 EDT -0400 | [   35.491777] device ovs-system entered promiscuous mode
+05/29/26 14:25:02 EDT -0400 | [   35.495176] Timeout policy base is empty
+05/29/26 14:25:02 EDT -0400 | [   35.495187] Failed to associated timeout policy `ovs_test_tp'
+05/29/26 14:25:02 EDT -0400 | [   35.565752] device eviCIBR6 entered promiscuous mode
+05/29/26 14:25:02 EDT -0400 | [   35.592871] device appCIBR6 entered promiscuous mode
+05/29/26 14:25:02 EDT -0400 | Filesystem                         Size  Used Avail Use% Mounted on
+05/29/26 14:25:02 EDT -0400 | tmpfs                              374M  1.6M  372M   1% /run
+05/29/26 14:25:02 EDT -0400 | /dev/mapper/ubuntu--vg-ubuntu--lv   27G   15G   12G  57% /
+05/29/26 14:25:02 EDT -0400 | tmpfs                              1.9G     0  1.9G   0% /dev/shm
+05/29/26 14:25:02 EDT -0400 | tmpfs                              5.0M     0  5.0M   0% /run/lock
+05/29/26 14:25:02 EDT -0400 | /dev/mmcblk0p2                     2.0G  253M  1.6G  14% /boot
+05/29/26 14:25:02 EDT -0400 | /dev/mmcblk0p1                     1.1G  6.1M  1.1G   1% /boot/efi
+05/29/26 14:25:02 EDT -0400 | /dev/sda1                           59G  5.9G   50G  11% /data
+05/29/26 14:25:02 EDT -0400 | 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+05/29/26 14:25:02 EDT -0400 |     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+05/29/26 14:25:02 EDT -0400 |     inet 127.0.0.1/8 scope host lo
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 |     inet6 ::1/128 scope host 
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 | 2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+05/29/26 14:25:02 EDT -0400 |     link/ether 00:01:c0:2a:9e:51 brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 | 3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+05/29/26 14:25:02 EDT -0400 |     link/ether 00:01:c0:2a:9d:3c brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 |     altname enp2s0
+05/29/26 14:25:02 EDT -0400 |     inet 10.10.1.2/24 brd 10.10.1.255 scope global eno1
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 |     inet6 fe80::201:c0ff:fe2a:9d3c/64 scope link 
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 | 4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+05/29/26 14:25:02 EDT -0400 |     link/ether 02:42:52:c1:e3:77 brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 |     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 | 5: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+05/29/26 14:25:02 EDT -0400 |     link/ether 92:c5:0e:a3:a8:e3 brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 | 6: eviCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1410 qdisc noqueue state UNKNOWN group default qlen 1000
+05/29/26 14:25:02 EDT -0400 |     link/ether 0e:b6:38:73:d5:49 brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 | 7: appCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1350 qdisc noqueue state UNKNOWN group default qlen 1000
+05/29/26 14:25:02 EDT -0400 |     link/ether ae:24:81:57:82:40 brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 |     inet 10.10.100.11/24 scope global appCIBR6
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 | 10: tnc0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 400 qdisc tbf state UNKNOWN group default qlen 10
+05/29/26 14:25:02 EDT -0400 |     link/ether 86:f5:4e:cd:bb:18 brd ff:ff:ff:ff:ff:ff
+05/29/26 14:25:02 EDT -0400 |     inet 10.10.101.3/24 brd 10.10.101.255 scope global tnc0
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 | 11: nebula1: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1300 qdisc fq_codel state UNKNOWN group default qlen 500
+05/29/26 14:25:02 EDT -0400 |     link/none 
+05/29/26 14:25:02 EDT -0400 |     inet 10.10.200.11/24 scope global nebula1
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 |     inet6 fe80::e3cd:3277:de36:7934/64 scope link stable-privacy 
+05/29/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:46 2026 [pid 47920] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 300 bytes, 104.37Kbyte/sec
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:46 2026 [pid 47925] CONNECT: Client "::ffff:10.10.1.1"
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:46 2026 [pid 47924] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47927] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/fcre-waterquality.csv", 300 bytes, 97.62Kbyte/sec
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47929] CONNECT: Client "::ffff:10.10.1.1"
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47928] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47930] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/EXO_Chla_overlap.csv", 66 bytes, 35.36Kbyte/sec
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47932] CONNECT: Client "::ffff:10.10.1.1"
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47931] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+05/29/26 14:25:02 EDT -0400 | Fri May 29 14:20:47 2026 [pid 47936] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/EXO_Chla_overlap.csv", 66 bytes, 29.09Kbyte/sec
+05/29/26 14:25:17 EDT -0400 | ping: github.com: Temporary failure in name resolution
+05/29/26 14:25:17 EDT -0400 | ping: connect: Network is unreachable
+05/29/26 14:25:17 EDT -0400 | ##########  END  ##########
