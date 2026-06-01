@@ -54850,3 +54850,82 @@
 05/31/26 20:25:15 EDT -0400 | ping: github.com: Temporary failure in name resolution
 05/31/26 20:25:15 EDT -0400 | ping: connect: Network is unreachable
 05/31/26 20:25:15 EDT -0400 | ##########  END  ##########
+06/01/26 01:42:27 EDT -0400 | ########## START ##########
+06/01/26 01:42:27 EDT -0400 |  01:42:27 up 1 min,  0 users,  load average: 1.60, 1.06, 0.42
+06/01/26 01:42:27 EDT -0400 | reboot   system boot  5.15.0-75-generi Mon Jun  1 01:40   still running
+06/01/26 01:42:27 EDT -0400 | reboot   system boot  5.15.0-75-generi Sun May 31 13:26 - 00:10  (10:43)
+06/01/26 01:42:27 EDT -0400 | reboot   system boot  5.15.0-75-generi Sun May 31 01:40 - 00:10  (22:29)
+06/01/26 01:42:27 EDT -0400 | reboot   system boot  5.15.0-75-generi Sat May 30 13:26 - 00:10  (10:43)
+06/01/26 01:42:27 EDT -0400 | reboot   system boot  5.15.0-75-generi Sat May 30 01:40 - 00:10  (22:29)
+06/01/26 01:42:27 EDT -0400 | Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+06/01/26 01:42:27 EDT -0400 | Bus 001 Device 003: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub
+06/01/26 01:42:27 EDT -0400 | Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+06/01/26 01:42:27 EDT -0400 | Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+06/01/26 01:42:27 EDT -0400 | [   32.781706] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+06/01/26 01:42:27 EDT -0400 | [   32.786426] Bridge firewalling registered
+06/01/26 01:42:27 EDT -0400 | [   33.002200] Initializing XFRM netlink socket
+06/01/26 01:42:27 EDT -0400 | [   35.637972] systemd-journald[23]: Received client request to flush runtime journal.
+06/01/26 01:42:27 EDT -0400 | [   35.679411] systemd-journald[23]: File /var/log/journal/a390ab7b5da041789c7c8333c3ddc3b9/system.journal corrupted or uncleanly shut down, renaming and replacing.
+06/01/26 01:42:27 EDT -0400 | [   37.230206] device ovs-system entered promiscuous mode
+06/01/26 01:42:27 EDT -0400 | [   37.232856] Timeout policy base is empty
+06/01/26 01:42:27 EDT -0400 | [   37.232863] Failed to associated timeout policy `ovs_test_tp'
+06/01/26 01:42:27 EDT -0400 | [   37.302622] device eviCIBR6 entered promiscuous mode
+06/01/26 01:42:27 EDT -0400 | [   37.330770] device appCIBR6 entered promiscuous mode
+06/01/26 01:42:27 EDT -0400 | Filesystem                         Size  Used Avail Use% Mounted on
+06/01/26 01:42:27 EDT -0400 | tmpfs                              374M  1.6M  372M   1% /run
+06/01/26 01:42:27 EDT -0400 | /dev/mapper/ubuntu--vg-ubuntu--lv   27G   15G   11G  57% /
+06/01/26 01:42:27 EDT -0400 | tmpfs                              1.9G     0  1.9G   0% /dev/shm
+06/01/26 01:42:27 EDT -0400 | tmpfs                              5.0M     0  5.0M   0% /run/lock
+06/01/26 01:42:27 EDT -0400 | /dev/sda1                           59G  6.0G   50G  11% /data
+06/01/26 01:42:27 EDT -0400 | /dev/mmcblk0p2                     2.0G  253M  1.6G  14% /boot
+06/01/26 01:42:27 EDT -0400 | /dev/mmcblk0p1                     1.1G  6.1M  1.1G   1% /boot/efi
+06/01/26 01:42:27 EDT -0400 | 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+06/01/26 01:42:27 EDT -0400 |     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+06/01/26 01:42:27 EDT -0400 |     inet 127.0.0.1/8 scope host lo
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 |     inet6 ::1/128 scope host 
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 | 2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+06/01/26 01:42:27 EDT -0400 |     link/ether 00:01:c0:2a:9e:51 brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 | 3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+06/01/26 01:42:27 EDT -0400 |     link/ether 00:01:c0:2a:9d:3c brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 |     altname enp2s0
+06/01/26 01:42:27 EDT -0400 |     inet 10.10.1.2/24 brd 10.10.1.255 scope global eno1
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 |     inet6 fe80::201:c0ff:fe2a:9d3c/64 scope link 
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 | 4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+06/01/26 01:42:27 EDT -0400 |     link/ether 02:42:e7:fc:c1:86 brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 |     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 | 5: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+06/01/26 01:42:27 EDT -0400 |     link/ether 92:c5:0e:a3:a8:e3 brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 | 6: eviCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1410 qdisc noqueue state UNKNOWN group default qlen 1000
+06/01/26 01:42:27 EDT -0400 |     link/ether 0e:b6:38:73:d5:49 brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 | 7: appCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1350 qdisc noqueue state UNKNOWN group default qlen 1000
+06/01/26 01:42:27 EDT -0400 |     link/ether ae:24:81:57:82:40 brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 |     inet 10.10.100.11/24 scope global appCIBR6
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 | 8: tnc0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 400 qdisc tbf state UNKNOWN group default qlen 10
+06/01/26 01:42:27 EDT -0400 |     link/ether 86:f5:4e:cd:bb:18 brd ff:ff:ff:ff:ff:ff
+06/01/26 01:42:27 EDT -0400 |     inet 10.10.101.3/24 brd 10.10.101.255 scope global tnc0
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 | 9: nebula1: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1300 qdisc fq_codel state UNKNOWN group default qlen 500
+06/01/26 01:42:27 EDT -0400 |     link/none 
+06/01/26 01:42:27 EDT -0400 |     inet 10.10.200.11/24 scope global nebula1
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 |     inet6 fe80::b36b:dc19:c997:925a/64 scope link stable-privacy 
+06/01/26 01:42:27 EDT -0400 |        valid_lft forever preferred_lft forever
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 303 bytes, 14.50Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 307 bytes, 118.83Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 305 bytes, 129.11Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 309 bytes, 121.53Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 308 bytes, 100.70Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 306 bytes, 123.28Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 305 bytes, 123.44Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 310 bytes, 124.99Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 305 bytes, 121.77Kbyte/sec
+06/01/26 01:42:27 EDT -0400 | Mon Jun  1 01:41:09 2026 [pid 2086] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 308 bytes, 101.89Kbyte/sec
+06/01/26 01:42:42 EDT -0400 | ping: github.com: Temporary failure in name resolution
+06/01/26 01:42:42 EDT -0400 | ping: connect: Network is unreachable
+06/01/26 01:42:42 EDT -0400 | ##########  END  ##########
