@@ -181523,3 +181523,29 @@ Completed at 08/17/23 06:22:17 EST
 06/19/26 00:30:05 EST -0500 | Found unpushed commit(s).
 06/19/26 00:30:14 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
 06/19/26 00:30:14 EST -0500 |    be018c7..2d78128  2d7812862325ef436412f561e1723394ce22ad52 -> fcre-metstation-data
+06/19/26 00:30:14 EST -0500 | Successfully pushed: 2d7812862325ef436412f561e1723394ce22ad52
+06/19/26 00:30:14 EST -0500 | Processing: /data/norvel-logs
+06/19/26 00:30:14 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+06/19/26 00:30:14 EST -0500 |  ! [remote rejected] 2d7812862325ef436412f561e1723394ce22ad52 -> fcre-metstation-data (cannot lock ref 'refs/heads/fcre-metstation-data': is at 2d7812862325ef436412f561e1723394ce22ad52 but expected be018c75a0c07c6363f4e70f379548cc653f3f55)
+06/19/26 00:30:14 EST -0500 | error: failed to push some refs to 'github.com:FLARE-forecast/FCRE-data.git'
+06/19/26 00:30:14 EST -0500 | Failed to push: 2d7812862325ef436412f561e1723394ce22ad52
+06/19/26 00:30:14 EST -0500 | Processing: /data/norvel-logs
+06/19/26 00:30:14 EST -0500 | fatal: Unable to create '/data/norvel-logs/.git/index.lock': File exists.
+06/19/26 00:30:14 EST -0500 | 
+06/19/26 00:30:14 EST -0500 | Another git process seems to be running in this repository, e.g.
+06/19/26 00:30:14 EST -0500 | an editor opened by 'git commit'. Please make sure all processes
+06/19/26 00:30:14 EST -0500 | are terminated then try again. If it still fails, a git process
+06/19/26 00:30:14 EST -0500 | may have crashed in this repository earlier:
+06/19/26 00:30:14 EST -0500 | remove the file manually to continue.
+06/19/26 00:30:15 EST -0500 | [norvel-logs 4528001] Fri 2026-06-19 00:30:14 EST
+06/19/26 00:30:15 EST -0500 |  1 file changed, 25 insertions(+)
+06/19/26 00:30:15 EST -0500 | Found unpushed commit(s).
+06/19/26 00:30:18 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+06/19/26 00:30:18 EST -0500 |    9ad2d8b..4528001  452800109643ef5c903290b6a2df676ab0c859ba -> norvel-logs
+06/19/26 00:30:18 EST -0500 | Successfully pushed: 452800109643ef5c903290b6a2df676ab0c859ba
+06/19/26 00:30:18 EST -0500 | ##########  END  ##########
+06/19/26 00:30:26 EST -0500 | ########## START ##########
+06/19/26 00:30:26 EST -0500 | Processing: /data/fcre-metstation-data
+06/19/26 00:30:26 EST -0500 | On branch fcre-metstation-data
+06/19/26 00:30:26 EST -0500 | Your branch is up to date with 'origin/fcre-metstation-data'.
+06/19/26 00:30:26 EST -0500 | 
