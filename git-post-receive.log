@@ -83609,3 +83609,9 @@ From github.com:FLARE-forecast/FCRE-data
 + git merge github/fcre-weir-data -m 'Auto-merge GitHub config updates' -Xours --no-edit
 Already up to date.
 + git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   5b0460f..5ff9fb3  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
