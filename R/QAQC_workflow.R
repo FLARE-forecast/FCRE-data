@@ -2,14 +2,19 @@
 #install.packages("xml2")
 #install.packages("here")
 #install.packages('suncalc')
-library(tidyverse)
-library(EDIutils)
-library(xml2)
-library(lubridate)
-library(suncalc)
+#library(tidyverse)
+#library(EDIutils)
+#library(xml2)
+#library(lubridate)
+#library(suncalc)
+
+pacman::p_load(tidyverse, EDIutils, xml2, lubridate, suncalc, here)
 
 home_directory <- here::here()
 setwd(home_directory)
+
+edi_access_key = Sys.getenv("EDI_ACCESS_KEY")
+login(key = edi_access_key)
 
 ### pull in QAQC function directly from EDI -- keep for now, but will need to update the function
 #source('https://portal.edirepository.org/nis/dataviewer?packageid=edi.389.7&entityid=03b6589579059fd8184a56a5831138ec')
