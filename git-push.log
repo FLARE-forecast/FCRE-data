@@ -189462,3 +189462,25 @@ Completed at 08/17/23 06:22:17 EST
 08/08/26 00:30:19 EST -0500 | Found unpushed commit(s).
 08/08/26 00:30:44 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
 08/08/26 00:30:44 EST -0500 | fatal: Could not read from remote repository.
+08/08/26 00:30:44 EST -0500 | 
+08/08/26 00:30:44 EST -0500 | Please make sure you have the correct access rights
+08/08/26 00:30:44 EST -0500 | and the repository exists.
+08/08/26 00:30:44 EST -0500 | Failed to push: e4626d36d43d5549daa23e9f2f0c32bd72c91ce8
+08/08/26 00:30:44 EST -0500 | Processing: /data/norvel-logs
+08/08/26 00:30:45 EST -0500 | [norvel-logs 58e5a37] Sat 2026-08-08 00:30:44 EST
+08/08/26 00:30:45 EST -0500 |  1 file changed, 25 insertions(+)
+08/08/26 00:30:45 EST -0500 | Found unpushed commit(s).
+08/08/26 00:31:10 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+08/08/26 00:31:10 EST -0500 | fatal: Could not read from remote repository.
+08/08/26 00:31:10 EST -0500 | 
+08/08/26 00:31:10 EST -0500 | Please make sure you have the correct access rights
+08/08/26 00:31:10 EST -0500 | and the repository exists.
+08/08/26 00:31:10 EST -0500 | Failed to push: 58e5a379abbb9555b2b07bf09c73cdc37738f235
+08/08/26 00:31:10 EST -0500 | ##########  END  ##########
+08/08/26 08:30:02 EST -0500 | ########## START ##########
+08/08/26 08:30:02 EST -0500 | Processing: /data/fcre-metstation-data
+08/08/26 08:30:07 EST -0500 | [fcre-metstation-data 0afc42c] Sat 2026-08-08 08:30:02 EST
+08/08/26 08:30:07 EST -0500 |  2 files changed, 960 insertions(+)
+08/08/26 08:30:07 EST -0500 | Found unpushed commit(s).
+08/08/26 08:30:08 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/08/26 08:30:08 EST -0500 |  ! [rejected]        e4626d36d43d5549daa23e9f2f0c32bd72c91ce8 -> fcre-metstation-data (fetch first)
