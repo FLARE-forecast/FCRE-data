@@ -189725,3 +189725,28 @@ Completed at 08/17/23 06:22:17 EST
 08/09/26 08:30:07 EST -0500 | Found unpushed commit(s).
 08/09/26 08:30:08 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
 08/09/26 08:30:08 EST -0500 |  ! [rejected]        e4626d36d43d5549daa23e9f2f0c32bd72c91ce8 -> fcre-metstation-data (fetch first)
+08/09/26 08:30:08 EST -0500 | error: failed to push some refs to 'github.com:FLARE-forecast/FCRE-data.git'
+08/09/26 08:30:08 EST -0500 | hint: Updates were rejected because the remote contains work that you do
+08/09/26 08:30:08 EST -0500 | hint: not have locally. This is usually caused by another repository pushing
+08/09/26 08:30:08 EST -0500 | hint: to the same ref. You may want to first integrate the remote changes
+08/09/26 08:30:08 EST -0500 | hint: (e.g., 'git pull ...') before pushing again.
+08/09/26 08:30:08 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+08/09/26 08:30:08 EST -0500 | Failed to push: e4626d36d43d5549daa23e9f2f0c32bd72c91ce8
+08/09/26 08:30:08 EST -0500 | Processing: /data/norvel-logs
+08/09/26 08:30:10 EST -0500 | [norvel-logs 0c99c3d] Sun 2026-08-09 08:30:08 EST
+08/09/26 08:30:10 EST -0500 |  3 files changed, 188 insertions(+)
+08/09/26 08:30:10 EST -0500 | Found unpushed commit(s).
+08/09/26 08:30:15 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/09/26 08:30:15 EST -0500 |    bcb0dde..0c99c3d  0c99c3d5ed40fb8fc864fa53088109069734a127 -> norvel-logs
+08/09/26 08:30:15 EST -0500 | Successfully pushed: 0c99c3d5ed40fb8fc864fa53088109069734a127
+08/09/26 08:30:15 EST -0500 | ##########  END  ##########
+08/09/26 08:31:10 EST -0500 | ########## START ##########
+08/09/26 08:31:10 EST -0500 | Processing: /data/fcre-metstation-data
+08/09/26 08:31:10 EST -0500 | On branch fcre-metstation-data
+08/09/26 08:31:10 EST -0500 | Your branch is ahead of 'origin/fcre-metstation-data' by 8 commits.
+08/09/26 08:31:10 EST -0500 |   (use "git push" to publish your local commits)
+08/09/26 08:31:10 EST -0500 | 
+08/09/26 08:31:10 EST -0500 | nothing to commit, working tree clean
+08/09/26 08:31:10 EST -0500 | Found unpushed commit(s).
+08/09/26 08:31:11 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/09/26 08:31:11 EST -0500 |  ! [rejected]        e4626d36d43d5549daa23e9f2f0c32bd72c91ce8 -> fcre-metstation-data (fetch first)
