@@ -190041,3 +190041,30 @@ Completed at 08/17/23 06:22:17 EST
 08/10/26 14:31:06 EST -0500 | Found unpushed commit(s).
 08/10/26 14:31:26 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
 08/10/26 14:31:26 EST -0500 | fatal: Could not read from remote repository.
+08/10/26 14:31:26 EST -0500 | 
+08/10/26 14:31:26 EST -0500 | Please make sure you have the correct access rights
+08/10/26 14:31:26 EST -0500 | and the repository exists.
+08/10/26 14:31:26 EST -0500 | Failed to push: e4626d36d43d5549daa23e9f2f0c32bd72c91ce8
+08/10/26 14:31:26 EST -0500 | Processing: /data/norvel-logs
+08/10/26 14:31:27 EST -0500 | [norvel-logs 8ef05cc] Mon 2026-08-10 14:31:26 EST
+08/10/26 14:31:27 EST -0500 |  1 file changed, 17 insertions(+)
+08/10/26 14:31:27 EST -0500 | Found unpushed commit(s).
+08/10/26 14:31:31 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/10/26 14:31:31 EST -0500 |    5347228..8ef05cc  8ef05cce1f504daf056af3c0fe98fef713556b2b -> norvel-logs
+08/10/26 14:31:31 EST -0500 | Successfully pushed: 8ef05cce1f504daf056af3c0fe98fef713556b2b
+08/10/26 14:31:31 EST -0500 | ##########  END  ##########
+08/10/26 20:30:02 EST -0500 | ########## START ##########
+08/10/26 20:30:02 EST -0500 | Processing: /data/fcre-metstation-data
+08/10/26 20:30:08 EST -0500 | [fcre-metstation-data 7b34503] Mon 2026-08-10 20:30:02 EST
+08/10/26 20:30:08 EST -0500 |  2 files changed, 720 insertions(+)
+08/10/26 20:30:08 EST -0500 | Found unpushed commit(s).
+08/10/26 20:30:09 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/10/26 20:30:09 EST -0500 |  ! [rejected]        e4626d36d43d5549daa23e9f2f0c32bd72c91ce8 -> fcre-metstation-data (fetch first)
+08/10/26 20:30:09 EST -0500 | error: failed to push some refs to 'github.com:FLARE-forecast/FCRE-data.git'
+08/10/26 20:30:09 EST -0500 | hint: Updates were rejected because the remote contains work that you do
+08/10/26 20:30:09 EST -0500 | hint: not have locally. This is usually caused by another repository pushing
+08/10/26 20:30:09 EST -0500 | hint: to the same ref. You may want to first integrate the remote changes
+08/10/26 20:30:09 EST -0500 | hint: (e.g., 'git pull ...') before pushing again.
+08/10/26 20:30:09 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+08/10/26 20:30:09 EST -0500 | Failed to push: e4626d36d43d5549daa23e9f2f0c32bd72c91ce8
+08/10/26 20:30:09 EST -0500 | Processing: /data/norvel-logs
