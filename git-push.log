@@ -190276,3 +190276,33 @@ Completed at 08/17/23 06:22:17 EST
 08/11/26 14:31:08 EST -0500 | Found unpushed commit(s).
 08/11/26 14:31:10 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
 08/11/26 14:31:10 EST -0500 |  ! [rejected]        e4626d36d43d5549daa23e9f2f0c32bd72c91ce8 -> fcre-metstation-data (fetch first)
+08/11/26 14:31:10 EST -0500 | error: failed to push some refs to 'github.com:FLARE-forecast/FCRE-data.git'
+08/11/26 14:31:10 EST -0500 | hint: Updates were rejected because the remote contains work that you do
+08/11/26 14:31:10 EST -0500 | hint: not have locally. This is usually caused by another repository pushing
+08/11/26 14:31:10 EST -0500 | hint: to the same ref. You may want to first integrate the remote changes
+08/11/26 14:31:10 EST -0500 | hint: (e.g., 'git pull ...') before pushing again.
+08/11/26 14:31:10 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+08/11/26 14:31:10 EST -0500 | Failed to push: e4626d36d43d5549daa23e9f2f0c32bd72c91ce8
+08/11/26 14:31:10 EST -0500 | Processing: /data/norvel-logs
+08/11/26 14:31:11 EST -0500 | [norvel-logs 0b3738f] Tue 2026-08-11 14:31:10 EST
+08/11/26 14:31:11 EST -0500 |  1 file changed, 25 insertions(+)
+08/11/26 14:31:11 EST -0500 | Found unpushed commit(s).
+08/11/26 14:31:17 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/11/26 14:31:17 EST -0500 |    283070c..0b3738f  0b3738f3104f213f791d63703408729fd9df7c76 -> norvel-logs
+08/11/26 14:31:17 EST -0500 | Successfully pushed: 0b3738f3104f213f791d63703408729fd9df7c76
+08/11/26 14:31:17 EST -0500 | ##########  END  ##########
+08/11/26 20:30:02 EST -0500 | ########## START ##########
+08/11/26 20:30:02 EST -0500 | Processing: /data/fcre-metstation-data
+08/11/26 20:30:07 EST -0500 | [fcre-metstation-data 32c5cf5] Tue 2026-08-11 20:30:02 EST
+08/11/26 20:30:07 EST -0500 |  2 files changed, 720 insertions(+)
+08/11/26 20:30:07 EST -0500 | Found unpushed commit(s).
+08/11/26 20:30:08 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+08/11/26 20:30:08 EST -0500 |  ! [rejected]        e4626d36d43d5549daa23e9f2f0c32bd72c91ce8 -> fcre-metstation-data (fetch first)
+08/11/26 20:30:08 EST -0500 | error: failed to push some refs to 'github.com:FLARE-forecast/FCRE-data.git'
+08/11/26 20:30:08 EST -0500 | hint: Updates were rejected because the remote contains work that you do
+08/11/26 20:30:08 EST -0500 | hint: not have locally. This is usually caused by another repository pushing
+08/11/26 20:30:08 EST -0500 | hint: to the same ref. You may want to first integrate the remote changes
+08/11/26 20:30:08 EST -0500 | hint: (e.g., 'git pull ...') before pushing again.
+08/11/26 20:30:08 EST -0500 | hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+08/11/26 20:30:08 EST -0500 | Failed to push: e4626d36d43d5549daa23e9f2f0c32bd72c91ce8
+08/11/26 20:30:08 EST -0500 | Processing: /data/norvel-logs
