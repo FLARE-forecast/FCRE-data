@@ -85310,3 +85310,8 @@ From /data/fcre-data-exp-worktree
 + git reset --hard origin/fcre-weir-data
 HEAD is now at 522f2a0 Fri 2026-08-14 12:11:59 EST
 + git fetch github fcre-weir-data
+ssh_dispatch_run_fatal: Connection to 140.82.114.4 port 22: Network is unreachable
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
