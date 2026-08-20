@@ -86563,3 +86563,183 @@ To github.com:FLARE-forecast/FCRE-data.git
 [post-receive] Sync complete for fcre-weir-data.
 + exec
 + read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is ahead of 'origin/fcre-weir-data' by 59 commits.
+  (use "git push" to publish your local commits)
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   8bc306f..8e7203d  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 8e7203d Thu 2026-08-20 00:22:01 EST
++ git fetch github fcre-weir-data
+From github.com:FLARE-forecast/FCRE-data
+ * branch            fcre-weir-data -> FETCH_HEAD
++ echo '[post-receive] Merging GitHub changes...'
+[post-receive] Merging GitHub changes...
++ git merge github/fcre-weir-data -m 'Auto-merge GitHub config updates' -Xours --no-edit
+Merge made by the 'ort' strategy.
+ .github/workflows/fcre-weir-qaqc.yml | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   de01173..7d4aa8b  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is ahead of 'origin/fcre-weir-data' by 60 commits.
+  (use "git push" to publish your local commits)
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   8e7203d..efbf83a  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at efbf83a Thu 2026-08-20 10:12:02 EST
++ git fetch github fcre-weir-data
+From github.com:FLARE-forecast/FCRE-data
+ * branch            fcre-weir-data -> FETCH_HEAD
++ echo '[post-receive] Merging GitHub changes...'
+[post-receive] Merging GitHub changes...
++ git merge github/fcre-weir-data -m 'Auto-merge GitHub config updates' -Xours --no-edit
+Merge made by the 'ort' strategy.
+ .github/workflows/fcre-weir-qaqc.yml | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   7d4aa8b..0ee9a98  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is ahead of 'origin/fcre-weir-data' by 61 commits.
+  (use "git push" to publish your local commits)
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   efbf83a..fd08b16  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at fd08b16 Thu 2026-08-20 12:12:02 EST
++ git fetch github fcre-weir-data
+From github.com:FLARE-forecast/FCRE-data
+ * branch            fcre-weir-data -> FETCH_HEAD
++ echo '[post-receive] Merging GitHub changes...'
+[post-receive] Merging GitHub changes...
++ git merge github/fcre-weir-data -m 'Auto-merge GitHub config updates' -Xours --no-edit
+Merge made by the 'ort' strategy.
+ .github/workflows/fcre-weir-qaqc.yml | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   0ee9a98..ccedc68  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
++ WORKDIR_BASE=/data
++ echo '[post-receive] Starting sync task...'
+[post-receive] Starting sync task...
++ read oldrev newrev refname
++ [[ refs/heads/fcre-weir-data =~ ^refs/heads/ ]]
++ branch=fcre-weir-data
++ echo '[post-receive] Processing branch: fcre-weir-data'
+[post-receive] Processing branch: fcre-weir-data
++ WORKDIR=/data/fcre-weir-data
++ LOCKFILE=/tmp/git-post-receive-fcre-weir-data.lock
++ exec
++ flock -x 9
++ echo '[post-receive] Acquired lock for fcre-weir-data'
+[post-receive] Acquired lock for fcre-weir-data
++ '[' '!' -d /data/fcre-weir-data/.git ']'
++ echo '[post-receive] WORKDIR already exists.'
+[post-receive] WORKDIR already exists.
++ cd /data/fcre-weir-data
++ unset GIT_DIR
++ unset GIT_WORK_TREE
++ git checkout fcre-weir-data
+Already on 'fcre-weir-data'
+Your branch is ahead of 'origin/fcre-weir-data' by 62 commits.
+  (use "git push" to publish your local commits)
++ git fetch origin
+From /data/fcre-data-exp-worktree
+   fd08b16..7e4a8c9  fcre-weir-data -> origin/fcre-weir-data
++ git reset --hard origin/fcre-weir-data
+HEAD is now at 7e4a8c9 Thu 2026-08-20 14:22:02 EST
++ git fetch github fcre-weir-data
+From github.com:FLARE-forecast/FCRE-data
+ * branch            fcre-weir-data -> FETCH_HEAD
++ echo '[post-receive] Merging GitHub changes...'
+[post-receive] Merging GitHub changes...
++ git merge github/fcre-weir-data -m 'Auto-merge GitHub config updates' -Xours --no-edit
+Merge made by the 'ort' strategy.
+ .github/workflows/fcre-weir-qaqc.yml | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
++ git push github fcre-weir-data
+To github.com:FLARE-forecast/FCRE-data.git
+   ccedc68..eb8a7fa  fcre-weir-data -> fcre-weir-data
++ echo '[post-receive] Sync complete for fcre-weir-data.'
+[post-receive] Sync complete for fcre-weir-data.
++ exec
++ read oldrev newrev refname
