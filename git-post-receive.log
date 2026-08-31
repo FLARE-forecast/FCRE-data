@@ -88590,3 +88590,8 @@ From /data/fcre-data-exp-worktree
 + git reset --hard origin/fcre-weir-data
 HEAD is now at c5e7dab Sat 2026-08-29 20:12:08 EST
 + git fetch github fcre-weir-data
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
