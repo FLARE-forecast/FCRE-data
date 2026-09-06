@@ -107345,3 +107345,108 @@
 09/06/26 13:31:03 EDT -0400 | 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
 09/06/26 13:31:03 EDT -0400 | rtt min/avg/max/mdev = 48.688/257.214/618.847/256.711 ms
 09/06/26 13:31:03 EDT -0400 | ##########  END  ##########
+09/06/26 14:25:02 EDT -0400 | ########## START ##########
+09/06/26 14:25:02 EDT -0400 |  14:25:02 up 56 min,  0 users,  load average: 0.54, 0.30, 0.20
+09/06/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sun Sep  6 13:28   still running
+09/06/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sun Sep  6 01:42   still running
+09/06/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sat Sep  5 13:28 - 00:10  (10:41)
+09/06/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Sat Sep  5 01:42 - 00:10  (22:27)
+09/06/26 14:25:02 EDT -0400 | reboot   system boot  5.15.0-75-generi Fri Sep  4 13:28 - 00:10  (10:41)
+09/06/26 14:25:02 EDT -0400 | Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+09/06/26 14:25:02 EDT -0400 | Bus 001 Device 004: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub
+09/06/26 14:25:02 EDT -0400 | Bus 001 Device 005: ID 1410:9031 Novatel Wireless MiFi USB730L
+09/06/26 14:25:02 EDT -0400 | Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+09/06/26 14:25:02 EDT -0400 | Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+09/06/26 14:25:02 EDT -0400 | [    3.817610] cdc_ether 1-6:1.0 enx0015ff080733: renamed from eth0
+09/06/26 14:25:02 EDT -0400 | [    5.363143] cdc_ether 1-6:1.0 enx0015ff080733: unregister 'cdc_ether' usb-0000:00:15.0-6, CDC Ethernet Device
+09/06/26 14:25:02 EDT -0400 | [    6.311460] rndis_host 1-6:1.0 enx0015ff080733: renamed from eth0
+09/06/26 14:25:02 EDT -0400 | [   38.097182] Failed to associated timeout policy `ovs_test_tp'
+09/06/26 14:25:02 EDT -0400 | [   38.163426] device eviCIBR6 entered promiscuous mode
+09/06/26 14:25:02 EDT -0400 | [   38.187507] device appCIBR6 entered promiscuous mode
+09/06/26 14:25:02 EDT -0400 | [   49.634150] device CIBR6a110005fff entered promiscuous mode
+09/06/26 14:25:02 EDT -0400 | [   58.785749] device CIBR6a110005fff left promiscuous mode
+09/06/26 14:25:02 EDT -0400 | [   91.486938] loop4: detected capacity change from 0 to 102952
+09/06/26 14:25:02 EDT -0400 | [  105.873170] audit: type=1400 audit(1788715822.888:14): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/27738/usr/lib/snapd/snap-confine" pid=4468 comm="apparmor_parser"
+09/06/26 14:25:02 EDT -0400 | [  111.843435] loop5: detected capacity change from 0 to 8
+09/06/26 14:25:02 EDT -0400 | [  112.095594] audit: type=1400 audit(1788715829.112:15): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/27738/usr/lib/snapd/snap-confine" pid=4552 comm="apparmor_parser"
+09/06/26 14:25:02 EDT -0400 | [  112.872543] audit: type=1400 audit(1788715829.888:16): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/27738/usr/lib/snapd/snap-confine" pid=4567 comm="apparmor_parser"
+09/06/26 14:25:02 EDT -0400 | Filesystem                         Size  Used Avail Use% Mounted on
+09/06/26 14:25:02 EDT -0400 | tmpfs                              374M  1.7M  372M   1% /run
+09/06/26 14:25:02 EDT -0400 | /dev/mapper/ubuntu--vg-ubuntu--lv   27G   15G   11G  58% /
+09/06/26 14:25:02 EDT -0400 | tmpfs                              1.9G     0  1.9G   0% /dev/shm
+09/06/26 14:25:02 EDT -0400 | tmpfs                              5.0M     0  5.0M   0% /run/lock
+09/06/26 14:25:02 EDT -0400 | /dev/sda1                           59G  8.6G   47G  16% /data
+09/06/26 14:25:02 EDT -0400 | /dev/mmcblk0p2                     2.0G  253M  1.6G  14% /boot
+09/06/26 14:25:02 EDT -0400 | /dev/mmcblk0p1                     1.1G  6.1M  1.1G   1% /boot/efi
+09/06/26 14:25:02 EDT -0400 | 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+09/06/26 14:25:02 EDT -0400 |     inet 127.0.0.1/8 scope host lo
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 |     inet6 ::1/128 scope host 
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | 2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/ether 00:01:c0:2a:9e:51 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 | 3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/ether 00:01:c0:2a:9d:3c brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 |     altname enp2s0
+09/06/26 14:25:02 EDT -0400 |     inet 10.10.1.2/24 brd 10.10.1.255 scope global eno1
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 |     inet6 fe80::201:c0ff:fe2a:9d3c/64 scope link 
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | 5: enx0015ff080733: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/ether 00:15:ff:08:07:33 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 |     inet 100.65.110.214/30 metric 100 brd 100.65.110.215 scope global dynamic enx0015ff080733
+09/06/26 14:25:02 EDT -0400 |        valid_lft 3870sec preferred_lft 3870sec
+09/06/26 14:25:02 EDT -0400 |     inet6 2600:1003:b854:6cc7:215:ffff:fe08:733/64 scope global dynamic mngtmpaddr noprefixroute 
+09/06/26 14:25:02 EDT -0400 |        valid_lft 86392sec preferred_lft 14392sec
+09/06/26 14:25:02 EDT -0400 |     inet6 fe80::215:ffff:fe08:733/64 scope link 
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | 6: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+09/06/26 14:25:02 EDT -0400 |     link/ether 02:42:70:96:65:64 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 |     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | 7: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/ether 92:c5:0e:a3:a8:e3 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 | 8: eviCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1410 qdisc noqueue state UNKNOWN group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/ether 0e:b6:38:73:d5:49 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 | 9: appCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1350 qdisc noqueue state UNKNOWN group default qlen 1000
+09/06/26 14:25:02 EDT -0400 |     link/ether ae:24:81:57:82:40 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 |     inet 10.10.100.11/24 scope global appCIBR6
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | 13: nebula1: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1300 qdisc fq_codel state UNKNOWN group default qlen 500
+09/06/26 14:25:02 EDT -0400 |     link/none 
+09/06/26 14:25:02 EDT -0400 |     inet 10.10.200.11/24 scope global nebula1
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 |     inet6 fe80::7ef6:e72:6e69:3c8d/64 scope link stable-privacy 
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | 14: tnc0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 400 qdisc tbf state UNKNOWN group default qlen 10
+09/06/26 14:25:02 EDT -0400 |     link/ether 86:f5:4e:cd:bb:18 brd ff:ff:ff:ff:ff:ff
+09/06/26 14:25:02 EDT -0400 |     inet 10.10.101.3/24 brd 10.10.101.255 scope global tnc0
+09/06/26 14:25:02 EDT -0400 |        valid_lft forever preferred_lft forever
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:29 2026 [pid 43352] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/fcre-waterquality.csv", 315 bytes, 104.28Kbyte/sec
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:29 2026 [pid 43355] CONNECT: Client "::ffff:10.10.1.1"
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:29 2026 [pid 43354] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:29 2026 [pid 43356] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/fcre-waterquality.csv", 315 bytes, 119.65Kbyte/sec
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:29 2026 [pid 43364] CONNECT: Client "::ffff:10.10.1.1"
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:30 2026 [pid 43363] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:30 2026 [pid 43365] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/EXO_Chla_overlap.csv", 65 bytes, 37.74Kbyte/sec
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:30 2026 [pid 43367] CONNECT: Client "::ffff:10.10.1.1"
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:30 2026 [pid 43366] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+09/06/26 14:25:02 EDT -0400 | Sun Sep  6 14:21:30 2026 [pid 43368] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/EXO_Chla_overlap.csv", 65 bytes, 31.56Kbyte/sec
+09/06/26 14:25:02 EDT -0400 | PING github.com (140.82.113.4) 56(84) bytes of data.
+09/06/26 14:25:02 EDT -0400 | 64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=46 time=80.4 ms
+09/06/26 14:25:03 EDT -0400 | 64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=46 time=58.4 ms
+09/06/26 14:25:04 EDT -0400 | 64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=46 time=72.2 ms
+09/06/26 14:25:04 EDT -0400 | 
+09/06/26 14:25:04 EDT -0400 | --- github.com ping statistics ---
+09/06/26 14:25:04 EDT -0400 | 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+09/06/26 14:25:04 EDT -0400 | rtt min/avg/max/mdev = 58.435/70.347/80.442/9.075 ms
+09/06/26 14:25:04 EDT -0400 | PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+09/06/26 14:25:04 EDT -0400 | 64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=46.5 ms
+09/06/26 14:25:05 EDT -0400 | 64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=46.7 ms
+09/06/26 14:25:06 EDT -0400 | 64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=48.8 ms
+09/06/26 14:25:06 EDT -0400 | 
+09/06/26 14:25:06 EDT -0400 | --- 8.8.8.8 ping statistics ---
+09/06/26 14:25:06 EDT -0400 | 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+09/06/26 14:25:06 EDT -0400 | rtt min/avg/max/mdev = 46.499/47.357/48.840/1.052 ms
+09/06/26 14:25:06 EDT -0400 | ##########  END  ##########
