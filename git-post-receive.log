@@ -89802,3 +89802,8 @@ From /data/fcre-data-exp-worktree
 + git reset --hard origin/fcre-weir-data
 HEAD is now at a091cd5 Thu 2026-09-10 20:30:01 EST
 + git fetch github fcre-weir-data
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
