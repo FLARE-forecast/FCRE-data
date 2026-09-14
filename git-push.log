@@ -196600,3 +196600,32 @@ Completed at 08/17/23 06:22:17 EST
 09/14/26 00:30:27 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
 09/14/26 00:30:27 EST -0500 | fatal: Could not read from remote repository.
 09/14/26 00:30:27 EST -0500 | 
+09/14/26 00:30:27 EST -0500 | Please make sure you have the correct access rights
+09/14/26 00:30:27 EST -0500 | and the repository exists.
+09/14/26 00:30:27 EST -0500 | Failed to push: 42496e0a7efcccc73dd60ce9eddb14663c4010cb
+09/14/26 00:30:27 EST -0500 | Processing: /data/norvel-logs
+09/14/26 00:30:28 EST -0500 | [norvel-logs 9271131] Mon 2026-09-14 00:30:27 EST
+09/14/26 00:30:28 EST -0500 |  1 file changed, 25 insertions(+)
+09/14/26 00:30:28 EST -0500 | Found unpushed commit(s).
+09/14/26 00:30:53 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/14/26 00:30:53 EST -0500 |    3b4c3d3..c39ab1f  c39ab1ffd38a3986d9c86660257872b0b05ee178 -> norvel-logs
+09/14/26 00:30:53 EST -0500 | Successfully pushed: c39ab1ffd38a3986d9c86660257872b0b05ee178
+09/14/26 00:46:39 EST -0500 | ssh_dispatch_run_fatal: Connection to 140.82.114.3 port 22: Network is unreachable
+09/14/26 00:46:39 EST -0500 | fatal: Could not read from remote repository.
+09/14/26 00:46:39 EST -0500 | 
+09/14/26 00:46:39 EST -0500 | Please make sure you have the correct access rights
+09/14/26 00:46:39 EST -0500 | and the repository exists.
+09/14/26 00:46:39 EST -0500 | Failed to push: 9c896a9f447c66a76cbfc3710078f8a7e2cdd308
+09/14/26 00:46:39 EST -0500 | ##########  END  ##########
+09/14/26 00:46:52 EST -0500 | ########## START ##########
+09/14/26 00:46:52 EST -0500 | Processing: /data/fcre-metstation-data
+09/14/26 00:46:58 EST -0500 | [fcre-metstation-data 3060aa3] Mon 2026-09-14 00:46:52 EST
+09/14/26 00:46:58 EST -0500 |  2 files changed, 40 insertions(+)
+09/14/26 00:46:58 EST -0500 | Found unpushed commit(s).
+09/14/26 00:47:18 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+09/14/26 00:47:18 EST -0500 | fatal: Could not read from remote repository.
+09/14/26 00:47:18 EST -0500 | 
+09/14/26 00:47:18 EST -0500 | Please make sure you have the correct access rights
+09/14/26 00:47:18 EST -0500 | and the repository exists.
+09/14/26 00:47:18 EST -0500 | Failed to push: 42496e0a7efcccc73dd60ce9eddb14663c4010cb
+09/14/26 00:47:18 EST -0500 | Processing: /data/norvel-logs
