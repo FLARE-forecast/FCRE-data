@@ -196378,3 +196378,135 @@ Completed at 08/17/23 06:22:17 EST
 09/13/26 15:05:39 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
 09/13/26 15:05:39 EST -0500 | fatal: Could not read from remote repository.
 09/13/26 15:05:39 EST -0500 | 
+09/13/26 15:05:39 EST -0500 | Please make sure you have the correct access rights
+09/13/26 15:05:39 EST -0500 | and the repository exists.
+09/13/26 15:05:39 EST -0500 | Failed to push: 0ae2e3795263399a9a00611ba98ef62c98c9140a
+09/13/26 15:05:39 EST -0500 | Processing: /data/norvel-logs
+09/13/26 15:05:40 EST -0500 | [norvel-logs d59e3b4] Sun 2026-09-13 15:05:39 EST
+09/13/26 15:05:40 EST -0500 |  2 files changed, 23 insertions(+)
+09/13/26 15:05:40 EST -0500 | Found unpushed commit(s).
+09/13/26 15:05:51 EST -0500 | Everything up-to-date
+09/13/26 15:05:51 EST -0500 | Successfully pushed: 1622f95b28354ff6f997cfe2fc3427967da5f263
+09/13/26 15:05:56 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:05:56 EST -0500 |    1622f95..8ad928b  8ad928bbf3b441e8123eca574376163436b6bb0d -> norvel-logs
+09/13/26 15:05:56 EST -0500 | Successfully pushed: 8ad928bbf3b441e8123eca574376163436b6bb0d
+09/13/26 15:06:01 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:01 EST -0500 |    8ad928b..0dd982b  0dd982b8ba6d5c7c6c8d6422f513754bdec4e30e -> norvel-logs
+09/13/26 15:06:01 EST -0500 | Successfully pushed: 0dd982b8ba6d5c7c6c8d6422f513754bdec4e30e
+09/13/26 15:06:06 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:06 EST -0500 |    0dd982b..0c4a6e9  0c4a6e912ef7a8ca50c3142516e7f49faabbbac1 -> norvel-logs
+09/13/26 15:06:06 EST -0500 | Successfully pushed: 0c4a6e912ef7a8ca50c3142516e7f49faabbbac1
+09/13/26 15:06:10 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:10 EST -0500 |    0c4a6e9..8edae23  8edae236c6225d982823112398b840f0b09f6993 -> norvel-logs
+09/13/26 15:06:10 EST -0500 | Successfully pushed: 8edae236c6225d982823112398b840f0b09f6993
+09/13/26 15:06:16 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:16 EST -0500 |    8edae23..e323a11  e323a119a55ddef6c07d7beb85e35b94ccbac94b -> norvel-logs
+09/13/26 15:06:16 EST -0500 | Successfully pushed: e323a119a55ddef6c07d7beb85e35b94ccbac94b
+09/13/26 15:06:20 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:20 EST -0500 |    e323a11..42317e1  42317e1a5a08f2ea87741ec48fdffee3896d55c0 -> norvel-logs
+09/13/26 15:06:20 EST -0500 | Successfully pushed: 42317e1a5a08f2ea87741ec48fdffee3896d55c0
+09/13/26 15:06:26 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:26 EST -0500 |    42317e1..d6d718b  d6d718b8402449f11c96cfc9c8f40e94bc3263df -> norvel-logs
+09/13/26 15:06:26 EST -0500 | Successfully pushed: d6d718b8402449f11c96cfc9c8f40e94bc3263df
+09/13/26 15:06:30 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:30 EST -0500 |    d6d718b..43286e7  43286e700be309318e7347b3e08153adeada3315 -> norvel-logs
+09/13/26 15:06:30 EST -0500 | Successfully pushed: 43286e700be309318e7347b3e08153adeada3315
+09/13/26 15:06:36 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:36 EST -0500 |    43286e7..043430a  043430a0f37563eb740874c9a7c00d8e11005c1e -> norvel-logs
+09/13/26 15:06:36 EST -0500 | Successfully pushed: 043430a0f37563eb740874c9a7c00d8e11005c1e
+09/13/26 15:06:40 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:40 EST -0500 |    043430a..ea8da3c  ea8da3c131157e662846777b16a6ff918d2b99f6 -> norvel-logs
+09/13/26 15:06:40 EST -0500 | Successfully pushed: ea8da3c131157e662846777b16a6ff918d2b99f6
+09/13/26 15:06:45 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:45 EST -0500 |    ea8da3c..7604f60  7604f605509d1c1d03bdf432685d6397a1ad93d1 -> norvel-logs
+09/13/26 15:06:45 EST -0500 | Successfully pushed: 7604f605509d1c1d03bdf432685d6397a1ad93d1
+09/13/26 15:06:49 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:49 EST -0500 |    7604f60..6ec0be8  6ec0be806a647de24ab7e888500682336c9840eb -> norvel-logs
+09/13/26 15:06:49 EST -0500 | Successfully pushed: 6ec0be806a647de24ab7e888500682336c9840eb
+09/13/26 15:06:55 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:06:55 EST -0500 |    6ec0be8..959d5c6  959d5c6fbdba954a53ad71f885a38b9776f488c2 -> norvel-logs
+09/13/26 15:06:55 EST -0500 | Successfully pushed: 959d5c6fbdba954a53ad71f885a38b9776f488c2
+09/13/26 15:07:00 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:00 EST -0500 |    959d5c6..3ef7efc  3ef7efc1ca751d25088c42ca866ecc68fe716a0e -> norvel-logs
+09/13/26 15:07:00 EST -0500 | Successfully pushed: 3ef7efc1ca751d25088c42ca866ecc68fe716a0e
+09/13/26 15:07:06 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:06 EST -0500 |    3ef7efc..059e03a  059e03ae0e3bc675e79784c038e8c5df0b576328 -> norvel-logs
+09/13/26 15:07:06 EST -0500 | Successfully pushed: 059e03ae0e3bc675e79784c038e8c5df0b576328
+09/13/26 15:07:13 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:13 EST -0500 |    059e03a..12ddbea  12ddbea15c14938bcaad5fe91f340c16a8aa91af -> norvel-logs
+09/13/26 15:07:13 EST -0500 | Successfully pushed: 12ddbea15c14938bcaad5fe91f340c16a8aa91af
+09/13/26 15:07:19 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:19 EST -0500 |    12ddbea..fb46eb1  fb46eb1a1e3091475c3eace1bb781ba4baab5b49 -> norvel-logs
+09/13/26 15:07:19 EST -0500 | Successfully pushed: fb46eb1a1e3091475c3eace1bb781ba4baab5b49
+09/13/26 15:07:23 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:23 EST -0500 |    fb46eb1..72313cb  72313cbdd7d434ae3329c9f16a308303a7f8a04d -> norvel-logs
+09/13/26 15:07:23 EST -0500 | Successfully pushed: 72313cbdd7d434ae3329c9f16a308303a7f8a04d
+09/13/26 15:07:28 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:28 EST -0500 |    72313cb..75f1a2d  75f1a2d59f4723cd78d488d880e6c6569fa5f5bd -> norvel-logs
+09/13/26 15:07:28 EST -0500 | Successfully pushed: 75f1a2d59f4723cd78d488d880e6c6569fa5f5bd
+09/13/26 15:07:33 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:33 EST -0500 |    75f1a2d..2f52bfa  2f52bfa5ba8b91f68b171e0c42441f7ace845a77 -> norvel-logs
+09/13/26 15:07:33 EST -0500 | Successfully pushed: 2f52bfa5ba8b91f68b171e0c42441f7ace845a77
+09/13/26 15:07:37 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:37 EST -0500 |    2f52bfa..811ff86  811ff8628a2f8c0c73663210196867dafda7e439 -> norvel-logs
+09/13/26 15:07:37 EST -0500 | Successfully pushed: 811ff8628a2f8c0c73663210196867dafda7e439
+09/13/26 15:07:42 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:42 EST -0500 |    811ff86..64b56d7  64b56d7f5248af6a41ed07ac23fd888b2c2c8ca3 -> norvel-logs
+09/13/26 15:07:42 EST -0500 | Successfully pushed: 64b56d7f5248af6a41ed07ac23fd888b2c2c8ca3
+09/13/26 15:07:48 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:48 EST -0500 |    64b56d7..bc6d1a0  bc6d1a0952a4210045943e9fced63408b3f60eb0 -> norvel-logs
+09/13/26 15:07:48 EST -0500 | Successfully pushed: bc6d1a0952a4210045943e9fced63408b3f60eb0
+09/13/26 15:07:52 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:52 EST -0500 |    bc6d1a0..de3790d  de3790dc72d43a8a2eea0b8f63e4fb1e3c83c36f -> norvel-logs
+09/13/26 15:07:52 EST -0500 | Successfully pushed: de3790dc72d43a8a2eea0b8f63e4fb1e3c83c36f
+09/13/26 15:07:58 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:07:58 EST -0500 |    de3790d..9ed595c  9ed595c7bde438286610c391ed3d16d4874393a1 -> norvel-logs
+09/13/26 15:07:58 EST -0500 | Successfully pushed: 9ed595c7bde438286610c391ed3d16d4874393a1
+09/13/26 15:08:02 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:02 EST -0500 |    9ed595c..aa877b8  aa877b8ac32374a253ffc70ee677e680e7af65e5 -> norvel-logs
+09/13/26 15:08:02 EST -0500 | Successfully pushed: aa877b8ac32374a253ffc70ee677e680e7af65e5
+09/13/26 15:08:09 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:09 EST -0500 |    aa877b8..c669636  c6696365f393c1260b97fa5d3b315d0ff3474ac1 -> norvel-logs
+09/13/26 15:08:09 EST -0500 | Successfully pushed: c6696365f393c1260b97fa5d3b315d0ff3474ac1
+09/13/26 15:08:13 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:13 EST -0500 |    c669636..a9dbb9d  a9dbb9ddf7e36950def37110c1f72bc62eac13ef -> norvel-logs
+09/13/26 15:08:13 EST -0500 | Successfully pushed: a9dbb9ddf7e36950def37110c1f72bc62eac13ef
+09/13/26 15:08:20 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:20 EST -0500 |    a9dbb9d..0d2b164  0d2b164388cc9fcd7735789df813d27ecdcc7458 -> norvel-logs
+09/13/26 15:08:20 EST -0500 | Successfully pushed: 0d2b164388cc9fcd7735789df813d27ecdcc7458
+09/13/26 15:08:24 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:24 EST -0500 |    0d2b164..cd2ccb8  cd2ccb87db900ba8624cea7d92effe9c189fc4fc -> norvel-logs
+09/13/26 15:08:24 EST -0500 | Successfully pushed: cd2ccb87db900ba8624cea7d92effe9c189fc4fc
+09/13/26 15:08:29 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:29 EST -0500 |    cd2ccb8..f738215  f738215d894c8ebcd300f26c5b3ac474cb42b0b8 -> norvel-logs
+09/13/26 15:08:29 EST -0500 | Successfully pushed: f738215d894c8ebcd300f26c5b3ac474cb42b0b8
+09/13/26 15:08:33 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:08:33 EST -0500 |    f738215..edf7697  edf76979dd03a3e83712d6c286d0e8c2b819655c -> norvel-logs
+09/13/26 15:08:33 EST -0500 | Successfully pushed: edf76979dd03a3e83712d6c286d0e8c2b819655c
+09/13/26 15:10:15 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:10:15 EST -0500 |    edf7697..d8561a1  d8561a1f2e542934656cbab8f090d455965cbe97 -> norvel-logs
+09/13/26 15:10:15 EST -0500 | Successfully pushed: d8561a1f2e542934656cbab8f090d455965cbe97
+09/13/26 15:10:19 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 15:10:19 EST -0500 |    d8561a1..3b4c3d3  3b4c3d39c9b24eb0815fc81ff88afc19729a0061 -> norvel-logs
+09/13/26 15:10:19 EST -0500 | Successfully pushed: 3b4c3d39c9b24eb0815fc81ff88afc19729a0061
+09/13/26 15:27:01 EST -0500 | client_loop: send disconnect: Broken pipe
+09/13/26 15:27:01 EST -0500 | send-pack: unexpected disconnect while reading sideband packet
+09/13/26 15:27:01 EST -0500 | fatal: the remote end hung up unexpectedly
+09/13/26 15:27:01 EST -0500 | Failed to push: c39ab1ffd38a3986d9c86660257872b0b05ee178
+09/13/26 15:27:01 EST -0500 | ##########  END  ##########
+09/13/26 20:30:02 EST -0500 | ########## START ##########
+09/13/26 20:30:02 EST -0500 | Processing: /data/fcre-metstation-data
+09/13/26 20:30:08 EST -0500 | [fcre-metstation-data bcd3359] Sun 2026-09-13 20:30:02 EST
+09/13/26 20:30:08 EST -0500 |  2 files changed, 640 insertions(+)
+09/13/26 20:30:08 EST -0500 | Found unpushed commit(s).
+09/13/26 20:30:21 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+09/13/26 20:30:21 EST -0500 |    10b898a..0ae2e37  0ae2e3795263399a9a00611ba98ef62c98c9140a -> fcre-metstation-data
+09/13/26 20:30:21 EST -0500 | Successfully pushed: 0ae2e3795263399a9a00611ba98ef62c98c9140a
+09/13/26 20:46:46 EST -0500 | kex_exchange_identification: read: Connection timed out
+09/13/26 20:46:46 EST -0500 | banner exchange: Connection to 140.82.112.3 port 22: Connection timed out
+09/13/26 20:46:46 EST -0500 | fatal: Could not read from remote repository.
+09/13/26 20:46:46 EST -0500 | 
+09/13/26 20:46:46 EST -0500 | Please make sure you have the correct access rights
+09/13/26 20:46:46 EST -0500 | and the repository exists.
+09/13/26 20:46:46 EST -0500 | Failed to push: 42496e0a7efcccc73dd60ce9eddb14663c4010cb
+09/13/26 20:46:46 EST -0500 | Processing: /data/norvel-logs
