@@ -126592,3 +126592,132 @@
 10/06/26 14:25:26 EST -0500 | 3 packets transmitted, 0 received, 100% packet loss, time 2055ms
 10/06/26 14:25:26 EST -0500 | 
 10/06/26 14:25:26 EST -0500 | ##########  END  ##########
+10/06/26 20:25:02 EST -0500 | ########## START ##########
+10/06/26 20:25:02 EST -0500 |  20:25:02 up 20:00,  0 users,  load average: 0.03, 0.06, 0.01
+10/06/26 20:25:02 EST -0500 | reboot   system boot  5.15.0-117-gener Tue Oct  6 00:24   still running
+10/06/26 20:25:02 EST -0500 | 
+10/06/26 20:25:02 EST -0500 | wtmp begins Tue Oct  6 00:10:10 2026
+10/06/26 20:25:02 EST -0500 | Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+10/06/26 20:25:02 EST -0500 | Bus 001 Device 004: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub
+10/06/26 20:25:02 EST -0500 | Bus 001 Device 018: ID 1410:9032 Novatel Wireless MiFi USB730L
+10/06/26 20:25:02 EST -0500 | Bus 001 Device 002: ID 1a86:55d4 QinHeng Electronics USB Single Serial
+10/06/26 20:25:02 EST -0500 | Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+10/06/26 20:25:02 EST -0500 | [    3.232963] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [    9.408642] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [   10.301263] cdc_ether 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [   13.935274] cdc_ether 1-6:1.0 enx0015ff030033: unregister 'cdc_ether' usb-0000:00:15.0-6, CDC Ethernet Device
+10/06/26 20:25:02 EST -0500 | [   42.735541] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [20625.655428] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [20626.664643] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [20784.090565] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [20785.087558] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [42795.938269] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [42796.921703] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [43316.920270] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [43317.903337] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [44574.375093] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [44575.375905] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [49636.864656] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [49637.869253] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71417.842644] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [71418.871300] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71555.009337] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [71556.000204] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71658.334154] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [71659.368700] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71768.316070] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [71769.265431] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71801.694534] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [71802.678620] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71988.931294] rndis_host 1-6:1.0 enx0015ff030033: unregister 'rndis_host' usb-0000:00:15.0-6, RNDIS device
+10/06/26 20:25:02 EST -0500 | [71989.910771] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | [71989.874935] usb 1-6: New USB device found, idVendor=1410, idProduct=9032, bcdDevice= 3.10
+10/06/26 20:25:02 EST -0500 | [71989.874956] usb 1-6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+10/06/26 20:25:02 EST -0500 | [71989.874964] usb 1-6: Product: MiFi USB730L
+10/06/26 20:25:02 EST -0500 | [71989.874971] usb 1-6: Manufacturer: Novatel Wireless
+10/06/26 20:25:02 EST -0500 | [71989.874977] usb 1-6: SerialNumber: 0123456789ABCDEF
+10/06/26 20:25:02 EST -0500 | [71989.892829] rndis_host 1-6:1.0 eth0: register 'rndis_host' at usb-0000:00:15.0-6, RNDIS device, 00:15:ff:03:00:33
+10/06/26 20:25:02 EST -0500 | [71989.895717] hid-generic 0003:1410:9032.000F: hiddev0,hidraw0: USB HID v1.01 Device [Novatel Wireless MiFi USB730L] on usb-0000:00:15.0-6/input2
+10/06/26 20:25:02 EST -0500 | [71989.895879] option 1-6:1.3: GSM modem (1-port) converter detected
+10/06/26 20:25:02 EST -0500 | [71989.896020] usb 1-6: GSM modem (1-port) converter now attached to ttyUSB0
+10/06/26 20:25:02 EST -0500 | [71989.910771] rndis_host 1-6:1.0 enx0015ff030033: renamed from eth0
+10/06/26 20:25:02 EST -0500 | Filesystem                         Size  Used Avail Use% Mounted on
+10/06/26 20:25:02 EST -0500 | tmpfs                              374M  1.4M  373M   1% /run
+10/06/26 20:25:02 EST -0500 | /dev/mapper/ubuntu--vg-ubuntu--lv   57G   23G   32G  42% /
+10/06/26 20:25:02 EST -0500 | tmpfs                              1.9G     0  1.9G   0% /dev/shm
+10/06/26 20:25:02 EST -0500 | tmpfs                              5.0M     0  5.0M   0% /run/lock
+10/06/26 20:25:02 EST -0500 | /dev/sda1                           59G   15G   41G  27% /data
+10/06/26 20:25:02 EST -0500 | /dev/mmcblk0p2                     2.0G  379M  1.5G  21% /boot
+10/06/26 20:25:02 EST -0500 | /dev/mmcblk0p1                     1.1G  6.1M  1.1G   1% /boot/efi
+10/06/26 20:25:02 EST -0500 | 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+10/06/26 20:25:02 EST -0500 |     inet 127.0.0.1/8 scope host lo
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 |     inet6 ::1/128 scope host 
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | 2: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/ether 00:01:c0:2a:9d:32 brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 | 3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/ether 00:01:c0:2a:9e:19 brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 |     altname enp2s0
+10/06/26 20:25:02 EST -0500 |     inet 10.10.1.2/24 brd 10.10.1.255 scope global eno1
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 |     inet6 fe80::201:c0ff:fe2a:9e19/64 scope link 
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | 6: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+10/06/26 20:25:02 EST -0500 |     link/ether 02:42:84:a5:5a:6a brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 |     inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | 7: ovs-system: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/ether be:1b:2e:fa:fd:ca brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 | 8: eviCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1410 qdisc noqueue state UNKNOWN group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/ether 2e:27:da:80:f6:4a brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 | 9: appCIBR6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1350 qdisc noqueue state UNKNOWN group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/ether 0a:ba:7e:2a:4e:45 brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 |     inet 10.10.100.7/24 scope global appCIBR6
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | 58: tnc0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 400 qdisc tbf state UNKNOWN group default qlen 10
+10/06/26 20:25:02 EST -0500 |     link/ether 4a:b9:c7:b4:5a:bb brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 |     inet 10.10.101.1/24 brd 10.10.101.255 scope global tnc0
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | 59: nebula1: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1300 qdisc fq_codel state UNKNOWN group default qlen 500
+10/06/26 20:25:02 EST -0500 |     link/none 
+10/06/26 20:25:02 EST -0500 |     inet 10.10.200.7/24 scope global nebula1
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 |     inet6 fe80::69c1:e534:6bc5:a49c/64 scope link stable-privacy 
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | 65: enx0015ff030033: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 1000
+10/06/26 20:25:02 EST -0500 |     link/ether 00:15:ff:03:00:33 brd ff:ff:ff:ff:ff:ff
+10/06/26 20:25:02 EST -0500 |     inet 100.108.204.124/29 metric 100 brd 100.108.204.127 scope global dynamic enx0015ff030033
+10/06/26 20:25:02 EST -0500 |        valid_lft 7184sec preferred_lft 7184sec
+10/06/26 20:25:02 EST -0500 |     inet6 2600:1003:b864:c491:215:ffff:fe03:33/64 scope global dynamic mngtmpaddr noprefixroute 
+10/06/26 20:25:02 EST -0500 |        valid_lft 86396sec preferred_lft 14396sec
+10/06/26 20:25:02 EST -0500 |     inet6 fe80::215:ffff:fe03:33/64 scope link 
+10/06/26 20:25:02 EST -0500 |        valid_lft forever preferred_lft forever
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:49 2026 [pid 684469] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/FCRmet.csv", 1255 bytes, 13.25Kbyte/sec
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:49 2026 [pid 684471] CONNECT: Client "::ffff:10.10.1.1"
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:49 2026 [pid 684470] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:50 2026 [pid 684472] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/FCRmet.csv", 1255 bytes, 13.20Kbyte/sec
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:50 2026 [pid 684476] CONNECT: Client "::ffff:10.10.1.1"
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:50 2026 [pid 684475] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:50 2026 [pid 684477] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-data/stats.csv", 783 bytes, 13.16Kbyte/sec
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:50 2026 [pid 684479] CONNECT: Client "::ffff:10.10.1.1"
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:50 2026 [pid 684478] [ftpuser] OK LOGIN: Client "::ffff:10.10.1.1"
+10/06/26 20:25:02 EST -0500 | Tue Oct  6 20:22:51 2026 [pid 684480] [ftpuser] OK UPLOAD: Client "::ffff:10.10.1.1", "/data/datalogger-raw-data/stats.csv", 783 bytes, 12.95Kbyte/sec
+10/06/26 20:25:04 EST -0500 | PING github.com (140.82.113.4) 56(84) bytes of data.
+10/06/26 20:25:04 EST -0500 | 64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=1 ttl=44 time=766 ms
+10/06/26 20:25:04 EST -0500 | 64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=2 ttl=44 time=214 ms
+10/06/26 20:25:05 EST -0500 | 64 bytes from lb-140-82-113-4-iad.github.com (140.82.113.4): icmp_seq=3 ttl=44 time=87.8 ms
+10/06/26 20:25:05 EST -0500 | 
+10/06/26 20:25:05 EST -0500 | --- github.com ping statistics ---
+10/06/26 20:25:05 EST -0500 | 3 packets transmitted, 3 received, 0% packet loss, time 2120ms
+10/06/26 20:25:05 EST -0500 | rtt min/avg/max/mdev = 87.809/355.970/766.256/294.643 ms
+10/06/26 20:25:05 EST -0500 | PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+10/06/26 20:25:05 EST -0500 | 64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=74.6 ms
+10/06/26 20:25:06 EST -0500 | 64 bytes from 8.8.8.8: icmp_seq=2 ttl=113 time=107 ms
+10/06/26 20:25:07 EST -0500 | 64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=101 ms
+10/06/26 20:25:07 EST -0500 | 
+10/06/26 20:25:07 EST -0500 | --- 8.8.8.8 ping statistics ---
+10/06/26 20:25:07 EST -0500 | 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+10/06/26 20:25:07 EST -0500 | rtt min/avg/max/mdev = 74.555/93.943/106.708/13.936 ms
+10/06/26 20:25:07 EST -0500 | ##########  END  ##########
