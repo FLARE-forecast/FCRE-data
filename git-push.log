@@ -204000,3 +204000,24 @@ Completed at 08/17/23 06:22:17 EST
 10/15/26 20:46:46 EST -0500 | ssh_dispatch_run_fatal: Connection to 140.82.113.3 port 22: Network is unreachable
 10/15/26 20:46:46 EST -0500 | fatal: Could not read from remote repository.
 10/15/26 20:46:46 EST -0500 | 
+10/15/26 20:46:46 EST -0500 | Please make sure you have the correct access rights
+10/15/26 20:46:46 EST -0500 | and the repository exists.
+10/15/26 20:46:46 EST -0500 | Failed to push: 6781b8c94c3316c2723f12ab42249003d27735f5
+10/15/26 20:46:46 EST -0500 | Processing: /data/norvel-logs
+10/15/26 20:46:48 EST -0500 | [norvel-logs caa1fe91] Thu 2026-10-15 20:46:46 EST
+10/15/26 20:46:48 EST -0500 |  3 files changed, 200 insertions(+)
+10/15/26 20:46:48 EST -0500 | Found unpushed commit(s).
+10/15/26 20:46:54 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/15/26 20:46:54 EST -0500 |    9565784a..caa1fe91  caa1fe9198176b5604eaeac963e3d63a7becafa8 -> norvel-logs
+10/15/26 20:46:54 EST -0500 | Successfully pushed: caa1fe9198176b5604eaeac963e3d63a7becafa8
+10/15/26 20:46:54 EST -0500 | ##########  END  ##########
+10/15/26 20:47:57 EST -0500 | ########## START ##########
+10/15/26 20:47:57 EST -0500 | Processing: /data/fcre-metstation-data
+10/15/26 20:48:04 EST -0500 | [fcre-metstation-data 71c0f61] Thu 2026-10-15 20:47:57 EST
+10/15/26 20:48:04 EST -0500 |  2 files changed, 40 insertions(+)
+10/15/26 20:48:04 EST -0500 | Found unpushed commit(s).
+10/15/26 20:48:32 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/15/26 20:48:32 EST -0500 |    0a4a387..6781b8c  6781b8c94c3316c2723f12ab42249003d27735f5 -> fcre-metstation-data
+10/15/26 20:48:32 EST -0500 | Successfully pushed: 6781b8c94c3316c2723f12ab42249003d27735f5
+10/15/26 20:49:01 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/15/26 20:49:01 EST -0500 |    6781b8c..71c0f61  71c0f616f16396f71ac57d4f9e8c66fd63ba0f41 -> fcre-metstation-data
