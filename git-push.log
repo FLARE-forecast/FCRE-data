@@ -205744,3 +205744,38 @@ Completed at 08/17/23 06:22:17 EST
 10/25/26 20:32:18 EST -0500 | ssh: Could not resolve hostname github.com: Temporary failure in name resolution
 10/25/26 20:32:19 EST -0500 | fatal: Could not read from remote repository.
 10/25/26 20:32:19 EST -0500 | 
+10/25/26 20:32:19 EST -0500 | Please make sure you have the correct access rights
+10/25/26 20:32:19 EST -0500 | and the repository exists.
+10/25/26 20:32:19 EST -0500 | Failed to push: 94ddb9d133dda9a2acb374520fb10defb7235742
+10/25/26 20:32:19 EST -0500 | Processing: /data/norvel-logs
+10/25/26 20:32:20 EST -0500 | [norvel-logs 7597afb2] Sun 2026-10-25 20:32:18 EST
+10/25/26 20:32:20 EST -0500 |  1 file changed, 21 insertions(+)
+10/25/26 20:32:20 EST -0500 | Found unpushed commit(s).
+10/25/26 20:32:35 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/25/26 20:32:35 EST -0500 |    48ce5362..70a68711  70a68711512e6e67d73314d1285ad7861ea1ffb6 -> norvel-logs
+10/25/26 20:32:35 EST -0500 | Successfully pushed: 70a68711512e6e67d73314d1285ad7861ea1ffb6
+10/25/26 20:32:40 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/25/26 20:32:40 EST -0500 |    70a68711..bc840d2b  bc840d2b4c7ded08d8b266086856f556f9622b73 -> norvel-logs
+10/25/26 20:32:40 EST -0500 | Successfully pushed: bc840d2b4c7ded08d8b266086856f556f9622b73
+10/25/26 20:32:44 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/25/26 20:32:44 EST -0500 |    bc840d2b..7597afb2  7597afb202d46ec46ab4748642f967b072c31c54 -> norvel-logs
+10/25/26 20:32:44 EST -0500 | Successfully pushed: 7597afb202d46ec46ab4748642f967b072c31c54
+10/25/26 20:32:44 EST -0500 | ##########  END  ##########
+10/26/26 00:27:00 EST -0500 | ########## START ##########
+10/26/26 00:27:00 EST -0500 | Processing: /data/fcre-metstation-data
+10/26/26 00:27:08 EST -0500 | [fcre-metstation-data a3c38cd] Mon 2026-10-26 00:27:00 EST
+10/26/26 00:27:08 EST -0500 |  2 files changed, 480 insertions(+)
+10/26/26 00:27:08 EST -0500 | Found unpushed commit(s).
+10/26/26 00:27:20 EST -0500 | remote: warning: See https://gh.io/lfs for more information.        
+10/26/26 00:27:20 EST -0500 | remote: warning: File FCRmet.csv is 50.72 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+10/26/26 00:27:20 EST -0500 | remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+10/26/26 00:27:22 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/26/26 00:27:22 EST -0500 |    a59aec5..94ddb9d  94ddb9d133dda9a2acb374520fb10defb7235742 -> fcre-metstation-data
+10/26/26 00:27:22 EST -0500 | Successfully pushed: 94ddb9d133dda9a2acb374520fb10defb7235742
+10/26/26 00:27:31 EST -0500 | remote: warning: See https://gh.io/lfs for more information.        
+10/26/26 00:27:31 EST -0500 | remote: warning: File FCRmet.csv is 50.75 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+10/26/26 00:27:31 EST -0500 | remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+10/26/26 00:27:34 EST -0500 | To github.com:FLARE-forecast/FCRE-data.git
+10/26/26 00:27:34 EST -0500 |    94ddb9d..a3c38cd  a3c38cd9ee984078e0311c266873264e071f3597 -> fcre-metstation-data
+10/26/26 00:27:34 EST -0500 | Successfully pushed: a3c38cd9ee984078e0311c266873264e071f3597
+10/26/26 00:27:34 EST -0500 | Processing: /data/norvel-logs
